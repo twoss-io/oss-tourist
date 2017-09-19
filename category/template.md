@@ -213,69 +213,25 @@
 
     <!-- Page Heading -->
     <h1 class="my-4">
-      <small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OpenStack</small>
+      <small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Category Name</small>
     </h1>
     <!--Start Add Side Bar-->
 
-    <div id="sidebar-wrapper" class="sidebar-toggle">
-      <ul class="sidebar-nav">
-        <li>
-          <input type="text" style="font-size: 18pt; height: 20px; width:60px; ">
-          <img src="img/search.png" alt="Smiley face" height="21" width="21">
-        </li>
-        <li>
-          <a href="#item1">Home</a>
-        </li>
-        <li>
-          <a href="../oss-tourist/category/OpenStack.md">OpenStack</a>
-        </li>
-        <li>
-          <a href="../oss-tourist/category/Docker.md">Docker</a>
-        </li>
-        <li>
-          <a href="../oss-tourist/category/MySQL.md">MySQL</a>
-        </li>
-        <li>
-          <a href="../oss-tourist/category/Elasticsearch.md">Elasticsearch</a>
-        </li>
-        <li>
-          <a href="../oss-tourist/category/Spark.md">Spark</a>
-        </li>
-        <li>
-          <a href="../oss-tourist/category/Kubernetes.md">Kubernetes</a>
-        </li>
-        <li>
-          <a href="../oss-tourist/category/Mesos.md">Mesos</a>
-        </li>
-        <li>
-          <a href="../oss-tourist/category/OpenDaylight.md">OpenDaylight</a>
-        </li>
-        <li>
-          <a href="../oss-tourist/category/Hyperledger.md">Hyperledger</a>
-        </li>
-        <li>
-          <a href="../oss-tourist/category/LibreOffice.md">LibreOffice</a>
-        </li>
-      </ul>
-    </div>
 
-    <!--End Add Side Bar-->
     <div class="row">
 
       <div class="col-lg-3 col-md-3 col-sm-6 portfolio-item">
         <div class="card h-100">
           <!--<a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>-->
           <ul class="playlist">
-            <li><a href="http://www.youtube.com/watch?v=bCsw2kkIWyw">
-                Introduction to OpenStack</a></li>
+            <li><a href="">
+                </a></li>
           </ul>
           <div class="card-body">
             <h4 class="card-title">
-              <a href="#">Introduction to OpenStack</a>
+              <a href="#"></a>
             </h4>
-            <p class="card-text">OpenStack is a large python application being developed collaboratively with Rackspace, Red Hat, Canonical, Dell,
-              HP, Intel, IBM, Citrix and a host of other companies. This application is the software that Cloud Computing
-              is built on. It </p>
+            <p class="card-text"></p>
           </div>
         </div>
       </div>
@@ -284,14 +240,13 @@
           <!--<a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>-->
           <ul class="playlist">
             <li><a href="http://www.youtube.com/watch?v=Qz5gyDenqTI">
-                OpenStack 101 - What Is OpenStack?</a></li>
+               </a></li>
           </ul>
           <div class="card-body">
             <h4 class="card-title">
-              <a href="#">OpenStack 101 - What Is OpenStack?</a>
+              <a href="#"></a>
             </h4>
-            <p class="card-text">OpenStack is an open source cloud operating system and community founded by Rackspace and NASA in 2010. Here
-              is a brief look at what OpenStack is, how it works and what people are doing with it.</p>
+            <p class="card-text"></p>
           </div>
         </div>
       </div>
@@ -299,16 +254,15 @@
         <div class="card h-100">
           <!--<a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>-->
           <ul class="playlist">
-            <li><a href="http://www.youtube.com/watch?v=MyEy1IEcTlA">
-                OpenStack 101 - What Is OpenStack?</a></li>
+            <li><a href="">
+               </a></li>
           </ul>
           <div class="card-body">
             <h4 class="card-title">
               <a href="#">
-                  雲端應用開發平台操作使用介紹</a>
+                  </a>
             </h4>
-            <p class="card-text">2016/3/18-20 OpenStack Application Hackathon http://openstackapphack.org/ Workshop title：OpenStack雲端應用開發平台操作使用介紹
-              Speaker name：陳彥勝 SAM 經歷：迎棧科技資深架構師 Web Site：https://samopenstack.hackpad.com/</p>
+            <p class="card-text"></p>
           </div>
         </div>
       </div>
@@ -334,42 +288,33 @@
               <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/bpiatt/openstack-tutorial" title="OpenStack Tutorial" target="_blank">OpenStack Tutorial</a> </strong>                from <strong><a href="https://www.slideshare.net/bpiatt" target="_blank">Bret Piatt</a></strong> </div>
             </td>
             <td>
-              <iframe frameborder="0" height="200" src="https://www.slideshare.net/slideshow/embed_code/key/fkgrT5uHVHjmce" width="300"></iframe>
-              <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/openstackindia/openstack-introduction-14761434" title="OpenStack Introduction" target="_blank">OpenStack Introduction</a> </strong>                from <strong><a href="https://www.slideshare.net/openstackindia" target="_blank">openstackindia</a></strong>                </div>
+             
             </td>
             <td>
-              <iframe frameborder="0" height="200" src="https://www.slideshare.net/slideshow/embed_code/key/l4mTUQFwBM7su" width="300"></iframe>
-              <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/jasonhoutw/openstack-introduction" title="OpenStack Framework Introduction" target="_blank">OpenStack Framework Introduction</a> </strong>                from <strong><a href="https://www.slideshare.net/jasonhoutw" target="_blank">Jason, Tsung-Cheng, HOU (侯宗成)</a></strong>                </div>
+             
             </td>
             <td>
-              <iframe frameborder="0" height="200" src="https://www.slideshare.net/slideshow/embed_code/key/Ckzsg7FtJh192W" width="300"></iframe>
-              <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/kamesh001/open-stack-101" title="Openstack 101" target="_blank">Openstack 101</a> </strong>                from <strong><a href="https://www.slideshare.net/kamesh001" target="_blank">Kamesh Pemmaraju</a></strong>                </div>
+             
             </td>
             <td>
-              <iframe frameborder="0" height="200" src="https://www.slideshare.net/slideshow/embed_code/key/2pwrzaxuqIINBQ" width="300"></iframe>
-              <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/mirantis/openstack-architecture-43160012" title="OpenStack Architecture" target="_blank">OpenStack Architecture</a> </strong>                from <strong><a href="https://www.slideshare.net/mirantis" target="_blank">Mirantis</a></strong> </div>
+              
             </td>
           </tr>
           <tr>
             <td>
-              <iframe frameborder="0" height="200" src="https://www.slideshare.net/slideshow/embed_code/key/mzNin8KQfsdSXk" width="300"></iframe>
-              <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/sgordon2/deep-dive-openstack-summit-red-hat-summit-2014" title="Deep Dive: OpenStack Summit (Red Hat Summit 2014)" target="_blank">Deep Dive: OpenStack Summit (Red Hat Summit 2014)</a> </strong>                from <strong><a href="https://www.slideshare.net/sgordon2" target="_blank">Stephen Gordon</a></strong> </div>
+             
             </td>
             <td>
-              <iframe frameborder="0" height="200" src="https://www.slideshare.net/slideshow/embed_code/key/cKIrxTH2hpt7h8" width="300"></iframe>
-              <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/mirantis/2-day-bootcamp-for-openstackcloud-training-by-mirantis-preview" title="2 Day Bootcamp for OpenStack--Cloud Training by Mirantis (Preview)" target="_blank">2 Day Bootcamp for OpenStack--Cloud Training by Mirantis (Preview)</a> </strong>                from <strong><a href="https://www.slideshare.net/mirantis" target="_blank">Mirantis</a></strong> </div>
+             
             </td>
             <td>
-              <iframe frameborder="0" height="200" src="https://www.slideshare.net/slideshow/embed_code/key/nBouwUeNnZMPfh" width="300"></iframe>
-              <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/gpaterno1/openstack-explained" title="OpenStack Explained: Learn OpenStack architecture and the secret of a successful cloud project" target="_blank">OpenStack Explained: Learn OpenStack architecture and the secret of a successful cloud project</a> </strong>                from <strong><a href="https://www.slideshare.net/gpaterno1" target="_blank">Giuseppe Paterno&#x27;</a></strong>                </div>
+             
             </td>
             <td>
-              <iframe frameborder="0" height="200" src="https://www.slideshare.net/slideshow/embed_code/key/lS7r6mZoAbvrsF" width="300"></iframe>
-              <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/RoozbehShafiee/01-open-stack-simple-architecture" title="Mastering OpenStack - Episode 01 - Simple Architectures" target="_blank">Mastering OpenStack - Episode 01 - Simple Architectures</a> </strong>                from <strong><a href="https://www.slideshare.net/RoozbehShafiee" target="_blank">Roozbeh Shafiee</a></strong>                </div>
+             
             </td>
             <td>
-              <iframe frameborder="0" height="200" src="https://www.slideshare.net/slideshow/embed_code/key/9p24xDlrTF024V" width="300"></iframe>
-              <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/Stratoscale1/fits-like-lego-5-ways-to-deploy-guest-networking-over-openstack-neutron" title="Fits Like Lego - 5 Ways to Deploy Guest Networking over OpenStack Neutron" target="_blank">Fits Like Lego - 5 Ways to Deploy Guest Networking over OpenStack Neutron</a> </strong>                from <strong><a href="https://www.slideshare.net/Stratoscale1" target="_blank">Stratoscale</a></strong> </div>
+             
             </td>
           </tr>
         </table>
@@ -396,38 +341,38 @@
               <a href="http://blog.flux7.com/blogs/openstack/tutorial-what-is-cinder-and-how-to-install-and-use-it">Cinder Storage | Installation & Usage - Flux7 Blog</a>
             </td>
             <td>
-              <a href="http://perrywu0606.pixnet.net/blog/post/27646684-%5B%E7%AD%86%E8%A8%98%5D-openstack%E7%9A%84%E5%88%9D%E6%AD%A5%E6%8E%A2%E7%B4%A2">[筆記] Openstack的初步探索</a>
+              
             </td>
             <td>
-              <a href="https://wanchiahung.wordpress.com/2015/09/17/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E5%AE%89%E8%A3%9Dopenstack/">[工具使用]安裝與使用OpenStack</a>
+              
             </td>
             <td>
-              <a href="https://www.hkitblog.com/?p=28531">(第一篇) OpenStack 配置複雜到「跌渣」！RDO 懶人包解決一切煩惱 – 簡介篇</a>
+              
             </td>
             <td>
-              <a href="https://jimwayne.blogspot.tw/2015/01/openstack-juno.html">三主機安裝 OpenStack Juno（一）：安裝環境介紹</a>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <a href="https://www.flux7.com/works/openstack/tutorial-how-to-install-multi-nodes-in-openstack/">(Tutorial) How to install multi-nodes in OpenStack?</a>
-            </td>
-            <td>
-              <a href="https://jimwayne.blogspot.tw/2015/01/openstack-juno.html">(Tutorial) What is Nova and how to install & use it? | OpenStack</a>
-            </td>
-            <td>
-              <a href="https://www.flux7.com/works/openstack/tutorial-what-is-keystone-and-how-to-install-keystone-in-openstack/">(Tutorial) What is Keystone and how to install Keystone in Openstack?</a>
-            </td>
-            <td>
-              <a href="https://www.flux7.com/works/openstack/tutorial-install-single-node-openstack/">(Tutorial) How to install a single node OpenStack</a>
-            </td>
-            <td>
-              <a href="https://www.flux7.com/works/openstack/openstack-tutorials-part-1-openstack-introduction/">(Tutorial) An Introduction to Openstack Project | Part 1</a>
+              
             </td>
           </tr>
           <tr>
             <td>
-              <a href="http://cloudify.co/2014/07/10/what-is-openstack-tutorial.html">What is Openstack? A Quick OpenStack Tutorial</a>
+             
+            </td>
+            <td>
+              
+            </td>
+            <td>
+             
+            </td>
+            <td>
+              
+            </td>
+            <td>
+              
+            </td>
+          </tr>
+          <tr>
+            <td>
+              
             </td>
             <td>
 
