@@ -17,8 +17,14 @@
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/popper/popper.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.js"></script>
+  <script src="vendor/datatable/jquery.dataTables.min.js"></script>
+  <!-- <script src="vendor/bootstrap/js/tablepaging.js"></script> -->
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/jquery.dataTables.min.css" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="/vendor/bootstrap/css/bootstrap.min.css"> -->
+  <!-- <link rel="stylesheet" href="css/jquery.dataTables.min.css"> -->
 
   <!-- Custom styles for this template -->
   <link href="css/4-col-portfolio.css" rel="stylesheet">
@@ -106,6 +112,11 @@
     }
   </style>
   <script type="text/javascript">
+    $(document).ready(function () {
+      $('#escalation').DataTable();
+    });
+  </script>
+  <script type="text/javascript">
     function adjustIframes() {
       $('iframe').each(function () {
         var
@@ -127,52 +138,52 @@
     $(window).on('resize load', adjustIframes);
   </script>
   <script type="text/javascript">
-      $(function () {
-        var thumbSize = 'large',		// 設定要取得的縮圖是大圖還是小圖
-          // 大圖寬高為 480X360；小圖寬高為 120X90
-          imgWidth = '240',			// 限制圖片的寬及 YouTube 影片的寬
-          imgHeight = '180',			// 限制圖片的高及 YouTube 影片的高
-          autoPlay = '&autoplay=1',	// 是否載入 YouTube 影片後自動播放；若不要自動播放則設成 0
-          fullScreen = '&fs=1';		// 是否允許播放 YouTube 影片時能全螢幕播放
+    $(function () {
+      var thumbSize = 'large',		// 設定要取得的縮圖是大圖還是小圖
+        // 大圖寬高為 480X360；小圖寬高為 120X90
+        imgWidth = '240',			// 限制圖片的寬及 YouTube 影片的寬
+        imgHeight = '180',			// 限制圖片的高及 YouTube 影片的高
+        autoPlay = '&autoplay=1',	// 是否載入 YouTube 影片後自動播放；若不要自動播放則設成 0
+        fullScreen = '&fs=1';		// 是否允許播放 YouTube 影片時能全螢幕播放
 
-        $('ul.playlist>li>a').each(function () {
-          //$('ul.playlist>table>tr>td>li>a').each(function(){
-          // 取得要連結轉換的網址及訊息內容
-          var _this = $(this),
-            _url = _this.attr('href'),
-            _info = _this.text(),
-            _type = (thumbSize == 'large') ? 0 : 2;
+      $('ul.playlist>li>a').each(function () {
+        //$('ul.playlist>table>tr>td>li>a').each(function(){
+        // 取得要連結轉換的網址及訊息內容
+        var _this = $(this),
+          _url = _this.attr('href'),
+          _info = _this.text(),
+          _type = (thumbSize == 'large') ? 0 : 2;
 
-          // 取得 vid
-          var vid = _url.match('[\\?&]v=([^&#]*)')[1];
+        // 取得 vid
+        var vid = _url.match('[\\?&]v=([^&#]*)')[1];
 
-          // 取得縮圖
-          var thumbUrl = "http://img.youtube.com/vi/" + vid + "/" + _type + ".jpg";
+        // 取得縮圖
+        var thumbUrl = "http://img.youtube.com/vi/" + vid + "/" + _type + ".jpg";
 
-          // 把目前超連結的內容轉換成圖片並加入 click 事件
-          _this.html('<img src="' + thumbUrl + '" alt="' + _info + '" title="' + _info + '" width="' + imgWidth + '" height="' + imgHeight + '" />').click(function () {
-            return false;
-          }).focus(function () {
-            this.blur();
-          }).children('img').click(function () {
-            // 當點擊到圖片時就轉換成 YouTube 影片
-            var swf = '<object width="' + imgWidth + '" height="' + imgHeight + '">';
-            swf += '<param name="movie" value="http://www.youtube.com/v/' + vid + autoPlay + fullScreen + '"></param>';
-            swf += '<param name="wmode" value="transparent"></param>';
-            swf += (fullScreen == '&fs=1') ? '<param name="allowfullscreen" value="true"></param>' : '';
+        // 把目前超連結的內容轉換成圖片並加入 click 事件
+        _this.html('<img src="' + thumbUrl + '" alt="' + _info + '" title="' + _info + '" width="' + imgWidth + '" height="' + imgHeight + '" />').click(function () {
+          return false;
+        }).focus(function () {
+          this.blur();
+        }).children('img').click(function () {
+          // 當點擊到圖片時就轉換成 YouTube 影片
+          var swf = '<object width="' + imgWidth + '" height="' + imgHeight + '">';
+          swf += '<param name="movie" value="http://www.youtube.com/v/' + vid + autoPlay + fullScreen + '"></param>';
+          swf += '<param name="wmode" value="transparent"></param>';
+          swf += (fullScreen == '&fs=1') ? '<param name="allowfullscreen" value="true"></param>' : '';
 
-            swf += '<embed type="application/x-shockwave-flash" src="http://www.youtube.com/v/' + vid + autoPlay + fullScreen + '" ';
-            swf += (fullScreen == '&fs=1') ? 'allowfullscreen="true" ' : '';
-            swf += 'wmode="transparent" width="' + imgWidth + '" height="' + imgHeight + '""></embed>';
+          swf += '<embed type="application/x-shockwave-flash" src="http://www.youtube.com/v/' + vid + autoPlay + fullScreen + '" ';
+          swf += (fullScreen == '&fs=1') ? 'allowfullscreen="true" ' : '';
+          swf += 'wmode="transparent" width="' + imgWidth + '" height="' + imgHeight + '""></embed>';
 
-            swf += '</object/>';
+          swf += '</object/>';
 
-            $(this).parent('a').html(swf);
+          $(this).parent('a').html(swf);
 
-            return false;
-          });
+          return false;
         });
       });
+    });
   </script>
 
 </head>
@@ -318,66 +329,96 @@
         </div>
       </div>
       <!--slideshare-->
-      <div>
-        <table>
-          <tr>
-            <td>
-              Slide
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-            <td>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <iframe frameborder="0" height="200" src="https://www.slideshare.net/slideshow/embed_code/key/zEBAQVcYLgeBOe" width="300"></iframe>
-              <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/bpiatt/openstack-tutorial" title="OpenStack Tutorial" target="_blank">OpenStack Tutorial</a> </strong>                from <strong><a href="https://www.slideshare.net/bpiatt" target="_blank">Bret Piatt</a></strong> </div>
-            </td>
-            <td>
-              <iframe frameborder="0" height="200" src="https://www.slideshare.net/slideshow/embed_code/key/fkgrT5uHVHjmce" width="300"></iframe>
-              <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/openstackindia/openstack-introduction-14761434" title="OpenStack Introduction" target="_blank">OpenStack Introduction</a> </strong>                from <strong><a href="https://www.slideshare.net/openstackindia" target="_blank">openstackindia</a></strong>                </div>
-            </td>
-            <td>
-              <iframe frameborder="0" height="200" src="https://www.slideshare.net/slideshow/embed_code/key/l4mTUQFwBM7su" width="300"></iframe>
-              <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/jasonhoutw/openstack-introduction" title="OpenStack Framework Introduction" target="_blank">OpenStack Framework Introduction</a> </strong>                from <strong><a href="https://www.slideshare.net/jasonhoutw" target="_blank">Jason, Tsung-Cheng, HOU (侯宗成)</a></strong>                </div>
-            </td>
-            <td>
-              <iframe frameborder="0" height="200" src="https://www.slideshare.net/slideshow/embed_code/key/Ckzsg7FtJh192W" width="300"></iframe>
-              <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/kamesh001/open-stack-101" title="Openstack 101" target="_blank">Openstack 101</a> </strong>                from <strong><a href="https://www.slideshare.net/kamesh001" target="_blank">Kamesh Pemmaraju</a></strong>                </div>
-            </td>
-            <td>
-              <iframe frameborder="0" height="200" src="https://www.slideshare.net/slideshow/embed_code/key/2pwrzaxuqIINBQ" width="300"></iframe>
-              <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/mirantis/openstack-architecture-43160012" title="OpenStack Architecture" target="_blank">OpenStack Architecture</a> </strong>                from <strong><a href="https://www.slideshare.net/mirantis" target="_blank">Mirantis</a></strong> </div>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <iframe frameborder="0" height="200" src="https://www.slideshare.net/slideshow/embed_code/key/mzNin8KQfsdSXk" width="300"></iframe>
-              <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/sgordon2/deep-dive-openstack-summit-red-hat-summit-2014" title="Deep Dive: OpenStack Summit (Red Hat Summit 2014)" target="_blank">Deep Dive: OpenStack Summit (Red Hat Summit 2014)</a> </strong>                from <strong><a href="https://www.slideshare.net/sgordon2" target="_blank">Stephen Gordon</a></strong> </div>
-            </td>
-            <td>
-              <iframe frameborder="0" height="200" src="https://www.slideshare.net/slideshow/embed_code/key/cKIrxTH2hpt7h8" width="300"></iframe>
-              <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/mirantis/2-day-bootcamp-for-openstackcloud-training-by-mirantis-preview" title="2 Day Bootcamp for OpenStack--Cloud Training by Mirantis (Preview)" target="_blank">2 Day Bootcamp for OpenStack--Cloud Training by Mirantis (Preview)</a> </strong>                from <strong><a href="https://www.slideshare.net/mirantis" target="_blank">Mirantis</a></strong> </div>
-            </td>
-            <td>
-              <iframe frameborder="0" height="200" src="https://www.slideshare.net/slideshow/embed_code/key/nBouwUeNnZMPfh" width="300"></iframe>
-              <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/gpaterno1/openstack-explained" title="OpenStack Explained: Learn OpenStack architecture and the secret of a successful cloud project" target="_blank">OpenStack Explained: Learn OpenStack architecture and the secret of a successful cloud project</a> </strong>                from <strong><a href="https://www.slideshare.net/gpaterno1" target="_blank">Giuseppe Paterno&#x27;</a></strong>                </div>
-            </td>
-            <td>
-              <iframe frameborder="0" height="200" src="https://www.slideshare.net/slideshow/embed_code/key/lS7r6mZoAbvrsF" width="300"></iframe>
-              <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/RoozbehShafiee/01-open-stack-simple-architecture" title="Mastering OpenStack - Episode 01 - Simple Architectures" target="_blank">Mastering OpenStack - Episode 01 - Simple Architectures</a> </strong>                from <strong><a href="https://www.slideshare.net/RoozbehShafiee" target="_blank">Roozbeh Shafiee</a></strong>                </div>
-            </td>
-            <td>
-              <iframe frameborder="0" height="200" src="https://www.slideshare.net/slideshow/embed_code/key/9p24xDlrTF024V" width="300"></iframe>
-              <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/Stratoscale1/fits-like-lego-5-ways-to-deploy-guest-networking-over-openstack-neutron" title="Fits Like Lego - 5 Ways to Deploy Guest Networking over OpenStack Neutron" target="_blank">Fits Like Lego - 5 Ways to Deploy Guest Networking over OpenStack Neutron</a> </strong>                from <strong><a href="https://www.slideshare.net/Stratoscale1" target="_blank">Stratoscale</a></strong> </div>
-            </td>
-          </tr>
-        </table>
+      <div class="container body-content">
+        <div class="page-header">
+          <label class="heading"></label>
+          <div class="form-group">
+            <fieldset>
+              <form action="" class="form-group" method="post">
+                <div class="table-responsive">
+                  <div class="table-responsive">
+                    <h1 class="my-4">Slide
+                      <small></small>
+                    </h1>
+                    <table id="escalation" class="table table-striped table-bordered" cellspacing="0" width="100%">
+                      <thead>
+                        <tr>
+                          <th>&nbsp;</th>
+                          <th>&nbsp;</th>
+                          <th>&nbsp;</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>
+                            <iframe frameborder="0" height="200" src="https://www.slideshare.net/slideshow/embed_code/key/zEBAQVcYLgeBOe" width="300"></iframe>
+                            <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/bpiatt/openstack-tutorial" title="OpenStack Tutorial" target="_blank">OpenStack Tutorial</a> </strong>
+                            from <strong><a href="https://www.slideshare.net/bpiatt" target="_blank">Bret Piatt</a></strong></div>
+                          </td>
+                          <td>
+                            <iframe frameborder="0" height="200" src="https://www.slideshare.net/slideshow/embed_code/key/fkgrT5uHVHjmce" width="300"></iframe>
+                            <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/openstackindia/openstack-introduction-14761434" title="OpenStack Introduction" target="_blank">OpenStack Introduction</a> </strong>                              from <strong><a href="https://www.slideshare.net/openstackindia" target="_blank">openstackindia</a></strong>                              </div>
+                          </td>
+                          <td>
+                            <iframe frameborder="0" height="200" src="https://www.slideshare.net/slideshow/embed_code/key/l4mTUQFwBM7su" width="300"></iframe>
+                            <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/jasonhoutw/openstack-introduction" title="OpenStack Framework Introduction" target="_blank">OpenStack Framework Introduction</a> </strong>                              from <strong><a href="https://www.slideshare.net/jasonhoutw" target="_blank">Jason, Tsung-Cheng, HOU (侯宗成)</a></strong>                              </div>
+                          </td>
+
+                        </tr>
+                        <tr>
+                          <td>
+                            <iframe frameborder="0" height="200" src="https://www.slideshare.net/slideshow/embed_code/key/Ckzsg7FtJh192W" width="300"></iframe>
+                            <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/kamesh001/open-stack-101" title="Openstack 101" target="_blank">Openstack 101</a> </strong>                              from <strong><a href="https://www.slideshare.net/kamesh001" target="_blank">Kamesh Pemmaraju</a></strong>                              </div>
+                          </td>
+                          <td>
+                            <iframe frameborder="0" height="200" src="https://www.slideshare.net/slideshow/embed_code/key/2pwrzaxuqIINBQ" width="300"></iframe>
+                            <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/mirantis/openstack-architecture-43160012" title="OpenStack Architecture" target="_blank">OpenStack Architecture</a> </strong>                              from <strong><a href="https://www.slideshare.net/mirantis" target="_blank">Mirantis</a></strong>                              </div>
+                          </td>
+                          <td>
+                            <iframe frameborder="0" height="200" src="https://www.slideshare.net/slideshow/embed_code/key/mzNin8KQfsdSXk" width="300"></iframe>
+                            <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/sgordon2/deep-dive-openstack-summit-red-hat-summit-2014" title="Deep Dive: OpenStack Summit (Red Hat Summit 2014)" target="_blank">Deep Dive: OpenStack Summit (Red Hat Summit 2014)</a> </strong>                              from <strong><a href="https://www.slideshare.net/sgordon2" target="_blank">Stephen Gordon</a></strong>                              </div>
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>
+                            <iframe frameborder="0" height="200" src="https://www.slideshare.net/slideshow/embed_code/key/cKIrxTH2hpt7h8" width="300"></iframe>
+                            <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/mirantis/2-day-bootcamp-for-openstackcloud-training-by-mirantis-preview" title="2 Day Bootcamp for OpenStack--Cloud Training by Mirantis (Preview)" target="_blank">2 Day Bootcamp for OpenStack--Cloud Training by Mirantis (Preview)</a> </strong>                              from <strong><a href="https://www.slideshare.net/mirantis" target="_blank">Mirantis</a></strong>                              </div>
+                          </td>
+                          <td>
+                            <iframe frameborder="0" height="200" src="https://www.slideshare.net/slideshow/embed_code/key/nBouwUeNnZMPfh" width="300"></iframe>
+                            <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/gpaterno1/openstack-explained" title="OpenStack Explained: Learn OpenStack architecture and the secret of a successful cloud project" target="_blank">OpenStack Explained: Learn OpenStack architecture and the secret of a successful cloud project</a> </strong>                              from <strong><a href="https://www.slideshare.net/gpaterno1" target="_blank">Giuseppe Paterno&#x27;</a></strong>                              </div>
+                          </td>
+                          <td>
+                            <iframe frameborder="0" height="200" src="https://www.slideshare.net/slideshow/embed_code/key/lS7r6mZoAbvrsF" width="300"></iframe>
+                            <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/RoozbehShafiee/01-open-stack-simple-architecture" title="Mastering OpenStack - Episode 01 - Simple Architectures" target="_blank">Mastering OpenStack - Episode 01 - Simple Architectures</a> </strong>                              from <strong><a href="https://www.slideshare.net/RoozbehShafiee" target="_blank">Roozbeh Shafiee</a></strong>                              </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <iframe frameborder="0" height="200" src="https://www.slideshare.net/slideshow/embed_code/key/9p24xDlrTF024V" width="300"></iframe>
+                            <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/Stratoscale1/fits-like-lego-5-ways-to-deploy-guest-networking-over-openstack-neutron" title="Fits Like Lego - 5 Ways to Deploy Guest Networking over OpenStack Neutron" target="_blank">Fits Like Lego - 5 Ways to Deploy Guest Networking over OpenStack Neutron</a> </strong>                              from <strong><a href="https://www.slideshare.net/Stratoscale1" target="_blank">Stratoscale</a></strong>                              </div>
+                          </td>
+                          <td>
+                            <iframe frameborder="0" height="200" src="https://www.slideshare.net/slideshow/embed_code/key/9p24xDlrTF024V" width="300"></iframe>
+                            <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/Stratoscale1/fits-like-lego-5-ways-to-deploy-guest-networking-over-openstack-neutron" title="Fits Like Lego - 5 Ways to Deploy Guest Networking over OpenStack Neutron" target="_blank">Fits Like Lego - 5 Ways to Deploy Guest Networking over OpenStack Neutron</a> </strong>                              from <strong><a href="https://www.slideshare.net/Stratoscale1" target="_blank">Stratoscale</a></strong>                              </div>
+                          </td>
+                          <td>
+                              <iframe frameborder="0" height="200" src="https://www.slideshare.net/slideshow/embed_code/key/ktP6fjvZybEDOs" width="300"></iframe>
+                              <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/randybias/state-of-the-stack-v4-openstack-in-all-its-glory" title="State of the Stack v4 - OpenStack in All It&#x27;s Glory" target="_blank">State of the Stack v4 - OpenStack in All It&#x27;s Glory</a> </strong> from <strong><a href="https://www.slideshare.net/randybias" target="_blank">Randy Bias</a></strong> </div>
+                          </td>
+                        </tr>
+
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </form>
+              <!--END OF FORM ^^-->
+            </fieldset>
+          </div>
+          <hr />
+        </div>
       </div>
       <!--slideshare-->
       <!--blog-->
@@ -449,8 +490,8 @@
           </tr>
         </table>
       </div>
-      <!--blog-->
     </div>
+    <!--blog-->
   </div>
 
   <!-- /.row -->
@@ -491,7 +532,7 @@
     <!-- /.container -->
   </footer>
 
-  
+
 
 </body>
 
