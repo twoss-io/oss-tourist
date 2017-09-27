@@ -26,14 +26,12 @@
   <!-- <link rel="stylesheet" href="css/jquery.dataTables.min.css"> -->
   <script>
     $(document).ready(function () {
-      
       $.ajax({
         method: "GET",
         url: 'https://api.github.com/repos/twoss-io/' + 'oss-tourist' + '/contents/category.md',
         headers: {
           "Content-Type": "application/json; charset=utf-8",
           "Accept": "application/vnd.github.VERSION.html"
-          
         },
         success: function (res) {
           console.log(res)
