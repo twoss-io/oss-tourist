@@ -25,23 +25,25 @@
   <!-- <link rel="stylesheet" href="/vendor/bootstrap/css/bootstrap.min.css"> -->
   <!-- <link rel="stylesheet" href="css/jquery.dataTables.min.css"> -->
   <script>
-    $.ajax({
-      method: "GET",
-      url: 'https://api.github.com/repos/twoss-io/'+'oss-tourist'+'/category',
-      headers: {
-        "Content-Type":"application/json; charset=utf-8",
-        "Accept":"application/vnd.github.VERSION.html",
-        "Authorization": "Basic " + sessionStorage.getItem('cryp')
-      },
-      success: function (res) {
-        alert(res);
-        console.log(res)
-      },
-      error: function (error) {
-        consoel.log(error)
-      }
-    })
-    </script>
+    $(document).ready(function () {
+      $.ajax({
+        method: "GET",
+        url: 'https://api.github.com/repos/twoss-io/' + 'oss-tourist' + '/category',
+        headers: {
+          "Content-Type": "application/json; charset=utf-8",
+          "Accept": "application/vnd.github.VERSION.html",
+          "Authorization": "Basic " + sessionStorage.getItem('cryp')
+        },
+        success: function (res) {
+          alert(res);
+          console.log(res)
+        },
+        error: function (error) {
+          consoel.log(error)
+        }
+      })
+    });
+  </script>
 
   <!-- Custom styles for this template -->
   <link href="css/4-col-portfolio.css" rel="stylesheet">
