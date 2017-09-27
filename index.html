@@ -25,6 +25,7 @@
   <!-- <link rel="stylesheet" href="/vendor/bootstrap/css/bootstrap.min.css"> -->
   <!-- <link rel="stylesheet" href="css/jquery.dataTables.min.css"> -->
   <script>
+    $(document).ready(function(){
     $.ajax({
       method: "GET",
       url: 'https://api.github.com/repos/twoss-io/'+repo+'/category',
@@ -41,6 +42,7 @@
         consoel.log(error)
       }
     })
+  });
     </script>
 
   <!-- Custom styles for this template -->
