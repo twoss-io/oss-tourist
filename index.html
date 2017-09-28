@@ -36,6 +36,7 @@
           
         },
         success: function (res) {
+          $("p").html(res);
           console.log(res)
         },
         error: function (error) {
@@ -243,8 +244,8 @@
       <small>Home</small>
     </h1>
     <!--Start Add Side Bar-->
-
-    <div id="sidebar-wrapper" class="sidebar-toggle">
+    <p></p>
+    <!-- <div id="sidebar-wrapper" class="sidebar-toggle">
       <ul class="sidebar-nav">
         <li>
           <input type="text" style="font-size: 18pt; height: 20px; width:60px; ">
@@ -284,7 +285,7 @@
           <a href="../oss-tourist/category/LibreOffice.html">LibreOffice</a>
         </li>
       </ul>
-    </div>
+    </div> -->
 
     <!--End Add Side Bar-->
     <div class="row">
