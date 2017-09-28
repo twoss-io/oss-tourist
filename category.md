@@ -1,0 +1,11 @@
+key:
+  - OpenStack
+  - Docker      
+  - MySQL
+  - Elasticsearch
+  - Spark
+  - Kubernetes
+  - Mesos
+  - OpenDaylight
+  - Hyperledger
+  - LibreOffice
