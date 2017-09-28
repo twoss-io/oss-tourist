@@ -36,7 +36,8 @@
           
         },
         success: function (res) {
-          $("p").html(res);
+
+          $("#navList").append(res);
           console.log(res)
         },
         error: function (error) {
@@ -244,14 +245,14 @@
       <small>Home</small>
     </h1>
     <!--Start Add Side Bar-->
-    <p></p>
-    <!-- <div id="sidebar-wrapper" class="sidebar-toggle">
-      <ul class="sidebar-nav">
+    
+    <div id="sidebar-wrapper" class="sidebar-toggle">
+      <ul class="sidebar-nav" id="navList">
         <li>
           <input type="text" style="font-size: 18pt; height: 20px; width:60px; ">
           <img src="images/search.png" alt="Smiley face" height="21" width="21">
         </li>
-        <li>
+        <!-- <li>
           <a href="index.html">Home</a>
         </li>
         <li>
@@ -283,9 +284,9 @@
         </li>
         <li>
           <a href="../oss-tourist/category/LibreOffice.html">LibreOffice</a>
-        </li>
+        </li> -->
       </ul>
-    </div> -->
+    </div>
 
     <!--End Add Side Bar-->
     <div class="row">
