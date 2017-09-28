@@ -69,8 +69,12 @@
 	</style>
 	
 	<!-- standalone yaml.js library -->
-	<script type="text/javascript" src="dist/yaml.debug.js"></script>
-		
+	<script type="text/javascript" src="dist/yaml.js"></script>
+	<script>
+		YAML.load('category.yml', function (result) {
+			nativeObject = result;
+		});
+	</script>	
 	<title>yaml.js demo</title>
 </head>
 
