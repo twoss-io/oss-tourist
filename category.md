@@ -10,3 +10,4 @@
 *   [Hyperledger](../oss-tourist/category/Hyperledger.html)
 *   [LibreOffice](../oss-tourist/category/LibreOffice.html)
 *   [OpenMP](../oss-tourist/category/OpenMP.html)
+*   [MPI](../oss-tourist/category/MPI.html)
