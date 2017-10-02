@@ -18,6 +18,5 @@ function genElm(obj){
     }
     html += '</ul>'
     console.log(html)
-    //$("#main").append(html)
     $("#sidebar-wrapper").append(html)
 }
