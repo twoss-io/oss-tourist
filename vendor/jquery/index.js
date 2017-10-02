@@ -3,7 +3,7 @@ $(document).ready(function(){
 });
 
 function getYaml(){
-    $.get('./category.yaml', function(res){
+    $.get('../../category.yaml', function(res){
         var obj = jsyaml.load(res);
         console.log(obj)
         genElm(obj)
@@ -18,5 +18,5 @@ function genElm(obj){
     }
     html += '</ul>'
     console.log(html)
-    $("#sidebar-wrapper").append(html)
+    //$("#sidebar-wrapper").append(html)
 }
