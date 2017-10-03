@@ -1,5 +1,7 @@
 $(document).ready(function(){
-    getYaml()
+    getYaml();
+	$("#navList").addClass("sidebar-nav");
+    $("#main").addClass("sidebar-toggle")
 });
 
 function getYaml(){
@@ -19,6 +21,5 @@ function genElm(obj){
     html += '</ul>'
     console.log(html)
     $("#main").append(html)
-    //$("#navList").addClass("sidebar-nav");
-    //$("#main").addClass("sidebar-toggle");
+  
 }
