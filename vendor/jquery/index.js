@@ -12,7 +12,7 @@ function getYaml(){
     }).done(function(){
         console.log("done")
     }).fail(function() {
-        alert( "fail" );
+        console.log( "fail" );
       })
 }
 
