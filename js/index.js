@@ -19,6 +19,6 @@ function genElm(obj){
     html += '</ul>'
     console.log(html)
     $("#main").append(html)
-    $("#navList").addClass("sidebar-nav");
-    $("#main").addClass("sidebar-toggle");
+    //$("#navList").addClass("sidebar-nav");
+    //$("#main").addClass("sidebar-toggle");
 }
