@@ -5,7 +5,7 @@ $(document).ready(function(){
 });
 
 function getYaml(){
-    $.get('../../category.yaml', function(res){
+    $.get('./category.yaml', function(res){
         var obj = jsyaml.load(res);
         console.log(obj)
         genElm(obj)
