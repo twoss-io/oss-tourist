@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>4 Col Portfolio - Start Bootstrap Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/4-col-portfolio.css" rel="stylesheet">
+      <style>
+    iframe {
+      max-width: 100%;
+    }
+  </style>
+  <script>
+  function adjustIframes()
+{
+  $('iframe').each(function(){
+    var
+    $this       = $(this),
+    proportion  = $this.data( 'proportion' ),
+    w           = $this.attr('width'),
+    actual_w    = $this.width();
+    
+    if ( ! proportion )
+    {
+        proportion = $this.attr('height') / w;
+        $this.data( 'proportion', proportion );
+    }
+  
+    if ( actual_w != w )
+    {
+        $this.css( 'height', Math.round( actual_w * proportion ) + 'px' );
+    }
+  });
+}
+$(window).on('resize load',adjustIframes);
+  </script>
+  </head>
+<!-- All you need is a defined width & height -->
+<iframe frameborder="0" height="426" src="https://www.slideshare.net/slideshow/embed_code/9812085?rel=0" width="510"></iframe>
+  <body>
+  </body>
