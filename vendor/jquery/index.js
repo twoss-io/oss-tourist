@@ -9,7 +9,11 @@ function getYaml(){
         var obj = jsyaml.load(res);
         console.log(obj)
         genElm(obj)
-    })
+    }).done(function(){
+        console.log("done")
+    }).fail(function() {
+        alert( "fail" );
+      })
 }
 
 function genElm(obj){
