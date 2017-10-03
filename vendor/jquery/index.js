@@ -1,7 +1,9 @@
 $(document).ready(function(){
     getYaml();
-	$("#navList").addClass("sidebar-nav");
-    $("#main").addClass("sidebar-toggle")
+    //Add css class sidebar-nav to ul
+    $("#navList").toggleClass("sidebar-nav",true);//.css('color','red');
+    //Add css class sidebar-toggle to div main
+    $("#main").toggleClass("sidebar-toggle",true);//.css('color','blue');
 });
 
 function getYaml(){
