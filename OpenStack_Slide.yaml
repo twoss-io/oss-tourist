@@ -4,5 +4,17 @@ s1:
  Title: Introduction to OpenStack
  Description: OpenStack Tutorial
  Tag: OpenStack
+s2:
+ Src: https://www.slideshare.net/slideshow/embed_code/key/fkgrT5uHVHjmce
+ Href : //www.slideshare.net/openstackindia/openstack-introduction-14761434
+ Title: OpenStack Introduction
+ Description: OpenStack Introduction
+ Tag: OpenStack
+s3:
+ Src: https://www.slideshare.net/slideshow/embed_code/key/l4mTUQFwBM7su
+ Href : //www.slideshare.net/jasonhoutw/openstack-introduction
+ Title: OpenStack Framework Introduction
+ Description: OpenStack Framework Introduction
+ Tag: OpenStack 
    
  
