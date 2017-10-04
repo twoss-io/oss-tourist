@@ -1,9 +1,9 @@
 $(document).ready(function(){
     getYaml();
+    //Add css class sidebar-toggle to div main
+    $("#sidebar-wrapper").toggleClass("sidebar-toggle",true);//.css('color','blue');
     //Add css class sidebar-nav to ul
     $("#navList").toggleClass("sidebar-nav",true);//.css('color','red');
-    //Add css class sidebar-toggle to div main
-    $("#main").toggleClass("sidebar-toggle",true);//.css('color','blue');
 });
 
 function getYaml(){
@@ -26,6 +26,7 @@ function genElm(obj){
     }
     html += '</ul>'
     console.log(html)
-    $("#main").append(html)
-  
+    //$("#main").append(html)
+    $("#sidebar-wrapper").append(html)
+    
 }
