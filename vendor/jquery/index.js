@@ -22,6 +22,7 @@ function genElm(obj){
     var html = '<ul id="navList">'
     for (var i = 0; i < obj.length; i++) {
         var el = obj[i];
+        //html+= '<li><a href="#">'+el+'</a></li>'
         html+= '<li>'+el+'</li>'
     }
     html += '</ul>'
