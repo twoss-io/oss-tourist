@@ -48,7 +48,7 @@ function getVideoByCategory(category){
     }).done(function(){
         console.log("Video done")
     }).fail(function() {
-        alert(category +'video is not completed,please add or update '+category+'_Video.md');
+        //alert(category +'video is not completed,please add or update '+category+'_Video.yaml');
         console.log( "Video fail" );
       })
 }
@@ -61,7 +61,7 @@ function getSlideByCategory(category){
     }).done(function(){
         console.log("Slide done")
     }).fail(function() {
-        alert(category +'Slide is not completed,please add or update '+category+'_Slide.md');
+        //alert(category +'Slide is not completed,please add or update '+category+'_Slide.yaml');
         console.log( "Slide fail" );
       })
 }
@@ -70,12 +70,28 @@ function getBlogByCategory(category){
     console.log('start in getBlogByCategory:'+category);
     $.get('./'+category+'_Blog.yaml', function(res){
         var obj = jsyaml.load(res);
-        console.log(obj)
-        //genElm(obj)
+        console.log(obj);
+        genBlogElm(obj);
     }).done(function(){
         console.log("Blog done")
     }).fail(function() {
-        alert(category +'Blog is not completed,please add or update '+category+'_Blog.md');
+        alert(category +'Blog is not completed,please add or update '+category+'_Blog.yaml');
         console.log( "Blog fail" );
       })
+}
+
+
+function genBlogElm(obj){
+    var html = '<tr>'
+    //console.log('genBlogElm obj:'+obj);
+    for (var i in obj) {
+        html+='<td>'
+        html+='<a href="'+obj[i].Url+'">'
+        html+=obj[i].Title
+        html+='</td>'
+        console.log('Url'+obj[i].Url)
+        console.log('Title'+obj[i].Title)
+    }
+    html+='</tr>'
+    $("#blogbody").append(html)  
 }
