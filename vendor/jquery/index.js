@@ -50,6 +50,7 @@ function getVideoByCategory(category){
     }).fail(function() {
         //alert(category +'video is not completed,please add or update '+category+'_Video.yaml');
         console.log( "Video fail" );
+        $("#videobody").append("");
       })
 }
 function getSlideByCategory(category){
@@ -64,6 +65,7 @@ function getSlideByCategory(category){
     }).fail(function() {
         //alert(category +'Slide is not completed,please add or update '+category+'_Slide.yaml');
         console.log( "Slide fail" );
+        $("#slidebody").append("");
       })
 }
 function getBlogByCategory(category){
@@ -76,8 +78,9 @@ function getBlogByCategory(category){
     }).done(function(){
         console.log("Blog done")
     }).fail(function() {
-        alert(category +'Blog is not completed,please add or update '+category+'_Blog.yaml');
+        //alert(category +'Blog is not completed,please add or update '+category+'_Blog.yaml');
         console.log( "Blog fail" );
+        $("#blogbody").append(""); 
       })
 }
 
@@ -120,11 +123,11 @@ function genVideoElm(obj){
         html+='<td>'
         html+='<div class="card h-100">'
         html+='<ul class="playlist">'
-        html+='<li><a href="#">'+obj[i].Title+'</a></li>'
+        html+='<li><a href="'+obj[i].Url+'">'+obj[i].Title+'</a></li>'
         html+='</ul>'
         html+='<div class="card-body">'
         html+='<h4 class="card-title">'
-        html+='<a href="#">'+obj[i].Title+'</a>'
+        html+='<a href="'+obj[i].Url+'">'+obj[i].Title+'</a>'
         html+='</h4>'
         html+='<p class="card-text">'+obj[i].Description+'</p>'
         html+='</div></div></div>'
