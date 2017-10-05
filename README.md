@@ -37,7 +37,13 @@ SlideShare網站投影片可支援預覽，其他網站投影片預覽功能待�
     *   LibreOffice
     *   Hadoop
     
-    
+*   新增一開源功能後，要新增三個檔案，(#overview_detail)
+    *   [OpenStack影片內容檔](/OpenStack_Video.yaml)
+    *   [OpenStack投影片內容檔](/OpenStack_Slide.yaml)
+    *   [OpenStack部落格內容檔](/OpenStack_Blog.yaml)
+    
+
+    
 
 
 
