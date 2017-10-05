@@ -56,7 +56,8 @@ function getSlideByCategory(category){
     console.log('start in getSlideByCategory:'+category);
     $.get('./'+category+'_Slide.yaml', function(res){
         var obj = jsyaml.load(res);
-        console.log(obj)
+        console.log(obj);
+        genSlideElm(obj);
         //genElm(obj)
     }).done(function(){
         console.log("Slide done")
@@ -94,4 +95,17 @@ function genBlogElm(obj){
     }
     html+='</tr>'
     $("#blogbody").append(html)  
+}
+
+function genSlideElm(obj){
+    var html = '<tr>'
+    //console.log('genBlogElm obj:'+obj);
+    for (var i in obj) {
+        html+='<td>'
+        html+='<iframe frameborder="0" height="200" src="'+obj[i].Src+'"width="300"></iframe>'
+        html+='<div style="margin-bottom:5px"> <strong> <a href="'+obj[i].Href+'" title="+'+obj[i].Title+'target="_blank">'+obj[i].Description+'</a> </strong>'
+        html+='</td>'
+    }
+    html+='</tr>'
+    $("#slidebody").append(html)  
 }
