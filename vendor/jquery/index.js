@@ -43,8 +43,8 @@ function getVideoByCategory(category){
     console.log('start in getVideoByCategory:'+category);
     $.get('./'+category+'_Video.yaml', function(res){
         var obj = jsyaml.load(res);
-        console.log(obj)
-        //genElm(obj)
+        console.log(obj);
+        genVideoElm(obj);
     }).done(function(){
         console.log("Video done")
     }).fail(function() {
@@ -109,3 +109,30 @@ function genSlideElm(obj){
     html+='</tr>'
     $("#slidebody").append(html)  
 }
+
+
+
+
+function genVideoElm(obj){
+    var html = '<tr>'
+    //console.log('genBlogElm obj:'+obj);
+    for (var i in obj) {
+        html+='<td>'
+        html+='<div class="card h-100">'
+        html+='<ul class="playlist">'
+        html+='<li><a href="#">'+obj[i].Title+'</a></li>'
+        html+='</ul>'
+        html+='<div class="card-body">'
+        html+='<h4 class="card-title">'
+        html+='<a href="#">'+obj[i].Title+'</a>'
+        html+='</h4>'
+        html+='<p class="card-text">'+obj[i].Description+'</p>'
+        html+='</div></div></div>'
+        html+='</td>'
+        
+    }
+    html+='</tr>'
+    $("#videobody").append(html)
+      
+}
+
