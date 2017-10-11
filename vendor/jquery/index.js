@@ -178,10 +178,10 @@ function genSlideElm(obj){
 
 function genVideoElm(obj){
     var html = '<tr>'
-    var x =0;
+    var v =0;
     //console.log('genBlogElm obj:'+obj);
     for (var i in obj) {
-        if(x %3==0){
+        if(v %3==0){
             html+='</tr>'
             html+='<tr>'
         }
@@ -198,11 +198,11 @@ function genVideoElm(obj){
         html+='<p class="card-text">'+obj[i].Description+'</p>'
         html+='</div></div></div>'
         html+='</td>'
-        x=x+1;
+        v=v+1;
     }
     html+='</tr>'
     $("#videobody").append(html)
-    //console.log('videobody='+html);  
+    console.log('videobody='+html);  
 }
 
 function adjustIframes() {
