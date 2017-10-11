@@ -40,6 +40,7 @@ function getCategory(category){
 
 function getVideoByCategory(category){
     //Todo
+    $("#videobody").empty();
     console.log('start in getVideoByCategory:'+category);
     $.get('./'+category+'_Video.yaml', function(res){
         var obj = jsyaml.load(res);
@@ -55,6 +56,7 @@ function getVideoByCategory(category){
 }
 function getSlideByCategory(category){
     console.log('start in getSlideByCategory:'+category);
+    $("#slidebody").empty();
     $.get('./'+category+'_Slide.yaml', function(res){
         var obj = jsyaml.load(res);
         console.log(obj);
@@ -71,6 +73,7 @@ function getSlideByCategory(category){
 function getBlogByCategory(category){
     //Todo
     console.log('start in getBlogByCategory:'+category);
+    $("#blogbody").empty();
     $.get('./'+category+'_Blog.yaml', function(res){
         var obj = jsyaml.load(res);
         console.log(obj);
