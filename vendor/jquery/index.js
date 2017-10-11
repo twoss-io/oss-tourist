@@ -66,7 +66,7 @@ function getVideoByCategory(category){
               var vid = _url.match('[\\?&]v=([^&#]*)')[1];
               //console.log('vid='+vid);  
               // 取得縮圖
-              var thumbUrl = "http://img.youtube.com/vi/" + vid + "/" + _type + ".jpg";
+              var thumbUrl = "https://img.youtube.com/vi/" + vid + "/" + _type + ".jpg";
       
               // 把目前超連結的內容轉換成圖片並加入 click 事件
               _this.html('<img src="' + thumbUrl + '" alt="' + _info + '" title="' + _info + '" width="' + imgWidth + '" height="' + imgHeight + '" />').click(function () {
