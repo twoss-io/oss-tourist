@@ -142,6 +142,7 @@ function genBlogElm(obj){
             html+='</tr>'
             html+='<tr>'
         }
+        console.log(b +'in genBlogElm');
         html+='<td>'
         html+='<a href="'+obj[i].Url+'">'
         html+=obj[i].Title
@@ -163,6 +164,7 @@ function genSlideElm(obj){
             html+='</tr>'
             html+='<tr>'
         }
+        console.log(s +'in genSlideElm');
         html+='<td>'
         html+='<iframe frameborder="0" height="200" src="'+obj[i].Src+'"width="300"></iframe>'
         html+='<div style="margin-bottom:5px"> <strong> <a href="'+obj[i].Href+'" title="+'+obj[i].Title+'target="_blank">'+obj[i].Description+'</a> </strong>'
@@ -185,7 +187,7 @@ function genVideoElm(obj){
             html+='</tr>'
             html+='<tr>'
         }
-        console.log(x +'in genVideoElm');
+        console.log(v +'in genVideoElm');
         html+='<td>'
         html+='<div class="card h-100">'
         html+='<ul class="playlist">'
