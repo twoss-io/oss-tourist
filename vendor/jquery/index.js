@@ -135,14 +135,20 @@ function getBlogByCategory(category){
 
 function genBlogElm(obj){
     var html = '<tr>'
+    var b =0;
     //console.log('genBlogElm obj:'+obj);
     for (var i in obj) {
+        if(b %3==0){
+            html+='</tr>'
+            html+='<tr>'
+        }
         html+='<td>'
         html+='<a href="'+obj[i].Url+'">'
         html+=obj[i].Title
         html+='</td>'
         console.log('Url'+obj[i].Url)
         console.log('Title'+obj[i].Title)
+        b=b+1;
     }
     html+='</tr>'
     $("#blogbody").append(html)  
@@ -150,12 +156,18 @@ function genBlogElm(obj){
 
 function genSlideElm(obj){
     var html = '<tr>'
+    var s =0;
     //console.log('genBlogElm obj:'+obj);
     for (var i in obj) {
+        if(s %3==0){
+            html+='</tr>'
+            html+='<tr>'
+        }
         html+='<td>'
         html+='<iframe frameborder="0" height="200" src="'+obj[i].Src+'"width="300"></iframe>'
         html+='<div style="margin-bottom:5px"> <strong> <a href="'+obj[i].Href+'" title="+'+obj[i].Title+'target="_blank">'+obj[i].Description+'</a> </strong>'
         html+='</td>'
+        s=s+1;
     }
     html+='</tr>'
     $("#slidebody").append(html)  
@@ -166,8 +178,14 @@ function genSlideElm(obj){
 
 function genVideoElm(obj){
     var html = '<tr>'
+    var x =0;
     //console.log('genBlogElm obj:'+obj);
     for (var i in obj) {
+        if(x %3==0){
+            html+='</tr>'
+            html+='<tr>'
+        }
+        console.log(x +'in genVideoElm');
         html+='<td>'
         html+='<div class="card h-100">'
         html+='<ul class="playlist">'
@@ -180,11 +198,11 @@ function genVideoElm(obj){
         html+='<p class="card-text">'+obj[i].Description+'</p>'
         html+='</div></div></div>'
         html+='</td>'
-        
+        x=x+1;
     }
     html+='</tr>'
     $("#videobody").append(html)
-      
+    //console.log('videobody='+html);  
 }
 
 function adjustIframes() {

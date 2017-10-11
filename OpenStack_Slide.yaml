@@ -15,6 +15,29 @@ s3:
  Href : //www.slideshare.net/jasonhoutw/openstack-introduction
  Title: OpenStack Framework Introduction
  Description: OpenStack Framework Introduction
+ Tag: OpenStack
+s4:
+ Src: https://www.slideshare.net/slideshow/embed_code/key/cKIrxTH2hpt7h8
+ Href : //www.slideshare.net/mirantis/2-day-bootcamp-for-openstackcloud-training-by-mirantis-preview
+ Title: 2 Day Bootcamp for OpenStack--Cloud Training by Mirantis (Preview)
+ Description: 2 Day Bootcamp for OpenStack--Cloud Training by Mirantis (Preview)
  Tag: OpenStack 
-   
+s5:
+ Src: https://www.slideshare.net/slideshow/embed_code/key/nBouwUeNnZMPfh
+ Href : //www.slideshare.net/gpaterno1/openstack-explained
+ Title: OpenStack Explained Learn OpenStack architecture and the secret of a successful cloud project
+ Description: OpenStack Explained Learn OpenStack architecture and the secret of a successful cloud project
+ Tag: OpenStack
+s6:
+ Src: https://www.slideshare.net/slideshow/embed_code/key/lS7r6mZoAbvrsF
+ Href : //www.slideshare.net/RoozbehShafiee/01-open-stack-simple-architecture
+ Title: Mastering OpenStack - Episode 01 - Simple Architectures
+ Description: Mastering OpenStack - Episode 01 - Simple Architectures
+ Tag: OpenStack
+s7:
+ Src: https://www.slideshare.net/slideshow/embed_code/key/9p24xDlrTF024V
+ Href : //www.slideshare.net/Stratoscale1/fits-like-lego-5-ways-to-deploy-guest-networking-over-openstack-neutron?ref=https://www.stratoscale.com/blog/networking/openstack-networking-building-networks-with-neutron-brick-by-brick/
+ Title: Fits Like Lego - 5 Ways to Deploy Guest Networking over OpenStack Neutron
+ Description: Fits Like Lego - 5 Ways to Deploy Guest Networking over OpenStack Neutron
+ Tag: OpenStack    
  
