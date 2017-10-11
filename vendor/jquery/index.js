@@ -138,7 +138,7 @@ function genBlogElm(obj){
     var b =0;
     //console.log('genBlogElm obj:'+obj);
     for (var i in obj) {
-        if(b %3==0){
+        if(b %3==0 && b!=0){
             html+='</tr>'
             html+='<tr>'
         }
@@ -160,7 +160,7 @@ function genSlideElm(obj){
     var s =0;
     //console.log('genBlogElm obj:'+obj);
     for (var i in obj) {
-        if(s %3==0){
+        if(s %3==0 && s!=0){
             html+='</tr>'
             html+='<tr>'
         }
@@ -183,7 +183,7 @@ function genVideoElm(obj){
     var v =0;
     //console.log('genBlogElm obj:'+obj);
     for (var i in obj) {
-        if(v %3==0){
+        if(v %3==0 && v!=0){
             html+='</tr>'
             html+='<tr>'
         }
