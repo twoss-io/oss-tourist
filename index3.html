@@ -173,9 +173,10 @@
           _url = _this.attr('href'),
           _info = _this.text(),
           _type = (thumbSize == 'large') ? 0 : 2;
-
+        console.log('_type='+_type);  
         // 取得 vid
         var vid = _url.match('[\\?&]v=([^&#]*)')[1];
+        console.log('vid='+vid);
 
         // 取得縮圖
         var thumbUrl = "http://img.youtube.com/vi/" + vid + "/" + _type + ".jpg";
