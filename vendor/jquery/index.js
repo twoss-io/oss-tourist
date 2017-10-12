@@ -32,7 +32,9 @@ function genElm(obj){
 }
 
 function getCategory(category){
+    
     console.log(category);
+    
     getVideoByCategory(category);
     getSlideByCategory(category);
     getBlogByCategory(category);
@@ -134,10 +136,12 @@ function getBlogByCategory(category){
 
 
 function genBlogElm(obj){
+    var dataSet = [];
     var html = '<tr>'
     var b =0;
     //console.log('genBlogElm obj:'+obj);
     for (var i in obj) {
+        var object1 = [obj[i].Title,obj[i].Url];
         if(b %3==0 && b!=0){
             html+='</tr>'
             html+='<tr>'
@@ -149,10 +153,27 @@ function genBlogElm(obj){
         html+='</td>'
         console.log('Url'+obj[i].Url)
         console.log('Title'+obj[i].Title)
+        console.log('Blog'+':'+obj[i].Title+','+obj[i].Url)
         b=b+1;
+        dataSet.push(object1);
     }
     html+='</tr>'
-    $("#blogbody").append(html)  
+    $("#blogbody").append(html) 
+     
+    $('#escalation3').dataTable({
+        "oLanguage":{"sProcessing":"處理中...",
+        "sLengthMenu":"顯示 _MENU_ 項結果",
+        "sZeroRecords":"沒有匹配結果",
+        "sInfo":"顯示第 _START_ 至 _END_ 項結果，共 _TOTAL_ 項",
+        "sInfoEmpty":"顯示第 0 至 0 項結果，共 0 項",
+        "sInfoFiltered":"(從 _MAX_ 項結果過濾)",
+        "sSearch":"搜索:",
+        "oPaginate":{"sFirst":"首頁",
+                             "sPrevious":"上頁",
+                             "sNext":"下頁",
+                             "sLast":"尾頁"}
+        }
+    });
 }
 
 function genSlideElm(obj){
