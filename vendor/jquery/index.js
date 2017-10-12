@@ -32,9 +32,7 @@ function genElm(obj){
 }
 
 function getCategory(category){
-    
-    console.log(category);
-    
+    //console.log(category);
     getVideoByCategory(category);
     getSlideByCategory(category);
     getBlogByCategory(category);
@@ -45,7 +43,7 @@ function getVideoByCategory(category){
     console.log('start in getVideoByCategory:'+category);
     $.get('./'+category+'_Video.yaml', function(res){
         var obj = jsyaml.load(res);
-        console.log(obj);
+        //console.log(obj);
         genVideoElm(obj);
         //Get Yutube image and Set to iframe
         $(function () {
@@ -103,11 +101,11 @@ function getVideoByCategory(category){
       })
 }
 function getSlideByCategory(category){
-    console.log('start in getSlideByCategory:'+category);
+    //console.log('start in getSlideByCategory:'+category);
     $("#slidebody").empty();
     $.get('./'+category+'_Slide.yaml', function(res){
         var obj = jsyaml.load(res);
-        console.log(obj);
+        //console.log(obj);
         genSlideElm(obj);
         //genElm(obj)
     }).done(function(){
@@ -123,7 +121,7 @@ function getBlogByCategory(category){
     $("#blogbody").empty();
     $.get('./'+category+'_Blog.yaml', function(res){
         var obj = jsyaml.load(res);
-        console.log(obj);
+        //console.log(obj);
         genBlogElm(obj);
     }).done(function(){
         console.log("Blog done")
@@ -146,14 +144,14 @@ function genBlogElm(obj){
             html+='</tr>'
             html+='<tr>'
         }
-        console.log(b +'in genBlogElm');
+        //console.log(b +'in genBlogElm');
         html+='<td>'
         html+='<a href="'+obj[i].Url+'">'
         html+=obj[i].Title
         html+='</td>'
-        console.log('Url'+obj[i].Url)
-        console.log('Title'+obj[i].Title)
-        console.log('Blog'+':'+obj[i].Title+','+obj[i].Url)
+        // console.log('Url'+obj[i].Url)
+        // console.log('Title'+obj[i].Title)
+        // console.log('Blog'+':'+obj[i].Title+','+obj[i].Url)
         b=b+1;
         dataSet.push(object1);
     }
@@ -185,7 +183,7 @@ function genSlideElm(obj){
             html+='</tr>'
             html+='<tr>'
         }
-        console.log(s +'in genSlideElm');
+        //console.log(s +'in genSlideElm');
         html+='<td>'
         html+='<iframe frameborder="0" height="200" src="'+obj[i].Src+'"width="300"></iframe>'
         html+='<div style="margin-bottom:5px"> <strong> <a href="'+obj[i].Href+'" title="+'+obj[i].Title+'target="_blank">'+obj[i].Description+'</a> </strong>'
@@ -208,7 +206,7 @@ function genVideoElm(obj){
             html+='</tr>'
             html+='<tr>'
         }
-        console.log(v +'in genVideoElm');
+        //console.log(v +'in genVideoElm');
         html+='<td>'
         html+='<div class="card h-100">'
         html+='<ul class="playlist">'
@@ -225,7 +223,7 @@ function genVideoElm(obj){
     }
     html+='</tr>'
     $("#videobody").append(html)
-    console.log('videobody='+html);  
+    //console.log('videobody='+html);  
 }
 
 function adjustIframes() {
