@@ -36,12 +36,55 @@
       width: 100%;
     }
   </style>
+  <style type="text/css">
+    .paging-nav {
+      text-align: right;
+      padding-top: 2px;
+    }
+
+    .paging-nav a {
+      margin: auto 1px;
+      text-decoration: none;
+      display: inline-block;
+      padding: 1px 7px;
+      background: #91b9e6;
+      color: white;
+      border-radius: 3px;
+    }
+
+    .paging-nav .selected-page {
+      background: #187ed5;
+      font-weight: bold;
+    }
+
+    .paging-nav,
+    #tableData {
+      width: 400px;
+      margin: 0 auto;
+      font-family: Arial, sans-serif;
+    }
+  </style>
   <!--J-Youtube-->
   <script type="text/javascript">
     $(document).ready(function () {
-      // $('#escalation').DataTable();
-      // $('#escalation2').DataTable();
-      // $('#escalation3').DataTable();
+      // $('#escalation').paging({
+      //   limit: 5,
+      //   rowDisplayStyle: 'block',
+      //   activePage: 0,
+      //   rows: []
+      // });
+      // $('#escalation2').paging({
+      //   limit: 5,
+      //   rowDisplayStyle: 'block',
+      //   activePage: 0,
+      //   rows: []
+      // });
+      // $('#escalation3').paging({
+      //   limit: 5,
+      //   rowDisplayStyle: 'block',
+      //   activePage: 0,
+      //   rows: []
+      // });
     });
   </script>
 </head>
@@ -54,14 +97,14 @@
       <a class="navbar-brand" href="#">開源共學網</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
         aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        <span class="navbar-toggler-icon"></span>
+      </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
             <a class="nav-link" href="#">Home
-                <span class="sr-only">(current)</span>
-              </a>
+              <span class="sr-only">(current)</span>
+            </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">About</a>
@@ -109,88 +152,88 @@
                       <tbody id="videobody">
                       </tbody>
                     </table>
-                    </div>
                   </div>
+                </div>
               </form>
               <!--END OF FORM -->
             </fieldset>
-            </div>
-            <hr />
           </div>
+          <hr />
         </div>
-        <!--slideshare-->
-        <div class="container body-content">
-          <div class="page-header">
-            <label class="heading"></label>
-            <div class="form-group">
-              <fieldset>
-                <form action="" class="form-group" method="post">
-                  <div class="table-responsive">
-                    <div class="table-responsive">
-                      <h1 class="my-4">Slide
-                        <small></small>
-                      </h1>
-                      <table id="escalation2" class="table table-striped table-bordered" cellspacing="0" width="100%">
-                        <thead>
-                          <tr>
-                            <th>&nbsp;</th>
-                            <th>&nbsp;</th>
-                            <th>&nbsp;</th>
-                          </tr>
-                        </thead>
-                        <tbody id="slidebody">
-
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                </form>
-                <!--END OF FORM -->
-              </fieldset>
-            </div>
-            <hr />
-          </div>
-        </div>
-        <!--slideshare-->
-        <!--blog-->
-        <div class="container body-content">
-          <div class="page-header">
-            <label class="heading"></label>
-            <div class="form-group">
-              <fieldset>
-                <form action="" class="form-group" method="post">
-                  <div class="table-responsive">
-                    <div class="table-responsive">
-                      <h1 class="my-4">Blog
-                        <small></small>
-                      </h1>
-                      <table id="escalation3" class="table table-striped table-bordered" cellspacing="0" width="100%">
-                        <thead>
-                          <tr>
-                            <th>&nbsp;</th>
-                            <th>&nbsp;</th>
-                            <th>&nbsp;</th>
-                          </tr>
-                        </thead>
-                        <tbody id="blogbody">
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                </form>
-                <!--END OF FORM -->
-              </fieldset>
-            </div>
-            <hr />
-          </div>
-        </div>
-        <!--blog-->
-        <table id="example" class="display" width="100%"></table>
       </div>
-      <!-- /.row -->
-      <!-- Pagination -->
+      <!--slideshare-->
+      <div class="container body-content">
+        <div class="page-header">
+          <label class="heading"></label>
+          <div class="form-group">
+            <fieldset>
+              <form action="" class="form-group" method="post">
+                <div class="table-responsive">
+                  <div class="table-responsive">
+                    <h1 class="my-4">Slide
+                      <small></small>
+                    </h1>
+                    <table id="escalation2" class="table table-striped table-bordered" cellspacing="0" width="100%">
+                      <thead>
+                        <tr>
+                          <th>&nbsp;</th>
+                          <th>&nbsp;</th>
+                          <th>&nbsp;</th>
+                        </tr>
+                      </thead>
+                      <tbody id="slidebody">
+
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </form>
+              <!--END OF FORM -->
+            </fieldset>
+          </div>
+          <hr />
+        </div>
+      </div>
+      <!--slideshare-->
+      <!--blog-->
+      <div class="container body-content">
+        <div class="page-header">
+          <label class="heading"></label>
+          <div class="form-group">
+            <fieldset>
+              <form action="" class="form-group" method="post">
+                <div class="table-responsive">
+                  <div class="table-responsive">
+                    <h1 class="my-4">Blog
+                      <small></small>
+                    </h1>
+                    <table id="escalation3" class="table table-striped table-bordered" cellspacing="0" width="100%">
+                      <thead>
+                        <tr>
+                          <th>&nbsp;</th>
+                          <th>&nbsp;</th>
+                          <th>&nbsp;</th>
+                        </tr>
+                      </thead>
+                      <tbody id="blogbody">
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </form>
+              <!--END OF FORM -->
+            </fieldset>
+          </div>
+          <hr />
+        </div>
+      </div>
+      <!--blog-->
+      <table id="example" class="display" width="100%"></table>
     </div>
     <!-- /.row -->
+    <!-- Pagination -->
+  </div>
+  <!-- /.row -->
 
   </div>
   <!-- /.container -->
@@ -201,6 +244,8 @@
     </div>
     <!-- /.container -->
   </footer>
+  <script src="vendor/jquery/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="paging.js"></script>
 </body>
 
 </html>
