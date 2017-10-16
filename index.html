@@ -136,6 +136,11 @@
           <div class="form-group">
             <fieldset>
               <form action="" class="form-group" method="post">
+                  <input type="checkbox" id="videocheck" checked>Video
+                  <input type="checkbox" id="slidecheck" > Slide
+                  <input type="checkbox" id="blogcheck" > Blog<br>
+                  
+                  <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
                 <div class="table-responsive">
                   <div class="table-responsive">
                     <h1 class="my-4">Video
@@ -244,8 +249,61 @@
     </div>
     <!-- /.container -->
   </footer>
-  <script src="vendor/jquery/jquery-ui.min.js"></script>
-  <script type="text/javascript" src="paging.js"></script>
+  <!-- <script src="vendor/jquery/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="paging.js"></script> -->
+  <script>
+      function myFunction() {
+        var input, filter, table, tr, td, i;
+        input = document.getElementById("myInput");
+        filter = input.value.toUpperCase();
+
+        if(document.getElementById("videocheck").checked = true){
+          table = document.getElementById("escalation");
+          tr = table.getElementsByTagName("tr");
+          for (i = 0; i < tr.length; i++) {
+            td = tr[i].getElementsByTagName("td")[0];
+            if (td) {
+              if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                tr[i].style.display = "";
+              } else {
+                tr[i].style.display = "none";
+              }
+            }       
+          }
+        }
+
+        if(document.getElementById("slidecheck").checked = true){
+          table = document.getElementById("escalation2");
+          tr = table.getElementsByTagName("tr");
+          for (i = 0; i < tr.length; i++) {
+            td = tr[i].getElementsByTagName("td")[0];
+            if (td) {
+              if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                tr[i].style.display = "";
+              } else {
+                tr[i].style.display = "none";
+              }
+            }       
+          }
+        }
+
+        if(document.getElementById("blogcheck").checked = true){
+          table = document.getElementById("escalation3");
+          tr = table.getElementsByTagName("tr");
+          for (i = 0; i < tr.length; i++) {
+            td = tr[i].getElementsByTagName("td")[0];
+            if (td) {
+              if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                tr[i].style.display = "";
+              } else {
+                tr[i].style.display = "none";
+              }
+            }       
+          }
+        }
+        
+      }
+      </script>
 </body>
 
 </html>

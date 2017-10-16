@@ -37,6 +37,10 @@ function getCategory(category){
     // $('#escalation').remove();
     // $('#escalation2').remove();
     // $('#escalation3').remove();
+    // document.getElementById("videocheck").checked =false;
+    // document.getElementById("slidecheck").checked =false;
+    // document.getElementById("blogcheck").checked =false;
+
     getVideoByCategory(category);
     getSlideByCategory(category);
     getBlogByCategory(category);
@@ -162,7 +166,7 @@ function genBlogElm(obj){
     html+='</tr>'
     $("#blogbody").append(html) 
      
-    $('#escalation3').paging({limit:2});
+    //$('#escalation3').paging({limit:2});
     // $('#escalation3').dataTable({
     //     "oLanguage":{"sProcessing":"處理中...",
     //     "sLengthMenu":"顯示 _MENU_ 項結果",
@@ -197,7 +201,7 @@ function genSlideElm(obj){
     }
     html+='</tr>'
     $("#slidebody").append(html)
-    $('#escalation2').paging({limit:1});  
+    //$('#escalation2').paging({limit:1});  
 }
 
 
@@ -229,7 +233,7 @@ function genVideoElm(obj){
     }
     html+='</tr>'
     $("#videobody").append(html)
-    $('#escalation').paging({limit:1});
+    //$('#escalation').paging({limit:1});
     //console.log('videobody='+html);  
 }
 
