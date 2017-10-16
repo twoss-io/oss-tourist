@@ -1,10 +1,16 @@
 $(document).ready(function(){
+    document.getElementById("videocheck").checked =false;
+    document.getElementById("slidecheck").checked =false;
+    document.getElementById("blogcheck").checked =false;
+    document.getElementById("myInput").value ='';
     getYaml();
     //Add css class sidebar-toggle to div main
     $("#sidebar-wrapper").toggleClass("sidebar-toggle",true);//.css('color','blue');
     //Add css class sidebar-nav to ul
     $("#navList").toggleClass("sidebar-nav",true);//.css('color','red');
 });
+
+
 
 function getYaml(){
     $.get('./category.yaml', function(res){
