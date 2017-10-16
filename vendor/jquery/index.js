@@ -40,7 +40,7 @@ function getCategory(category){
     // document.getElementById("videocheck").checked =false;
     // document.getElementById("slidecheck").checked =false;
     // document.getElementById("blogcheck").checked =false;
-
+    document.getElementById("myInput").value ='';
     getVideoByCategory(category);
     getSlideByCategory(category);
     getBlogByCategory(category);
