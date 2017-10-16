@@ -273,12 +273,12 @@
         }
 
         if(document.getElementById("slidecheck").checked = true){
-          table = document.getElementById("escalation2");
-          tr2 = table.getElementsByTagName("tr");
+          table2 = document.getElementById("escalation2");
+          tr2 = table2.getElementsByTagName("tr");
           for (i = 0; i < tr2.length; i++) {
             td2 = tr2[i].getElementsByTagName("td")[0];
             if (td2) {
-              if (td2.innerHTML.toUpperCase().indexOf(filter) > -1) {
+              if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
                 tr2[i].style.display = "";
               } else {
                 tr2[i].style.display = "none";
@@ -286,6 +286,21 @@
             }       
           }
         }
+
+        // if(document.getElementById("slidecheck").checked = true){
+        //   table = document.getElementById("escalation2");
+        //   tr2 = table.getElementsByTagName("tr");
+        //   for (i = 0; i < tr2.length; i++) {
+        //     td2 = tr2[i].getElementsByTagName("td")[0];
+        //     if (td2) {
+        //       if (td2.innerHTML.toUpperCase().indexOf(filter) > -1) {
+        //         tr2[i].style.display = "";
+        //       } else {
+        //         tr2[i].style.display = "none";
+        //       }
+        //     }       
+        //   }
+        // }
 
         
         // if(document.getElementById("blogcheck").checked = true){
