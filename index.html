@@ -25,6 +25,21 @@
   <!-- Custom styles for this template -->
   <link href="css/4-col-portfolio.css" rel="stylesheet">
   <!--include css class sidebar-toggle sidebar-nav"-->
+  <link href="css/sidebar.css" rel="stylesheet"><!-- javascript -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/popper/popper.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.js"></script>
+  <script src="vendor/datatable/jquery.dataTables.min.js"></script>
+  <script src="vendor/jquery/jsyaml.min.js"></script>
+  <script src="vendor/jquery/index.js" type="text/javascript"></script>
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/jquery.dataTables.min.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/4-col-portfolio.css" rel="stylesheet">
+  <!--include css class sidebar-toggle sidebar-nav"-->
   <link href="css/sidebar.css" rel="stylesheet">
   <!--overrite .container in bootstrap-->
   <style>
@@ -293,7 +308,7 @@
           filter = input.value.toUpperCase();
 
           if(sThisVal2.indexOf("v") >= 0){
-              console.log("v");
+              //console.log("v");
               table = document.getElementById("escalation");
               tr = table.getElementsByTagName("tr");
               for (i = 0; i < tr.length; i++) {
@@ -309,7 +324,7 @@
           }
 
           if(sThisVal2.indexOf("s") >= 0){
-              console.log("s");
+              //console.log("s");
               table2 = document.getElementById("escalation2");
               tr2 = table2.getElementsByTagName("tr");
               for (j = 0; j < tr2.length; j++) {
@@ -325,7 +340,7 @@
           }
 
           if(sThisVal2.indexOf("b") >= 0){
-              console.log("b");
+              //console.log("b");
               table3 = document.getElementById("escalation3");
               tr3 = table3.getElementsByTagName("tr");
               for (k = 0; k < tr3.length; k++) {

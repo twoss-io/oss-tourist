@@ -4,12 +4,12 @@ dv1:
     Description: Docker Clustering on Mesos with Marathon
     Tag: Docker
 dv2:
-     Url: https://youtu.be/pGYAg7TMmp0
+     Url: https://www.youtube.com/watch?v=pGYAg7TMmp0
      Title: What is Docker & Docker Containers, Images, etc?
      Description: What is Docker & Docker Containers, Images, etc?
      Tag: Docker
 dv3:
-     Url: https://youtu.be/hZNGST2vIds
+     Url: https://www.youtube.com/watch?v=hZNGST2vIds&feature=youtu.be
      Title: Docker Clustering on Mesos with Marathon
      Description: Docker Clustering on Mesos with Marathon
      Tag: Docker

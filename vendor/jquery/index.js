@@ -25,10 +25,10 @@ function getYaml(){
 }
 
 function genElm(obj){
-    var html = '<ul id="navList">'
+    var html = '<ul id="navList" class="nav sidebar-menu">'
     for (var i = 0; i < obj.length; i++) {
         var el = obj[i];
-        html+= '<li><a href="'+'#'+'" onclick="getCategory('+'\''+el+'\''+');">'+el+'</a></li>'
+        html+= '<li class="sidebar-label pt15"><a href="'+'#'+'" onclick="getCategory('+'\''+el+'\''+');">'+el+'</a></li>'
         //html+= '<li>'+el+'</li>'
     }
     html += '</ul>'
