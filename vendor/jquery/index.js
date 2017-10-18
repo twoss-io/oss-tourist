@@ -92,11 +92,11 @@ function getVideoByCategory(category){
               }).children('img').click(function () {
                 // 當點擊到圖片時就轉換成 YouTube 影片
                 var swf = '<object width="' + imgWidth + '" height="' + imgHeight + '">';
-                swf += '<param name="movie" value="http://www.youtube.com/v/' + vid + autoPlay + fullScreen + '"></param>';
+                swf += '<param name="movie" value="https://www.youtube.com/v/' + vid + autoPlay + fullScreen + '"></param>';
                 swf += '<param name="wmode" value="transparent"></param>';
                 swf += (fullScreen == '&fs=1') ? '<param name="allowfullscreen" value="true"></param>' : '';
       
-                swf += '<embed type="application/x-shockwave-flash" src="http://www.youtube.com/v/' + vid + autoPlay + fullScreen + '" ';
+                swf += '<embed type="application/x-shockwave-flash" src="https://www.youtube.com/v/' + vid + autoPlay + fullScreen + '" ';
                 swf += (fullScreen == '&fs=1') ? 'allowfullscreen="true" ' : '';
                 swf += 'wmode="transparent" width="' + imgWidth + '" height="' + imgHeight + '""></embed>';
       
