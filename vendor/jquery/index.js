@@ -43,10 +43,12 @@ function getCategory(category){
     // $('#escalation').remove();
     // $('#escalation2').remove();
     // $('#escalation3').remove();
+    $("#ctl").remove;
     document.getElementById("videocheck").checked =false;
     document.getElementById("slidecheck").checked =false;
     document.getElementById("blogcheck").checked =false;
     document.getElementById("myInput").value ='';
+    $("#ctl").text(category);
     getVideoByCategory(category);
     getSlideByCategory(category);
     getBlogByCategory(category);
