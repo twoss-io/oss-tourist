@@ -245,7 +245,7 @@
             <input type="checkbox" id="videocheck" value="v">Video
             <input type="checkbox" id="slidecheck" value="s"> Slide
             <input type="checkbox" id="blogcheck" value="b"> Blog
-          <input type="text" class="form-control" id="myInput" placeholder="Search..." value="Search...">
+          <input type="text" class="form-control" id="myInput" onkeyup="myFunction()" placeholder="Search...">
         </div>
       </form>
       <!-- <ul class="nav navbar-nav navbar-right">
@@ -1739,11 +1739,11 @@
                             <div class="form-group">
                               <fieldset>
                                 <form action="" class="form-group" method="post">
-                                    <input type="checkbox" id="videocheck" value="v">Video
+                                    <!-- <input type="checkbox" id="videocheck" value="v">Video
                                     <input type="checkbox" id="slidecheck" value="s"> Slide
                                     <input type="checkbox" id="blogcheck" value="b"> Blog<br>
-                                    <p id="demo"></p>
-                                    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+                                    <p id="demo"></p> -->
+                                    <!-- <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.."> -->
                                   <div class="table-responsive">
                                     <div class="table-responsive">
                                       <h1 class="my-4">Video
@@ -2009,6 +2009,97 @@
 
   <!-- Widget Javascript -->
   <script src="assets/js/demo/widgets.js"></script>
+  <script>
+  function init(){
+      var input, filter, table,table2,table3, tr,tr2,tr3, td,td2,td3, i,j,k;
+          input = document.getElementById("myInput");
+          filter = input.value.toUpperCase();
+              console.log("v");
+              table = document.getElementById("escalation");
+              tr = table.getElementsByTagName("tr");
+              for (i = 0; i < tr.length; i++) {
+                    tr[i].style.display = "";      
+              }
+
+              table2 = document.getElementById("escalation2");
+              tr2 = table2.getElementsByTagName("tr");
+              for (j = 0; j < tr2.length; j++) {
+                    tr2[j].style.display = "";      
+              }
+
+              table3 = document.getElementById("escalation3");
+              tr3 = table3.getElementsByTagName("tr");
+              for (k = 0; k < tr3.length; k++) {
+                    tr3[k].style.display = "";      
+              }
+          
+    }
+
+    function myFunction() {
+      init();
+      //var sList = "";
+      var sList2 = "";
+      $('input[type=checkbox]').each(function () {
+          //var sThisVal = (this.checked ? "1" : "0");
+          var sThisVal2 = (this.checked ? this.value : "0");
+          //sList += (sList=="" ? sThisVal : "," + sThisVal);
+          sList2 += (sList2=="" ? sThisVal2 : "," + sThisVal2);
+          var input, filter, table,table2,table3, tr,tr2,tr3, td,td2,td3, i,j,k;
+          input = document.getElementById("myInput");
+          filter = input.value.toUpperCase();
+
+          if(sThisVal2.indexOf("v") >= 0){
+              //console.log("v");
+              table = document.getElementById("escalation");
+              tr = table.getElementsByTagName("tr");
+              for (i = 0; i < tr.length; i++) {
+                td = tr[i].getElementsByTagName("td")[0];
+                if (td) {
+                  if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                    tr[i].style.display = "";
+                  } else {
+                    tr[i].style.display = "none";
+                  }
+                }       
+              }
+          }
+
+          if(sThisVal2.indexOf("s") >= 0){
+              //console.log("s");
+              table2 = document.getElementById("escalation2");
+              tr2 = table2.getElementsByTagName("tr");
+              for (j = 0; j < tr2.length; j++) {
+                td2 = tr2[j].getElementsByTagName("td")[0];
+                if (td2) {
+                  if (td2.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                    tr2[j].style.display = "";
+                  } else {
+                    tr2[j].style.display = "none";
+                  }
+                }       
+              }
+          }
+
+          if(sThisVal2.indexOf("b") >= 0){
+              //console.log("b");
+              table3 = document.getElementById("escalation3");
+              tr3 = table3.getElementsByTagName("tr");
+              for (k = 0; k < tr3.length; k++) {
+                td3 = tr3[k].getElementsByTagName("td")[0];
+                if (td3) {
+                  if (td3.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                    tr3[k].style.display = "";
+                  } else {
+                    tr3[k].style.display = "none";
+                  }
+                }       
+              }
+          }
+      });
+      //console.log (sList);
+      //console.log (sList2);
+  }
+  </script>
   <script type="text/javascript">
   jQuery(document).ready(function() {
 
