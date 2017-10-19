@@ -65,13 +65,15 @@ function getVideoByCategory(category){
         $(function () {
             var thumbSize = 'large',		// 設定要取得的縮圖是大圖還是小圖
               // 大圖寬高為 480X360；小圖寬高為 120X90
-              imgWidth = '240',			// 限制圖片的寬及 YouTube 影片的寬
-              imgHeight = '180',			// 限制圖片的高及 YouTube 影片的高
+              imgWidth = '300',			// 限制圖片的寬及 YouTube 影片的寬
+              imgHeight = '240',			// 限制圖片的高及 YouTube 影片的高
               autoPlay = '&autoplay=1',	// 是否載入 YouTube 影片後自動播放；若不要自動播放則設成 0
               fullScreen = '&fs=1';		// 是否允許播放 YouTube 影片時能全螢幕播放
       
-            $('ul.playlist>li>a').each(function () {
-              //$('ul.playlist>table>tr>td>li>a').each(function(){
+            //$('ul.playlist>li>a').each(function () {
+               // $('ul.playlist>a').each(function () {
+                $('ul>a').each(function () {
+               //$('ul.playlist>table>tr>td>li>a').each(function(){
               // 取得要連結轉換的網址及訊息內容
               var _this = $(this),
                 _url = _this.attr('href'),
@@ -227,8 +229,10 @@ function genVideoElm(obj){
         //console.log(v +'in genVideoElm');
         html+='<td>'
         html+='<div>'
-        html+='<ul class="playlist">'
-        html+='<li><a href="'+obj[i].Url+'">'+obj[i].Title+'</a></li>'
+        // html+='<ul class="playlist"">'
+        html+='<ul>'
+        html+='<a align="left" href="'+obj[i].Url+'">'+obj[i].Title+'</a>'
+        //html+='<li><a href="'+obj[i].Url+'">'+obj[i].Title+'</a></li>'
         html+='</ul>'
         html+='<div>'
         html+='<h4>'
