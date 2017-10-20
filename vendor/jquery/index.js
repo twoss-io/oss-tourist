@@ -28,7 +28,8 @@ function genElm(obj){
     var html = '<ul id="navList" class="nav sidebar-menu">'
     for (var i = 0; i < obj.length; i++) {
         var el = obj[i];
-        html+= '<li class="sidebar-label pt15"><a href="'+'#'+'" onclick="getCategory('+'\''+el+'\''+');">'+el+'</a></li>'
+         html+= '<li class="sidebar-label pt15"><a href="'+'#'+'" onclick="getCategory('+'\''+el+'\''+');">'+el+'</a></li>'
+        //html+= '<li class="sidebar-label pt15"><a href="'+'?Category='+el+'" onclick="getCategory('+'\''+el+'\''+');">'+el+'</a></li>'
         //html+= '<li>'+el+'</li>'
     }
     html += '</ul>'
@@ -218,13 +219,13 @@ function genSlideElm(obj){
 
 
 function genVideoElm(obj){
-    var html = '<tr>'
+    var html = '<tr align="left">'
     var v =0;
     //console.log('genBlogElm obj:'+obj);
     for (var i in obj) {
         if(v %3==0 && v!=0){
             html+='</tr>'
-            html+='<tr>'
+            html+='<tr align="left">'
         }
         //console.log(v +'in genVideoElm');
         html+='<td>'
