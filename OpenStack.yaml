@@ -2,183 +2,57 @@
     url: http://www.youtube.com/watch?v=bCsw2kkIWyw
     ttl: Introduction to OpenStack
     des: OpenStack is a large python application being developed collaboratively with Rackspace, Red Hat, Canonical, Dell, HP, Intel, IBM, Citrix and a host of other companies. This application is the software that Cloud Computing is built on.
-    src: 
-    her: 
+    src:
+    her:
     tag: OpenStack
     dpl: v
 -
-    url: http://www.youtube.com/watch?v=Qz5gyDenqTI
-    ttl: OpenStack 101 - What Is OpenStack?
-    des: OpenStack is an open source cloud operating system and community founded by Rackspace and NASA in 2010. Here is a brief look at what OpenStack is, how it works and what people
-    src: 
-    her: 
-    tag: OpenStack
-    dpl: v
+     url: http://www.youtube.com/watch?v=Qz5gyDenqTI
+     ttl: OpenStack 101 - What Is OpenStack?
+     des: OpenStack is an open source cloud operating system and community founded by Rackspace and NASA in 2010. Here is a brief look at what OpenStack is, how it works and what people
+     src:
+     her:
+     tag: OpenStack
+     dpl: v
 -
-    url: http://www.youtube.com/watch?v=MyEy1IEcTlA
-    ttl: 雲端應用開發平台操作使用介紹
-    des: 2016/3/18-20 OpenStack Application Hackathon http://openstackapphack.org/ Workshop title：OpenStack雲端應用開發平台操作使用介紹 Speaker name：陳彥勝 SAM 經歷：迎棧科技資深架構師 Web Site：https://samopenstack.hackpad.com/
-    src: 
-    her: 
-    tag: OpenStack
-    dpl: v
+     url: http://www.youtube.com/watch?v=MyEy1IEcTlA
+     ttl: 雲端應用開發平台操作使用介紹
+     des: 2016/3/18-20 OpenStack Application Hackathon http://openstackapphack.org/ Workshop title：OpenStack雲端應用開發平台操作使用介紹 Speaker name：陳彥勝 SAM 經歷：迎棧科技資深架構師 Web Site：https://samopenstack.hackpad.com/
+     src:
+     her:
+     tag: OpenStack
+     dpl: v
 -
     url: https://www.youtube.com/watch?v=Kfj5XiNdJN0
     ttl: What Is OpenStack | OpenStack Tutorial For Beginners | OpenStack Training | Edureka
     des: What Is OpenStack | OpenStack Tutorial For Beginners | OpenStack Training | Edureka
-    src: 
-    her: 
-    tag: OpenStack
-    dpl: v 
--
-    url: https://www.youtube.com/watch?v=Bk4NoUsikVA
-    ttl: Why OpenStack
-    des: Why OpenStack
-    src: 
-    her: 
+    src:
+    her:
     tag: OpenStack
     dpl: v
 -
-    url: https://www.youtube.com/watch?v=yqFpyubsYfE
-    ttl: Introduction to OpenStack Neutron
-    des: Introduction to OpenStack Neutron
-    src: 
-    her: 
-    tag: OpenStack
-    dpl: v
+     url: https://www.youtube.com/watch?v=Bk4NoUsikVA
+     ttl: Why OpenStack
+     des: Why OpenStack
+     src:
+     her:
+     tag: OpenStack
+     dpl: v
 -
-    url: https://www.youtube.com/watch?v=-yWTs7iu3V8
-    ttl: How to configure a network in OpenStack - RHCSA in Red Hat OpenStack tutorial
-    des: How to configure a network in OpenStack - RHCSA in Red Hat OpenStack tutorial
-    src: 
-    her: 
-    tag: OpenStack
-    dpl: v
+     url: https://www.youtube.com/watch?v=yqFpyubsYfE
+     ttl: Introduction to OpenStack Neutron
+     des: Introduction to OpenStack Neutron
+     src:
+     her:
+     tag: OpenStack
+     dpl: v
 -
-    url: 
-    ttl: Introduction to OpenStack
-    des: OpenStack Tutorial
-    src: https://www.slideshare.net/slideshow/embed_code/key/zEBAQVcYLgeBOe
-    her: //www.slideshare.net/bpiatt/openstack-tutorial
-    tag: OpenStack
-    dpl: s
- -
-    url: 
-    ttl: OpenStack Introduction
-    des: OpenStack Introduction
-    src: https://www.slideshare.net/slideshow/embed_code/key/fkgrT5uHVHjmce
-    her: //www.slideshare.net/openstackindia/openstack-introduction-14761434
-    tag: OpenStack
-    dpl: s
--
-    url: 
-    ttl: OpenStack Framework Introduction
-    des: OpenStack Framework Introduction
-    src: https://www.slideshare.net/slideshow/embed_code/key/l4mTUQFwBM7su
-    her: //www.slideshare.net/jasonhoutw/openstack-introduction
-    tag: OpenStack
-    dpl: s
--
-    url: 
-    ttl: 2 Day Bootcamp for OpenStack--Cloud Training by Mirantis (Preview)
-    des: 2 Day Bootcamp for OpenStack--Cloud Training by Mirantis (Preview)
-    src: https://www.slideshare.net/slideshow/embed_code/key/cKIrxTH2hpt7h8
-    her: //www.slideshare.net/mirantis/2-day-bootcamp-for-openstackcloud-training-by-mirantis-preview
-    tag: OpenStack
-    dpl: s
--
-    url: 
-    ttl: OpenStack Explained Learn OpenStack architecture and the secret of a successful cloud project
-    des: OpenStack Explained Learn OpenStack architecture and the secret of a successful cloud project
-    src: https://www.slideshare.net/slideshow/embed_code/key/nBouwUeNnZMPfh
-    her: //www.slideshare.net/gpaterno1/openstack-explained
-    tag: OpenStack
-    dpl: s
--
-    url: 
-    ttl: Mastering OpenStack - Episode 01 - Simple Architectures
-    des: Mastering OpenStack - Episode 01 - Simple Architectures
-    src: https://www.slideshare.net/slideshow/embed_code/key/lS7r6mZoAbvrsF
-    her: //www.slideshare.net/RoozbehShafiee/01-open-stack-simple-architecture
-    tag: OpenStack
-    dpl: s
--
-    url: 
-    ttl: Fits Like Lego - 5 Ways to Deploy Guest Networking over OpenStack Neutron
-    des: Fits Like Lego - 5 Ways to Deploy Guest Networking over OpenStack Neutron
-    src: https://www.slideshare.net/slideshow/embed_code/key/9p24xDlrTF024V
-    her: //www.slideshare.net/Stratoscale1/fits-like-lego-5-ways-to-deploy-guest-networking-over-openstack-neutron?ref=https://www.stratoscale.com/blog/networking/openstack-networking-building-networks-with-neutron-brick-by-brick/
-    tag: OpenStack
-    dpl: s
--
-    url: http://blog.flux7.com/blogs/openstack/tutorial-what-is-cinder-and-how-to-install-and-use-it
-    ttl: Cinder Storage | Installation & Usage - Flux7 Blog
-    des: 
-    src: 
-    her: 
-    tag: OpenStack
-    dpl: b
--
-    url: http://perrywu0606.pixnet.net/blog/post/27646684-%5B%E7%AD%86%E8%A8%98%5D-openstack%E7%9A%84%E5%88%9D%E6%AD%A5%E6%8E%A2%E7%B4%A2
-    ttl: Openstack的初步探索
-    des: 
-    src: 
-    her: 
-    tag: OpenStack
-    dpl: b
--
-    url: https://wanchiahung.wordpress.com/2015/09/17/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E5%AE%89%E8%A3%9Dopenstack/
-    ttl: 安裝與使用OpenStack
-    des: 
-    src: 
-    her: 
-    tag: OpenStack
-    dpl: b
--
-    url: http://perrywu0606.pixnet.net/blog/post/27646684-%5B%E7%AD%86%E8%A8%98%5D-openstack%E7%9A%84%E5%88%9D%E6%AD%A5%E6%8E%A2%E7%B4%A2
-    ttl: 筆記 Openstack的初步探索 
-    des: 
-    src: 
-    her: 
-    tag: OpenStack
-    dpl: b
--
-    url: https://www.hkitblog.com/?p=28531
-    ttl: (第一篇) OpenStack 配置複雜到「跌渣」！RDO 懶人包解決一切煩惱 – 簡介篇 
-    des: 
-    src: 
-    her: 
-    tag: OpenStack
-    dpl: b
--
-    url: https://jimwayne.blogspot.tw/2015/01/openstack-juno.html
-    ttl: 三主機安裝 OpenStack Juno（一）：安裝環境介紹
-    des: 
-    src: 
-    her: 
-    tag: OpenStack
-    dpl: b
- -
-    url: https://www.flux7.com/works/openstack/tutorial-how-to-install-multi-nodes-in-openstack/
-    ttl: (Tutorial) How to install multi-nodes in OpenStack?
-    des: 
-    src: 
-    her: 
-    tag: OpenStack
-    dpl: b
--
-    url: https://www.flux7.com/works/openstack/tutorial-what-is-nova-and-how-to-install-use-it-openstack/
-    ttl: (Tutorial) What is Nova and how to install & use it? | OpenStack
-    des: 
-    src: 
-    her: 
-    tag: OpenStack
-    dpl: b
--
-    url: https://www.flux7.com/works/openstack/tutorial-what-is-keystone-and-how-to-install-keystone-in-openstack/
-    ttl: (Tutorial) What is Keystone and how to install Keystone in Openstack?
-    des: 
-    src: 
-    her: 
-    tag: OpenStack
-    dpl: b                                                                       
+     url: https://www.youtube.com/watch?v=-yWTs7iu3V8
+     ttl: How to configure a network in OpenStack - RHCSA in Red Hat OpenStack tutorial
+     des: How to configure a network in OpenStack - RHCSA in Red Hat OpenStack tutorial
+     src:
+     her:
+     tag: OpenStack        
+     dpl: v
+   
+ 

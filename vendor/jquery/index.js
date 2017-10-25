@@ -58,9 +58,10 @@ function getCategory(category){
 function getVideoByCategory(category){
     $("#videobody").empty();
     console.log('start in getVideoByCategory:'+category);
-    $.get('./'+category+'_Video.yaml', function(res){
-        var obj = jsyaml.load(res);
-        //console.log(obj);
+    //$.get('./'+category+'_Video.yaml', function(res){
+        $.get('./'+category+'.yaml', function(res){
+    var obj = jsyaml.load(res);
+        console.log(obj);
         genVideoElm(obj);
         //Get Yutube image and Set to iframe
         $(function () {
@@ -220,10 +221,14 @@ function genSlideElm(obj){
 
 function genVideoElm(obj){
     var html = '<tr align="left">'
-    var v =0;
+    var v1 =0;
     //console.log('genBlogElm obj:'+obj);
     for (var i in obj) {
-        if(v %3==0 && v!=0){
+        console.log('dep:'+String(obj[i].dpl));
+        console.log(String(obj[i].dpl)=='v');
+        //console.log('dep==v:'+obj[i].ttl =='Introduction to OpenStack');
+        if(String(obj[i].dpl)=='v'){
+        if(v1 %3==0 && v1!=0){
             html+='</tr>'
             html+='<tr align="left">'
         }
@@ -232,14 +237,14 @@ function genVideoElm(obj){
         html+='<div>'
         // html+='<ul class="playlist"">'
         html+='<ul>'
-        html+='<a align="left" href="'+obj[i].Url+'">'+obj[i].Title+'</a>'
+        html+='<a align="left" href="'+obj[i].url+'">'+obj[i].ttl+'</a>'
         //html+='<li><a href="'+obj[i].Url+'">'+obj[i].Title+'</a></li>'
         html+='</ul>'
         html+='<div>'
         html+='<h4>'
-        html+='<a href="'+obj[i].Url+'">'+obj[i].Title+'</a>'
+        html+='<a href="'+obj[i].url+'">'+obj[i].ttl+'</a>'
         html+='</h4>'
-        html+='<p>'+obj[i].Description+'</p>'
+        html+='<p>'+obj[i].des+'</p>'
         html+='</div></div></div>'
         html+='</td>'
         // html+='<td>'
@@ -255,7 +260,8 @@ function genVideoElm(obj){
         // html+='</div></div></div>'
         // html+='</td>'
 
-        v=v+1;
+        v1=v1+1;
+        }
     }
     html+='</tr>'
     $("#videobody").append(html)

@@ -1,15 +1,15 @@
-dv1:
-    Url: https://www.youtube.com/watch?v=hZNGST2vIds&feature=youtu.be
-    Title: Docker Clustering on Mesos with Marathon
-    Description: Docker Clustering on Mesos with Marathon
-    Tag: Docker
-dv2:
-     Url: https://www.youtube.com/watch?v=pGYAg7TMmp0
-     Title: What is Docker & Docker Containers, Images, etc?
-     Description: What is Docker & Docker Containers, Images, etc?
-     Tag: Docker
-dv3:
-     Url: https://www.youtube.com/watch?v=hZNGST2vIds&feature=youtu.be
-     Title: Docker Clustering on Mesos with Marathon
-     Description: Docker Clustering on Mesos with Marathon
-     Tag: Docker
+-
+    url: https://www.youtube.com/watch?v=hZNGST2vIds&feature=youtu.be
+    ttl: Docker Clustering on Mesos with Marathon
+    des: Docker Clustering on Mesos with Marathon
+    tag: Docker
+-
+     url: https://www.youtube.com/watch?v=pGYAg7TMmp0
+     ttl: What is Docker & Docker Containers, Images, etc?
+     des: What is Docker & Docker Containers, Images, etc?
+     tag: Docker
+-
+     url: https://www.youtube.com/watch?v=hZNGST2vIds&feature=youtu.be
+     ttl: Docker Clustering on Mesos with Marathon
+     des: Docker Clustering on Mesos with Marathon
+     tag: Docker

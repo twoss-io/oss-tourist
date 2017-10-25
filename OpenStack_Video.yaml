@@ -1,38 +1,38 @@
-v1:
-    Url: http://www.youtube.com/watch?v=bCsw2kkIWyw
-    Title: Introduction to OpenStack
-    Description: OpenStack is a large python application being developed collaboratively with Rackspace, Red Hat, Canonical, Dell, HP, Intel, IBM, Citrix and a host of other companies. This application is the software that Cloud Computing is built on.
-    Tag: OpenStack
-v2:
-     Url: http://www.youtube.com/watch?v=Qz5gyDenqTI
-     Title: OpenStack 101 - What Is OpenStack?
-     Description: OpenStack is an open source cloud operating system and community founded by Rackspace and NASA in 2010. Here is a brief look at what OpenStack is, how it works and what people
-     Tag: OpenStack
-v3:
-     Url: http://www.youtube.com/watch?v=MyEy1IEcTlA
-     Title: 雲端應用開發平台操作使用介紹
-     Description: 2016/3/18-20 OpenStack Application Hackathon http://openstackapphack.org/ Workshop title：OpenStack雲端應用開發平台操作使用介紹 Speaker name：陳彥勝 SAM 經歷：迎棧科技資深架構師 Web Site：https://samopenstack.hackpad.com/
-     Tag: OpenStack
-v4:
-    Url: https://www.youtube.com/watch?v=Kfj5XiNdJN0
-    Title: What Is OpenStack | OpenStack Tutorial For Beginners | OpenStack Training | Edureka
-    Description: What Is OpenStack | OpenStack Tutorial For Beginners | OpenStack Training | Edureka
-    Tag: OpenStack
-v5:
-     Url: https://www.youtube.com/watch?v=Bk4NoUsikVA
-     Title: Why OpenStack
-     Description: Why OpenStack
-     Tag: OpenStack
-v6:
-     Url: https://www.youtube.com/watch?v=yqFpyubsYfE
-     Title: Introduction to OpenStack Neutron
-     Description: Introduction to OpenStack Neutron
-     Tag: OpenStack
-v7:
-     Url: https://www.youtube.com/watch?v=-yWTs7iu3V8
-     Title: How to configure a network in OpenStack - RHCSA in Red Hat OpenStack tutorial
-     Description: How to configure a network in OpenStack - RHCSA in Red Hat OpenStack tutorial
-     Tag: OpenStack        
+-
+    url: http://www.youtube.com/watch?v=bCsw2kkIWyw
+    ttl: Introduction to OpenStack
+    des: OpenStack is a large python application being developed collaboratively with Rackspace, Red Hat, Canonical, Dell, HP, Intel, IBM, Citrix and a host of other companies. This application is the software that Cloud Computing is built on.
+    tag: OpenStack
+-
+     url: http://www.youtube.com/watch?v=Qz5gyDenqTI
+     ttl: OpenStack 101 - What Is OpenStack?
+     des: OpenStack is an open source cloud operating system and community founded by Rackspace and NASA in 2010. Here is a brief look at what OpenStack is, how it works and what people
+     tag: OpenStack
+-
+     url: http://www.youtube.com/watch?v=MyEy1IEcTlA
+     ttl: 雲端應用開發平台操作使用介紹
+     des: 2016/3/18-20 OpenStack Application Hackathon http://openstackapphack.org/ Workshop title：OpenStack雲端應用開發平台操作使用介紹 Speaker name：陳彥勝 SAM 經歷：迎棧科技資深架構師 Web Site：https://samopenstack.hackpad.com/
+     tag: OpenStack
+-
+    url: https://www.youtube.com/watch?v=Kfj5XiNdJN0
+    ttl: What Is OpenStack | OpenStack Tutorial For Beginners | OpenStack Training | Edureka
+    des: What Is OpenStack | OpenStack Tutorial For Beginners | OpenStack Training | Edureka
+    tag: OpenStack
+-
+     url: https://www.youtube.com/watch?v=Bk4NoUsikVA
+     ttl: Why OpenStack
+     des: Why OpenStack
+     tag: OpenStack
+-
+     url: https://www.youtube.com/watch?v=yqFpyubsYfE
+     ttl: Introduction to OpenStack Neutron
+     des: Introduction to OpenStack Neutron
+     tag: OpenStack
+-
+     url: https://www.youtube.com/watch?v=-yWTs7iu3V8
+     ttl: How to configure a network in OpenStack - RHCSA in Red Hat OpenStack tutorial
+     des: How to configure a network in OpenStack - RHCSA in Red Hat OpenStack tutorial
+     tag: OpenStack        
    
    
  
