@@ -2,8 +2,8 @@
 <html>
 
 <head>
-    <script src="https://use.typekit.net/lfk1ndv.js"></script>
-    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  <script src="https://use.typekit.net/lfk1ndv.js"></script>
+  <script>try { Typekit.load({ async: true }); } catch (e) { }</script>
   <!-- Meta, title, CSS, favicons, etc. -->
   <meta charset="utf-8">
   <title>開源共學網</title>
@@ -36,29 +36,42 @@
   <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
   <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
 <![endif]-->
-    <!-- <style TYPE="text/css">
+  <style TYPE="text/css">
+    @import url(//fonts.googleapis.com/earlyaccess/cwtexyen.css);
     @import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
-    </style> -->
-    <style>
+    </style>
+  <style>
     h1 {
       /* font-family: 'Noto Sans TC', sans-serif; */
       /* font-family: "source-han-sans-traditional",sans-serif; */
-      font-family: "source-han-sans-traditional",sans-serif;
+      /* font-family: "source-han-sans-traditional", sans-serif; */
+      font-family: 'Noto Sans TC', sans-serif;
       font-style: normal;
       font-weight: 500;
-      }
-    </style>
-    <style>
-      label{
-        vertical-align:sub;
-        font-size: 15px;
-      }
-    </style>
+    }
+  </style>
+  <style>
+    label {
+      vertical-align: sub;
+      font-size: 15px;
+    }
+  </style>
+  <style>
+    .sidebar-menu .sidebar-label {
+      text-transform: uppercase;
+      color: #FFFFFF;
+      font-weight: 600;
+      padding-left: 18px;
+      padding-bottom: 3px;
+      font-size: 20px;
+      font-family: 'cwTeXYen', sans-serif;
+    }
+  </style>
 </head>
 
 <body class="dashboard-page">
 
-<!-------------------------------------------------------------+ 
+  <!-------------------------------------------------------------+ 
   <body> Helper Classes: 
 ---------------------------------------------------------------+ 
   '.sb-l-o' - Sets Left Sidebar to "open"
@@ -232,9 +245,9 @@
     <header class="navbar navbar-fixed-top navbar-shadow">
       <div class="navbar-branding">
         <a class="navbar-brand">
-            <h1>開源共學網</h1>
+          <h1>開源共學網</h1>
         </a>
-        
+
         <span id="toggle_sidemenu_l" class="ad ad-lines"></span>
       </div>
       <!-- <ul class="nav navbar-nav navbar-left">
@@ -258,9 +271,12 @@
       </ul> -->
       <form class="navbar-form navbar-left navbar-search alt" role="search">
         <div class="form-group">
-            <input type="checkbox" id="videocheck" style="vertical-align:middle;"  value="v"><label >&nbsp;&nbsp;Video</label>
-            <input type="checkbox" id="slidecheck"  style="vertical-align:middle;" value="s"><label style="vertical-align:sub">&nbsp;&nbsp;Slide</label>
-            <input type="checkbox" id="blogcheck"  style="vertical-align:middle;" value="b"><label style="vertical-align:sub">&nbsp;&nbsp;Blog</label>&nbsp;&nbsp;
+          <input type="checkbox" id="videocheck" style="vertical-align:middle;" value="v">
+          <label>&nbsp;&nbsp;Video</label>&nbsp;&nbsp;
+          <input type="checkbox" id="slidecheck" style="vertical-align:middle;" value="s">
+          <label style="vertical-align:sub">&nbsp;&nbsp;Slide</label>&nbsp;&nbsp;
+          <input type="checkbox" id="blogcheck" style="vertical-align:middle;" value="b">
+          <label style="vertical-align:sub">&nbsp;&nbsp;Blog</label>&nbsp;&nbsp;
           <input type="text" class="form-control" id="myInput" onkeyup="myFunction()" placeholder="Search...">
         </div>
       </form>
@@ -308,9 +324,9 @@
           </div> -->
 
           <!-- Sidebar Widget - Menu (slidedown) -->
-          <div  class="sidebar-widget menu-widget">
+          <div class="sidebar-widget menu-widget">
             <div class="row text-center mbn">
-               <div class="col-xs-4">
+              <div class="col-xs-4">
                 <a href="dashboard.html" class="text-primary" data-toggle="tooltip" data-placement="top" title="Dashboard">
                   <span class="glyphicon glyphicon-home"></span>
                 </a>
@@ -339,7 +355,7 @@
                 <a href="pages_gallery.html" class="text-warning" data-toggle="tooltip" data-placement="top" title="Cron Jobs">
                   <span class="fa fa-flask"></span>
                 </a>
-              </div> 
+              </div>
             </div>
           </div>
 
@@ -358,20 +374,20 @@
 
         <!-- Start: Sidebar Menu -->
         <div id="sidebar-wrapper">
-            <ul class="nav sidebar-menu">
+          <ul class="nav sidebar-menu">
             <li id='lix' class="sidebar-label pt20">Menu
             </li>
         </div>
-        
+
         <!-- End: Sidebar Menu -->
 
-	      <!-- Start: Sidebar Collapse Button -->
-	      <div class="sidebar-toggle-mini">
-	        <a href="#">
-	          <span class="fa fa-sign-out"></span>
-	        </a>
-	      </div>
-	      <!-- End: Sidebar Collapse Button -->
+        <!-- Start: Sidebar Collapse Button -->
+        <div class="sidebar-toggle-mini">
+          <a href="#">
+            <span class="fa fa-sign-out"></span>
+          </a>
+        </div>
+        <!-- End: Sidebar Collapse Button -->
 
       </div>
       <!-- End: Sidebar Left Content -->
@@ -441,7 +457,7 @@
               <a href="index.html">Home</a>
             </li>
             <li class="crumb-trail" id='ctl'>
-              
+
             </li>
           </ol>
         </div>
@@ -469,121 +485,121 @@
       <!-- Begin: Content -->
       <section id="content" class="table-layout animated fadeIn">
         <!-- begin: .tray-center -->
-        <div class="tray tray-center">      
+        <div class="tray tray-center">
 
           <!-- dashboard tiles -->
           <div class="row">
-              
-                  
-                        <div class="container body-content">
-                          <div class="page-header">
-                            <label class="heading"></label>
-                            <div class="form-group">
-                              <fieldset>
-                                <form action="" class="form-group" method="post">
-                                    <!-- <input type="checkbox" id="videocheck" value="v">Video
+
+
+            <div class="container body-content">
+              <div class="page-header">
+                <label class="heading"></label>
+                <div class="form-group">
+                  <fieldset>
+                    <form action="" class="form-group" method="post">
+                      <!-- <input type="checkbox" id="videocheck" value="v">Video
                                     <input type="checkbox" id="slidecheck" value="s"> Slide
                                     <input type="checkbox" id="blogcheck" value="b"> Blog<br>
                                     <p id="demo"></p> -->
-                                    <!-- <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.."> -->
-                                  <div class="table-responsive">
-                                    <div class="table-responsive">
-                                      <!-- <h1 class="my-4">Video
+                      <!-- <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.."> -->
+                      <div class="table-responsive">
+                        <div class="table-responsive">
+                          <!-- <h1 class="my-4">Video
                                         <small></small>
                                       </h1> -->
-                                      <h4>Video</h4>
-                                      <table id="escalation" class="table table-striped table-bordered" cellspacing="0" width="100%">
-                                        <thead>
-                                          <tr>
-                                            <th>&nbsp;</th>
-                                            <th>&nbsp;</th>
-                                            <th>&nbsp;</th>
-                                          </tr>
-                                        </thead>
-                                        <tbody id="videobody">
-                                        </tbody>
-                                      </table>
-                                    </div>
-                                  </div>
-                                </form>
-                                <!--END OF FORM -->
-                              </fieldset>
-                            </div>
-                            <hr />
-                          </div>
+                          <h4>Video</h4>
+                          <table id="escalation" class="table table-striped table-bordered" cellspacing="0" width="100%">
+                            <thead>
+                              <tr>
+                                <th>&nbsp;</th>
+                                <th>&nbsp;</th>
+                                <th>&nbsp;</th>
+                              </tr>
+                            </thead>
+                            <tbody id="videobody">
+                            </tbody>
+                          </table>
                         </div>
-                        <!--slideshare-->
-                        <div class="container body-content">
-                          <div class="page-header">
-                            <label class="heading"></label>
-                            <div class="form-group">
-                              <fieldset>
-                                <form action="" class="form-group" method="post">
-                                  <div class="table-responsive">
-                                    <div class="table-responsive">
-                                      <!-- <h1 class="my-4">Slide
+                      </div>
+                    </form>
+                    <!--END OF FORM -->
+                  </fieldset>
+                </div>
+                <hr />
+              </div>
+            </div>
+            <!--slideshare-->
+            <div class="container body-content">
+              <div class="page-header">
+                <label class="heading"></label>
+                <div class="form-group">
+                  <fieldset>
+                    <form action="" class="form-group" method="post">
+                      <div class="table-responsive">
+                        <div class="table-responsive">
+                          <!-- <h1 class="my-4">Slide
                                         <small></small>
                                       </h1> -->
-                                      <h4>Slide</h4>
-                                      <table id="escalation2" class="table table-striped table-bordered" cellspacing="0" width="100%">
-                                        <thead>
-                                          <tr>
-                                            <th>&nbsp;</th>
-                                            <th>&nbsp;</th>
-                                            <th>&nbsp;</th>
-                                          </tr>
-                                        </thead>
-                                        <tbody id="slidebody">
-                  
-                                        </tbody>
-                                      </table>
-                                    </div>
-                                  </div>
-                                </form>
-                                <!--END OF FORM -->
-                              </fieldset>
-                            </div>
-                            <hr />
-                          </div>
+                          <h4>Slide</h4>
+                          <table id="escalation2" class="table table-striped table-bordered" cellspacing="0" width="100%">
+                            <thead>
+                              <tr>
+                                <th>&nbsp;</th>
+                                <th>&nbsp;</th>
+                                <th>&nbsp;</th>
+                              </tr>
+                            </thead>
+                            <tbody id="slidebody">
+
+                            </tbody>
+                          </table>
                         </div>
-                        <!--slideshare-->
-                        <!--blog-->
-                        <div class="container body-content">
-                          <div class="page-header">
-                            <label class="heading"></label>
-                            <div class="form-group">
-                              <fieldset>
-                                <form action="" class="form-group" method="post">
-                                  <div class="table-responsive">
-                                    <div class="table-responsive">
-                                      <!-- <h1 class="my-4">Blog
+                      </div>
+                    </form>
+                    <!--END OF FORM -->
+                  </fieldset>
+                </div>
+                <hr />
+              </div>
+            </div>
+            <!--slideshare-->
+            <!--blog-->
+            <div class="container body-content">
+              <div class="page-header">
+                <label class="heading"></label>
+                <div class="form-group">
+                  <fieldset>
+                    <form action="" class="form-group" method="post">
+                      <div class="table-responsive">
+                        <div class="table-responsive">
+                          <!-- <h1 class="my-4">Blog
                                         <small></small>
                                       </h1> -->
-                                      <h4>Blog</h4>
-                                      <table id="escalation3" class="table table-striped table-bordered" cellspacing="0" width="100%">
-                                        <thead>
-                                          <tr>
-                                            <th>&nbsp;</th>
-                                            <th>&nbsp;</th>
-                                            <th>&nbsp;</th>
-                                          </tr>
-                                        </thead>
-                                        <tbody id="blogbody">
-                                        </tbody>
-                                      </table>
-                                    </div>
-                                  </div>
-                                </form>
-                                <!--END OF FORM -->
-                              </fieldset>
-                            </div>
-                            <hr />
-                          </div>
+                          <h4>Blog</h4>
+                          <table id="escalation3" class="table table-striped table-bordered" cellspacing="0" width="100%">
+                            <thead>
+                              <tr>
+                                <th>&nbsp;</th>
+                                <th>&nbsp;</th>
+                                <th>&nbsp;</th>
+                              </tr>
+                            </thead>
+                            <tbody id="blogbody">
+                            </tbody>
+                          </table>
                         </div>
-                        <!--blog-->
-                        <table id="example" class="display" width="100%"></table>
+                      </div>
+                    </form>
+                    <!--END OF FORM -->
+                  </fieldset>
+                </div>
+                <hr />
+              </div>
+            </div>
+            <!--blog-->
+            <table id="example" class="display" width="100%"></table>
           </div>
-        </div>  
+        </div>
       </section>
 
       <!-- Begin: Page Footer -->
@@ -593,7 +609,7 @@
             <span class="footer-legal"></span>
           </div>
           <div class="col-md-6 text-right">
-            
+
             <a href="#content" class="footer-return-top">
               <span class="fa fa-arrow-up"></span>
             </a>
@@ -622,7 +638,7 @@
 
   <!-- JvectorMap Plugin + US Map (more maps in plugin/assets folder) -->
   <script src="vendor/plugins/jvectormap/jquery.jvectormap.min.js"></script>
-  <script src="vendor/plugins/jvectormap/assets/jquery-jvectormap-us-lcc-en.js"></script> 
+  <script src="vendor/plugins/jvectormap/assets/jquery-jvectormap-us-lcc-en.js"></script>
 
   <!-- Bootstrap Tabdrop Plugin -->
   <script src="vendor/plugins/tabdrop/bootstrap-tabdrop.js"></script>
@@ -639,29 +655,29 @@
   <!-- Widget Javascript -->
   <script src="assets/js/demo/widgets.js"></script>
   <script>
-  function init(){
-      var input, filter, table,table2,table3, tr,tr2,tr3, td,td2,td3, i,j,k;
-          input = document.getElementById("myInput");
-          filter = input.value.toUpperCase();
-              console.log("v");
-              table = document.getElementById("escalation");
-              tr = table.getElementsByTagName("tr");
-              for (i = 0; i < tr.length; i++) {
-                    tr[i].style.display = "";      
-              }
+    function init() {
+      var input, filter, table, table2, table3, tr, tr2, tr3, td, td2, td3, i, j, k;
+      input = document.getElementById("myInput");
+      filter = input.value.toUpperCase();
+      console.log("v");
+      table = document.getElementById("escalation");
+      tr = table.getElementsByTagName("tr");
+      for (i = 0; i < tr.length; i++) {
+        tr[i].style.display = "";
+      }
 
-              table2 = document.getElementById("escalation2");
-              tr2 = table2.getElementsByTagName("tr");
-              for (j = 0; j < tr2.length; j++) {
-                    tr2[j].style.display = "";      
-              }
+      table2 = document.getElementById("escalation2");
+      tr2 = table2.getElementsByTagName("tr");
+      for (j = 0; j < tr2.length; j++) {
+        tr2[j].style.display = "";
+      }
 
-              table3 = document.getElementById("escalation3");
-              tr3 = table3.getElementsByTagName("tr");
-              for (k = 0; k < tr3.length; k++) {
-                    tr3[k].style.display = "";      
-              }
-          
+      table3 = document.getElementById("escalation3");
+      tr3 = table3.getElementsByTagName("tr");
+      for (k = 0; k < tr3.length; k++) {
+        tr3[k].style.display = "";
+      }
+
     }
 
     function myFunction() {
@@ -669,121 +685,121 @@
       //var sList = "";
       var sList2 = "";
       $('input[type=checkbox]').each(function () {
-          //var sThisVal = (this.checked ? "1" : "0");
-          var sThisVal2 = (this.checked ? this.value : "0");
-          //sList += (sList=="" ? sThisVal : "," + sThisVal);
-          sList2 += (sList2=="" ? sThisVal2 : "," + sThisVal2);
-          var input, filter, table,table2,table3, tr,tr2,tr3, td,td2,td3, i,j,k;
-          input = document.getElementById("myInput");
-          filter = input.value.toUpperCase();
+        //var sThisVal = (this.checked ? "1" : "0");
+        var sThisVal2 = (this.checked ? this.value : "0");
+        //sList += (sList=="" ? sThisVal : "," + sThisVal);
+        sList2 += (sList2 == "" ? sThisVal2 : "," + sThisVal2);
+        var input, filter, table, table2, table3, tr, tr2, tr3, td, td2, td3, i, j, k;
+        input = document.getElementById("myInput");
+        filter = input.value.toUpperCase();
 
-          if(sThisVal2.indexOf("v") >= 0){
-              //console.log("v");
-              table = document.getElementById("escalation");
-              tr = table.getElementsByTagName("tr");
-              for (i = 0; i < tr.length; i++) {
-                td = tr[i].getElementsByTagName("td")[0];
-                if (td) {
-                  if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
-                    tr[i].style.display = "";
-                  } else {
-                    tr[i].style.display = "none";
-                  }
-                }       
+        if (sThisVal2.indexOf("v") >= 0) {
+          //console.log("v");
+          table = document.getElementById("escalation");
+          tr = table.getElementsByTagName("tr");
+          for (i = 0; i < tr.length; i++) {
+            td = tr[i].getElementsByTagName("td")[0];
+            if (td) {
+              if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                tr[i].style.display = "";
+              } else {
+                tr[i].style.display = "none";
               }
+            }
           }
+        }
 
-          if(sThisVal2.indexOf("s") >= 0){
-              //console.log("s");
-              table2 = document.getElementById("escalation2");
-              tr2 = table2.getElementsByTagName("tr");
-              for (j = 0; j < tr2.length; j++) {
-                td2 = tr2[j].getElementsByTagName("td")[0];
-                if (td2) {
-                  if (td2.innerHTML.toUpperCase().indexOf(filter) > -1) {
-                    tr2[j].style.display = "";
-                  } else {
-                    tr2[j].style.display = "none";
-                  }
-                }       
+        if (sThisVal2.indexOf("s") >= 0) {
+          //console.log("s");
+          table2 = document.getElementById("escalation2");
+          tr2 = table2.getElementsByTagName("tr");
+          for (j = 0; j < tr2.length; j++) {
+            td2 = tr2[j].getElementsByTagName("td")[0];
+            if (td2) {
+              if (td2.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                tr2[j].style.display = "";
+              } else {
+                tr2[j].style.display = "none";
               }
+            }
           }
+        }
 
-          if(sThisVal2.indexOf("b") >= 0){
-              //console.log("b");
-              table3 = document.getElementById("escalation3");
-              tr3 = table3.getElementsByTagName("tr");
-              for (k = 0; k < tr3.length; k++) {
-                td3 = tr3[k].getElementsByTagName("td")[0];
-                if (td3) {
-                  if (td3.innerHTML.toUpperCase().indexOf(filter) > -1) {
-                    tr3[k].style.display = "";
-                  } else {
-                    tr3[k].style.display = "none";
-                  }
-                }       
+        if (sThisVal2.indexOf("b") >= 0) {
+          //console.log("b");
+          table3 = document.getElementById("escalation3");
+          tr3 = table3.getElementsByTagName("tr");
+          for (k = 0; k < tr3.length; k++) {
+            td3 = tr3[k].getElementsByTagName("td")[0];
+            if (td3) {
+              if (td3.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                tr3[k].style.display = "";
+              } else {
+                tr3[k].style.display = "none";
               }
+            }
           }
+        }
       });
       //console.log (sList);
       //console.log (sList2);
-  }
+    }
   </script>
   <script type="text/javascript">
-  jQuery(document).ready(function() {
+    jQuery(document).ready(function () {
 
-    "use strict";
+      "use strict";
 
-    // Init Demo JS  
-    Demo.init();
- 
-
-    // Init Theme Core    
-    Core.init();
+      // Init Demo JS  
+      Demo.init();
 
 
-    // Init Widget Demo JS
-    // demoHighCharts.init();
-
-    // Because we are using Admin Panels we use the OnFinish 
-    // callback to activate the demoWidgets. It's smoother if
-    // we let the panels be moved and organized before 
-    // filling them with content from various plugins
-
-    // Init plugins used on this page
-    // HighCharts, JvectorMap, Admin Panels
-
-    // Init Admin Panels on widgets inside the ".admin-panels" container
-    $('.admin-panels').adminpanel({
-      grid: '.admin-grid',
-      draggable: true,
-      preserveGrid: true,
-      // mobile: true,
-      onStart: function() {
-        // Do something before AdminPanels runs
-      },
-      onFinish: function() {
-        $('.admin-panels').addClass('animated fadeIn').removeClass('fade-onload');
-
-        // Init the rest of the plugins now that the panels
-        // have had a chance to be moved and organized.
-        // It's less taxing to organize empty panels
-        demoHighCharts.init();
-        runVectorMaps(); // function below
-      },
-      onSave: function() {
-        $(window).trigger('resize');
-      }
-    });
+      // Init Theme Core    
+      Core.init();
 
 
-    // Init plugins for ".calendar-widget"
-    // plugins: FullCalendar
-    //
-    $('#calendar-widget').fullCalendar({
-      // contentHeight: 397,
-      editable: true,
-      events: [{
+      // Init Widget Demo JS
+      // demoHighCharts.init();
+
+      // Because we are using Admin Panels we use the OnFinish 
+      // callback to activate the demoWidgets. It's smoother if
+      // we let the panels be moved and organized before 
+      // filling them with content from various plugins
+
+      // Init plugins used on this page
+      // HighCharts, JvectorMap, Admin Panels
+
+      // Init Admin Panels on widgets inside the ".admin-panels" container
+      $('.admin-panels').adminpanel({
+        grid: '.admin-grid',
+        draggable: true,
+        preserveGrid: true,
+        // mobile: true,
+        onStart: function () {
+          // Do something before AdminPanels runs
+        },
+        onFinish: function () {
+          $('.admin-panels').addClass('animated fadeIn').removeClass('fade-onload');
+
+          // Init the rest of the plugins now that the panels
+          // have had a chance to be moved and organized.
+          // It's less taxing to organize empty panels
+          demoHighCharts.init();
+          runVectorMaps(); // function below
+        },
+        onSave: function () {
+          $(window).trigger('resize');
+        }
+      });
+
+
+      // Init plugins for ".calendar-widget"
+      // plugins: FullCalendar
+      //
+      $('#calendar-widget').fullCalendar({
+        // contentHeight: 397,
+        editable: true,
+        events: [{
           title: 'Sony Meeting',
           start: '2015-05-1',
           end: '2015-05-3',
@@ -799,238 +815,238 @@
           end: '2015-05-23',
           className: 'fc-event-primary'
         },
-      ],
-      eventRender: function(event, element) {
-        // create event tooltip using bootstrap tooltips
-        $(element).attr("data-original-title", event.title);
-        $(element).tooltip({
-          container: 'body',
-          delay: {
-            "show": 100,
-            "hide": 200
-          }
-        });
-        // create a tooltip auto close timer  
-        $(element).on('show.bs.tooltip', function() {
-          var autoClose = setTimeout(function() {
-            $('.tooltip').fadeOut();
-          }, 3500);
-        });
-      }
-    });
-
-
-    // Init plugins for ".task-widget"
-    // plugins: Custom Functions + jQuery Sortable
-    //
-    var taskWidget = $('div.task-widget');
-    var taskItems = taskWidget.find('li.task-item');
-    var currentItems = taskWidget.find('ul.task-current');
-    var completedItems = taskWidget.find('ul.task-completed');
-
-    // Init jQuery Sortable on Task Widget
-    taskWidget.sortable({
-      items: taskItems, // only init sortable on list items (not labels)
-      handle: '.task-menu',
-      axis: 'y',
-      connectWith: ".task-list",
-      update: function( event, ui ) {
-        var Item = ui.item;
-        var ParentList = Item.parent();
-
-        // If item is already checked move it to "current items list"
-        if (ParentList.hasClass('task-current')) {
-            Item.removeClass('item-checked').find('input[type="checkbox"]').prop('checked', false);
+        ],
+        eventRender: function (event, element) {
+          // create event tooltip using bootstrap tooltips
+          $(element).attr("data-original-title", event.title);
+          $(element).tooltip({
+            container: 'body',
+            delay: {
+              "show": 100,
+              "hide": 200
+            }
+          });
+          // create a tooltip auto close timer  
+          $(element).on('show.bs.tooltip', function () {
+            var autoClose = setTimeout(function () {
+              $('.tooltip').fadeOut();
+            }, 3500);
+          });
         }
-        if (ParentList.hasClass('task-completed')) {
-            Item.addClass('item-checked').find('input[type="checkbox"]').prop('checked', true);
-        }
-
-      }
-    });
-
-    // Custom Functions to handle/assign list filter behavior
-    taskItems.on('click', function(e) {
-      e.preventDefault();
-      var This = $(this);
-      var Target = $(e.target);
-
-      if (Target.is('.task-menu') && Target.parents('.task-completed').length) {
-        This.remove();
-        return;
-      }
-
-      if (Target.parents('.task-handle').length) {
-		      // If item is already checked move it to "current items list"
-		      if (This.hasClass('item-checked')) {
-		        This.removeClass('item-checked').find('input[type="checkbox"]').prop('checked', false);
-		      }
-		      // Otherwise move it to the "completed items list"
-		      else {
-		        This.addClass('item-checked').find('input[type="checkbox"]').prop('checked', true);
-		      }
-      }
-
-    });
-
-
-    var highColors = [bgSystem, bgSuccess, bgWarning, bgPrimary];
-
-    // Chart data
-    var seriesData = [{
-      name: 'Phones',
-      data: [5.0, 9, 17, 22, 19, 11.5, 5.2, 9.5, 11.3, 15.3, 19.9, 24.6]
-    }, {
-      name: 'Notebooks',
-      data: [2.9, 3.2, 4.7, 5.5, 8.9, 12.2, 17.0, 16.6, 14.2, 10.3, 6.6, 4.8]
-    }, {
-      name: 'Desktops',
-      data: [15, 19, 22.7, 29.3, 22.0, 17.0, 23.8, 19.1, 22.1, 14.1, 11.6, 7.5]
-    }, {
-      name: 'Music Players',
-      data: [11, 6, 5, 15, 17.0, 22.0, 30.8, 24.1, 14.1, 11.1, 9.6, 6.5]
-    }];
-
-    var ecomChart = $('#ecommerce_chart1');
-    if (ecomChart.length) {
-      ecomChart.highcharts({
-        credits: false,
-        colors: highColors,
-        chart: {
-          backgroundColor: 'transparent',
-          className: '',
-          type: 'line',
-          zoomType: 'x',
-          panning: true,
-          panKey: 'shift',
-          marginTop: 45,
-          marginRight: 1,
-        },
-        title: {
-          text: null
-        },
-        xAxis: {
-          gridLineColor: '#EEE',
-          lineColor: '#EEE',
-          tickColor: '#EEE',
-          categories: ['Jan', 'Feb', 'Mar', 'Apr',
-            'May', 'Jun', 'Jul', 'Aug',
-            'Sep', 'Oct', 'Nov', 'Dec'
-          ]
-        },
-        yAxis: {
-          min: 0,
-          tickInterval: 5,
-          gridLineColor: '#EEE',
-          title: {
-            text: null,
-          }
-        },
-        plotOptions: {
-          spline: {
-            lineWidth: 3,
-          },
-          area: {
-            fillOpacity: 0.2
-          }
-        },
-        legend: {
-          enabled: true,
-          floating: false,
-          align: 'right',
-          verticalAlign: 'top',
-          x: -15
-        },
-        series: seriesData
       });
-    }
 
-    // Widget VectorMap
-    function runVectorMaps() {
 
-      // Jvector Map Plugin
-      var runJvectorMap = function() {
-        // Data set
-        var mapData = [900, 700, 350, 500];
-        // Init Jvector Map
-        $('#WidgetMap').vectorMap({
-          map: 'us_lcc_en',
-          //regionsSelectable: true,
-          backgroundColor: 'transparent',
-          series: {
-            markers: [{
-              attribute: 'r',
-              scale: [3, 7],
-              values: mapData
-            }]
+      // Init plugins for ".task-widget"
+      // plugins: Custom Functions + jQuery Sortable
+      //
+      var taskWidget = $('div.task-widget');
+      var taskItems = taskWidget.find('li.task-item');
+      var currentItems = taskWidget.find('ul.task-current');
+      var completedItems = taskWidget.find('ul.task-completed');
+
+      // Init jQuery Sortable on Task Widget
+      taskWidget.sortable({
+        items: taskItems, // only init sortable on list items (not labels)
+        handle: '.task-menu',
+        axis: 'y',
+        connectWith: ".task-list",
+        update: function (event, ui) {
+          var Item = ui.item;
+          var ParentList = Item.parent();
+
+          // If item is already checked move it to "current items list"
+          if (ParentList.hasClass('task-current')) {
+            Item.removeClass('item-checked').find('input[type="checkbox"]').prop('checked', false);
+          }
+          if (ParentList.hasClass('task-completed')) {
+            Item.addClass('item-checked').find('input[type="checkbox"]').prop('checked', true);
+          }
+
+        }
+      });
+
+      // Custom Functions to handle/assign list filter behavior
+      taskItems.on('click', function (e) {
+        e.preventDefault();
+        var This = $(this);
+        var Target = $(e.target);
+
+        if (Target.is('.task-menu') && Target.parents('.task-completed').length) {
+          This.remove();
+          return;
+        }
+
+        if (Target.parents('.task-handle').length) {
+          // If item is already checked move it to "current items list"
+          if (This.hasClass('item-checked')) {
+            This.removeClass('item-checked').find('input[type="checkbox"]').prop('checked', false);
+          }
+          // Otherwise move it to the "completed items list"
+          else {
+            This.addClass('item-checked').find('input[type="checkbox"]').prop('checked', true);
+          }
+        }
+
+      });
+
+
+      var highColors = [bgSystem, bgSuccess, bgWarning, bgPrimary];
+
+      // Chart data
+      var seriesData = [{
+        name: 'Phones',
+        data: [5.0, 9, 17, 22, 19, 11.5, 5.2, 9.5, 11.3, 15.3, 19.9, 24.6]
+      }, {
+        name: 'Notebooks',
+        data: [2.9, 3.2, 4.7, 5.5, 8.9, 12.2, 17.0, 16.6, 14.2, 10.3, 6.6, 4.8]
+      }, {
+        name: 'Desktops',
+        data: [15, 19, 22.7, 29.3, 22.0, 17.0, 23.8, 19.1, 22.1, 14.1, 11.6, 7.5]
+      }, {
+        name: 'Music Players',
+        data: [11, 6, 5, 15, 17.0, 22.0, 30.8, 24.1, 14.1, 11.1, 9.6, 6.5]
+      }];
+
+      var ecomChart = $('#ecommerce_chart1');
+      if (ecomChart.length) {
+        ecomChart.highcharts({
+          credits: false,
+          colors: highColors,
+          chart: {
+            backgroundColor: 'transparent',
+            className: '',
+            type: 'line',
+            zoomType: 'x',
+            panning: true,
+            panKey: 'shift',
+            marginTop: 45,
+            marginRight: 1,
           },
-          regionStyle: {
-            initial: {
-              fill: '#E8E8E8'
-            },
-            hover: {
-              "fill-opacity": 0.3
+          title: {
+            text: null
+          },
+          xAxis: {
+            gridLineColor: '#EEE',
+            lineColor: '#EEE',
+            tickColor: '#EEE',
+            categories: ['Jan', 'Feb', 'Mar', 'Apr',
+              'May', 'Jun', 'Jul', 'Aug',
+              'Sep', 'Oct', 'Nov', 'Dec'
+            ]
+          },
+          yAxis: {
+            min: 0,
+            tickInterval: 5,
+            gridLineColor: '#EEE',
+            title: {
+              text: null,
             }
           },
-          markers: [{
-            latLng: [37.78, -122.41],
-            name: 'San Francisco,CA'
-          }, {
-            latLng: [36.73, -103.98],
-            name: 'Texas,TX'
-          }, {
-            latLng: [38.62, -90.19],
-            name: 'St. Louis,MO'
-          }, {
-            latLng: [40.67, -73.94],
-            name: 'New York City,NY'
-          }],
-          markerStyle: {
-            initial: {
-              fill: '#a288d5',
-              stroke: '#b49ae0',
-              "fill-opacity": 1,
-              "stroke-width": 10,
-              "stroke-opacity": 0.3,
-              r: 3
+          plotOptions: {
+            spline: {
+              lineWidth: 3,
             },
-            hover: {
-              stroke: 'black',
-              "stroke-width": 2
-            },
-            selected: {
-              fill: 'blue'
-            },
-            selectedHover: {}
+            area: {
+              fillOpacity: 0.2
+            }
           },
+          legend: {
+            enabled: true,
+            floating: false,
+            align: 'right',
+            verticalAlign: 'top',
+            x: -15
+          },
+          series: seriesData
         });
-        // Manual code to alter the Vector map plugin to 
-        // allow for individual coloring of countries
-        var states = ['US-CA', 'US-TX', 'US-MO',
-          'US-NY'
-        ];
-        var colors = [bgInfo, bgPrimaryLr, bgSuccessLr, bgWarningLr];
-        var colors2 = [bgInfo, bgPrimary, bgSuccess, bgWarning];
-        $.each(states, function(i, e) {
-          $("#WidgetMap path[data-code=" + e + "]").css({
-            fill: colors[i]
+      }
+
+      // Widget VectorMap
+      function runVectorMaps() {
+
+        // Jvector Map Plugin
+        var runJvectorMap = function () {
+          // Data set
+          var mapData = [900, 700, 350, 500];
+          // Init Jvector Map
+          $('#WidgetMap').vectorMap({
+            map: 'us_lcc_en',
+            //regionsSelectable: true,
+            backgroundColor: 'transparent',
+            series: {
+              markers: [{
+                attribute: 'r',
+                scale: [3, 7],
+                values: mapData
+              }]
+            },
+            regionStyle: {
+              initial: {
+                fill: '#E8E8E8'
+              },
+              hover: {
+                "fill-opacity": 0.3
+              }
+            },
+            markers: [{
+              latLng: [37.78, -122.41],
+              name: 'San Francisco,CA'
+            }, {
+              latLng: [36.73, -103.98],
+              name: 'Texas,TX'
+            }, {
+              latLng: [38.62, -90.19],
+              name: 'St. Louis,MO'
+            }, {
+              latLng: [40.67, -73.94],
+              name: 'New York City,NY'
+            }],
+            markerStyle: {
+              initial: {
+                fill: '#a288d5',
+                stroke: '#b49ae0',
+                "fill-opacity": 1,
+                "stroke-width": 10,
+                "stroke-opacity": 0.3,
+                r: 3
+              },
+              hover: {
+                stroke: 'black',
+                "stroke-width": 2
+              },
+              selected: {
+                fill: 'blue'
+              },
+              selectedHover: {}
+            },
           });
-        });
-        $('#WidgetMap').find('.jvectormap-marker')
-          .each(function(i, e) {
-            $(e).css({
-              fill: colors2[i],
-              stroke: colors2[i]
+          // Manual code to alter the Vector map plugin to 
+          // allow for individual coloring of countries
+          var states = ['US-CA', 'US-TX', 'US-MO',
+            'US-NY'
+          ];
+          var colors = [bgInfo, bgPrimaryLr, bgSuccessLr, bgWarningLr];
+          var colors2 = [bgInfo, bgPrimary, bgSuccess, bgWarning];
+          $.each(states, function (i, e) {
+            $("#WidgetMap path[data-code=" + e + "]").css({
+              fill: colors[i]
             });
           });
+          $('#WidgetMap').find('.jvectormap-marker')
+            .each(function (i, e) {
+              $(e).css({
+                fill: colors2[i],
+                stroke: colors2[i]
+              });
+            });
+        }
+
+        if ($('#WidgetMap').length) {
+          runJvectorMap();
+        }
       }
 
-      if ($('#WidgetMap').length) {
-        runJvectorMap();
-      }
-    }
-
-  });
+    });
   </script>
   <!-- END: PAGE SCRIPTS -->
 
