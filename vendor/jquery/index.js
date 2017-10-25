@@ -139,7 +139,7 @@ function getSlideByCategory(category){
 function getBlogByCategory(category){
     console.log('start in getBlogByCategory:'+category);
     $("#blogbody").empty();
-    $.get('./'+category+'_Blog.yaml', function(res){
+    $.get('./'+category+'.yaml', function(res){
         var obj = jsyaml.load(res);
         //console.log(obj);
         genBlogElm(obj);
@@ -159,21 +159,23 @@ function genBlogElm(obj){
     var b =0;
     //console.log('genBlogElm obj:'+obj);
     for (var i in obj) {
-        var object1 = [obj[i].Title,obj[i].Url];
+        if(String(obj[i].dpl)=='b'){
+        var object1 = [obj[i].ttl,obj[i].url];
         if(b %3==0 && b!=0){
             html+='</tr>'
             html+='<tr>'
         }
         //console.log(b +'in genBlogElm');
         html+='<td>'
-        html+='<a href="'+obj[i].Url+'">'
-        html+=obj[i].Title
+        html+='<a href="'+obj[i].url+'">'
+        html+=obj[i].ttl
         html+='</td>'
         // console.log('Url'+obj[i].Url)
         // console.log('Title'+obj[i].Title)
         // console.log('Blog'+':'+obj[i].Title+','+obj[i].Url)
         b=b+1;
         dataSet.push(object1);
+        }
     }
     html+='</tr>'
     $("#blogbody").append(html) 
