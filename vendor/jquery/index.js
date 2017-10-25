@@ -123,7 +123,7 @@ function getVideoByCategory(category){
 function getSlideByCategory(category){
     //console.log('start in getSlideByCategory:'+category);
     $("#slidebody").empty();
-    $.get('./'+category+'_Slide.yaml', function(res){
+    $.get('./'+category+'.yaml', function(res){
         var obj = jsyaml.load(res);
         //console.log(obj);
         genSlideElm(obj);
@@ -200,19 +200,22 @@ function genSlideElm(obj){
     var s =0;
     //console.log('genBlogElm obj:'+obj);
     for (var i in obj) {
+        if(String(obj[i].dpl)=='s'){
         if(s %3==0 && s!=0){
             html+='</tr>'
             html+='<tr>'
         }
         //console.log(s +'in genSlideElm');
         html+='<td>'
-        html+='<iframe frameborder="0" height="200" src="'+obj[i].Src+'"width="300"></iframe>'
-        html+='<div style="margin-bottom:5px"> <strong> <a href="'+obj[i].Href+'" title="+'+obj[i].Title+'target="_blank">'+obj[i].Description+'</a> </strong>'
+        html+='<iframe frameborder="0" height="200" src="'+obj[i].src+'"width="300"></iframe>'
+        html+='<div style="margin-bottom:5px"> <strong> <a href="'+obj[i].her+'" title="+'+obj[i].ttl+'target="_blank">'+obj[i].des+'</a> </strong>'
         html+='</td>'
         s=s+1;
+        }
     }
     html+='</tr>'
     $("#slidebody").append(html)
+    
     //$('#escalation2').paging({limit:1});  
 }
 
