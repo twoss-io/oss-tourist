@@ -13,7 +13,7 @@ $(document).ready(function(){
 
 
 function getYaml(){
-    $.get('./category.yaml', function(res){
+    $.get('./content/category.yaml', function(res){
         var obj = jsyaml.load(res);
         //console.log(obj)
         genElm(obj)
@@ -59,7 +59,7 @@ function getVideoByCategory(category){
     $("#videobody").empty();
     console.log('start in getVideoByCategory:'+category);
     //$.get('./'+category+'_Video.yaml', function(res){
-        $.get('./'+category+'.yaml', function(res){
+        $.get('./content/'+category+'.yaml', function(res){
     var obj = jsyaml.load(res);
         console.log(obj);
         genVideoElm(obj);
@@ -123,7 +123,7 @@ function getVideoByCategory(category){
 function getSlideByCategory(category){
     //console.log('start in getSlideByCategory:'+category);
     $("#slidebody").empty();
-    $.get('./'+category+'.yaml', function(res){
+    $.get('./content/'+category+'.yaml', function(res){
         var obj = jsyaml.load(res);
         //console.log(obj);
         genSlideElm(obj);
@@ -139,7 +139,7 @@ function getSlideByCategory(category){
 function getBlogByCategory(category){
     console.log('start in getBlogByCategory:'+category);
     $("#blogbody").empty();
-    $.get('./'+category+'.yaml', function(res){
+    $.get('./content/'+category+'.yaml', function(res){
         var obj = jsyaml.load(res);
         //console.log(obj);
         genBlogElm(obj);
@@ -204,13 +204,10 @@ function genSlideElm(obj){
     var s =0;
     //console.log('genBlogElm obj:'+obj);
     for (var i in obj) {
+        var desvalue='';
+        var ttlvalue='';
         if(String(obj[i].dpl)=='s'){
-        // if(s %3==0 && s!=0){
-        //     html+='</tr>'
-        //     html+='<tr>'
-        // }
-        //console.log(s +'in genSlideElm');
-        // html+='<td>'
+        
         if(String(obj[i].des)==null){obj[i].des='';}
         html+='<div class="col-md-4">'
         html+='<p>'
@@ -251,7 +248,9 @@ function genVideoElm(obj){
             console.log('condition4 desvalue='+desvalue);
         }    
 
-        if(String(String(obj[i].ttl)).length>40){
+        if(typeof obj[i].des === 'undefined' || obj[i].des === null){
+
+        }else if(String(String(obj[i].ttl)).length>40){
             ttlvalue=String(obj[i].ttl).substr(0,40)+'...';
             console.log('condition4 desvalue='+ttlvalue);
         }else{
