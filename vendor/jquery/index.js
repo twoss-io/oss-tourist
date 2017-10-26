@@ -74,7 +74,7 @@ function getVideoByCategory(category){
       
             //$('ul.playlist>li>a').each(function () {
                // $('ul.playlist>a').each(function () {
-                $('ul>a').each(function () {
+                $('p>a').each(function () {
                //$('ul.playlist>table>tr>td>li>a').each(function(){
               // 取得要連結轉換的網址及訊息內容
               var _this = $(this),
@@ -241,10 +241,12 @@ function genVideoElm(obj){
         html+='<td>'
         html+='<div>'
         // html+='<ul class="playlist"">'
-        html+='<ul>'
+        //html+='<ul>'
+        html+='<p>'
         html+='<a align="left" href="'+obj[i].url+'">'+obj[i].ttl+'</a>'
         //html+='<li><a href="'+obj[i].Url+'">'+obj[i].Title+'</a></li>'
-        html+='</ul>'
+        html+='</p>'
+        //html+='</ul>'
         html+='<div>'
         html+='<h4>'
         html+='<a href="'+obj[i].url+'">'+obj[i].ttl+'</a>'
