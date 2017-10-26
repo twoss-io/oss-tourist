@@ -167,7 +167,7 @@ function genBlogElm(obj){
         // }
         //console.log(b +'in genBlogElm');
         //html+='<td>'
-        html+='<div class="col-md-4 col-lg-6">'
+        html+='<div class="col-md-4">'
         html+='<a href="'+obj[i].url+'">'
         html+=obj[i].ttl
         html+='</div>'
@@ -211,7 +211,8 @@ function genSlideElm(obj){
         // }
         //console.log(s +'in genSlideElm');
         // html+='<td>'
-        html+='<div class="col-md-4 col-lg-6">'
+        if(String(obj[i].des)==null){obj[i].des='';}
+        html+='<div class="col-md-4">'
         html+='<p>'
         html+='<iframe frameborder="0" height="200" src="'+obj[i].src+'"width="300"></iframe>'
         html+='</p>'
@@ -236,20 +237,36 @@ function genVideoElm(obj){
     var v1 =0;
     //console.log('genBlogElm obj:'+obj);
     for (var i in obj) {
-        console.log('dep:'+String(obj[i].dpl));
-        console.log(String(obj[i].dpl)=='v');
-        //console.log('dep==v:'+obj[i].ttl =='Introduction to OpenStack');
+        var desvalue='';
+        var ttlvalue='';
         if(String(obj[i].dpl)=='v'){
-        
-         html +='<div class="col-md-4 col-lg-6">'
+         if(typeof obj[i].des === 'undefined' || obj[i].des === null){
+             console.log('condition1 desvalue='+desvalue);
+            }else{
+                desvalue=String(obj[i].des);
+                console.log('condition2 desvalue='+desvalue);
+            }
+        if(desvalue.length>40){
+            desvalue=desvalue.substr(0,40)+'...';
+            console.log('condition4 desvalue='+desvalue);
+        }    
+
+        if(String(String(obj[i].ttl)).length>40){
+            ttlvalue=String(obj[i].ttl).substr(0,40)+'...';
+            console.log('condition4 desvalue='+ttlvalue);
+        }else{
+            ttlvalue=String(obj[i].ttl);
+        }
+         console.log('condition3 des after='+desvalue);
+         html +='<div class="col-md-4">'
          html+='<p>'
          html+='<a align="left" href="'+obj[i].url+'">'+obj[i].ttl+'</a>'
          html+='</p>'
          html+='<div>'
          html+='<h4>'
-         html+='<a href="'+obj[i].url+'">'+obj[i].ttl+'</a>'
+         html+='<a href="'+obj[i].url+'">'+ttlvalue+'</a>'
          html+='</h4>'
-         html+='<p>'+obj[i].des+'</p>'
+         html+='<p>'+desvalue+'</p>'
          html+='</div>'
          html+='</div>'
        
