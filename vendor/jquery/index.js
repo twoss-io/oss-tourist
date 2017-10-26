@@ -155,7 +155,7 @@ function getBlogByCategory(category){
 
 function genBlogElm(obj){
     var dataSet = [];
-    var html = ''//'<tr>'
+    var html = '<h4>Blog</h4>'//'<tr>'
     var b =0;
     //console.log('genBlogElm obj:'+obj);
     for (var i in obj) {
@@ -200,7 +200,7 @@ function genBlogElm(obj){
 }
 
 function genSlideElm(obj){
-    var html = ''//'<tr>'
+    var html = '<h4>Slide</h4>'//'<tr>'
     var s =0;
     //console.log('genBlogElm obj:'+obj);
     for (var i in obj) {
@@ -232,7 +232,7 @@ function genSlideElm(obj){
 
 
 function genVideoElm(obj){
-    var html = ''//'<tr align="left">'
+    var html = '<h4>Video</h4>'//'<tr align="left">'
     var v1 =0;
     //console.log('genBlogElm obj:'+obj);
     for (var i in obj) {
