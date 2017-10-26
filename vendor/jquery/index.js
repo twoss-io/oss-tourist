@@ -95,20 +95,20 @@ function getVideoByCategory(category){
                 this.blur();
               }).children('img').click(function () {
                 // 當點擊到圖片時就轉換成 YouTube 影片
-                var swf = '<object width="' + imgWidth + '" height="' + imgHeight + '">';
-                swf += '<param name="movie" value="https://www.youtube.com/v/' + vid + autoPlay + fullScreen + '"></param>';
-                swf += '<param name="wmode" value="transparent"></param>';
-                swf += (fullScreen == '&fs=1') ? '<param name="allowfullscreen" value="true"></param>' : '';
+                // var swf = '<object width="' + imgWidth + '" height="' + imgHeight + '">';
+                // swf += '<param name="movie" value="https://www.youtube.com/v/' + vid + autoPlay + fullScreen + '"></param>';
+                // swf += '<param name="wmode" value="transparent"></param>';
+                // swf += (fullScreen == '&fs=1') ? '<param name="allowfullscreen" value="true"></param>' : '';
       
-                swf += '<embed type="application/x-shockwave-flash" src="https://www.youtube.com/v/' + vid + autoPlay + fullScreen + '" ';
-                swf += (fullScreen == '&fs=1') ? 'allowfullscreen="true" ' : '';
-                swf += 'wmode="transparent" width="' + imgWidth + '" height="' + imgHeight + '""></embed>';
+                // swf += '<embed type="application/x-shockwave-flash" src="https://www.youtube.com/v/' + vid + autoPlay + fullScreen + '" ';
+                // swf += (fullScreen == '&fs=1') ? 'allowfullscreen="true" ' : '';
+                // swf += 'wmode="transparent" width="' + imgWidth + '" height="' + imgHeight + '""></embed>';
       
-                swf += '</object/>';
+                // swf += '</object/>';
       
-                $(this).parent('a').html(swf);
+                // $(this).parent('a').html(swf);
       
-                return false;
+                // return false;
               });
             });
           });
@@ -155,29 +155,31 @@ function getBlogByCategory(category){
 
 function genBlogElm(obj){
     var dataSet = [];
-    var html = '<tr>'
+    var html = ''//'<tr>'
     var b =0;
     //console.log('genBlogElm obj:'+obj);
     for (var i in obj) {
         if(String(obj[i].dpl)=='b'){
         var object1 = [obj[i].ttl,obj[i].url];
-        if(b %3==0 && b!=0){
-            html+='</tr>'
-            html+='<tr>'
-        }
+        // if(b %3==0 && b!=0){
+        //     html+='</tr>'
+        //     html+='<tr>'
+        // }
         //console.log(b +'in genBlogElm');
-        html+='<td>'
+        //html+='<td>'
+        html+='<div class="col-md-4 col-lg-6">'
         html+='<a href="'+obj[i].url+'">'
         html+=obj[i].ttl
-        html+='</td>'
+        html+='</div>'
+        //html+='</td>'
         // console.log('Url'+obj[i].Url)
         // console.log('Title'+obj[i].Title)
         // console.log('Blog'+':'+obj[i].Title+','+obj[i].Url)
-        b=b+1;
-        dataSet.push(object1);
+        //b=b+1;
+        //dataSet.push(object1);
         }
     }
-    html+='</tr>'
+    //html+='</tr>'
     $("#blogbody").append(html) 
      
     //$('#escalation3').paging({limit:2});
@@ -198,24 +200,29 @@ function genBlogElm(obj){
 }
 
 function genSlideElm(obj){
-    var html = '<tr>'
+    var html = ''//'<tr>'
     var s =0;
     //console.log('genBlogElm obj:'+obj);
     for (var i in obj) {
         if(String(obj[i].dpl)=='s'){
-        if(s %3==0 && s!=0){
-            html+='</tr>'
-            html+='<tr>'
-        }
+        // if(s %3==0 && s!=0){
+        //     html+='</tr>'
+        //     html+='<tr>'
+        // }
         //console.log(s +'in genSlideElm');
-        html+='<td>'
+        // html+='<td>'
+        html+='<div class="col-md-4 col-lg-6">'
+        html+='<p>'
         html+='<iframe frameborder="0" height="200" src="'+obj[i].src+'"width="300"></iframe>'
+        html+='</p>'
         html+='<div style="margin-bottom:5px"> <strong> <a href="'+obj[i].her+'" title="+'+obj[i].ttl+'target="_blank">'+obj[i].des+'</a> </strong>'
-        html+='</td>'
+        html+='</div>'
+        html+='</div>'
+        // html+='</td>'
         s=s+1;
         }
     }
-    html+='</tr>'
+    html+=''//'</tr>'
     $("#slidebody").append(html)
     
     //$('#escalation2').paging({limit:1});  
@@ -225,7 +232,7 @@ function genSlideElm(obj){
 
 
 function genVideoElm(obj){
-    var html = '<tr align="left">'
+    var html = ''//'<tr align="left">'
     var v1 =0;
     //console.log('genBlogElm obj:'+obj);
     for (var i in obj) {
@@ -233,44 +240,25 @@ function genVideoElm(obj){
         console.log(String(obj[i].dpl)=='v');
         //console.log('dep==v:'+obj[i].ttl =='Introduction to OpenStack');
         if(String(obj[i].dpl)=='v'){
-        if(v1 %3==0 && v1!=0){
-            html+='</tr>'
-            html+='<tr align="left">'
-        }
-        //console.log(v +'in genVideoElm');
-        html+='<td>'
-        html+='<div>'
-        // html+='<ul class="playlist"">'
-        //html+='<ul>'
-        html+='<p>'
-        html+='<a align="left" href="'+obj[i].url+'">'+obj[i].ttl+'</a>'
-        //html+='<li><a href="'+obj[i].Url+'">'+obj[i].Title+'</a></li>'
-        html+='</p>'
-        //html+='</ul>'
-        html+='<div>'
-        html+='<h4>'
-        html+='<a href="'+obj[i].url+'">'+obj[i].ttl+'</a>'
-        html+='</h4>'
-        html+='<p>'+obj[i].des+'</p>'
-        html+='</div></div></div>'
-        html+='</td>'
-        // html+='<td>'
-        // html+='<div>'
-        // html+='<ul>'
-        // html+='<li><a href="'+obj[i].Url+'">'+obj[i].Title+'</a></li>'
-        // html+='</ul>'
-        // html+='<div>'
-        // html+='<h4>'
-        // html+='<a href="'+obj[i].Url+'">'+obj[i].Title+'</a>'
-        // html+='</h4>'
-        // html+='<p>'+obj[i].Description+'</p>'
-        // html+='</div></div></div>'
-        // html+='</td>'
+        
+         html +='<div class="col-md-4 col-lg-6">'
+         html+='<p>'
+         html+='<a align="left" href="'+obj[i].url+'">'+obj[i].ttl+'</a>'
+         html+='</p>'
+         html+='<div>'
+         html+='<h4>'
+         html+='<a href="'+obj[i].url+'">'+obj[i].ttl+'</a>'
+         html+='</h4>'
+         html+='<p>'+obj[i].des+'</p>'
+         html+='</div>'
+         html+='</div>'
+       
+        
 
-        v1=v1+1;
+        //v1=v1+1;
         }
     }
-    html+='</tr>'
+    //html+='</tr>'
     $("#videobody").append(html)
     //$('#escalation').paging({limit:1});
     //console.log('videobody='+html);  
