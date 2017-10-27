@@ -18,3 +18,48 @@
     ttl: "Effective TensorFlow for Non-Experts (Google I/O '17)"
     tag: 
     dpl: v
+-
+    url: https://www.youtube.com/watch?v=g-EvyKpZjmQ
+    ttl: "Tensorflow for Deep Learning Research - Lecture 1"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=UeheTiBJ0Io
+    ttl: "Integrating Keras & TensorFlow: The Keras workflow, expanded (TensorFlow Dev Summit 2017)"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=oOeZ7IgEN4o
+    ttl: "Case Study: TensorFlow in Medicine - Retinal Imaging (TensorFlow Dev Summit 2017)"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=jA4Bh-xj_mE
+    ttl: "20151126 Taipei.py - Tensor Flow 介紹 (1/2)"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=U0ACP9J8vOU
+    ttl: "Deep Learning With Python & Tensorflow - PyConSG 2016"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=oYbVFhK_olY
+    ttl: "Deep Learning with Neural Networks and TensorFlow Introduction"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=r7-WPbx8VuY
+    ttl: "Installing CPU and GPU TensorFlow on Windows"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=MotG3XI2qSs
+    ttl: "Deep Learning with TensorFlow - Introduction to TensorFlow"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=RFZaaUFxBzc
+    ttl: "Deep Learning - TensorFlow's Hello World"
+    tag: 
+    dpl: v
