@@ -1,23 +1,17 @@
 -
     url: https://www.youtube.com/watch?v=hZNGST2vIds
     ttl: Docker Clustering on Mesos with Marathon
-    src:
-    her:
-    tag: Docker
+    tag: 
     dpl: v
 -
     url: https://www.youtube.com/watch?v=pGYAg7TMmp0
     ttl: What is Docker & Docker Containers, Images, etc?
-    src:
-    her:
-    tag: Docker
+    tag: 
     dpl: v
 -
     url: https://www.youtube.com/watch?v=hZNGST2vIds
     ttl: Docker Clustering on Mesos with Marathon
-    src:
-    her:
-    tag: Docker
+    tag: 
     dpl: v
 -
     url: 
