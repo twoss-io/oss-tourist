@@ -71,11 +71,11 @@
     tag: OpenStack
     dpl: s
 -    
-    url : https://medium.com/@nagarwal/understanding-the-docker-internals-7ccb052ce9fe
+    url: https://medium.com/@nagarwal/understanding-the-docker-internals-7ccb052ce9fe
     ttl: Understanding the Docker Internals
     des: 
     src: 
-    her : 
+    her: 
     tag: Docker
     dpl: b
 -    
@@ -83,14 +83,14 @@
     ttl: 教你一次學會安裝 Docker 開始玩轉 Container 容器世界
     des: 
     src: 
-    her : 
+    her: 
     tag: Docker
     dpl: b
 -    
-    url : https://philipzheng.gitbooks.io/docker_practice/content/introduction/what.html
+    url: https://philipzheng.gitbooks.io/docker_practice/content/introduction/what.html
     ttl: 什麼是 Docker
     des: 
     src: 
-    her : 
+    her: 
     tag: Docker
     dpl: b    
