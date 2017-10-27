@@ -67,7 +67,8 @@ function getVideoByCategory(category) {
         $(function () {
             var thumbSize = 'large',		// 設定要取得的縮圖是大圖還是小圖
                 // 大圖寬高為 480X360；小圖寬高為 120X90
-                imgWidth = '300',			// 限制圖片的寬及 YouTube 影片的寬
+                //imgWidth = '300',			// 限制圖片的寬及 YouTube 影片的寬
+                imgWidth = '100%',
                 imgHeight = '240',			// 限制圖片的高及 YouTube 影片的高
                 autoPlay = '&autoplay=1',	// 是否載入 YouTube 影片後自動播放；若不要自動播放則設成 0
                 fullScreen = '&fs=1';		// 是否允許播放 YouTube 影片時能全螢幕播放
@@ -216,15 +217,40 @@ function genSlideElm(obj) {
                 ttlvalue = String(obj[i].ttl);
             }
 
-            html += '<div class="col-md-4">'
-            html += '<p>'
-            html += '<iframe frameborder="0" height="200" src="' + obj[i].src + '"width="300"></iframe>'
-            html += '</p>'
-            html += '<div style="margin-bottom:5px"> <strong> <a href="' + obj[i].her + '" title="+' + ttlvalue + 'target="_blank">' + desvalue + '</a> </strong>'
-            html += '</div>'
-            html += '</div>'
+            // html += '<div class="col-md-4">'
+            // html += '<p>'
+            // html += '<iframe frameborder="0" height="200" src="' + obj[i].src + '"width="300"></iframe>'
+            // html += '</p>'
+            // html += '<div style="margin-bottom:5px"> <strong> <a href="' + obj[i].her + '" title="+' + ttlvalue + 'target="_blank">' + desvalue + '</a> </strong>'
+            // html += '</div>'
+            // html += '</div>'
+            
             // html+='</td>'
-            s = s + 1;
+            //s = s + 1;
+            html += '<div class="col-md-4">'
+            html += '<div class="panel panel-primary">'
+            html += '<div class="panel-heading">'
+            html += '<span class="panel-title">'
+            
+            html += '<a href="' +obj[i].src + '">' + obj[i].ttl + '</a>'
+            //html += '<iframe frameborder="0" height="200" src="' + obj[i].src + '"width="300"></iframe>'
+
+            html += '</span>'
+            html += '</div>'
+            html += '<div class="panel-body">'
+            html += '<p>'
+            
+            //html += '<a align="center" href="' + obj[i].url + '">' + ttlvalue + '</a>'
+            //html += ' <a href="' + obj[i].her + 'target="_blank">' + ttlvalue + '</a> '
+            html +='<iframe frameborder="0" height="200" src="' + obj[i].src + '"width="100%"></iframe>'
+            html += '</p>'
+            html += '<hr class="m5">'
+            html += '<div style="height:100px;overflow-y:auto;">'
+            html += '<p>' + desvalue + '</p>' 
+            html += '</div>'
+            html += '</div>'
+            html += '</div>'
+            html += '</div>'
         }
     }
     html += ''//'</tr>'
@@ -245,40 +271,40 @@ function genVideoElm(obj) {
         var ttlvalue = '';
         if (String(obj[i].dpl) == 'v') {
             if (typeof obj[i].des === 'undefined' || obj[i].des === null) {
-                console.log('condition1 desvalue=' + desvalue);
+
             } else {
                 desvalue = String(obj[i].des);
-                console.log('condition2 desvalue=' + desvalue);
             }
             if (desvalue.length > 40) {
                 desvalue = desvalue.substr(0, 40) + '...';
-                console.log('condition4 desvalue=' + desvalue);
             }
 
             if (typeof obj[i].ttl === 'undefined' || obj[i].ttl === null) {
 
             } else if (String(String(obj[i].ttl)).length > 40) {
                 ttlvalue = String(obj[i].ttl).substr(0, 40) + '...';
-                console.log('condition4 desvalue=' + ttlvalue);
             } else {
                 ttlvalue = String(obj[i].ttl);
             }
-            console.log('condition3 des after=' + desvalue);
             html += '<div class="col-md-4">'
+            html += '<div class="panel panel-primary">'
+            html += '<div class="panel-heading">'
+            html += '<span class="panel-title">'
+            html += '<a href="' + obj[i].url + '">' + obj[i].ttl + '</a>'
+            html += '</span>'
+            html += '</div>'
+            html += '<div class="panel-body">'
             html += '<p>'
-            html += '<a align="left" href="' + obj[i].url + '">' + obj[i].ttl + '</a>'
+            html += '<a align="center" href="' + obj[i].url + '">' + ttlvalue + '</a>'
             html += '</p>'
-            html += '<div>'
-            html += '<h4>'
-            html += '<a href="' + obj[i].url + '">' + ttlvalue + '</a>'
-            html += '</h4>'
-            html += '<p>' + desvalue + '</p>'
+            html += '<hr class="m5">'
+            html += '<div style="height:100px;overflow-y:auto;">'
+            html += '<p>' + desvalue + '</p>' 
             html += '</div>'
             html += '</div>'
-
-
-
-            //v1=v1+1;
+            html += '</div>'
+            html += '</div>'
+            
         }
     }
     //html+='</tr>'
