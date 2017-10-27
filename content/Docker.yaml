@@ -1,6 +1,7 @@
 -
     url: https://www.youtube.com/watch?v=hZNGST2vIds
     ttl: Docker Clustering on Mesos with Marathon
+    des: Docker Clustering on Mesos with Marathon
     src:
     her:
     tag: Docker
@@ -8,6 +9,7 @@
 -
     url: https://www.youtube.com/watch?v=pGYAg7TMmp0
     ttl: What is Docker & Docker Containers, Images, etc?
+    des: What is Docker & Docker Containers, Images, etc?
     src:
     her:
     tag: Docker
@@ -15,6 +17,7 @@
 -
     url: https://www.youtube.com/watch?v=hZNGST2vIds
     ttl: Docker Clustering on Mesos with Marathon
+    des: Docker Clustering on Mesos with Marathon
     src:
     her:
     tag: Docker
@@ -22,6 +25,7 @@
 -
     url: 
     ttl: Introduction to OpenStack
+    des: OpenStack Tutorial
     src: https://www.slideshare.net/slideshow/embed_code/key/zEBAQVcYLgeBOe
     her: //www.slideshare.net/bpiatt/openstack-tutorial
     tag: OpenStack
@@ -29,6 +33,7 @@
 -
     url: 
     ttl: OpenStack Introduction
+    des: OpenStack Introduction
     src: https://www.slideshare.net/slideshow/embed_code/key/fkgrT5uHVHjmce
     her: //www.slideshare.net/openstackindia/openstack-introduction-14761434
     tag: OpenStack
@@ -36,6 +41,7 @@
 -
     url: 
     ttl: OpenStack Framework Introduction
+    des: OpenStack Framework Introduction
     src: https://www.slideshare.net/slideshow/embed_code/key/l4mTUQFwBM7su
     her: //www.slideshare.net/jasonhoutw/openstack-introduction
     tag: OpenStack
@@ -43,6 +49,7 @@
 -
     url: 
     ttl: 2 Day Bootcamp for OpenStack--Cloud Training by Mirantis (Preview)
+    des: 2 Day Bootcamp for OpenStack--Cloud Training by Mirantis (Preview)
     src: https://www.slideshare.net/slideshow/embed_code/key/cKIrxTH2hpt7h8
     her: //www.slideshare.net/mirantis/2-day-bootcamp-for-openstackcloud-training-by-mirantis-preview
     tag: OpenStack
@@ -50,6 +57,7 @@
 -
     url: 
     ttl: OpenStack Explained Learn OpenStack architecture and the secret of a successful cloud project
+    des: OpenStack Explained Learn OpenStack architecture and the secret of a successful cloud project
     src: https://www.slideshare.net/slideshow/embed_code/key/nBouwUeNnZMPfh
     her: //www.slideshare.net/gpaterno1/openstack-explained
     tag: OpenStack
@@ -57,6 +65,7 @@
 -
     url: 
     ttl: Mastering OpenStack - Episode 01 - Simple Architectures
+    des: Mastering OpenStack - Episode 01 - Simple Architectures
     src: https://www.slideshare.net/slideshow/embed_code/key/lS7r6mZoAbvrsF
     her: //www.slideshare.net/RoozbehShafiee/01-open-stack-simple-architecture
     tag: OpenStack
@@ -64,6 +73,7 @@
 -    
     url : https://medium.com/@nagarwal/understanding-the-docker-internals-7ccb052ce9fe
     ttl: Understanding the Docker Internals
+    des: 
     src: 
     her : 
     tag: Docker
@@ -71,13 +81,15 @@
 -    
     url : https://blog.hellosanta.com.tw/%E7%B6%B2%E7%AB%99%E8%A8%AD%E8%A8%88/%E4%BC%BA%E6%9C%8D%E5%99%A8/%E6%95%99%E4%BD%A0%E4%B8%80%E6%AC%A1%E5%AD%B8%E6%9C%83%E5%AE%89%E8%A3%9D-docker-%E9%96%8B%E5%A7%8B%E7%8E%A9%E8%BD%89-container%C2%A0%E5%AE%B9%E5%99%A8%E4%B8%96%E7%95%8C
     ttl: 教你一次學會安裝 Docker 開始玩轉 Container 容器世界
+    des: 
     src: 
     her : 
     tag: Docker
     dpl: b
 -    
     url : https://philipzheng.gitbooks.io/docker_practice/content/introduction/what.html
-    ttl: 什麼是 Docker 
+    ttl: 什麼是 Docker
+    des: 
     src: 
     her : 
     tag: Docker
