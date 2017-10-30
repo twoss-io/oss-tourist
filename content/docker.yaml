@@ -9,11 +9,6 @@
     tag: 
     dpl: v
 -
-    url: https://www.youtube.com/watch?v=hZNGST2vIds
-    ttl: Docker Clustering on Mesos with Marathon
-    tag: 
-    dpl: v
--
     url: 
     ttl: Introduction to OpenStack
     src: https://www.slideshare.net/slideshow/embed_code/key/zEBAQVcYLgeBOe
@@ -76,3 +71,98 @@
     her: 
     tag: Docker
     dpl: b    
+-
+    url: https://www.youtube.com/watch?v=k5iwKUZY9tk
+    ttl: "前端工程師一定要知道的 Docker 虛擬化容器技巧 (18:34)"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=pGYAg7TMmp0
+    ttl: "Docker Tutorial - What is Docker & Docker Containers, Images, etc?"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=Q5POuMHxW-0
+    ttl: "Introduction to Docker"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=90Y6YhmwFVs
+    ttl: "Part 1 - An Introduction to Docker"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=aLipr7tTuA4
+    ttl: "What is Docker?"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=IEGPzmxyIpo
+    ttl: "Introduction to Docker and Containers"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=UV3cw4QLJLs
+    ttl: "Docker fundamentals: basics, storage, networking - Introduction to Docker (tutorial for beginners)"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=YFl2mCHdv24
+    ttl: "Learn Docker in 12 Minutes 🐳"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=Vyp5_F42NGs
+    ttl: "Getting started with docker, the step by step tutorial with examples"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=RDVlAyec8fI
+    ttl: "Docker: Install and Get Started with Dockers"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=hnxI-K10auY
+    ttl: "Creating your first Dockerfile, image and container"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=q1qEYM_SESI
+    ttl: "Demystifying Docker"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=JBtWxj9l7zM
+    ttl: "Docker Tutorial - Docker Container Tutorial for Beginners"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=Qw9zlE3t8Ko
+    ttl: "Docker Compose in 12 Minutes"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=lcQfQRDAMpQ
+    ttl: "What is Docker | Docker Tutorial for Beginners | Docker Container | DevOps Tools | Edureka"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=t9YuqwGYUUg
+    ttl: "What is Docker? In 3 minutes"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=umJYDAYxZys
+    ttl: "Docker Tutorial: A Brief Introduction to Docker Virtualization"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=6nJu1oDxYvc
+    ttl: "Docker Tutorial: Building Docker Images Using Dockerfile"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=6nJu1oDxYvc
+    ttl: "Docker Tutorial: Building Docker Images Using Dockerfile"
+    tag: 
+    dpl: v
