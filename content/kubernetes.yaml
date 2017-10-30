@@ -1,1 +1,85 @@
-
+-
+    url: https://www.youtube.com/watch?v=_vHTaIJm9uY
+    ttl: "Getting Started with Kubernetes"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=o85VR90RGNQ
+    ttl: "15 Kubernetes features in 15 minutes"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=_vHTaIJm9uY
+    ttl: "Kubernetes Webinar Series - Getting Started with Kubernetes"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=21hXNReWsUU
+    ttl: "Best practices for orchestrating the Cloud with Kubernetes - Google I/O 2016"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=-Ci4vd4rh4M
+    ttl: "Kubernetes in production - blue-green deployment, auto scaling and deployment automation"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=HlAXp0-M6SY
+    ttl: "Kubernetes for Sysadmins – Kelsey Hightower at PuppetConf 2016"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=PH-2FfFD2PU
+    ttl: "Kubernetes in 5 mins"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=F_BuRIAnvqE
+    ttl: "Powering Microservices with Docker, Kubernetes, Kafka and MongoDB"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=B7nMFVaOOi8
+    ttl: "Kubernetes the Easy Way"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=R-3dfURb2hA
+    ttl: "What is Kubernetes"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=Fcb4aoSAZ98
+    ttl: "Docker Containers and Kubernetes with Brian Dorsey"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=zeS6OyDoy78
+    ttl: "Kubernetes Webinar Series - Kubernetes Architecture 101"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=WwBdNXt6wO4
+    ttl: "A Technical Overview of Kubernetes (CoreOS Fest 2015)"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=YiNt4kUnnIM
+    ttl: "Building high performance microservices with Kubernetes, Go, and gRPC (Google Cloud Next '17)"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=Bcs-inRnLDc
+    ttl: "Spring Boot Micro-services, Containers, and Kubernetes - How To"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=tA8XNVPZM2w
+    ttl: "Container Orchestration using CoreOS and Kubernetes, Part 1/3 workshop"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=aSATsLG59Zs
+    ttl: "Docker and Kubernetes Recipes for Java Developers by Arun Gupta"
+    tag: 
+    dpl: v
