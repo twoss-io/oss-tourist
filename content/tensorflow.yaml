@@ -63,3 +63,123 @@
     ttl: "Deep Learning - TensorFlow's Hello World"
     tag: 
     dpl: v
+-
+    url: https://www.youtube.com/watch?v=0r9w3V923rk
+    ttl: "Mobile and Embedded TensorFlow (TensorFlow Dev Summit 2017)"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=kAOanJczHA0
+    ttl: "XLA: TensorFlow, Compiled! (TensorFlow Dev Summit 2017)"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=yALzr4A2AzY
+    ttl: "TensorFlow Ecosystem: Integrating TensorFlow with your infrastructure (TensorFlow Dev Summit 2017)"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=q_IkJcPyNl0
+    ttl: "Serving Models in Production with TensorFlow Serving (TensorFlow Dev Summit 2017)"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=VdDmhOCw6J0
+    ttl: "TensorFlow at DeepMind (TensorFlow Dev Summit 2017)"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=BflmfXpin58
+    ttl: "Deep Learning with Tensorflow - Initializing a Restricted Boltzmann Machine"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=io6Ajf5XkaM
+    ttl: "Installing the GPU version of TensorFlow for making use of your CUDA GPU"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=Ebo8BklTtmc
+    ttl: "Install Tensorflow (GPU version) for Windows and Anaconda"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=9kC836XhICU
+    ttl: "Tensorflow for Deep Learning Research - Lecture 2"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=Ejec3ID_h0w
+    ttl: "TensorFlow Tutorial (Sherry Moore, Google Brain)"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=u4alGiomYP4
+    ttl: "TensorFlow and Deep Learning without a PhD, Part 1 (Google Cloud Next '17)"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=fTUwdXUFfI8
+    ttl: "TensorFlow and Deep Learning without a PhD, Part 2 (Google Cloud Next '17)"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=4n1AHvDvVvw
+    ttl: "Keynote (TensorFlow Dev Summit 2017)"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=eBbEDRsCmv4
+    ttl: "Hands-on TensorBoard (TensorFlow Dev Summit 2017)"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=t64ortpgS-E
+    ttl: "TensorFlow High-Level APIs: Models in a Box (TensorFlow Dev Summit 2017)"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=toK1OSLep3s
+    ttl: "Skin Cancer Image Classification (TensorFlow Dev Summit 2017)"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=vM5NaGoynjE
+    ttl: "Magenta: Music and Art Generation (TensorFlow Dev Summit 2017)"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=Tuv5QYKU-MM
+    ttl: "ML Toolkit (TensorFlow Dev Summit 2017)"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=NV1tkZ9Lq48
+    ttl: "Wide & Deep Learning: Memorization + Generalization with TensorFlow (TensorFlow Dev Summit 2017)"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=uO3CMMT459w
+    ttl: "TensorFlow Basics | Kadenze"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=uHaKOFPpphU
+    ttl: "Tensorflow tutorials for beginners, 1: Creating Computation graphs"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=dYhrCUFN0eM
+    ttl: "Gentlest Introduction to Tensorflow"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=bYeBL92v99Y
+    ttl: "TensorFlow - Ep. 22 (Deep Learning SIMPLIFIED)"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=vq2nnJ4g6N0
+    ttl: "Tensorflow and deep learning - without a PhD by Martin Görner"
+    tag: 
+    dpl: v
