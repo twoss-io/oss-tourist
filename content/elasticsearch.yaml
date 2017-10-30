@@ -1,1 +1,75 @@
-
+-
+    url: https://www.youtube.com/watch?v=ksTTlXNLick
+    ttl: "Elasticsearch Tutorial & Getting Started (course preview)"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=G56aE1kiOZw
+    ttl: "Your Data, Your Search, Elasticsearch"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=PpX7J-G2PEo
+    ttl: "Elasticsearch from the bottom up"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=9UEymp254kA
+    ttl: "Build A Search App With ElasticSearch"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=60UsHHsKyN4
+    ttl: "Getting started with ElasticSearch"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=lWKEphKIG8U
+    ttl: "Elasticsearch (Part 1): Indexing and Querying"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=6bXSfjwQVIc
+    ttl: "Setup Elasticsearch, Logstash and Kibana (ELK Stack) using Docker Containers - Step by Step Tutorial"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=UNsDUNWRWzg
+    ttl: "Explore Your Data with Elasticsearch"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=bMi2g3uEAxU
+    ttl: "ElasticSearch in Production: lessons learned"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=fEsmydn747c
+    ttl: "dotScale 2013 - Shay Banon - Why we built ElasticSearch"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=f_cAbYyuL-c
+    ttl: "ELK Stack Pt. 1: Installing Elasticsearch, Logstash and Kibana on Windows Server 2012 R2 2016 1200P"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=P6VqWiXsGIo
+    ttl: "Elasticsearch Tutorial: Getting Started"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=ge8uHdmtb1M
+    ttl: "Elasticsearch - Logstash - Kibana 4 (ELK Stack) Setup Tutorial"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=pxFqE5usuh0
+    ttl: "ElasticSearch, Logstash, Kibana 4 Tutorial"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=Kqs7UcCJquM
+    ttl: "EVisualizing Logs Using ElasticSearch, Logstash and Kibana"
+    tag: 
+    dpl: v
