@@ -168,3 +168,138 @@
     ttl: "OpenStack Basics - Overview"
     tag: 
     dpl: v
+-
+    url: https://www.youtube.com/watch?v=z6ftW7fUdp4
+    ttl: "OpenStack Horizon Demo"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=9-br7qDuuK4
+    ttl: "Why OpenStack?"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=mnCO9KAF8f8
+    ttl: "Build your own OpenStack with this simple knowledge"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=QPysbUcUQQU
+    ttl: "Getting Started with OpenStack Heat [Jay Dobies]"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=qH-qYE1Kmpg
+    ttl: "Deploying things with Heat - An #OpenStack Hangout"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=J4BpqwMuIc8
+    ttl: "OpenStack in 10 minutes"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=YWkHzavBGEc
+    ttl: "OpenStack and Networking"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=7IXEtUEZslg
+    ttl: "OpenStack Neutron Packet Walkthrough (DVR)"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=hWWSaBOMTNo
+    ttl: "2013 Red Hat Summit: OpenStack Architecture"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=p89Ook4ok8A
+    ttl: "OpenStack as the Key Engine of NFV"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=eeaTQsZdxHE
+    ttl: "Leveraging OpenStack to Solve Telco Needs (Intro to SDN/NFV)"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=4EQLyVYEu2E
+    ttl: "OpenStack Neutron Conceptual Overview"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=8PTjeyOVScI
+    ttl: "KTOS 120 Kolla Multi-node Deployment Tutorial - OpenStack Ocata"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=Y2RRCYhpMyM
+    ttl: "Tutorial - Using the OpenStack REST API via Command Line Interface (CLI)"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=a86pfDm1Dqk
+    ttl: "OpenStack from Zero to Nova: An Activity-Driven Workshop"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=pN1Tdgz8fd8
+    ttl: "What the heck is OpenStack? Understanding OpenStack Basics"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=r7wNfw-MvLA
+    ttl: "WTF is OpenStack by Tim Serong"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=ZY8hnMnUDjU
+    ttl: "Openstack Is Doomed And It Is Your Fault"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=LM1ANSge01g
+    ttl: "Automated OpenStack Deployment: A Comparison"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=2H95tx7Fuv4
+    ttl: "Chef vs. Puppet vs. Ansible vs. Salt - What's Best for Deploying and Managing OpenStack?"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=J0CNRH-aFpI
+    ttl: "Inside the Architecture of Neutron"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=eOlIB323c8s
+    ttl: "Installing Openstack Mitaka on CentOS using RDO"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=vm7aHJtQMQE
+    ttl: "OpenStack Havana Demo"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=e7r2-p8Mki4
+    ttl: "OpenStack’s Liberty Release - Demo of core services"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=Gi2eoDU0xXM
+    ttl: "Canonical Keynote: OpenStack in Production"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=59lVKD3VCEQ
+    ttl: "OpenStack on two servers with Juju and MAAS"
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=e3JJF4snHSQ&t=457s
+    ttl: "OpenDaylight and OpenStack"
+    tag: opendaylight
+    dpl: v
