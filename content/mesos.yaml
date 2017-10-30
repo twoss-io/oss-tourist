@@ -1,1 +1,55 @@
-
+-        
+    url: https://www.youtube.com/watch?v=gVGZHzRjvo0
+    ttl: "Mesos: The Operating System for your Cluster" by David Greenberg"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=aXJxyEnkHd4
+    ttl: "Apache Mesos vs. Hadoop YARN #WhiteboardWalkthrough"
+    tag: hadoop,yarn
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=JXrDQQe7Ud4
+    ttl: "What is DC/OS and Mesos?"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=1dgUXNVQS5o
+    ttl: "Docker Swarm or Kubernetes or Mesos - pick your framework! by Arun Gupta"
+    tag: kubernetes,docker
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=hTcZGODnyf0
+    ttl: "Building and Running Distributed Systems using Apache Mesos - Benjamin Hindman"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=OgVaQPYEsVo
+    ttl: "Simplifying with Mesos and Marathon"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=_uw1ISM_uRU
+    ttl: "Container Orchestration with Kubernetes, Docker Swarm & Mesos-Marathon - Adrian Mouat"
+    tag: kubernetes,docker
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=KVWMhIeKM_A
+    ttl: "Run Apache Spark on Apache Mesos"
+    tag: spark
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=pFCJ3WiVjyA
+    ttl: "Running Kubernetes at Scale with Mesos and the Mesosphere DCOS by Benjamin Hindman"
+    tag: kubernetes
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=wHpklfoarcc
+    ttl: "Running Docker on Mesos for Batch and Analytics using Chronos"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=YpmElyi94AA
+    ttl: "Improving Resource Efficiency with Apache Mesos"
+    tag: 
+    dpl: v
