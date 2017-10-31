@@ -6,7 +6,7 @@
 -        
     url: https://www.youtube.com/watch?v=aXJxyEnkHd4
     ttl: "Apache Mesos vs. Hadoop YARN #WhiteboardWalkthrough"
-    tag: hadoop
+    tag: 
     dpl: v
 -        
     url: https://www.youtube.com/watch?v=JXrDQQe7Ud4
@@ -16,7 +16,7 @@
 -        
     url: https://www.youtube.com/watch?v=1dgUXNVQS5o
     ttl: "Docker Swarm or Kubernetes or Mesos - pick your framework! by Arun Gupta"
-    tag: kubernetes
+    tag: 
     dpl: v
 -        
     url: https://www.youtube.com/watch?v=hTcZGODnyf0
@@ -31,17 +31,17 @@
 -        
     url: https://www.youtube.com/watch?v=_uw1ISM_uRU
     ttl: "Container Orchestration with Kubernetes, Docker Swarm & Mesos-Marathon - Adrian Mouat"
-    tag: kubernetes
+    tag: 
     dpl: v
 -        
     url: https://www.youtube.com/watch?v=KVWMhIeKM_A
     ttl: "Run Apache Spark on Apache Mesos"
-    tag: spark
+    tag: 
     dpl: v
 -        
     url: https://www.youtube.com/watch?v=pFCJ3WiVjyA
     ttl: "Running Kubernetes at Scale with Mesos and the Mesosphere DCOS by Benjamin Hindman"
-    tag: kubernetes
+    tag: 
     dpl: v
 -        
     url: https://www.youtube.com/watch?v=wHpklfoarcc
