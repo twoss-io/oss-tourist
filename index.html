@@ -82,6 +82,7 @@
   padding-right: 11px;
 }
   </style>
+
 </head>
 
 <body class="dashboard-page">
@@ -293,6 +294,7 @@
           <input type="checkbox" id="blogcheck" style="vertical-align:middle;" value="b">
           <label style="vertical-align:sub">&nbsp;&nbsp;Blog</label>&nbsp;&nbsp;
           <input type="text" class="form-control" id="myInput" onkeyup="myFunction()" placeholder="Search...">
+          
         </div>
       </form>
       <!---->
@@ -389,6 +391,7 @@
 
         <!-- Start: Sidebar Menu -->
         <div id="sidebar-wrapper">
+         
           <ul class="nav sidebar-menu">
             <li id='lix' class="sidebar-label pt20">Menu
             </li>
@@ -517,7 +520,8 @@
                   
                   <div class="row">
                       <div id="blogbody"></div>
-                  </div>  
+                  </div>
+                  
               </div>
             <!-- <div class="container body-content">
               <div class="page-header">
@@ -662,8 +666,29 @@
   <script src="assets/js/utility/utility.js"></script>
   <script src="assets/js/demo/demo.js"></script>
   <script src="assets/js/main.js"></script>
-
+  <!-- <script src="vendor/jquery/url2img.js"></script> -->
   <!-- Widget Javascript -->
+  <!-- <script>
+      $(window).load(function() {
+            console.log('windows.load');
+            $('img[data-url]').each(function() {
+                console.log('start traversal in img[data-url]')
+                $.ajax({
+                  url: 'https://www.googleapis.com/pagespeedonline/v1/runPagespeed?url=' + $(this).data('url') + '&screenshot=true',
+                  context: this,
+                  type: 'GET',
+                  dataType: 'json',
+                  success: function(data) {
+                      console.log('success in windows.load');
+                       data = data.screenshot.data.replace(/_/g, '/').replace(/-/g, '+');
+                      $(this).attr('src', 'data:image/jpeg;base64,' + data);
+                    }
+                });
+            });
+        
+        
+        });
+        </script> -->
   <script src="assets/js/demo/widgets.js"></script>
   <script>
     function init() {

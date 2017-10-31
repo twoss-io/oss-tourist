@@ -8,6 +8,7 @@ $(document).ready(function () {
     $("#sidebar-wrapper").toggleClass("sidebar-toggle", true);//.css('color','blue');
     //Add css class sidebar-nav to ul
     $("#navList").toggleClass("sidebar-nav", true);//.css('color','red');
+    
 });
 
 
@@ -16,7 +17,8 @@ function getYaml() {
     $.get('./content/category.yaml', function (res) {
         var obj = jsyaml.load(res);
         //console.log(obj)
-        genElm(obj)
+        genElm(obj);
+        
     }).done(function () {
         console.log("done")
     }).fail(function () {
@@ -132,6 +134,21 @@ function getBlogByCategory(category) {
         var obj = jsyaml.load(res);
         //console.log(obj);
         genBlogElm(obj);
+        console.log('genBlogElm finished');
+        $('img[data-url]').each(function() {
+            console.log('start traversal in img[data-url]')
+            $.ajax({
+              url: 'https://www.googleapis.com/pagespeedonline/v1/runPagespeed?url=' + $(this).data('url') + '&screenshot=true',
+              context: this,
+              type: 'GET',
+              dataType: 'json',
+              success: function(data) {
+                  console.log('start traversal in img[data-url]');
+                   data = data.screenshot.data.replace(/_/g, '/').replace(/-/g, '+');
+                  $(this).attr('src', 'data:image/jpeg;base64,' + data);
+                }
+            });
+        });
     }).done(function () {
         console.log("Blog done")
     }).fail(function () {
@@ -150,28 +167,42 @@ function genBlogElm(obj) {
     for (var i in obj) {
         if (String(obj[i].dpl) == 'b') {
             var object1 = [obj[i].ttl, obj[i].url];
-            // if(b %3==0 && b!=0){
-            //     html+='</tr>'
-            //     html+='<tr>'
-            // }
-            //console.log(b +'in genBlogElm');
-            //html+='<td>'
+           
+            // html += '<div class="col-md-4">'
+            // html += '<a href="' + obj[i].url + '">'
+            // html += obj[i].ttl
+            // html += '</div>'
             html += '<div class="col-md-4">'
-            html += '<a href="' + obj[i].url + '">'
-            html += obj[i].ttl
+            html += '<div class="panel panel-primary">'
+            html += '<div class="panel-heading">'
+            html += '<span class="panel-title">'
+            html += '<a href=\"'+obj[i].url+'\" '+'target=\"_blank\">'+obj[i].ttl+'<\/a>'
+            html += '</span>'
             html += '</div>'
-            //html+='</td>'
-            // console.log('Url'+obj[i].Url)
-            // console.log('Title'+obj[i].Title)
-            // console.log('Blog'+':'+obj[i].Title+','+obj[i].Url)
-            //b=b+1;
-            //dataSet.push(object1);
+            html += '<div class="panel-body">'
+            html += '<p>'
+
+            //html += '<a align="center" href="' + obj[i].url + '">' + ttlvalue + '</a>'
+            html+='<img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs%3D" data-url=\"'+
+            obj[i].url+
+            //https://www.hkitblog.com/?p=28531
+            '\">'
+
+            html += '</p>'
+            html += '<hr class="m5">'
+            html += '<div style="height:100px;overflow-y:auto;">'
+            html += '<p>' + obj[i].ttl + '</p>' 
+            html += '</div>'
+            html += '</div>'
+            html += '</div>'
+            html += '</div>'
+           
         }
     }
     //html+='</tr>'
     $("#blogbody").append(html)
 
-
+    
 }
 
 function genSlideElm(obj) {
