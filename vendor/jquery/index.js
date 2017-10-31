@@ -205,22 +205,34 @@ function genSlideElm(obj) {
                 ttlvalue = String(obj[i].ttl);
             }
 
-            // html += '<div class="col-md-4">'
-            // html += '<p>'
-            // html += '<iframe frameborder="0" height="200" src="' + obj[i].src + '"width="300"></iframe>'
-            // html += '</p>'
-            // html += '<div style="margin-bottom:5px"> <strong> <a href="' + obj[i].her + '" title="+' + ttlvalue + 'target="_blank">' + desvalue + '</a> </strong>'
-            // html += '</div>'
-            // html += '</div>'
-            
-            // html+='</td>'
-            //s = s + 1;
+            var urlEncoded = encodeURIComponent(obj[i].src);
+            var apiKey = '59f811c0086651b53056725c'; // <-- Replace with your app_id from https://www.opengraph.io/
+    
+            // The entire request is just a simple get request with optional query parameters
+            var requestUrl = "https://opengraph.io/api/1.1/site/" + urlEncoded + '?app_id=' + apiKey;
+            var urlval=''
+            $.getJSON(requestUrl, function (json) {
+                
+                                // Throw the object in the console to see what it looks like!
+                                console.log('json', json);
+                                console.log(json.hybridGraph.image);
+                                urlval = json.hybridGraph.image;
+                                console.log('urlval='+urlval);
+                                console.log('escape urlval='+escape(urlval));
+                                // Update the HTML elements!
+                                //$('#title').text(json.hybridGraph.title);
+                                //$('#description').text(json.hybridGraph.description);
+                                //$('#icon').attr('src', json.hybridGraph.image);
+                
+                            });
+           
             html += '<div class="col-md-4">'
             html += '<div class="panel panel-primary">'
             html += '<div class="panel-heading">'
             html += '<span class="panel-title">'
             
-            html += '<a href="' +obj[i].src + '">' + obj[i].ttl + '</a>'
+            //html += '<a href="' +obj[i].src + '">' + obj[i].ttl + '</a>'
+            html += '<a href=\"'+obj[i].src+'\" '+'target=\"_blank\">'+obj[i].ttl+'<\/a>'
             //html += '<iframe frameborder="0" height="200" src="' + obj[i].src + '"width="300"></iframe>'
 
             html += '</span>'
@@ -230,7 +242,14 @@ function genSlideElm(obj) {
             
             //html += '<a align="center" href="' + obj[i].url + '">' + ttlvalue + '</a>'
             //html += ' <a href="' + obj[i].her + 'target="_blank">' + ttlvalue + '</a> '
-            html +='<iframe frameborder="0" height="200" src="' + obj[i].src + '"width="100%"></iframe>'
+            //html+='<img id="icon" style="height=200,width="100%"/>'
+            html +='<img src='
+            +'\"'
+            +urlval
+            //+'https:\/\/image.slidesharecdn.com\/01-openstacksimplearchitecture-150610042132-lva1-app6891\/95\/mastering-openstack-episode-01-simple-architectures-1-638.jpg?cb=1436179393f'
+            +'\" '
+            +' width=\"100%\">'
+            //html +='<iframe frameborder="0" height="200" src="' + obj[i].src + '"width="100%"></iframe>'
             html += '</p>'
             html += '<hr class="m5">'
             html += '<div style="height:100px;overflow-y:auto;">'
@@ -243,6 +262,8 @@ function genSlideElm(obj) {
     }
     html += ''//'</tr>'
     $("#slidebody").append(html)
+
+    
 
     //$('#escalation2').paging({limit:1});  
 }

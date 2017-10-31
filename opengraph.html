@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html class=''>
+
+<head>
+
+    <meta charset='UTF-8'>
+    <meta name="robots" content="noindex">
+
+
+    <style class="cp-pen-styles"></style>
+</head>
+
+<body>
+    <html>
+
+    <body>
+        <button id="loadOpenGraphData">Load OpenGraph Data</button>
+        <hr/>
+        <div>
+            <div style="width: 100px; float: left;">
+                <img id="icon" style="width: 90px;" />
+            </div>
+            <div>
+                <h2 id="title"></h2>
+                <span id="desacription"></span>
+            </div>
+        </div>
+    </body>
+
+    </html>
+    <!-- <script src='//production-assets.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js'></script> -->
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+    <script>var url = 'https://www.slideshare.net/mirantis/2-day-bootcamp-for-openstackcloud-training-by-mirantis-preview';
+        var urlEncoded = encodeURIComponent(url);
+        var apiKey = '59f811c0086651b53056725c'; // <-- Replace with your app_id from https://www.opengraph.io/
+
+        // The entire request is just a simple get request with optional query parameters
+        var requestUrl = "https://opengraph.io/api/1.1/site/" + urlEncoded + '?app_id=' + apiKey;
+
+
+        $('#loadOpenGraphData').click(function () {
+            if (apiKey === 'xxxxxx') {
+                return alert('Please set your apiKey on line 3!');
+            }
+
+
+            $.getJSON(requestUrl, function (json) {
+
+                // Throw the object in the console to see what it looks like!
+                console.log('json', json);
+
+                // Update the HTML elements!
+                $('#title').text(json.hybridGraph.title);
+                $('#description').text(json.hybridGraph.description);
+                $('#icon').attr('src', json.hybridGraph.image);
+
+            });
+        });
+
+
+
+        //# sourceURL=pen.js
+    </script>
+</body>
+
+</html>
