@@ -95,21 +95,9 @@ function getVideoByCategory(category) {
                 }).focus(function () {
                     this.blur();
                 }).children('img').click(function () {
-                    // 當點擊到圖片時就轉換成 YouTube 影片
-                    // var swf = '<object width="' + imgWidth + '" height="' + imgHeight + '">';
-                    // swf += '<param name="movie" value="https://www.youtube.com/v/' + vid + autoPlay + fullScreen + '"></param>';
-                    // swf += '<param name="wmode" value="transparent"></param>';
-                    // swf += (fullScreen == '&fs=1') ? '<param name="allowfullscreen" value="true"></param>' : '';
-
-                    // swf += '<embed type="application/x-shockwave-flash" src="https://www.youtube.com/v/' + vid + autoPlay + fullScreen + '" ';
-                    // swf += (fullScreen == '&fs=1') ? 'allowfullscreen="true" ' : '';
-                    // swf += 'wmode="transparent" width="' + imgWidth + '" height="' + imgHeight + '""></embed>';
-
-                    // swf += '</object/>';
-
-                    // $(this).parent('a').html(swf);
-
-                    // return false;
+                    
+                    window.open(_url, '_blank');
+                   
                 });
             });
         });
@@ -290,12 +278,13 @@ function genVideoElm(obj) {
             html += '<div class="panel panel-primary">'
             html += '<div class="panel-heading">'
             html += '<span class="panel-title">'
-            html += '<a href="' + obj[i].url + '">' + obj[i].ttl + '</a>'
+            html += '<a href=\"'+obj[i].url+'\" '+'target=\"_blank\">'+obj[i].ttl+'<\/a>'
             html += '</span>'
             html += '</div>'
             html += '<div class="panel-body">'
             html += '<p>'
             html += '<a align="center" href="' + obj[i].url + '">' + ttlvalue + '</a>'
+            //html += '<a align=\"center\" href=\"'+obj[i].url+'\" '+'target=\"_blank\">'+obj[i].ttl+'<\/a>'
             html += '</p>'
             html += '<hr class="m5">'
             html += '<div style="height:100px;overflow-y:auto;">'
