@@ -68,3 +68,8 @@
     ttl: "Apache Flink: Data Streaming As A Basis For All Analytics by Kostas Tzoumas at Big Data Spain 2015"
     tag: 
     dpl: v
+-
+    url: https://www.youtube.com/watch?v=Dzx-iE6RN4w
+    ttl: "Apache Spark vs. Apache Flink"
+    tag: 
+    dpl: v
