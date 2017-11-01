@@ -36,5 +36,5 @@
 -        
     url: https://www.youtube.com/watch?v=_389pQPLyr8
     ttl: "SuperHouseTV #17: Home automation control with Sonoff, Arduino, OpenHAB, and MQTT"
-    tag: sonoff;arduino;mqtt
+    tag: 
     dpl: v
