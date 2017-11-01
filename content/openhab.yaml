@@ -1,1 +1,35 @@
-
+-        
+    url: https://www.youtube.com/watch?v=S4faEHUbt9o
+    ttl: "Smart Home mit openHAB"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=VOEDntUZJoA
+    ttl: "Installing OpenHab Home Automation On Raspberry Pi"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=T0kzK2voy94
+    ttl: "openHAB 2 UI-driven Setup"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=WLxxVZ1_g_U
+    ttl: "Home Automation on a Raspberry Pi with OpenHAB (and Arduino Sensors)"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=Fx6NEC_2vPo
+    ttl: "OpenHAB - MQTT Clients"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=fGQa9naFJ3k
+    ttl: "IOT Project OpenHAB2 ESP8266-12E MQTT Raspberrypi 3 controlling 8 LED's"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=tzJODTjYuWI
+    ttl: "Building a Cloudless Smart Home with openHAB 2"
+    tag: 
+    dpl: v
