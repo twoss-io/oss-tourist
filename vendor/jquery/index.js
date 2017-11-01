@@ -71,7 +71,7 @@ function getVideoByCategory(category) {
                 // 大圖寬高為 480X360；小圖寬高為 120X90
                 //imgWidth = '300',			// 限制圖片的寬及 YouTube 影片的寬
                 imgWidth = '100%',
-                imgHeight = '240',			// 限制圖片的高及 YouTube 影片的高
+                imgHeight = '100%',			// 限制圖片的高及 YouTube 影片的高
                 autoPlay = '&autoplay=1',	// 是否載入 YouTube 影片後自動播放；若不要自動播放則設成 0
                 fullScreen = '&fs=1';		// 是否允許播放 YouTube 影片時能全螢幕播放
 
@@ -172,7 +172,7 @@ function genBlogElm(obj) {
             // html += '<a href="' + obj[i].url + '">'
             // html += obj[i].ttl
             // html += '</div>'
-            html += '<div class="col-md-6">'
+            html += '<div class="col-xs-6 col-md-4">'
             html += '<div class="panel panel-primary">'
             html += '<div class="panel-heading">'
             html += '<span class="panel-title">'
@@ -236,7 +236,7 @@ function genSlideElm(obj) {
                 ttlvalue = String(obj[i].ttl);
             }
            
-            html += '<div class="col-md-6">'
+            html += '<div class="col-xs-6 col-md-4">'
             html += '<div class="panel panel-primary">'
             html += '<div class="panel-heading">'
             html += '<span class="panel-title">'
@@ -248,7 +248,7 @@ function genSlideElm(obj) {
             html +='<iframe frameborder="0" height="200" src="' + obj[i].src + '"width="100%" sandbox ></iframe>'
             html += '</p>'
             html += '<hr class="m5">'
-            html += '<div style="height:100px;overflow-y:auto;">'
+            html += '<div style="height:10px;overflow-y:auto;">'
             html += '<p>' + desvalue + '</p>' 
             html += '</div>'
             html += '</div>'
@@ -291,7 +291,7 @@ function genVideoElm(obj) {
             } else {
                 ttlvalue = String(obj[i].ttl);
             }
-            html += '<div class="col-md-6">'
+            html += '<div class="col-xs-6 col-md-4 ">'
             html += '<div class="panel panel-primary">'
             html += '<div class="panel-heading">'
             html += '<span class="panel-title">'
@@ -304,7 +304,7 @@ function genVideoElm(obj) {
             //html += '<a align=\"center\" href=\"'+obj[i].url+'\" '+'target=\"_blank\">'+obj[i].ttl+'<\/a>'
             html += '</p>'
             html += '<hr class="m5">'
-            html += '<div style="height:100px;overflow-y:auto;">'
+            html += '<div style="height:10px;overflow-y:auto;">'
             html += '<p>' + desvalue + '</p>' 
             html += '</div>'
             html += '</div>'
