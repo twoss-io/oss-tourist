@@ -240,16 +240,11 @@ function genSlideElm(obj) {
             html += '<div class="panel panel-primary">'
             html += '<div class="panel-heading">'
             html += '<span class="panel-title">'
-            
-            //html += '<a href="' +obj[i].src + '">' + obj[i].ttl + '</a>'
             html += '<a href=\"'+obj[i].src+'\" '+'target=\"_blank\">'+obj[i].ttl+'<\/a>'
-            //html += '<iframe frameborder="0" height="200" src="' + obj[i].src + '"width="300"></iframe>'
-
             html += '</span>'
             html += '</div>'
             html += '<div class="panel-body">'
             html += '<p>'
-            
             html +='<iframe frameborder="0" height="200" src="' + obj[i].src + '"width="100%" sandbox ></iframe>'
             html += '</p>'
             html += '<hr class="m5">'
