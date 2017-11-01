@@ -1,11 +1,11 @@
 -        
-    url: https://www.youtube.com/watch?v=gVGZHzRjvo0
-    ttl: "Mesos: The Operating System for your Cluster" by David Greenberg"
+    url: https://www.youtube.com/watch?v=hZNGST2vIds
+    ttl: "Docker Clustering on Mesos with Marathon"
     tag: 
     dpl: v
 -        
-    url: https://www.youtube.com/watch?v=aXJxyEnkHd4
-    ttl: "Apache Mesos vs. Hadoop YARN #WhiteboardWalkthrough"
+    url: https://www.youtube.com/watch?v=gVGZHzRjvo0
+    ttl: "Mesos: The Operating System for your Cluster by David Greenberg"
     tag: 
     dpl: v
 -        
