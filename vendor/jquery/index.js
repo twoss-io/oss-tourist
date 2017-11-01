@@ -172,7 +172,7 @@ function genBlogElm(obj) {
             // html += '<a href="' + obj[i].url + '">'
             // html += obj[i].ttl
             // html += '</div>'
-            html += '<div class=" col-md-4">'
+            html += '<div class="col-xs-6 col-md-4">'
             html += '<div class="panel panel-primary">'
             html += '<div class="panel-heading">'
             html += '<span class="panel-title">'
@@ -236,7 +236,7 @@ function genSlideElm(obj) {
                 ttlvalue = String(obj[i].ttl);
             }
            
-            html += '<div class="col-md-4">'
+            html += '<div class="col-xs-6 col-md-4">'
             html += '<div class="panel panel-primary">'
             html += '<div class="panel-heading">'
             html += '<span class="panel-title">'
@@ -291,7 +291,7 @@ function genVideoElm(obj) {
             } else {
                 ttlvalue = String(obj[i].ttl);
             }
-            html += '<div class=" col-md-4 ">'
+            html += '<div class="col-xs-6 col-md-4 ">'
             html += '<div class="panel panel-primary">'
             html += '<div class="panel-heading">'
             html += '<span class="panel-title">'
