@@ -1,1 +1,60 @@
-
+-        
+    url: https://www.youtube.com/watch?v=KZps2dzr_u4
+    ttl: "Apache HBase 101: How HBase Can Help You Build Scalable, Distributed Java Applications"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=M6wrI3FzyvE
+    ttl: "Apache HBase at Airbnb"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=55uKpPw7iy8
+    ttl: "Apache spark with Apache HBase Integration"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=2Ci_QxJ1kiE
+    ttl: "Apache HBase - Just the Basics"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=VEc1c2BslG8
+    ttl: "Operating and Supporting Apache HBase Best Practices and Improvements"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=Aid-BNWvlYw
+    ttl: "How to Install Apache Hbase 1.1.7 on Hadoop 2.7.0 Single Node Cluster on Ubuntu 16.04"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=0NmgmeX_HUM
+    ttl: "Apache Phoenix and HBase Past Present and Future of SQL over HBase"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=TAeyP51f7ic
+    ttl: "HBase and Spark Leveraging your Non Relational Datastore in Batch and Streaming Applications"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=bu16GZNDhI8
+    ttl: "TUT4707 Introduction to HBase"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=_n0UnFluGOg
+    ttl: "Hbase is a real-time column oriented database"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=WpQhe44Q_18
+    ttl: "HBase and Hive at StumbleUpon"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=wlmpT2UnWNw
+    ttl: "Introduction to Apache HBase Operations | Tuning for Modern Hardware"
+    tag: 
+    dpl: v
