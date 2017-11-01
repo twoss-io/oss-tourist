@@ -1,7 +1,7 @@
 -        
     url: https://www.youtube.com/watch?v=hZNGST2vIds
     ttl: "Docker Clustering on Mesos with Marathon"
-    tag: 
+    tag: marathon
     dpl: v
 -        
     url: https://www.youtube.com/watch?v=gVGZHzRjvo0
@@ -16,7 +16,7 @@
 -        
     url: https://www.youtube.com/watch?v=1dgUXNVQS5o
     ttl: "Docker Swarm or Kubernetes or Mesos - pick your framework! by Arun Gupta"
-    tag: 
+    tag: kubernetes
     dpl: v
 -        
     url: https://www.youtube.com/watch?v=hTcZGODnyf0
@@ -31,17 +31,17 @@
 -        
     url: https://www.youtube.com/watch?v=_uw1ISM_uRU
     ttl: "Container Orchestration with Kubernetes, Docker Swarm & Mesos-Marathon - Adrian Mouat"
-    tag: 
+    tag: kubernetes
     dpl: v
 -        
     url: https://www.youtube.com/watch?v=KVWMhIeKM_A
     ttl: "Run Apache Spark on Apache Mesos"
-    tag: 
+    tag: spark
     dpl: v
 -        
     url: https://www.youtube.com/watch?v=pFCJ3WiVjyA
     ttl: "Running Kubernetes at Scale with Mesos and the Mesosphere DCOS by Benjamin Hindman"
-    tag: 
+    tag: kubernetes
     dpl: v
 -        
     url: https://www.youtube.com/watch?v=wHpklfoarcc
