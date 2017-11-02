@@ -1,1 +1,175 @@
-
+-        
+    url: https://www.youtube.com/watch?v=8mKpfutwD0U
+    ttl: "PostgreSQL at 10 TB and beyond"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=ghTksCsFBcI
+    ttl: "Beginners PostgreSQL database Tutorial 1 - Installing and Setting up PostgreSQL ( pgAdmin )"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=-3gs-akUg-g
+    ttl: "PostgreSQL Backup and Recovery Methods"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=NvAGjdVs9Xc
+    ttl: "LinuxFest Northwest 2017: What will be new in PostgreSQL 10?"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=9YS2-gKcUrQ
+    ttl: "PostgreSQL's BDR and UDR Explained"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=-LwI4HMR_Eg
+    ttl: "How to Install and configuration PostgreSQL on Ubuntu Linux"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=fD7x8hd9yE4
+    ttl: "Example: PostgreSQL Create DB and Table"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=DNPVqK_woRQ
+    ttl: "Build a GraphQL server for Node.js, using PostgreSQL/MySQL"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=xaWlS9HtWYw
+    ttl: "SQL Tutorial for Beginners 1: Installing PostgreSQL and Creating Your First Database"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=bLi4zhMey3Q
+    ttl: "PostgreSQL tutorial - functions"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=emgJtr9tIME
+    ttl: "MySQL vs PostgreSQL - Why you shouldn't use MySQL"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=1GlQpflJZTU
+    ttl: "SQL Tutorial 1: Installing and Setting up PostgreSQL"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=zsF1vfHBMBI
+    ttl: "The Elephants In The Room: Limitations of the PostgreSQL Core Technology"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=rg_GiOZ5Owk
+    ttl: "Rob Conery - Document Storage Techniques with PostgreSQL and JSONB"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=GobQw9LMEaw
+    ttl: "PostgreSQL Replication Tutorial"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=I6D1HWf6isk
+    ttl: "Introduction to JSON Functions in PostgreSQL 9.5"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=TW4ENi_CGoM
+    ttl: "Install PostgreSQL on AWS (Amazon Web Services)"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=fPE_bLi09cI
+    ttl: "PostgreSQL creating database and table"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=jNIdcrQsfYo
+    ttl: "Postgresql tutorial 001:create database,schema,Insert,delete,drop,truncate"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=QTCsjVGlPBM
+    ttl: "PostgreSQL - Installing and basic configuration in Ubuntu"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=LYgQW4a_anA
+    ttl: "nstalando PostgreSQL 9.3 no Ubuntu 14"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=FyR3TD11hlc
+    ttl: "PostgreSQL Backup Strategies"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=nFfS1HmiWCM
+    ttl: "Modern SQL in PostgreSQL"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=4klaPUjbMZo
+    ttl: "The Future of PostgreSQL Multi-Master Replication"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=RDBia4-kHoM
+    ttl: "Basic Postgresql Backup and Restore"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=2OA2lLRe70Q
+    ttl: "CREATE TABLE and import CSV Using PostgreSQL"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=XqO5drqExGw
+    ttl: "PostgreSQL Administration - Simon Riggs"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=Lbx-JVcGIFo
+    ttl: "How does PostgreSQL work with disks: a DBA’s checklist in detail"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=o8WGJ0NZaM8
+    ttl: "JSON and PostgreSQL, the State of the Art"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=G4i-xnSMwkY
+    ttl: "Architecture for building scalable and highly available Postgres Cluster"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=knUitQQnpJo
+    ttl: "Christophe Pettus - PostgreSQL Proficiency for Python People - PyCon 2016"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=78A2gJBgL9g
+    ttl: "Christophe Pettus - PostgreSQL Proficiency for Python People - PyCon 2015"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=KE7swNWvlok
+    ttl: "Heroku Postgres: SQL Database-as-a-Service"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=3dMq_3UUPxg
+    ttl: "Putting Python in PostgreSQL"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=-3gs-akUg-g
+    ttl: "Christophe Pettus: PostgreSQL Proficiency for Python People - PyCon 2014"
+    tag: 
+    dpl: v
