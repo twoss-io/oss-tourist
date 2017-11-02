@@ -183,7 +183,7 @@ function genBlogElm(obj) {
             html += '<p>'
 
             //html += '<a align="center" href="' + obj[i].url + '">' + ttlvalue + '</a>'
-            html+='<img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs%3D" data-url=\"'+
+            html+='<img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs%3D" width="80%" data-url=\"'+
             obj[i].url+
             //https://www.hkitblog.com/?p=28531
             '\">'
