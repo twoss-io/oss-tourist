@@ -1,1 +1,30 @@
-
+-        
+    url: https://www.youtube.com/watch?v=EIkGTwLOD7o
+    ttl: "A Better Arduino IDE - Getting Started with PlatformIO"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=lXchL3hpDO4
+    ttl: "Over-the-Air ESP8266 programming using PlatformIO"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=nyeI0nw93AI
+    ttl: "Tutorial ESP-12E con PlatformIO y Github desde cero en 20 minutos"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=EBlHNBNHESQ
+    ttl: "PlatformIO - Using External Libraries"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=Vn0Mip00je0
+    ttl: "Using PlatformIO to build Arduino code for STM32"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=6t7UbX812Yw
+    ttl: "PlatformIO: a cross-platform IoT solution to build them all!"
+    tag: 
+    dpl: v
