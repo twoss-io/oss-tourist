@@ -1,1 +1,40 @@
-
+-        
+    url: https://www.youtube.com/watch?v=yO3SBU6vVKA
+    ttl: "Building real-time data products at LinkedIn with Apache Samza"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=fU9hR3kiOK0
+    ttl: "Turning the database inside out with Apache Samza by Martin Kleppmann"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=uRmYJGRPfKU
+    ttl: "Scalable real-time data processing with Apache Samza"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=WuqjuBapAfw
+    ttl: "Apache Samza: Distributed Stream Processing with Kafka and YARN"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=sm40GymY8P8
+    ttl: "An evening with Jay Kreps author of Apache Kafka, Samza, Voldemort & Azkaban."
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=7YBmUKjzg7c
+    ttl: "Introduction to Samza (September 27, 2013)"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=_nIWfEJ21Lo
+    ttl: "Apache Samza: Past, Present, and Future--Kartik Paramasivam, LinkedIn (11/2/16)"
+    tag: 
+    dpl: v
+-        
+    url: https://www.youtube.com/watch?v=plqVp_OnSzg
+    ttl: "RocksDB usage at LinkedIn - RocksDB Meetup, December 2014"
+    tag: 
+    dpl: v
