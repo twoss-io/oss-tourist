@@ -30,6 +30,7 @@ function genElm(obj) {
     var html = '<ul id="navList" class="nav sidebar-menu">'
     for (var i = 0; i < obj.length; i++) {
         var el = obj[i];
+        console.log('el='+el);
         html += '<li class="sidebar-label pt15"><a href="' + '#' + '" onclick="getCategory(' + '\'' + el + '\'' + ');">' + el + '</a></li>'
         //html+= '<li class="sidebar-label pt15"><a href="'+'?Category='+el+'" onclick="getCategory('+'\''+el+'\''+');">'+el+'</a></li>'
         //html+= '<li>'+el+'</li>'
