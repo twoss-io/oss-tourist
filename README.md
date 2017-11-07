@@ -23,28 +23,3 @@ SlideShare網站投影片可支援預覽，其他網站投影片預覽功能待�
 
 <h3 id="list">清單</h3>
 
-目前開源功能分類如下，可點選[清單](/category.yaml)來編輯：
-
-    *   OpenStack
-    *   Docker
-    *   MySQL
-    *   Elasticsearch
-    *   Spark
-    *   Kubernetes
-    *   Mesos
-    *   OpenDaylight
-    *   Hyperledger
-    *   LibreOffice
-    *   Hadoop
-    
-*   新增一開源功能後，要新增三個檔案，以OpenStack為例，(#overview_detail)
-    *   [OpenStack影片內容檔](/OpenStack_Video.yaml)
-    *   [OpenStack投影片內容檔](/OpenStack_Slide.yaml)
-    *   [OpenStack部落格內容檔](/OpenStack_Blog.yaml)
-    
-
-    
-
-
-
-
