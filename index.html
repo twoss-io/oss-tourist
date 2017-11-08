@@ -483,38 +483,32 @@
             <!-- <li class="crumb-active">
               <a href="dashboard.html">Dashboard</a>
             </li> -->
-            <li class="crumb-icon">
+            <!-- <li class="crumb-icon">
               <a href="dashboard.html">
                 <span class="glyphicon glyphicon-home"></span>
               </a>
-            </li>
-            <li class="crumb-link">
+            </li> -->
+            <!-- <li class="crumb-link">
               <a href="index.html">Home</a>
+            </li> -->
+            <!-- <li class="crumb-trail" id='liVideo' onclick="getPaging(this.id)">
+              Video
             </li>
-            <li class="crumb-trail" id='ctl'>
-
-            </li>
+            <li class="crumb-trail" id='liSlide' onclick="getPaging(this.id)">
+                Slide
+              </li>
+              <li class="crumb-trail" id='Blog' onclick="getPaging(this.id)">
+                  Blog
+                </li> -->
+                <li id="1"><a href="#" onclick=showdivbyid(1);>Video</a></li>
+                <li id="2"><a href="#"onclick=showdivbyid(2);>Slide</a></li>
+                <li id="3"><a href="#"onclick=showdivbyid(3);>Blog</a></li>
           </ol>
         </div>
-        <div class="topbar-right">
-          <div class="ib topbar-dropdown">
-            <!-- <label for="topbar-multiple" class="control-label pr10 fs11 text-muted">Reporting Period</label> -->
-            <!-- <select id="topbar-multiple" class="hidden">
-              <optgroup label="Filter By:">
-                <option value="1-1">Last 30 Days</option>
-                <option value="1-2" selected="selected">Last 60 Days</option>
-                <option value="1-3">Last Year</option>
-              </optgroup>
-            </select> -->
-          </div>
-          <!-- <div class="ml15 ib va-m" id="toggle_sidemenu_r">
-            <a href="#" class="pl5">
-              <i class="fa fa-sign-in fs22 text-primary"></i>
-              <span class="badge badge-danger badge-hero">3</span>
-            </a>
-          </div> -->
-        </div>
+        
       </header>
+      
+      
       <!-- End: Topbar -->
 
       <!-- Begin: Content -->
@@ -797,6 +791,34 @@
       //console.log (sList);
       //console.log (sList2);
     }
+  </script>
+  <script>
+      function shake(str){
+          alert(str);
+      }
+  
+      function shrink(str){
+          alert(str);
+      }
+      function showdivbyid(str){
+        if(str==1){
+          $("#videobody").fadeIn('fast');
+          $("#slidebody").fadeOut('fast');
+          $("#blogbody").fadeOut('fast');
+          //console.log('str==1');
+        }else if(str==2){
+          $("#videobody").fadeOut('fast');
+          $("#slidebody").fadeIn('fast');
+          $("#blogbody").fadeOut('fast');
+          //console.log('str==2');
+        }else if(str==3){
+          $("#videobody").fadeOut('fast');
+          $("#slidebody").fadeOut('fast');
+          $("#blogbody").fadeIn('fast');
+          //console.log('str==3');
+        }  
+      }
+  
   </script>
   <script type="text/javascript">
     jQuery(document).ready(function () {
