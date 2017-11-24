@@ -31,7 +31,7 @@ function genElm(obj) {
     for (var i = 0; i < obj.length; i++) {
         var el = obj[i];
         console.log('el='+el);
-        html += '<li class="sidebar-label pt15"><a href="' + '#' + '" onclick="getCategory(' + '\'' + el + '\'' + ');">' + el + '</a></li>'
+        html += '<li class="sidebar-label pt15"><a class = "sidebar_clTitle" href="' + '#' + '" onclick="getCategory(' + '\'' + el + '\'' + ');">' + el + '</a></li>'
         //html+= '<li class="sidebar-label pt15"><a href="'+'?Category='+el+'" onclick="getCategory('+'\''+el+'\''+');">'+el+'</a></li>'
         //html+= '<li>'+el+'</li>'
     }
@@ -179,7 +179,7 @@ function genBlogElm(obj) {
             // html += obj[i].ttl
             // html += '</div>'
             html += '<div class="col-xs6 col-sm-4">'
-            html += '<div class="panel panel-primary">'
+            html += '<div class="panel">'
             html += '<div class="panel-heading">'
             html += '<span class="panel-title">'
             html += '<a href=\"'+obj[i].url+'\" '+'target=\"_blank\">'+obj[i].ttl+'<\/a>'
@@ -243,7 +243,7 @@ function genSlideElm(obj) {
             }
            
             html += '<div class="col-xs6 col-sm-4">'
-            html += '<div class="panel panel-primary">'
+            html += '<div class="panel">'
             html += '<div class="panel-heading">'
             html += '<span class="panel-title">'
             html += '<a href=\"'+obj[i].src+'\" '+'target=\"_blank\">'+obj[i].ttl+'<\/a>'
@@ -296,7 +296,7 @@ function genVideoElm(obj) {
                 ttlvalue = String(obj[i].ttl);
             }
             html += '<div class="col-xs6 col-sm-4 ">'
-            html += '<div class="panel panel-primary">'
+            html += '<div class="panel">'
             html += '<div class="panel-heading">'
             html += '<span class="panel-title">'
             html += '<a href=\"'+obj[i].url+'\" '+'target=\"_blank\">'+obj[i].ttl+'<\/a>'
