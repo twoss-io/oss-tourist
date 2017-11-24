@@ -56,6 +56,12 @@
   }
   </style>
   <style>
+  a {
+  color: #404040;
+  text-decoration: none;
+}
+  </style>
+  <style>
     #SearchInputText{
       width:90%;
       padding : 2px 5px ;
@@ -550,6 +556,33 @@
       <!-- End: Topbar -->
 
       <!-- Begin: Content -->
+      <div class="topbar-left">
+        <ol class="breadcrumb">
+          <!-- <li class="crumb-active">
+            <a href="dashboard.html">Dashboard</a>
+          </li> -->
+          <!-- <li class="crumb-icon">
+            <a href="dashboard.html">
+              <span class="glyphicon glyphicon-home"></span>
+            </a>
+          </li> -->
+          <!-- <li class="crumb-link">
+            <a href="index.html">Home</a>
+          </li> -->
+          <!-- <li class="crumb-trail" id='liVideo' onclick="getPaging(this.id)">
+            Video
+          </li>
+          <li class="crumb-trail" id='liSlide' onclick="getPaging(this.id)">
+              Slide
+            </li>
+            <li class="crumb-trail" id='Blog' onclick="getPaging(this.id)">
+                Blog
+              </li> -->
+              <li id="1"><a href="#" onclick=showdivbyid(1);>Video</a></li>
+              <li id="2"><a href="#"onclick=showdivbyid(2);>Slide</a></li>
+              <li id="3"><a href="#"onclick=showdivbyid(3);>Blog</a></li>
+        </ol>
+      </div>
       <section id="content" class="table-layout animated fadeIn">
         <!-- begin: .tray-center -->
         <div class="tray tray-center">
