@@ -56,20 +56,25 @@
   }
   </style>
   <style>
+    #SearchInputText{
+      width:90%;
+      padding : 2px 5px ;
+    }
+  
     .sidebar-menu .sidebar-label {
       text-transform: capitalize;
       font-weight: 600;
-      padding-left: 18px;
       padding-bottom: 3px;
       font-size: 20px;
       font-family: 'cwTeXYen', sans-serif;
     }
     
-    #navList > .sidebar-label > a {
+    
+    #sideLiBox > .sidebar-label > a {
       color: #404040 ;
     }
     
-    #navList > .sidebar-label > a:hover{
+    #sideLiBox > .sidebar-label > a:hover{
       color: #42adf4 !important;
     }
     
@@ -79,6 +84,16 @@
     
     .panel-title a{
       color:#404040;
+      font-family:microsoft jhenghei ;
+      font-weight:bold ;
+      font-size:16px;
+    }
+    
+    .forSlideHref{
+      position:absolute;
+      z-index:99;
+      height:200px ;
+      width : 100%;
     }
 
     body {
@@ -113,14 +128,8 @@
       padding-left: 11px;
       padding-right: 11px;
     }
-    
   </style>
-  <style>
-.panel-primary > .panel-heading {
-  color: #ffffff;
-  background-color: #FFFFFF;
-}
-  </style>
+
 </head>
 
 <body class="dashboard-page">
@@ -432,17 +441,25 @@
 
           <ul class="nav sidebar-menu">
             <li id='lix' class="sidebar-label pt20">Menu
+            <div style = "display:inline-block ;" class="sidebar-toggle-mini">
+              <a href="#">
+                <span class="fa fa-sign-out"></span>
+              </a>
+            </div>
             </li>
+          </ul>
+          
+          <ul id="navList" class="nav sidebar-menu">
+            <li class="sidebar-label pt15"><input type="text"  class="form-control" id="SearchInputText" placeholder="Search..."></li>
+            <div id = "sideLiBox">
+            
+            </div>
+          </ul>
         </div>
 
         <!-- End: Sidebar Menu -->
 
         <!-- Start: Sidebar Collapse Button -->
-        <div class="sidebar-toggle-mini">
-          <a href="#">
-            <span class="fa fa-sign-out"></span>
-          </a>
-        </div>
         <!-- End: Sidebar Collapse Button -->
 
       </div>
