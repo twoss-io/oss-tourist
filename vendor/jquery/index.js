@@ -9,14 +9,37 @@ $(document).ready(function () {
     //Add css class sidebar-nav to ul
     $("#navList").toggleClass("sidebar-nav", true);//.css('color','red');
     
+    $( "#SearchInputText" ).keyup(function() { // sidebar搜尋指定類別 
+      $('#sideLiBox').empty() ;
+      
+      var objCl_s = $(this).val() ;
+      
+      $.get('./content/category.yaml', function (res) {
+        var obj = jsyaml.load(res);
+        
+        var obj = obj.filter(function (value) {
+          return value.match( objCl_s );
+        });
+        
+        obj.sort() ;
+        genElm(obj);
+        
+      }).done(function () {
+          console.log("done")
+      }).fail(function () {
+          console.log("fail");
+      })
+        
+    });
+       
 });
-
 
 
 function getYaml() {
     $.get('./content/category.yaml', function (res) {
         var obj = jsyaml.load(res);
         //console.log(obj)
+        obj.sort() ;
         genElm(obj);
         
     }).done(function () {
@@ -27,7 +50,8 @@ function getYaml() {
 }
 
 function genElm(obj) {
-    var html = '<ul id="navList" class="nav sidebar-menu">'
+    html = '' ;
+    
     for (var i = 0; i < obj.length; i++) {
         var el = obj[i];
         console.log('el='+el);
@@ -35,9 +59,8 @@ function genElm(obj) {
         //html+= '<li class="sidebar-label pt15"><a href="'+'?Category='+el+'" onclick="getCategory('+'\''+el+'\''+');">'+el+'</a></li>'
         //html+= '<li>'+el+'</li>'
     }
-    html += '</ul>'
     //$("#main").append(html)
-    $("#sidebar-wrapper").append(html)
+    $("#sideLiBox").append(html)
 
 }
 
@@ -186,6 +209,7 @@ function genBlogElm(obj) {
             html += '</span>'
             html += '</div>'
             html += '<div class="panel-body">'
+            html += '<a href=\"'+obj[i].url+'\" '+'target=\"_blank\">' 
             html += '<p>'
 
             //html += '<a align="center" href="' + obj[i].url + '">' + ttlvalue + '</a>'
@@ -195,6 +219,7 @@ function genBlogElm(obj) {
             '\">'
 
             html += '</p>'
+            html += '<\/a>'
             html += '<hr class="m5">'
             html += '<div style="height:100px;overflow-y:auto;">'
             html += '<p>' + obj[i].ttl + '</p>' 
@@ -249,9 +274,10 @@ function genSlideElm(obj) {
             html += '<a href=\"'+obj[i].src+'\" '+'target=\"_blank\">'+obj[i].ttl+'<\/a>'
             html += '</span>'
             html += '</div>'
-            html += '<div class="panel-body">'
-            html += '<p>'
-            html +='<iframe frameborder="0" height="200" src="' + obj[i].src + '"width="100%" sandbox ></iframe>'
+            html += '<div class="panel-body" >' 
+            html += '<a class = "forSlideHref" href=\"'+obj[i].src+'\" '+'target=\"_blank\" ></a>'
+            html += '<p style = "height:200px ;width : 100%; overflow:hidden">'
+            html += '<iframe scrolling="no" frameborder="0" height="230px" src="' + obj[i].src + '" width="100%"  sandbox ></iframe>'
             html += '</p>'
             html += '<hr class="m5">'
             html += '<div style="height:10px;overflow-y:auto;">'
@@ -261,13 +287,13 @@ function genSlideElm(obj) {
             html += '</div>'
             html += '</div>'
         }
+        
+        
+        
     }
     html += ''//'</tr>'
     $("#slidebody").append(html)
 
-    
-
-    //$('#escalation2').paging({limit:1});  
 }
 
 
@@ -342,4 +368,31 @@ function adjustIframes() {
     });
 }
 $(window).on('resize load', adjustIframes);
+
+
+function image_creator(url, ptitle)
+{
+    $.ajax(
+        { 
+        url: url, 
+        success: function(data) {
+            var html = $.parseHTML( data ), 
+                img = $(html).find("img"),
+                len = img.length; 
+            if( len > 0 ){
+                var src = img.first().attr("src"); // get id of first image
+            } else {
+                console.log("Image not found");
+            }
+            console.log(src);
+
+            image_tag='<img src="'+src+'" alt="'+ptitle+'"/>';
+            return image_tag;
+        },
+        error: function(result){   //處理回傳錯誤事件，當請求失敗後此事件會被呼叫
+          //your code here
+           console.log("Image not found can not connect url ");
+        }
+    });
+}
 
