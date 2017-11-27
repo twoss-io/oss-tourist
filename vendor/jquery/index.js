@@ -17,8 +17,8 @@ $(document).ready(function () {
       $.get('./content/category.yaml', function (res) {
         var obj = jsyaml.load(res);
         
-        var obj = obj.filter(function (value) {
-          return value.match( objCl_s );
+        var obj = obj.filter(function (value) { // 篩選數組
+          return value.match( objCl_s ); // 輸入字串 match到 Category 
         });
         
         obj.sort() ;
@@ -32,6 +32,16 @@ $(document).ready(function () {
         
     });
        
+       
+       
+    $('.checkBtn input:checkbox').click(function(){ // 根據checkBox做類別的顯示
+      if($('#cB_Video').is(":checked")) $("#videobody").fadeIn();
+      else $("#videobody").fadeOut();
+      if($('#cB_Slide').is(":checked")) $("#slidebody").fadeIn();
+      else $("#slidebody").fadeOut();
+      if($('#cB_Blog').is(":checked")) $("#blogbody").fadeIn();
+      else $("#blogbody").fadeOut();
+    })
 });
 
 
@@ -80,10 +90,13 @@ function getCategory(category) {
     getSlideByCategory(category);
     getBlogByCategory(category);
 
-    //
-    $("#videobody").fadeIn('fast');
-    $("#slidebody").fadeIn('fast');
-    $("#blogbody").fadeIn('fast');
+    // 根據checkBox做類別的顯示
+      if($('#cB_Video').is(":checked")) $("#videobody").fadeIn();
+      else $("#videobody").fadeOut();
+      if($('#cB_Slide').is(":checked")) $("#slidebody").fadeIn();
+      else $("#slidebody").fadeOut();
+      if($('#cB_Blog').is(":checked")) $("#blogbody").fadeIn();
+      else $("#blogbody").fadeOut();
 }
 
 function getVideoByCategory(category) {
@@ -196,6 +209,7 @@ function genBlogElm(obj, nowPage, perNum, category) {
     var begin = ( nowPage - 1 ) * perNum ; // 根據頁數之起始數 e.g 第一頁0 第二頁6個   
     var end = nowPage * perNum ; // 根據頁數之結束數 e.g 第一頁6 第二頁12個   
     var nowPassNum = 0; // 已經找到之其類別的個數
+    html += '<h1>Blog</h1>' ;
     //console.log('genBlogElm obj:'+obj);
     //console.log('genBlogElm obj:'+obj);
     for (var i in obj) {
@@ -211,7 +225,7 @@ function genBlogElm(obj, nowPage, perNum, category) {
             // html += obj[i].ttl
             // html += '</div>'
             html += '<div class="col-xs6 col-sm-4">'
-            html += '<div class="panel">'
+            html += '<div class="panel panel-primary">'
             html += '<div class="panel-heading">'
             html += '<span class="panel-title">'
             html += '<a href=\"'+obj[i].url+'\" '+'target=\"_blank\">'+obj[i].ttl+'<\/a>'
@@ -281,6 +295,7 @@ function genSlideElm(obj, nowPage, perNum, category) {
     var begin = ( nowPage - 1 ) * perNum ; // 根據頁數之起始數 e.g 第一頁0 第二頁6個   
     var end = nowPage * perNum ; // 根據頁數之結束數 e.g 第一頁6 第二頁12個   
     var nowPassNum = 0; // 已經找到之其類別的個數
+    html += '<h1>Slide</h1>' ;
     //console.log('genBlogElm obj:'+obj);
     for (var i in obj) {
         var desvalue = '';
@@ -313,7 +328,7 @@ function genSlideElm(obj, nowPage, perNum, category) {
             }
            
             html += '<div class="col-xs6 col-sm-4">'
-            html += '<div class="panel">'
+            html += '<div class="panel panel-primary">'
             html += '<div class="panel-heading">'
             html += '<span class="panel-title">'
             html += '<a href=\"'+obj[i].src+'\" '+'target=\"_blank\">'+obj[i].ttl+'<\/a>'
@@ -377,6 +392,7 @@ function genVideoElm(obj, nowPage, perNum, category) {
     var begin = ( nowPage - 1 ) * perNum ; // 根據頁數之起始數 e.g 第一頁0 第二頁6個   
     var end = nowPage * perNum ; // 根據頁數之結束數 e.g 第一頁6 第二頁12個   
     var nowPassNum = 0; // 已經找到之其類別的個數
+    html += '<h1>Video</h1>' ;
     //console.log('genBlogElm obj:'+obj);
     for ( var i in obj) {
         var desvalue = '';
@@ -403,9 +419,9 @@ function genVideoElm(obj, nowPage, perNum, category) {
                 ttlvalue = String(obj[i].ttl);
             }
             html += '<div class="col-xs6 col-sm-4 ">'
-            html += '<div class="panel">'
-            html += '<div class="panel-heading">'
-            html += '<span class="panel-title">'
+            html += '<div class="panel panel-primary">'
+            html += '<div class="panel-heading ">'
+            html += '<span class="panel-title ">'
             html += '<a href=\"'+obj[i].url+'\" '+'target=\"_blank\">'+obj[i].ttl+'<\/a>'
             html += '</span>'
             html += '</div>'
