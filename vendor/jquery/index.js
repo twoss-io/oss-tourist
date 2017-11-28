@@ -419,7 +419,7 @@ function genVideoElm(obj, nowPage, perNum, category) {
                 ttlvalue = String(obj[i].ttl);
             }
             html += '<div class="col-xs6 col-sm-4 ">'
-            html += '<div class="panel panel-primary">'
+            html += '<div class="panel">'
             html += '<div class="panel-heading ">'
             html += '<span class="panel-title ">'
             html += '<a href=\"'+obj[i].url+'\" '+'target=\"_blank\">'+obj[i].ttl+'<\/a>'
