@@ -19,6 +19,7 @@
   - dsa
   - flink
   - freecd
+  - FreeBSD
   - gnucash
   - hbase
   - homeassistant
@@ -53,4 +54,3 @@
   - thingspeak
   - vagrant
   - zetta
-  - FreeBSD
