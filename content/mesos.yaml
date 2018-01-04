@@ -53,3 +53,169 @@
     ttl: "Improving Resource Efficiency with Apache Mesos"
     tag: 
     dpl: v
+-        
+    url: https://www.youtube.com/watch?v=aXJxyEnkHd4
+    ttl: "Apache Mesos vs. Hadoop YARN #WhiteboardWalkthrough"
+    tag: 
+    dpl: v
+-
+    url: 
+    ttl: Introduction to Apache Mesos
+    src: https://www.slideshare.net/slideshow/embed_code/key/FKpCjeyqQ62tzN
+    her: //www.slideshare.net/slideshow/embed_code/key/FKpCjeyqQ62tzN
+    tag: Mesos
+    dpl: s
+-
+    url: 
+    ttl: Introduction to Apache Mesos
+    src: https://www.slideshare.net/slideshow/embed_code/key/r7bX4qKVwQFqUl
+    her: //www.slideshare.net/slideshow/embed_code/key/r7bX4qKVwQFqUl
+    tag: Mesos
+    dpl: s
+-
+    url: 
+    ttl: Building and Deploying Application to Apache Mesos
+    src: https://www.slideshare.net/slideshow/embed_code/key/n6AEy2V0vlEMAe
+    her: //www.slideshare.net/slideshow/embed_code/key/n6AEy2V0vlEMAe
+    tag: Mesos
+    dpl: s
+-
+    url: 
+    ttl: Datacenter Computing with Apache Mesos - BigData DC
+    src: https://www.slideshare.net/slideshow/embed_code/key/kpIB3Iw90QUr1L
+    her: //www.slideshare.net/slideshow/embed_code/key/kpIB3Iw90QUr1L
+    tag: Mesos
+    dpl: s
+-
+    url: 
+    ttl: Apache Mesos and Mesosphere Live webcast by CEO and Co-Founder Florian Leibert
+    src: https://www.slideshare.net/slideshow/embed_code/key/3IMYSkZeOEwpjv
+    her: //www.slideshare.net/slideshow/embed_code/key/3IMYSkZeOEwpjv
+    tag: Mesos
+    dpl: s
+-
+    url: 
+    ttl: Mesos on coreOS
+    src: https://www.slideshare.net/slideshow/embed_code/key/KIOq0uJd5mHPez
+    her: //www.slideshare.net/slideshow/embed_code/key/KIOq0uJd5mHPez
+    tag: Mesos
+    dpl: s
+-
+    url: 
+    ttl: Musings on Mesos Docker, Kubernetes, and Beyond.
+    src: https://www.slideshare.net/slideshow/embed_code/key/cJoDiR80R96pYF
+    her: //www.slideshare.net/slideshow/embed_code/key/cJoDiR80R96pYF
+    tag: Mesos
+    dpl: s
+-
+    url: 
+    ttl: Cassandra on Mesos Across Multiple Datacenters at Uber (Abhishek Verma) | C* Summit 2016
+    src: https://www.slideshare.net/slideshow/embed_code/key/7fwB6K8yOjG94
+    her: //www.slideshare.net/slideshow/embed_code/key/7fwB6K8yOjG94
+    tag: Mesos
+    dpl: s
+-
+    url: 
+    ttl: Building Web Scale Apps with Docker and Mesos by Alex Rukletsov (Mesosphere)
+    src: https://www.slideshare.net/slideshow/embed_code/key/NFklAYPNupSCrI
+    her: //www.slideshare.net/slideshow/embed_code/key/NFklAYPNupSCrI
+    tag: Mesos
+    dpl: s
+-
+    url: 
+    ttl: Apache Mesos at Twitter (Texas LinuxFest 2014)
+    src: https://www.slideshare.net/slideshow/embed_code/key/8QcfuLE78TDfQ
+    her: //www.slideshare.net/slideshow/embed_code/key/8QcfuLE78TDfQ
+    tag: Mesos
+    dpl: s
+-
+    url: 
+    ttl: Getting Started Running Apache Spark on Apache Mesos
+    src: https://www.slideshare.net/slideshow/embed_code/key/C6r2h10rRK25Ro
+    her: //www.slideshare.net/slideshow/embed_code/key/C6r2h10rRK25Ro
+    tag: Mesos
+    dpl: s
+-
+    url: 
+    ttl: How to deploy Apache Spark to Mesos/DCOS
+    src: https://www.slideshare.net/slideshow/embed_code/key/mgJMJXRGN54On
+    her: //www.slideshare.net/slideshow/embed_code/key/mgJMJXRGN54On
+    tag: Mesos
+    dpl: s
+-
+    url: 
+    ttl: Data processing platforms architectures with Spark, Mesos, Akka, Cassandra and Kafka
+    src: https://www.slideshare.net/slideshow/embed_code/key/ql92PKFnB4fbr8
+    her: //www.slideshare.net/slideshow/embed_code/key/ql92PKFnB4fbr8
+    tag: Mesos
+    dpl: s
+-
+    url: https://www.digitalocean.com/community/tutorials/an-introduction-to-mesosphere
+    ttl: An Introduction to Mesosphere
+    src: 
+    her: 
+    tag: Mesos
+    dpl: b
+-
+    url: https://medium.com/@gargar454/deploy-a-mesos-cluster-with-7-commands-using-docker-57951e020586
+    ttl: Deploy a Mesos Cluster with 7 Commands Using Docker
+    src: 
+    her: 
+    tag: Mesos
+    dpl: b
+-
+    url: http://container-solutions.com/continuous-delivery-with-docker-on-mesos-in-less-than-a-minute/
+    ttl: Continuous Delivery with Docker on Mesos in less than a minute – Part 1
+    src: 
+    her: 
+    tag: Mesos
+    dpl: b
+-
+    url: http://www.thedevpiece.com/building-a-microservice-infrastructure-using-mesos-marathon-and-zookeeper/
+    ttl: Building a Microservice Infrastructure using Mesos, Marathon and Zookeeper
+    src: 
+    her: 
+    tag: Mesos
+    dpl: b
+-
+    url: https://blog.codeship.com/virtual-mesos-cluster-vagrant-chef/
+    ttl: A Virtual Mesos Cluster with Vagrant and Chef
+    src: 
+    her: 
+    tag: Mesos
+    dpl: b
+-
+    url: https://platform9.com/blog/compare-kubernetes-vs-mesos/
+    ttl: Container Orchestration Tools Compare Kubernetes vs Mesos
+    src: 
+    her: 
+    tag: Mesos
+    dpl: b
+-
+    url: https://www.trainingdevops.com/training-material/advance-docker-training/apache-mesos-and-marathon
+    ttl: Introduction to Apache Mesos
+    src: 
+    her: 
+    tag: Mesos
+    dpl: b
+-
+    url: https://cloudarchitectmusings.com/2015/03/26/digging-deeper-into-apache-mesos/
+    ttl: Digging Deeper Into Apache Mesos
+    src: 
+    her: 
+    tag: Mesos
+    dpl: b
+-
+    url: https://blog.anynines.com/get-to-know-apache-mesos-and-apache-spark/
+    ttl: Get to know Apache Mesos and Apache Spark
+    src: 
+    her: 
+    tag: Mesos
+    dpl: b
+-
+    url: https://www.confluent.io/blog/making-apache-kafka-elastic-with-apache-mesos/
+    ttl: Making Apache Kafka Elastic With Apache Mesos
+    src: 
+    her: 
+    tag: Mesos
+    dpl: b                                                                                                    
