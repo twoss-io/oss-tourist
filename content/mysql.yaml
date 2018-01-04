@@ -98,3 +98,216 @@
     ttl: "MySQL VB.NET Tutorial 12 : Show database values in Table or DataGridView"
     tag: 
     dpl: v
+-
+    url: 
+    ttl: MySQL Atchitecture and Concepts
+    src: https://www.slideshare.net/slideshow/embed_code/key/lgdVGi2YMAX5c6
+    her: //www.slideshare.net/slideshow/embed_code/key/lgdVGi2YMAX5c6
+    tag: MySQL
+    dpl: s
+-
+    url: 
+    ttl: MySQL Introduction
+    src: https://www.slideshare.net/slideshow/embed_code/key/QXl63kuzCZSqe
+    her: //www.slideshare.net/slideshow/embed_code/key/QXl63kuzCZSqe
+    tag: MySQL
+    dpl: s
+-
+    url: 
+    ttl: Introduction to Mysql
+    src: https://www.slideshare.net/slideshow/embed_code/key/1mYO6qbJsiDAkB
+    her: //www.slideshare.net/slideshow/embed_code/key/1mYO6qbJsiDAkB
+    tag: MySQL
+    dpl: s
+-
+    url: 
+    ttl: The InnoDB Storage Engine for MySQL
+    src: https://www.slideshare.net/slideshow/embed_code/key/IfNDOkfmauevun
+    her: //www.slideshare.net/slideshow/embed_code/key/IfNDOkfmauevun
+    tag: MySQL
+    dpl: s
+-
+    url: 
+    ttl: MySQL Features & Implementation
+    src: https://www.slideshare.net/slideshow/embed_code/key/M1dOT2UA2CqXMt
+    her: //www.slideshare.net/slideshow/embed_code/key/M1dOT2UA2CqXMt
+    tag: MySQL
+    dpl: s
+-
+    url: 
+    ttl: MySQL 5.4 - Theory and Practice
+    src: https://www.slideshare.net/slideshow/embed_code/key/9OqMWsPzyin1yZ
+    her: //www.slideshare.net/slideshow/embed_code/key/9OqMWsPzyin1yZ
+    tag: MySQL
+    dpl: s
+-
+    url: 
+    ttl: Mysql Explain Explained
+    src: https://www.slideshare.net/slideshow/embed_code/key/v7mIPYOeJeFF39
+    her: //www.slideshare.net/slideshow/embed_code/key/v7mIPYOeJeFF39
+    tag: MySQL
+    dpl: s
+-
+    url: 
+    ttl: MySQL Indexing - Best practices for MySQL 5.6
+    src: https://www.slideshare.net/slideshow/embed_code/key/LfyP6cl95qztAJ
+    her: //www.slideshare.net/slideshow/embed_code/key/LfyP6cl95qztAJ
+    tag: MySQL
+    dpl: s
+-
+    url: 
+    ttl: MySQL Performance Tips & Best Practices
+    src: https://www.slideshare.net/slideshow/embed_code/key/mxHQw5TQmbCE08
+    her: //www.slideshare.net/slideshow/embed_code/key/mxHQw5TQmbCE08
+    tag: MySQL
+    dpl: s
+-
+    url: 
+    ttl: MySQL Performance Tuning Top 10 Tips
+    src: https://www.slideshare.net/slideshow/embed_code/key/rByWTkNRlF4zos
+    her: //www.slideshare.net/slideshow/embed_code/key/rByWTkNRlF4zos
+    tag: MySQL
+    dpl: s
+-
+    url: 
+    ttl: Join-fu The Art of SQL Tuning for MySQL
+    src: https://www.slideshare.net/slideshow/embed_code/key/1HqPgCHHwyzyRc
+    her: //www.slideshare.net/slideshow/embed_code/key/1HqPgCHHwyzyRc
+    tag: MySQL
+    dpl: s
+-
+    url: 
+    ttl: Php MySql For Beginners
+    src: https://www.slideshare.net/slideshow/embed_code/key/l5t7V4lcVgfk8E
+    her: //www.slideshare.net/slideshow/embed_code/key/l5t7V4lcVgfk8E
+    tag: MySQL
+    dpl: s
+-
+    url: 
+    ttl: Php mysql ppt
+    src: https://www.slideshare.net/slideshow/embed_code/key/6jcY3SVnuM7lHS
+    her: //www.slideshare.net/slideshow/embed_code/key/6jcY3SVnuM7lHS
+    tag: MySQL
+    dpl: s
+-
+    url: 
+    ttl: MySQL Query And Index Tuning
+    src: https://www.slideshare.net/slideshow/embed_code/key/mmSOTy2FpEC22m
+    her: //www.slideshare.net/slideshow/embed_code/key/mmSOTy2FpEC22m
+    tag: MySQL
+    dpl: s
+-
+    url: 
+    ttl: Optimizing MySQL Queries
+    src: https://www.slideshare.net/slideshow/embed_code/key/2bdlKA1G7Rpzca
+    her: //www.slideshare.net/slideshow/embed_code/key/2bdlKA1G7Rpzca
+    tag: MySQL
+    dpl: s
+-
+    url: http://www.yolinux.com/TUTORIALS/LinuxTutorialMySQL.html
+    ttl: The MySQL Database Installation and configuration
+    src: 
+    her: 
+    tag: MySQL
+    dpl: b
+-
+    url: https://arachnoid.com/MySQL/
+    ttl: MySQL Tutorial 1 Overview, Tables, Queries
+    src: 
+    her: 
+    tag: MySQL
+    dpl: b
+-
+    url: 
+    ttl: MySQL by Examples for Beginners
+    src: https://www.ntu.edu.sg/home/ehchua/programming/sql/MySQL_Beginner.html
+    her: 
+    tag: MySQL
+    dpl: b
+-
+    url: https://www.elated.com/articles/mysql-for-absolute-beginners/
+    ttl: MySQL for Absolute Beginners
+    src: 
+    her: 
+    tag: MySQL
+    dpl: b
+-
+    url: https://netbeans.org/kb/docs/ide/mysql.html
+    ttl: Connecting to a MySQL Database
+    src: 
+    her: 
+    tag: MySQL
+    dpl: b
+-
+    url: https://www.analysisandsolutions.com/code/mysql-tutorial.htm
+    ttl: MySQL Basics -- A Helpful MySQL Tutorial
+    src: 
+    her: 
+    tag: MySQL
+    dpl: b
+-
+    url: https://hackernoon.com/setting-up-node-js-with-a-database-part-1-3f2461bdd77f
+    ttl: Tutorial Setting up Node.js with a database
+    src: 
+    her: 
+    tag: MySQL
+    dpl: b
+-
+    url: https://www.binpress.com/tutorial/using-php-with-mysql-the-right-way/17
+    ttl: Using PHP with MySQL - the right way
+    src: 
+    her: 
+    tag: MySQL
+    dpl: b
+-
+    url: https://code.tutsplus.com/tutorials/creating-a-web-app-from-scratch-using-python-flask-and-mysql--cms-22972
+    ttl: Creating a Web App From Scratch Using Python Flask and MySQL
+    src: 
+    her: 
+    tag: MySQL
+    dpl: b
+-
+    url: http://mysqlserverteam.com/plan-to-improve-the-out-of-the-box-experience-in-mysql-8-0/
+    ttl: Plan to improve the out of the Box Experience in MySQL 8.0
+    src: 
+    her: 
+    tag: MySQL
+    dpl: b
+-
+    url: https://eng.uber.com/mysql-migration/
+    ttl: WHY UBER ENGINEERING SWITCHED FROM POSTGRES TO MYSQL
+    src: 
+    her: 
+    tag: MySQL
+    dpl: b
+-
+    url: https://azure.microsoft.com/en-us/blog/azure-database-for-mysql-public-preview/
+    ttl: Announcing Azure Database for MySQL Public Preview
+    src: 
+    her: 
+    tag: MySQL
+    dpl: b
+-
+    url: https://jerrynest.io/mysql-tutorial/
+    ttl: 簡單的 MySQL 使用教學
+    src: 
+    her: 
+    tag: MySQL
+    dpl: b
+-
+    url: https://blog.gtwang.org/programming/python-mysqldb-connect-mysql-database-tutorial/
+    ttl: Python 使用 MySQLdb 模組連接 MySQL 資料庫教學與範例
+    src: 
+    her: 
+    tag: MySQL
+    dpl: b
+-
+    url: https://blog.toright.com/posts/5062/mysql-replication-%E4%B8%BB%E5%BE%9E%E5%BC%8F%E6%9E%B6%E6%A7%8B%E8%A8%AD%E5%AE%9A%E6%95%99%E5%AD%B8.html
+    ttl: MySQL Replication 主從式架構設定教學
+    src: 
+    her: 
+    tag: MySQL
+    dpl: b                                            
+
+
+                                                            
