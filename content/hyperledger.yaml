@@ -13,3 +13,101 @@
     ttl: "Introduction to Hyperledger; Why open Blockchain is critical by Chris Ferris and Dan O'Prey"
     tag: 
     dpl: v
+-
+    url: 
+    ttl: Introduction to Blockchain and the Hyperledger Project
+    src: https://www.slideshare.net/slideshow/embed_code/key/qoToJQ3Q8MP9cW
+    her: //www.slideshare.net/slideshow/embed_code/key/qoToJQ3Q8MP9cW
+    tag: Hyperledger
+    dpl: s
+-
+    url: 
+    ttl: Architecture of the Hyperledger Blockchain Fabric - Christian Cachin - IBM Research Zurich
+    src: https://www.slideshare.net/slideshow/embed_code/key/cEdch7sN6jo4AS
+    her: //www.slideshare.net/slideshow/embed_code/key/cEdch7sN6jo4AS
+    tag: Hyperledger
+    dpl: s
+-
+    url: 
+    ttl: Technical introduction to Hyperledger's Fabric
+    src: https://www.slideshare.net/slideshow/embed_code/key/ID3O41jIALsrqg
+    her: //www.slideshare.net/slideshow/embed_code/key/ID3O41jIALsrqg
+    tag: Hyperledger
+    dpl: s
+-
+    url: 
+    ttl: Technical Introduction to Hyperledger Fabric v1.0
+    src: https://www.slideshare.net/slideshow/embed_code/key/DlTqR9XZ35Nfba
+    her: //www.slideshare.net/slideshow/embed_code/key/DlTqR9XZ35Nfba
+    tag: Hyperledger
+    dpl: s
+-
+    url: 
+    ttl: Blockchain with HyperLedger (Public version)
+    src: https://www.slideshare.net/slideshow/embed_code/key/gPnrMrCLqmhS2Y
+    her: //www.slideshare.net/slideshow/embed_code/key/gPnrMrCLqmhS2Y
+    tag: Hyperledger
+    dpl: s
+-
+    url: 
+    ttl: Anatomy of a hyperledger application
+    src: https://www.slideshare.net/slideshow/embed_code/key/1GHqETTWrwuk67
+    her: //www.slideshare.net/slideshow/embed_code/key/1GHqETTWrwuk67
+    tag: Hyperledger
+    dpl: s
+-
+    url: 
+    ttl: Introduction to Hyperledger Composer
+    src: https://www.slideshare.net/slideshow/embed_code/key/xVU26yr9bgomJW
+    her: //www.slideshare.net/slideshow/embed_code/key/xVU26yr9bgomJW
+    tag: Hyperledger
+    dpl: s
+-
+    url: 
+    ttl: Introduction to Hyperledger
+    src: https://www.slideshare.net/slideshow/embed_code/key/fXNppl8w7IcyUH
+    her: //www.slideshare.net/slideshow/embed_code/key/fXNppl8w7IcyUH
+    tag: Hyperledger
+    dpl: s
+-
+    url: 
+    ttl: Trading Derivatives on Hyperledger 
+    src: https://www.slideshare.net/slideshow/embed_code/key/Hv2wocnB2R6jAC
+    her: //www.slideshare.net/slideshow/embed_code/key/Hv2wocnB2R6jAC
+    tag: Hyperledger
+    dpl: s
+-
+    url: 
+    ttl: Blockchain for Business on Hyperledger
+    src: https://www.slideshare.net/slideshow/embed_code/key/E0pQLsfkiu1dBT
+    her: //www.slideshare.net/slideshow/embed_code/key/E0pQLsfkiu1dBT
+    tag: Hyperledger
+    dpl: s
+-
+    url: https://www.ibm.com/developerworks/cloud/library/cl-ibm-blockchain-101-quick-start-guide-for-developers-bluemix-trs/index.html
+    ttl: IBM Blockchain 101 Quick-start guide for developers
+    src: 
+    her: 
+    tag: Hyperledger
+    dpl: b
+-
+    url: https://medium.com/@gaurangtorvekar/getting-started-with-hyperledger-fabric-ba7efb55b75
+    ttl: Getting started with Hyperledger Fabric
+    src: 
+    her: 
+    tag: Hyperledger
+    dpl: b
+-
+    url: https://chainhero.io/2017/07/tutorial-build-blockchain-app/
+    ttl: Tutorial Hyperledger Fabric SDK Go How to build your first app?
+    src: 
+    her: 
+    tag: Hyperledger
+    dpl: b
+-
+    url: https://domsteil.com/2017/04/22/how-to-setup-hyperledger-fabric-v1-0-on-aws/
+    ttl: HOW TO SETUP AND BUILD HYPERLEDGER FABRIC BLOCKCHAIN APPLICATIONS
+    src: 
+    her: 
+    tag: Hyperledger
+    dpl: b                                                        
