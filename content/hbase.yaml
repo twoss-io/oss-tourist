@@ -58,3 +58,109 @@
     ttl: "Introduction to Apache HBase Operations | Tuning for Modern Hardware"
     tag: 
     dpl: v
+-
+    url: 
+    ttl: Apache Hadoop and HBase
+    src: https://www.slideshare.net/slideshow/embed_code/key/HKTTx9IrRsREWr
+    her: //www.slideshare.net/slideshow/embed_code/key/HKTTx9IrRsREWr
+    tag: Hadoop;HBase
+    dpl: s
+-
+    url: 
+    ttl: Apache HBase for Architects
+    src: https://www.slideshare.net/slideshow/embed_code/key/qUmy6icWW0m56B
+    her: //www.slideshare.net/slideshow/embed_code/key/qUmy6icWW0m56B
+    tag: HBase
+    dpl: s
+-
+    url: 
+    ttl: Apache HBase 1.0 Release
+    src: https://www.slideshare.net/slideshow/embed_code/key/mvYGfUp9TUxSOO
+    her: //www.slideshare.net/slideshow/embed_code/key/mvYGfUp9TUxSOO
+    tag: HBase
+    dpl: s
+-
+    url: 
+    ttl: Apache HBase Performance Tuning
+    src: https://www.slideshare.net/slideshow/embed_code/key/fvP7zJVIPRVk33
+    her: //www.slideshare.net/slideshow/embed_code/key/fvP7zJVIPRVk33
+    tag: HBase
+    dpl: s
+-
+    url: 
+    ttl: Apache HBase at Airbnb
+    src: https://www.slideshare.net/slideshow/embed_code/key/do73nAKSA2ciYC
+    her: //www.slideshare.net/slideshow/embed_code/key/do73nAKSA2ciYC
+    tag: HBase
+    dpl: s
+-
+    url: 
+    ttl: Apache Phoenix + Apache HBase
+    src: https://www.slideshare.net/slideshow/embed_code/key/i4A2ejfyJd321b
+    her: //www.slideshare.net/slideshow/embed_code/key/i4A2ejfyJd321b
+    tag: HBase
+    dpl: s
+-
+    url: 
+    ttl: Apache HBase Low Latency
+    src: https://www.slideshare.net/slideshow/embed_code/key/woDXAllQr6goiR
+    her: //www.slideshare.net/slideshow/embed_code/key/woDXAllQr6goiR
+    tag: HBase
+    dpl: s
+-
+    url: 
+    ttl: Hortonworks Technical Workshop HBase and Apache Phoenix
+    src: https://www.slideshare.net/slideshow/embed_code/key/DlOduNFnRsyvCZ
+    her: //www.slideshare.net/slideshow/embed_code/key/DlOduNFnRsyvCZ
+    tag: HBase
+    dpl: s
+-
+    url: 
+    ttl: Operating and Supporting Apache HBase Best Practices and Improvements
+    src: https://www.slideshare.net/slideshow/embed_code/key/nmbuBDwbuKCGEB
+    her: //www.slideshare.net/slideshow/embed_code/key/nmbuBDwbuKCGEB
+    tag: HBase
+    dpl: s
+-
+    url: 
+    ttl: Apache HBase Workshop
+    src: https://www.slideshare.net/slideshow/embed_code/key/q6mKoIOKRV3AMa
+    her: //www.slideshare.net/slideshow/embed_code/key/q6mKoIOKRV3AMa
+    tag: HBase
+    dpl: s
+-
+    url: 
+    ttl: Apache phoenix Past, Present and Future of SQL over HBAse
+    src: https://www.slideshare.net/slideshow/embed_code/key/mcnhExuKZ4PLds
+    her: //www.slideshare.net/slideshow/embed_code/key/mcnhExuKZ4PLds
+    tag: HBase
+    dpl: s
+-
+    url: 
+    ttl: HBaseCon 2013 Apache HBase Table Snapshots
+    src: https://www.slideshare.net/slideshow/embed_code/key/oxGJuQ7RGqG4H4
+    her: //www.slideshare.net/slideshow/embed_code/key/oxGJuQ7RGqG4H4
+    tag: HBase
+    dpl: s
+-
+    url: 
+    ttl: HBaseCon 2013 Apache HBase Operations at Pinterest
+    src: https://www.slideshare.net/slideshow/embed_code/key/n8msLHwjAcCLZa
+    her: //www.slideshare.net/slideshow/embed_code/key/n8msLHwjAcCLZa
+    tag: HBase
+    dpl: s
+-
+    url: 
+    ttl: HBaseCon 2015 Analyzing HBase Data with Apache Hive
+    src: https://www.slideshare.net/slideshow/embed_code/key/3JIMQsCzCFEwLZ
+    her: //www.slideshare.net/slideshow/embed_code/key/3JIMQsCzCFEwLZ
+    tag: HBase
+    dpl: s
+-
+    url: 
+    ttl: hbaseconasia2017 Apache HBase at Netease
+    src: https://www.slideshare.net/slideshow/embed_code/key/BOAwjnXDJxVNIA
+    her: //www.slideshare.net/slideshow/embed_code/key/BOAwjnXDJxVNIA
+    tag: HBase
+    dpl: s                                                        
+
