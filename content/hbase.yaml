@@ -162,5 +162,96 @@
     src: https://www.slideshare.net/slideshow/embed_code/key/BOAwjnXDJxVNIA
     her: //www.slideshare.net/slideshow/embed_code/key/BOAwjnXDJxVNIA
     tag: HBase
-    dpl: s                                                        
+    dpl: s
+-
+    url: https://hortonworks.com/hadoop-tutorial/introduction-apache-hbase-concepts-apache-phoenix-new-backup-restore-utility-hbase/
+    ttl: INTRODUCTION TO APACHE HBASE CONCEPTS, APACHE PHOENIX AND NEW BACKUP & RESTORE UTILITY IN HBASE
+    src: 
+    her: 
+    tag: HBase
+    dpl: b
+-
+    url: https://dzone.com/refcardz/hbase
+    ttl: Essential Apache HBase
+    src: 
+    her: 
+    tag: HBase
+    dpl: b
+-
+    url: https://read01.com/DjgEeK.html#.WcB_mbIjGM8
+    ttl: Apache HBase 入門教程
+    src: 
+    her: 
+    tag: HBase
+    dpl: b
+-
+    url: http://tw.gitbook.net/hbase/hbase_installation.html#
+    ttl: HBase基礎教程
+    src: 
+    her: 
+    tag: HBase
+    dpl: b
+-
+    url: http://joshralin.blogspot.tw/2012/12/hbase.html
+    ttl: HBase 新手常見問題與客戶端API
+    src: 
+    her: 
+    tag: HBase
+    dpl: b
+-
+    url: https://aws.amazon.com/tw/blogs/big-data/setting-up-read-replica-clusters-with-hbase-on-amazon-s3/
+    ttl: Setting up Read Replica Clusters with HBase on Amazon S3
+    src: 
+    her: 
+    tag: HBase
+    dpl: b
+-
+    url: https://mapr.com/blog/in-depth-look-hbase-architecture/
+    ttl: HBase Architectural Components
+    src: 
+    her: 
+    tag: HBase
+    dpl: b
+-
+    url: https://mapr.com/blog/guidelines-hbase-schema-design/
+    ttl: Guidelines for HBase Schema Design
+    src: 
+    her: 
+    tag: HBase
+    dpl: b
+-
+    url: http://blog.cloudera.com/blog/2012/06/online-hbase-backups-with-copytable-2/
+    ttl: Online Apache HBase Backups with CopyTable
+    src: 
+    her: 
+    tag: HBase
+    dpl: b
+-
+    url: http://sujee.net/2011/04/10/hbase-map-reduce-example/#.WcHl47IjGM8
+    ttl: Hbase Map Reduce Example
+    src: 
+    her: 
+    tag: HBase
+    dpl: b
+-
+    url: https://github.com/Huachao/azure-content/blob/master/articles/hdinsight/hdinsight-hbase-tutorial-get-started.md
+    ttl: HBase tutorial Get started using Apache HBase with Hadoop in HDInsight (Windows)
+    src: 
+    her: 
+    tag: HBase
+    dpl: b
+-
+    url: https://medium.com/@yzhong.cs/hbase-installation-step-by-step-guide-cb73381a7a4c
+    ttl: HBase Installation Step By Step Guide
+    src: 
+    her: 
+    tag: HBase
+    dpl: b
+-
+    url: https://blog.cloudera.com/blog/2013/04/how-scaling-really-works-in-apache-hbase/
+    ttl: How Scaling Really Works in Apache HBase
+    src: 
+    her: 
+    tag: HBase
+    dpl: b                                                                                                                
 
