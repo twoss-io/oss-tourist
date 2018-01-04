@@ -73,3 +73,220 @@
     ttl: "Apache Spark vs. Apache Flink"
     tag: spark
     dpl: v
+-
+    url: 
+    ttl: Overview of Apache Flink Next-Gen Big Data Analytics Framework 
+    src: http://www.slideshare.net/slideshow/embed_code/key/vptUMd8tayevsY
+    her: //www.slideshare.net/slideshow/embed_code/key/vptUMd8tayevsY
+    tag: Flink
+    dpl: s
+-
+    url: 
+    ttl: Apache Flink Real-World Use Cases for Streaming Analytics
+    src: http://www.slideshare.net/slideshow/embed_code/key/M3N4vgT5OAmTgO
+    her: //www.slideshare.net/slideshow/embed_code/key/M3N4vgT5OAmTgO
+    tag: Flink
+    dpl: s  
+-
+    url: 
+    ttl: Step-by-Step Introduction to Apache Flink
+    src: http://www.slideshare.net/slideshow/embed_code/key/8Pc2OpbmJxfmtR
+    her: //www.slideshare.net/slideshow/embed_code/key/8Pc2OpbmJxfmtR
+    tag: Flink
+    dpl: s  
+-
+    url: 
+    ttl: Apache Flink Crash Course by Slim Baltagi and Srini Palthepu
+    src: http://www.slideshare.net/slideshow/embed_code/key/HAvxgEFbJNaag5
+    her: //www.slideshare.net/slideshow/embed_code/key/HAvxgEFbJNaag5
+    tag: Flink
+    dpl: s  
+-
+    url: 
+    ttl: Apache Flink Training - System Overview
+    src: http://www.slideshare.net/slideshow/embed_code/key/i53sP650vRxhy5
+    her: //www.slideshare.net/slideshow/embed_code/key/i53sP650vRxhy5
+    tag: Flink
+    dpl: s  
+-
+    url: 
+    ttl: Apache Flink API, runtime, and project roadmap
+    src: http://www.slideshare.net/slideshow/embed_code/key/An17l70cHNqGZi
+    her: //www.slideshare.net/slideshow/embed_code/key/An17l70cHNqGZi
+    tag: Flink
+    dpl: s  
+-
+    url: 
+    ttl: Apache-Flink-What-How-Why-Who-Where-by-Slim-Baltagi
+    src: http://www.slideshare.net/slideshow/embed_code/key/IB7G1GIdQ6D97z
+    her: //www.slideshare.net/slideshow/embed_code/key/IB7G1GIdQ6D97z
+    tag: Flink
+    dpl: s  
+-
+    url: 
+    ttl: Why apache Flink is the 4G of Big Data Analytics Frameworks
+    src: http://www.slideshare.net/slideshow/embed_code/key/vTUPPkO9wXPRVT
+    her: //www.slideshare.net/slideshow/embed_code/key/vTUPPkO9wXPRVT
+    tag: Flink
+    dpl: s  
+-
+    url: 
+    ttl: Data Stream Processing with Apache Flink
+    src: http://www.slideshare.net/slideshow/embed_code/key/H8cFqN9KKVtAE2
+    her: //www.slideshare.net/slideshow/embed_code/key/H8cFqN9KKVtAE2
+    tag: Flink
+    dpl: s  
+-
+    url: 
+    ttl: Flink vs Spark
+    src: http://www.slideshare.net/slideshow/embed_code/key/rC90ioYiOxCvzD
+    her: //www.slideshare.net/slideshow/embed_code/key/rC90ioYiOxCvzD
+    tag: Flink
+    dpl: s
+-
+    url: 
+    ttl: Continuous Processing with Apache Flink - Strata London 2016
+    src: http://www.slideshare.net/slideshow/embed_code/key/IxXHg4hkEbo673
+    her: //www.slideshare.net/slideshow/embed_code/key/IxXHg4hkEbo673
+    tag: Flink
+    dpl: s  
+-
+    url: 
+    ttl: Overview of Cascading 3.0 on Apache Flink
+    src: http://www.slideshare.net/slideshow/embed_code/key/pDknUV2NwUFmIA
+    her: //www.slideshare.net/slideshow/embed_code/key/pDknUV2NwUFmIA
+    tag: Flink
+    dpl: s  
+-
+    url: 
+    ttl: Apache Flink at Strata San Jose 2016
+    src: http://www.slideshare.net/slideshow/embed_code/key/4gN6j3mrEeYvsL
+    her: //www.slideshare.net/slideshow/embed_code/key/4gN6j3mrEeYvsL
+    tag: Flink
+    dpl: s  
+-
+    url: 
+    ttl: Flink Forward Berlin 2017 Stephan Ewen - The State of Flink and how to adopt Stream Processing
+    src: http://www.slideshare.net/slideshow/embed_code/key/3HTNjpntZylHTo
+    her: //www.slideshare.net/slideshow/embed_code/key/3HTNjpntZylHTo
+    tag: Flink
+    dpl: s  
+-
+    url: 
+    ttl: Flink Forward Berlin 2017 Stefan Richter - A look at Flink's internal data structures and algorithms for efficient checkpointing
+    src: http://www.slideshare.net/slideshow/embed_code/key/gNuFb3uBWuoOem
+    her: //www.slideshare.net/slideshow/embed_code/key/gNuFb3uBWuoOem
+    tag: Flink
+    dpl: s
+-
+    url: http://www.baeldung.com/apache-flink
+    ttl: Introduction to Apache Flink with Java
+    src: 
+    her: 
+    tag: Flink
+    dpl: b
+-
+    url: http://blog.brakmic.com/stream-processing-with-apache-flink/
+    ttl: Stream Processing with Apache Flink
+    src: 
+    her: 
+    tag: Flink
+    dpl: b
+-
+    url: https://flink.apache.org/news/2015/02/09/streaming-example.html
+    ttl: Introducing Flink Streaming
+    src: 
+    her: 
+    tag: Flink
+    dpl: b
+-
+    url: https://www.elastic.co/blog/building-real-time-dashboard-applications-with-apache-flink-elasticsearch-and-kibana
+    ttl: Building real-time dashboard applications with Apache Flink, Elasticsearch, and Kibana
+    src: 
+    her: 
+    tag: Flink
+    dpl: b
+-
+    url: https://mesosphere.com/blog/apache-flink-on-dcos-and-apache-mesos/
+    ttl: Apache Flink on DC/OS (and Apache Mesos)
+    src: 
+    her: 
+    tag: Flink
+    dpl: b
+-
+    url: https://www.confluent.io/blog/real-time-stream-processing-the-next-step-for-apache-flink/
+    ttl: Real-time stream processing The next step for Apache Flink
+    src: 
+    her: 
+    tag: Flink
+    dpl: b
+-
+    url: https://weiwenku.net/d/101394120
+    ttl: 在數據流中使用SQL查詢：Apache Flink中的動態表的持續查詢
+    src: 
+    her: 
+    tag: Flink
+    dpl: b
+-
+    url: https://dzone.com/articles/apache-flink-a-new-landmark-on-the-big-data-landsc
+    ttl: Apache Flink A New Landmark on the Big Data Landscape
+    src: 
+    her: 
+    tag: Flink
+    dpl: b
+-
+    url: https://mapr.com/blog/apache-flink-new-way-handle-streaming-data/
+    ttl: Apache Flink A New Way to Handle Streaming Data
+    src: 
+    her: 
+    tag: Flink
+    dpl: b
+-
+    url: https://mapr.com/blog/essential-guide-streaming-first-processing-apache-flink/
+    ttl: The Essential Guide to Streaming-first Processing with Apache Flink
+    src: 
+    her: 
+    tag: Flink
+    dpl: b
+-
+    url: https://dzone.com/articles/packaging-apache-flink-streaming-applications-with
+    ttl: Monitoring Wikipedia Edit Streams with Apache Flink and Packaging the Application with Dependencies
+    src: 
+    her: 
+    tag: Flink
+    dpl: b
+-
+    url: https://bytefish.de/blog/apache_flink_series_4/
+    ttl: Building Applications with Apache Flink (Part 4) Writing and Using a custom PostgreSQL SinkFunction
+    src: 
+    her: 
+    tag: Flink
+    dpl: b
+-
+    url: http://www.bigdataqubes.com/posts/apache-flink-setting-up-in-intellij-IDE.php
+    ttl: Apache Flink - Setting up of Dev Environment in IntelliJ IDE
+    src: 
+    her: 
+    tag: Flink
+    dpl: b
+-
+    url: https://dzone.com/articles/graphs-processing-with-apache-flink
+    ttl: Graph Processing With Apache Flink
+    src: 
+    her: 
+    tag: Flink
+    dpl: b
+-
+    url: https://data-artisans.com/blog/kafka-flink-a-practical-how-to
+    ttl: Kafka + Flink A Practical, How-To Guide
+    src: 
+    her: 
+    tag: Flink
+    dpl: b
+-
+    url: https://blog.codecentric.de/en/2017/04/event-time-processing-apache-spark-apache-flink/
+    ttl: Event time processing in Apache Spark and Apache Flink
+    src: 
+    her: 
+    tag: Flink
+    dpl: b                                                                                                                              
