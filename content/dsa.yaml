@@ -23,3 +23,38 @@
     ttl: "Scratch Pad Video"
     tag: 
     dpl: v
+-
+    url: https://medium.com/@thefirstzion/setting-up-a-remote-bacnet-dslink-fdc7d58622d4
+    ttl: Setting Up A Remote BACnet dsLink
+    src: 
+    her: 
+    tag: Dsa
+    dpl: b  
+-
+    url: http://www.dglogik.com/company/blog/197-alexa-dsa
+    ttl: Alexa, Ask DGLux5 to Update My Dashboard
+    src: 
+    her: 
+    tag: Dsa
+    dpl: b 
+-
+    url: http://www.dglogik.com/company/blog/206-raspi-dsa
+    ttl: Using a Raspberry Pi, BeagleBone or DGBox as a DSA Server
+    src: 
+    her: 
+    tag: Dsa
+    dpl: b 
+-
+    url: http://www.dglogik.com/company/blog/223-dsa-scratchpad
+    ttl: DSA Scratch Pad for Easier Teleconferencing
+    src: 
+    her: 
+    tag: Dsa
+    dpl: b 
+-
+    url: http://wiki.dglogik.com/dsa_wiki:home
+    ttl: Distributed Services Architecture (DSA)
+    src: 
+    her: 
+    tag: Dsa
+    dpl: b                   
