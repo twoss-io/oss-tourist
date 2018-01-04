@@ -1,10 +1,81 @@
 -        
     url: https://www.youtube.com/watch?v=UyoZHga-Ky0&t=227s
     ttl: "Ship IoT with TI CC2650 Sensortags, Beaglebone Black, and Devicehive - Part One"
-    tag: 
+    tag: DeviceHive
     dpl: v
 -        
     url: https://www.youtube.com/watch?v=wIeahiagfa4
     ttl: "Arduino + RaspberryPi + DeviceHive = IoT Mega Combo!"
-    tag: 
+    tag: DeviceHive
     dpl: v
+-
+    url: http://orange.dataart.com/iot-authentication-basics-in-devicehive/
+    ttl: "IoT: Authentication Basics in DeviceHive"
+    src: 
+    her: 
+    tag: DeviceHive
+    dpl: b
+-
+    url: https://docs.devicehive.com/blog/climate-monitoring-system-based-on-devicehive?utm_content=buffer25c04&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer
+    ttl: "Climate Monitoring System Based on DeviceHive"
+    src: 
+    her: 
+    tag: DeviceHive
+    dpl: b
+-
+    url: http://blog.dataart.com/devicehive-predictive-maintenance-application-with-sap/
+    ttl: "DeviceHive Predictive Maintenance Application with SAP"
+    src: 
+    her: 
+    tag: DeviceHive
+    dpl: b
+-
+    url: http://blog.dataart.com/devicehive-on-android/
+    ttl: "DeviceHive on Android"
+    src: 
+    her: 
+    tag: DeviceHive
+    dpl: b
+-
+    url: https://insights.ubuntu.com/2015/04/24/dataarts-devicehive-platform-arrives-on-azure-marketplace/
+    ttl: "DataArt’s DeviceHive platform arrives on Azure Marketplace"
+    src: 
+    her: 
+    tag: DeviceHive
+    dpl: b
+-
+    url: http://developers-club.com/posts/260115/
+    ttl: "IoT for kopeks or That DeviceHive can"
+    src: 
+    her: 
+    tag: DeviceHive
+    dpl: b
+-
+    url: 
+    ttl: Hassle-free IoT projects with DeviceHive — Artyom Sorokin (Tech Stage)
+    src: https://www.slideshare.net/slideshow/embed_code/key/rv38ZqWL0RAli5
+    her: //www.slideshare.net/slideshow/embed_code/key/rv38ZqWL0RAli5
+    tag: DeviceHive
+    dpl: s
+-
+    url: 
+    ttl: Developement of horizontal IoT platform using DeviceHive framework
+    src: https://www.slideshare.net/slideshow/embed_code/key/C8i869uFlbVeWm
+    her: //www.slideshare.net/slideshow/embed_code/key/C8i869uFlbVeWm
+    tag: DeviceHive
+    dpl: s
+-
+    url: 
+    ttl: Rafael Zubairov- Open Source IoT Data Platform with the wide range of device integration options.
+    src: https://www.slideshare.net/slideshow/embed_code/key/sWsI8L5ANK4IXn
+    her: //www.slideshare.net/slideshow/embed_code/key/sWsI8L5ANK4IXn
+    tag: DeviceHive
+    dpl: s
+-
+    url: 
+    ttl: Scalable Open-Source IoT Solutions on Microsoft Azure
+    src: https://www.slideshare.net/slideshow/embed_code/key/sWsI8L5ANK4IXn
+    her: //www.slideshare.net/slideshow/embed_code/key/sWsI8L5ANK4IXn
+    tag: DeviceHive
+    dpl: s
+
