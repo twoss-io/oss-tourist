@@ -83,3 +83,214 @@
     ttl: "Docker and Kubernetes Recipes for Java Developers by Arun Gupta"
     tag: 
     dpl: v
+-
+    url: https://www.youtube.com/watch?v=1dgUXNVQS5o
+    ttl: Docker Swarm or Kubernetes or Mesos - pick your framework! by Arun Gupta
+    tag: 
+    dpl: v    
+-
+    url: https://www.youtube.com/watch?v=_uw1ISM_uRU
+    ttl: Container Orchestration with Kubernetes, Docker Swarm & Mesos-Marathon - Adrian Mouat
+    tag: 
+    dpl: v
+-
+    url: https://www.youtube.com/watch?v=pFCJ3WiVjyA
+    ttl: Running Kubernetes at Scale with Mesos and the Mesosphere DCOS by Benjamin Hindman
+    tag: 
+    dpl: v
+-
+    url: 
+    ttl: An Introduction to Kubernetes 
+    src: http://www.slideshare.net/slideshow/embed_code/key/4J0GGhaeSiugJd
+    her: //www.slideshare.net/slideshow/embed_code/key/4J0GGhaeSiugJd
+    tag: Kubernetes
+    dpl: s
+-
+    url: 
+    ttl: Kubernetes Architecture and Introduction – Paris Kubernetes Meetup 
+    src: http://www.slideshare.net/slideshow/embed_code/key/wauBQlv39G8Cnx
+    her: //www.slideshare.net/slideshow/embed_code/key/wauBQlv39G8Cnx
+    tag: Kubernetes
+    dpl: s
+-
+    url: 
+    ttl: Scaling Docker with Kubernetes 
+    src: http://www.slideshare.net/slideshow/embed_code/key/79OzXaWoF28hqN
+    her: //www.slideshare.net/slideshow/embed_code/key/79OzXaWoF28hqN
+    tag: Kubernetes
+    dpl: s
+-
+    url: 
+    ttl: WSO2Con US 2015 Kubernetes a platform for automating deployment, scaling, and operations 
+    src: http://www.slideshare.net/slideshow/embed_code/key/n0pMeMu3uTyoMS
+    her: //www.slideshare.net/slideshow/embed_code/key/n0pMeMu3uTyoMS
+    tag: Kubernetes
+    dpl: s
+-
+    url: 
+    ttl: Kubernetes Networking 
+    src: http://www.slideshare.net/slideshow/embed_code/key/naTSjHytOov8ub
+    her: //www.slideshare.net/slideshow/embed_code/key/naTSjHytOov8ub
+    tag: Kubernetes
+    dpl: s
+-
+    url: 
+    ttl: Kubernetes Basics 
+    src: http://www.slideshare.net/slideshow/embed_code/key/s362t2QXi3MgRj
+    her: //www.slideshare.net/slideshow/embed_code/key/s362t2QXi3MgRj
+    tag: Kubernetes
+    dpl: s
+-
+    url: 
+    ttl: OpenShift Enterprise 3.1 vs kubernetes 
+    src: http://www.slideshare.net/slideshow/embed_code/key/IjTMJdebeZfSKt
+    her: //www.slideshare.net/slideshow/embed_code/key/IjTMJdebeZfSKt
+    tag: Kubernetes
+    dpl: s
+-
+    url: 
+    ttl: fabric8 ... and Docker, Kubernetes & OpenShift 
+    src: http://www.slideshare.net/slideshow/embed_code/key/iYZaeb79gs7jlj
+    her: //www.slideshare.net/slideshow/embed_code/key/iYZaeb79gs7jlj
+    tag: Kubernetes
+    dpl: s
+-
+    url: 
+    ttl: Architecture Overview Kubernetes with Red Hat Enterprise Linux 7.1 
+    src: http://www.slideshare.net/slideshow/embed_code/key/EjMMFr5X0Z09Qh
+    her: //www.slideshare.net/slideshow/embed_code/key/EjMMFr5X0Z09Qh
+    tag: Kubernetes
+    dpl: s
+-
+    url: 
+    ttl: Achieving CI/CD with Kubernetes 
+    src: http://www.slideshare.net/slideshow/embed_code/key/D66umPt8TAvYdD
+    her: //www.slideshare.net/slideshow/embed_code/key/D66umPt8TAvYdD
+    tag: Kubernetes
+    dpl: s
+-
+    url: 
+    ttl: Scaling Jenkins with Docker and Kubernetes 
+    src: http://www.slideshare.net/slideshow/embed_code/key/cnXzo4JCzLr7ls
+    her: //www.slideshare.net/slideshow/embed_code/key/cnXzo4JCzLr7ls
+    tag: Kubernetes
+    dpl: s
+-
+    url: 
+    ttl: A brief study on Kubernetes and its components 
+    src: http://www.slideshare.net/slideshow/embed_code/key/e0cqBs6qkaRxVf
+    her: //www.slideshare.net/slideshow/embed_code/key/e0cqBs6qkaRxVf
+    tag: Kubernetes
+    dpl: s
+-
+    url: 
+    ttl: Introducing Kubernetes Clusters in Rancher - February 2016 Online Meetup 
+    src: http://www.slideshare.net/slideshow/embed_code/key/NCmxpLEooagIzk
+    her: //www.slideshare.net/slideshow/embed_code/key/NCmxpLEooagIzk
+    tag: Kubernetes
+    dpl: s
+-
+    url: 
+    ttl: Getting Started with Kubernetes
+    src: https://blog.codeship.com/getting-started-with-kubernetes/
+    her: 
+    tag: Kubernetes
+    dpl: b
+-
+    url: 
+    ttl: Introduction to Docker and Kubernetes
+    src: https://code.tutsplus.com/articles/introduction-to-docker-and-kubernetes--cms-25406
+    her: 
+    tag: Kubernetes
+    dpl: b
+-
+    url: https://rominirani.com/tutorial-getting-started-with-kubernetes-on-your-windows-laptop-with-minikube-3269b54a226
+    ttl: Tutorial  Getting Started with Kubernetes on your Windows Laptop with Minikube
+    src: 
+    her: 
+    tag: Kubernetes
+    dpl: b
+-
+    url: https://rominirani.com/tutorial-getting-started-with-kubernetes-on-your-windows-laptop-with-minikube-3269b54a226
+    ttl: Deploy a Kubernetes cluster in Azure Container Service
+    src: 
+    her: 
+    tag: Kubernetes
+    dpl: b
+-
+    url: https://medium.com/@claudiopro/getting-started-with-kubernetes-via-minikube-ada8c7a29620
+    ttl: Getting Started with Kubernetes via Minikube
+    src: 
+    her: 
+    tag: Kubernetes
+    dpl: b
+-
+    url: http://omerio.com/2015/12/18/learn-the-kubernetes-key-concepts-in-10-minutes/
+    ttl: Learn the Kubernetes Key Concepts in 10 Minutes
+    src: 
+    her: 
+    tag: Kubernetes
+    dpl: b
+-
+    url: https://jaxenter.com/spring-boot-tutorial-microservices-kubernetes-part-2-135518.html
+    ttl: Spring Boot tutorial Microservices and Kubernetes (part 2)
+    src: 
+    her: 
+    tag: Kubernetes
+    dpl: b
+-
+    url: https://devops.profitbricks.com/tutorials/getting-started-with-a-multi-node-kubernetes-cluster-on-ubuntu/
+    ttl: Getting Started with a Multi-node Kubernetes Cluster on Ubuntu
+    src: 
+    her: 
+    tag: Kubernetes
+    dpl: b
+-
+    url: https://www.mile.cloud/cloudmilexgcpug-kubernetes/
+    ttl: 【CLOUDMILE X GCPUG.TW 】 MEETUP – KUBERNETES 技術分享
+    src: 
+    her: 
+    tag: Kubernetes
+    dpl: b
+-
+    url: http://www.cnrancher.com/event/2017-08-online-meetup/
+    ttl: CentOS 安裝Kubernetes (Kubernetes install in CentOS 7)
+    src: 
+    her: 
+    tag: Kubernetes
+    dpl: b
+-
+    url: http://www.oschina.net/translate/docker-clustering-tools-compared-kubernetes-vs-docker-swarm
+    ttl: Docker 集群工具比对：Kubernetes vs Docker Swarm
+    src: 
+    her: 
+    tag: Kubernetes
+    dpl: b
+-
+    url: https://segmentfault.com/a/1190000002620961
+    ttl: 在ubuntu上部署Kubernetes管理docker集群示例
+    src: 
+    her: 
+    tag: Kubernetes
+    dpl: b
+-
+    url: https://x-team.com/blog/introduction-kubernetes-architecture/
+    ttl: Introduction to Kubernetes Architecture
+    src: 
+    her: 
+    tag: Kubernetes
+    dpl: b
+-
+    url: https://thenewstack.io/kubernetes-an-overview/
+    ttl: KUBERNETES AN OVERVIEW
+    src: 
+    her: 
+    tag: Kubernetes
+    dpl: b
+-
+    url: https://platform9.com/blog/compare-kubernetes-vs-mesos/
+    ttl: Container Orchestration Tools Compare Kubernetes vs Mesos
+    src: 
+    her: 
+    tag: Kubernetes
+    dpl: b                                                                                                                    
