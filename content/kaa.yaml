@@ -33,3 +33,45 @@
     ttl: "Free webinar: Introduction to Kaa 0.8"
     tag: 
     dpl: v
+-
+    url: 
+    ttl: Hardware Lab. Andrew Kokhanovskyi. Kaa introduction 
+    src: http://www.slideshare.net/slideshow/embed_code/key/6zyFedszfKMFMQ
+    her: //www.slideshare.net/slideshow/embed_code/key/6zyFedszfKMFMQ
+    tag: Kaa
+    dpl: s
+-
+    url: https://wtcindia.wordpress.com/2016/07/06/using-arbela-as-kaa-iot-dashboard/
+    ttl: Using Arbela as Kaa IoT Dashboard – in 5 steps!
+    src: 
+    her: 
+    tag: Kaa
+    dpl: b
+-
+    url: https://www.kaaproject.org/iot-real-time-data-processing-in-storm-using-kaa/
+    ttl: IOT REAL-TIME DATA PROCESSING USING KAA
+    src: 
+    her: 
+    tag: Kaa
+    dpl: b
+-
+    url: http://www.treselle.com/blog/visualize-iot-data-with-kaa-and-mongodb-compass/
+    ttl: Visualize IoT data with Kaa and MongoDB Compass
+    src: 
+    her: 
+    tag: Kaa
+    dpl: b
+-
+    url: http://opensourceforu.com/2017/07/kaa-easy-use-platform-building-iot-solutions/
+    ttl: Kaa An easy-to-use platform for building IoT
+    src: 
+    her: 
+    tag: Kaa
+    dpl: b
+-
+    url: https://lx-group.com.au/kaa-a-new-open-source-platform-for-the-internet-of-things/
+    ttl: Kaa – a new open-source platform for the Internet of Things
+    src: 
+    her: 
+    tag: Kaa
+    dpl: b                        
