@@ -33,3 +33,129 @@
     ttl: "IoT Services - Node-RED Installation guide on Windows"
     tag: 
     dpl: v
+-
+    url: 
+    ttl: 01 Node-RED Basic 
+    src: https://www.slideshare.net/slideshow/embed_code/key/c9E6zvfOsnSxOO
+    her: //www.slideshare.net/slideshow/embed_code/key/c9E6zvfOsnSxOO
+    tag: Node-RED
+    dpl: s    
+-
+    url: 
+    ttl: Node red with Arduino 
+    src: https://www.slideshare.net/slideshow/embed_code/key/3NI762qrC41dNZ
+    her: //www.slideshare.net/slideshow/embed_code/key/3NI762qrC41dNZ
+    tag: Node-RED
+    dpl: s
+-
+    url: 
+    ttl: Web of Things (wiring web objects with Node-RED) 
+    src: https://www.slideshare.net/slideshow/embed_code/key/MWfoJMuZyCY05
+    her: //www.slideshare.net/slideshow/embed_code/key/MWfoJMuZyCY05
+    tag: Node-RED
+    dpl: s
+-
+    url: 
+    ttl: Node red for Raspberry Pi 
+    src: https://www.slideshare.net/slideshow/embed_code/key/nQp9IPRCK1IS6r
+    her: //www.slideshare.net/slideshow/embed_code/key/nQp9IPRCK1IS6r
+    tag: Node-RED
+    dpl: s
+-
+    url: 
+    ttl: Distributed Data Flow for the Web of Things Distributed Node-RED 
+    src: https://www.slideshare.net/slideshow/embed_code/key/ellUr8VzVSBGAb
+    her: //www.slideshare.net/slideshow/embed_code/key/ellUr8VzVSBGAb
+    tag: Node-RED
+    dpl: s
+-
+    url: 
+    ttl: Using Bluemix and Node-RED for Fast Prototyping 
+    src: https://www.slideshare.net/slideshow/embed_code/key/mQklGE1gwm4XTz
+    her: //www.slideshare.net/slideshow/embed_code/key/mQklGE1gwm4XTz
+    tag: Node-RED
+    dpl: s
+-
+    url: 
+    ttl: Supercharge your IOT toolbox with MQTT and Node-RED 
+    src: https://www.slideshare.net/slideshow/embed_code/key/nOsTdBge9m3PHZ
+    her: //www.slideshare.net/slideshow/embed_code/key/nOsTdBge9m3PHZ
+    tag: Node-RED
+    dpl: s
+-
+    url: 
+    ttl: AT&T Hack Dallas Node-RED Tutorial
+    src: https://www.slideshare.net/slideshow/embed_code/key/v3HMufJ6MhWjmN
+    her: //www.slideshare.net/slideshow/embed_code/key/v3HMufJ6MhWjmN
+    tag: Node-RED
+    dpl: s
+-
+    url: 
+    ttl: Wiring the Internet of Things with Node-RED, @IoTConf talk, September '14 
+    src: https://www.slideshare.net/slideshow/embed_code/key/2Uo7L3pu1A6sEz
+    her: //www.slideshare.net/slideshow/embed_code/key/2Uo7L3pu1A6sEz
+    tag: Node-RED
+    dpl: s
+-
+    url: 
+    ttl: IAB3948 Wiring the internet of things with Node-RED 
+    src: https://www.slideshare.net/slideshow/embed_code/key/3aRZxVMMGNZ8d
+    her: //www.slideshare.net/slideshow/embed_code/key/3aRZxVMMGNZ8d
+    tag: Node-RED
+    dpl: s
+-
+    url: 
+    ttl: Flow Base Programming with Node-RED and Functional Reactive Programming with Baconjs 
+    src: https://www.slideshare.net/slideshow/embed_code/key/Kq4n8rj8R0aYN
+    her: //www.slideshare.net/slideshow/embed_code/key/Kq4n8rj8R0aYN
+    tag: Node-RED
+    dpl: s
+-
+    url: http://noderedguide.com/category/tutorial/
+    ttl: Tutorial Node-RED dashboards – creating your own UI widget II (using external charts)
+    src: 
+    her: 
+    tag: Node-RED
+    dpl: b
+-
+    url: https://opensource.com/life/16/5/getting-started-node-red
+    ttl: Getting started with Node-RED
+    src: 
+    her: 
+    tag: Node-RED
+    dpl: b
+-
+    url: http://developers.sensetecnic.com/article/a-node-red-dashboard-using-node-red-dashboard/
+    ttl: Tutorial A Node-RED dashboard using node-red-dashboard
+    src: 
+    her: 
+    tag: Node-RED
+    dpl: b
+-
+    url: https://randomnerdtutorials.com/getting-started-with-node-red-on-raspberry-pi/
+    ttl: Getting Started with Node-RED on Raspberry Pi
+    src: 
+    her: 
+    tag: Node-RED
+    dpl: b
+-
+    url: https://www.raspberrypi.org/magpi/cheerlights-orb-a-node-red-tutorial/
+    ttl: CHEERLIGHTS ORB – A NODE-RED TUTORIAL
+    src: 
+    her: 
+    tag: Node-RED
+    dpl: b
+-
+    url: https://www.iotforall.com/lorawan-node-red-deployment-tips-part-ii/
+    ttl: LoRaWAN and Node-RED Tutorial and Deployment Tips (Part II)
+    src: 
+    her: 
+    tag: Node-RED
+    dpl: b
+-
+    url: https://www.hackster.io/itchopshop/nodemcu-with-azure-mqtt-and-node-red-ef1f94
+    ttl: NodeMCU with Azure, MQTT and Node-RED
+    src: 
+    her: 
+    tag: Node-RED
+    dpl: b                                                                
