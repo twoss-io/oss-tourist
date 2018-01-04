@@ -8,3 +8,31 @@
     ttl: "Günter Obiltschnig: Connecting Sensors, Devices & Cloud Services with JavaScript & macchina.io (AST)"
     tag: 
     dpl: v
+-
+    url: 
+    ttl: Programming IoT Gateways in JavaScript with macchina.io
+    src: https://www.slideshare.net/slideshow/embed_code/key/x2h6z7FxQjCs04
+    her: //www.slideshare.net/slideshow/embed_code/key/x2h6z7FxQjCs04
+    tag: macchina.io
+    dpl: s
+-
+    url: 
+    ttl: Building IoT Applications with macchina.io and TinkerForge
+    src: https://www.slideshare.net/slideshow/embed_code/key/tmtjSYIpiQqQg0
+    her: //www.slideshare.net/slideshow/embed_code/key/tmtjSYIpiQqQg0
+    tag: macchina.io
+    dpl: s
+-
+    url: https://macchina.io/docs/00150-MacchinaGettingStarted.html
+    ttl: Getting Started with macchina.io
+    src: 
+    her: 
+    tag: macchina.io
+    dpl: b            
+-
+    url: https://www.appinf.com/features.html
+    ttl: macchina.io
+    src: 
+    her: 
+    tag: macchina.io
+    dpl: b
