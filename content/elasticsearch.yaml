@@ -73,3 +73,213 @@
     ttl: "EVisualizing Logs Using ElasticSearch, Logstash and Kibana"
     tag: 
     dpl: v
+-
+    url: 
+    ttl: An Introduction to Elastic Search.
+    src: //www.slideshare.net/slideshow/embed_code/key/3fZgatQzKxsiS4
+    her: https://www.slideshare.net/slideshow/embed_code/key/3fZgatQzKxsiS4
+    tag: Elasticsearch
+    dpl: s
+-
+    url: 
+    ttl: ElasticSearch Basic Introduction
+    src: //www.slideshare.net/slideshow/embed_code/key/gh034j7FNzwRMR
+    her: https://www.slideshare.net/slideshow/embed_code/key/gh034j7FNzwRMR
+    tag: Elasticsearch
+    dpl: s
+-
+    url: 
+    ttl: Elasticsearch in 15 minutes
+    src: https://www.slideshare.net/slideshow/embed_code/key/rEh2OiiUVpEQwI
+    her: //www.slideshare.net/slideshow/embed_code/key/rEh2OiiUVpEQwI
+    tag: Elasticsearch
+    dpl: s
+-
+    url: 
+    ttl: Introduction to Elasticsearch with basics of Lucene
+    src: http://www.slideshare.net/slideshow/embed_code/key/zssH5UdcqkV8KY
+    her: //www.slideshare.net/slideshow/embed_code/key/zssH5UdcqkV8KY
+    tag: Elasticsearch
+    dpl: s
+-
+    url: 
+    ttl: ElasticSearch at berlinbuzzwords 2010
+    src: http://www.slideshare.net/slideshow/embed_code/key/ClQSKkIJfFWM0x
+    her: //www.slideshare.net/slideshow/embed_code/key/ClQSKkIJfFWM0x
+    tag: Elasticsearch
+    dpl: s
+-
+    url: 
+    ttl: Introduction to Elasticsearch
+    src: http://www.slideshare.net/slideshow/embed_code/key/8olcqbhxEc2n8T
+    her: //www.slideshare.net/slideshow/embed_code/key/8olcqbhxEc2n8T
+    tag: Elasticsearch
+    dpl: s
+-
+    url: 
+    ttl: Deep Dive Into Elasticsearch
+    src: http://www.slideshare.net/slideshow/embed_code/key/6FSMfuaPIHHAac
+    her: //www.slideshare.net/slideshow/embed_code/key/6FSMfuaPIHHAac
+    tag: Elasticsearch
+    dpl: s
+-
+    url: 
+    ttl: Discovering ElasticSearch
+    src: http://www.slideshare.net/slideshow/embed_code/key/2iFo9aMxiHt89Q
+    her: //www.slideshare.net/slideshow/embed_code/key/2iFo9aMxiHt89Q
+    tag: Elasticsearch
+    dpl: s
+-
+    url: 
+    ttl: ElasticSearch, Logstash, and Kibana at scale
+    src: http://www.slideshare.net/slideshow/embed_code/key/JNliQxICrIJxqx
+    her: //www.slideshare.net/slideshow/embed_code/key/JNliQxICrIJxqx
+    tag: Elasticsearch
+    dpl: s
+-
+    url: 
+    ttl: Elasticsearch in Netflix
+    src: http://www.slideshare.net/slideshow/embed_code/key/odllgwsDbz9NBV
+    her: //www.slideshare.net/slideshow/embed_code/key/odllgwsDbz9NBV
+    tag: Elasticsearch
+    dpl: s
+-
+    url: 
+    ttl: (BDT209) Launch Amazon Elasticsearch For Real-Time Data Analytics
+    src: http://www.slideshare.net/slideshow/embed_code/key/bdLfVekkdKeF5f
+    her: //www.slideshare.net/slideshow/embed_code/key/bdLfVekkdKeF5f
+    tag: Elasticsearch
+    dpl: s
+-
+    url: 
+    ttl: What's new in Elasticsearch v5
+    src: http://www.slideshare.net/slideshow/embed_code/key/cjMR2BJpj4F4qC
+    her: //www.slideshare.net/slideshow/embed_code/key/cjMR2BJpj4F4qC
+    tag: Elasticsearch
+    dpl: s
+-
+    url: 
+    ttl: Workshop Learning Elasticsearch
+    src: http://www.slideshare.net/slideshow/embed_code/key/6VdyU2nfqPnAMh
+    her: //www.slideshare.net/slideshow/embed_code/key/6VdyU2nfqPnAMh
+    tag: Elasticsearch
+    dpl: s
+-
+    url: 
+    ttl: Down and dirty with Elasticsearch
+    src: http://www.slideshare.net/slideshow/embed_code/key/AsbLctaFbKetxI
+    her: //www.slideshare.net/slideshow/embed_code/key/AsbLctaFbKetxI
+    tag: Elasticsearch
+    dpl: s
+-
+    url: 
+    ttl: Scaling real-time search and analytics with Elasticsearch
+    src: http://www.slideshare.net/slideshow/embed_code/key/9Du4MpqtFC0xYL
+    her: //www.slideshare.net/slideshow/embed_code/key/9Du4MpqtFC0xYL
+    tag: Elasticsearch
+    dpl: s
+-
+    url: 
+    ttl: Elasticsearch Query DSL - Not just for wizards...
+    src: http://www.slideshare.net/slideshow/embed_code/key/1FL7xvqMZikX58
+    her: //www.slideshare.net/slideshow/embed_code/key/1FL7xvqMZikX58
+    tag: Elasticsearch
+    dpl: s
+-
+    url: http://joelabrahamsson.com/elasticsearch-101/
+    ttl: ElasticSearch 101– a getting started tutorial
+    src: 
+    her: 
+    tag: Elasticsearch
+    dpl: b
+-
+    url: https://tests4geeks.com/elasticsearch-tutorial/
+    ttl: ElasticSearch Tutorial Creating an Index and Querying
+    src: 
+    her: 
+    tag: Elasticsearch
+    dpl: b
+-
+    url: https://logz.io/blog/elasticsearch-tutorial/
+    ttl: An Elasticsearch Tutorial Getting Started
+    src: 
+    her: 
+    tag: Elasticsearch
+    dpl: b
+-
+    url: http://www.elasticsearchtutorial.com/elasticsearch-in-5-minutes.html
+    ttl: Elasticsearch in 5 minutes
+    src: 
+    her: 
+    tag: Elasticsearch
+    dpl: b
+-
+    url: https://www.digitalocean.com/community/tutorials/how-to-install-elasticsearch-logstash-and-kibana-elk-stack-on-ubuntu-14-04
+    ttl: How To Install Elasticsearch, Logstash, and Kibana (ELK Stack) on Ubuntu 14.04
+    src: 
+    her: 
+    tag: Elasticsearch
+    dpl: b
+-
+    url: https://www.analyticsvidhya.com/blog/2017/05/beginners-guide-to-data-exploration-using-elastic-search-and-kibana/
+    ttl: Hands on tutorial to perform Data Exploration using Elastic Search and Kibana (using Python)
+    src: http://www.baeldung.com/spring-data-elasticsearch-tutorial
+    her: 
+    tag: Elasticsearch
+    dpl: b
+-
+    url: http://www.baeldung.com/spring-data-elasticsearch-tutorial
+    ttl: Introduction to Spring Data Elasticsearch
+    src: 
+    her: 
+    tag: Elasticsearch
+    dpl: b
+-
+    url: https://www.toptal.com/ruby-on-rails/elasticsearch-for-ruby-on-rails-an-introduction-to-chewy
+    ttl: Elasticsearch for Ruby on Rails A Tutorial to the Chewy Gem
+    src: 
+    her: 
+    tag: Elasticsearch
+    dpl: b
+-
+    url: https://www.pluralsight.com/guides/ruby-ruby-on-rails/elasticsearch-with-ruby-on-rails
+    ttl: Elasticsearch with Ruby on Rails
+    src: 
+    her: 
+    tag: Elasticsearch
+    dpl: b
+-
+    url: https://www.timroes.de/2016/05/29/elasticsearch-kibana-queries-in-depth-tutorial/
+    ttl: Elasticsearch/Kibana Queries - In Depth Tutorial
+    src: 
+    her: 
+    tag: Elasticsearch
+    dpl: b
+-
+    url: https://dzone.com/articles/23-useful-elasticsearch-example-queries
+    ttl: 23 Useful Elasticsearch Example Queries
+    src: 
+    her: 
+    tag: Elasticsearch
+    dpl: b
+-
+    url: https://grafana.com/blog/2016/03/09/how-to-effectively-use-the-elasticsearch-data-source-in-grafana-and-solutions-to-common-pitfalls/
+    ttl: How to effectively use the Elasticsearch data source in Grafana and solutions to common pitfalls
+    src: 
+    her: 
+    tag: Elasticsearch
+    dpl: b
+-
+    url: http://www.mkyong.com/elasticsearch/elasticsearch-hello-world-example/
+    ttl: ElasticSearch Hello World Example
+    src: 
+    her: 
+    tag: Elasticsearch
+    dpl: b
+-
+    url: https://tryolabs.com/blog/2015/02/17/python-elasticsearch-first-steps/
+    ttl: Python + Elasticsearch. First steps.
+    src: 
+    her: 
+    tag: Elasticsearch
+    dpl: b                                                                                                                          
