@@ -48,3 +48,80 @@
     ttl: "Home Automation using BLE Beacons and Happy Bubbles"
     tag: 
     dpl: v
+-
+    url: 
+    ttl: Smart Home 2.0 The Impact of Home Assistants on the Connected Smart Home Landscape
+    src: https://www.slideshare.net/slideshow/embed_code/key/yyk1bOrBc2LP64
+    her: //www.slideshare.net/slideshow/embed_code/key/yyk1bOrBc2LP64
+    tag: Home Assistant
+    dpl: s
+-
+    url: https://www.ibm.com/developerworks/library/cc-build-home-assistant-watson-iot-platform/index.html
+    ttl: Build a home assistant mobile application with Watson and IoT Platform services
+    src: 
+    her: 
+    tag: Home Assistant
+    dpl: b
+-
+    url: https://www.linux.com/news/home-assistant-python-approach-home-automation-video
+    ttl: Home Assistant The Python Approach to Home Automation [Video]
+    src: 
+    her: 
+    tag: Home Assistant
+    dpl: b
+-
+    url: https://medium.com/snips-ai/integrating-snips-with-home-assistant-314723645c77
+    ttl: Integrating Snips with Home Assistant
+    src: Home Assistant and HA Bridge
+    her: 
+    tag: Home Assistant
+    dpl: b
+-
+    url: http://fearoffish.com/home-automation/home-assistant-and-ha-bridge/
+    ttl: Home Assistant and HA Bridge
+    src: 
+    her: 
+    tag: Home Assistant
+    dpl: b
+-
+    url: https://raspberrypihq.com/how-to-create-a-z-wave-smart-home-hub-using-a-raspberry-pi/
+    ttl: How to Create a Z-Wave Smart Home hub using a Raspberry Pi
+    src: 
+    her: 
+    tag: Home Assistant
+    dpl: b
+-
+    url: https://gathering.tweakers.net/forum/list_messages/1652294
+    ttl: Home Assistant - Open source Python3 home automation
+    src: 
+    her: 
+    tag: Home Assistant
+    dpl: b
+-
+    url: https://philhawthorne.com/installing-home-assistant-io-on-a-synology-diskstation-nas/
+    ttl: Installing Home-Assistant.io on a Synology Diskstation NAS
+    src: 
+    her: 
+    tag: Home Assistant
+    dpl: b
+-
+    url: http://openenergymonitor.blogspot.tw/2016/04/home-assistant-and-emonpi.html
+    ttl: Home Assistant and emonPi
+    src: 
+    her: 
+    tag: Home Assistant
+    dpl: b
+-
+    url: https://philhawthorne.com/j-a-r-v-i-s-inspired-announcementgreeting-for-home-assistant/
+    ttl: J.A.R.V.I.S inspired announcement/greeting for Home Assistant
+    src: 
+    her: 
+    tag: Home Assistant
+    dpl: b
+-
+    url: https://partofthething.com/thoughts/home-automation-with-z-wave-home-assistant-aeon-multisensor-hue-lights-and-a-raspberry-pi-2/
+    ttl: Home automation with Z-Wave, Home-Assistant, Aeon Multisensor, HUE lights, and a Raspberry Pi 2
+    src: 
+    her: 
+    tag: Home Assistant
+    dpl: b                                                
