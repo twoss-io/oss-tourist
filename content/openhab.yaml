@@ -38,3 +38,87 @@
     ttl: "SuperHouseTV #17: Home automation control with Sonoff, Arduino, OpenHAB, and MQTT"
     tag: 
     dpl: v
+-
+    url: 
+    ttl: IoT with openHAB on pcDuino3B
+    src: https://www.slideshare.net/slideshow/embed_code/key/2EXjyoRBErUrn3
+    her: //www.slideshare.net/slideshow/embed_code/key/2EXjyoRBErUrn3
+    tag: Openhab
+    dpl: s    
+-
+    url: 
+    ttl: openHAB @ ESE2010 
+    src: https://www.slideshare.net/slideshow/embed_code/key/qAyiLC7UwUrWlT
+    her: //www.slideshare.net/slideshow/embed_code/key/qAyiLC7UwUrWlT
+    tag: Openhab
+    dpl: s
+-
+    url: 
+    ttl: openHAB @ Eclipse DemoCamp Darmstadt
+    src: https://www.slideshare.net/slideshow/embed_code/key/BDrOpneAFDOujl
+    her: //www.slideshare.net/slideshow/embed_code/key/BDrOpneAFDOujl
+    tag: Openhab
+    dpl: s
+-
+    url: https://blogs.sap.com/2015/02/14/secure-home-automation-with-sap-hana-cloud-platform/
+    ttl: Secure Sensor Communication with SAP Cloud Platform and openHAB – Part 1
+    src: 
+    her: 
+    tag: Openhab
+    dpl: b
+-
+    url: http://www.makeuseof.com/tag/getting-started-openhab-home-automation-raspberry-pi/
+    ttl: Getting Started with OpenHAB Home Automation on Raspberry Pi
+    src: 
+    her: 
+    tag: Openhab
+    dpl: b
+-
+    url: http://www.makeuseof.com/tag/openhab-beginners-guide-part-2-zwave-mqtt-rules-charting/
+    ttl: OpenHAB Beginner’s Guide Part 2 ZWave, MQTT, Rules and Charting
+    src: 
+    her: 
+    tag: Openhab
+    dpl: b
+-
+    url: https://mcuoneclipse.com/2015/12/24/blinky-led-with-openhab-on-raspberry-pi/
+    ttl: Blinky LED with openHAB on Raspberry Pi
+    src: 
+    her: 
+    tag: Openhab
+    dpl: b
+-
+    url: http://www.instructables.com/id/Part-1-openHAB-and-Zwave-Getting-Started/
+    ttl: Part 1 OpenHAB and Zwave - Getting Started
+    src: 
+    her: 
+    tag: Openhab
+    dpl: b
+-
+    url: http://www.homeautomationforgeeks.com/project/openhab.shtml
+    ttl: OpenHAB
+    src: 
+    her: 
+    tag: Openhab
+    dpl: b
+-
+    url: https://www.element14.com/community/community/design-challenges/forget-me-not/blog/2014/08/10/ip-post-5-tutorial-for-interfacing-openhab-with-enocean-pi
+    ttl: IP Post 5 Tutorial for Interfacing OpenHAB with EnOcean Pi
+    src: 
+    her: 
+    tag: Openhab
+    dpl: b
+-
+    url: https://robert.stadsbygd.net/2014/11/12/tutorial-install-openhab/
+    ttl: Tutorial Install OpenHAB
+    src: 
+    her: 
+    tag: Openhab
+    dpl: b
+-
+    url: http://blog.itist.tw/2017/01/building-smart-home-control-center-with-openhab-on-raspberry-pi.html
+    ttl: Raspberry Pi 的應用 - 物聯網初入門，用 OpenHAB 打造智慧家庭的控制中樞
+    src: 
+    her: 
+    tag: Openhab
+    dpl: b                                        
