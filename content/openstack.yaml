@@ -42,10 +42,17 @@
 -
      url: https://www.youtube.com/watch?v=-yWTs7iu3V8
      ttl: How to configure a network in OpenStack - RHCSA in Red Hat OpenStack tutorial
-     src:
+     src: 
      her:
      tag: OpenStack        
      dpl: v
+-
+    url: 
+    ttl: OpenStack Tutorial
+    src: https://www.slideshare.net/slideshow/embed_code/key/zEBAQVcYLgeBOe
+    her: //www.slideshare.net/slideshow/embed_code/key/zEBAQVcYLgeBOe
+    tag: OpenStack
+    dpl: s  
 -
     url: 
     ttl: Introduction to OpenStack
@@ -67,6 +74,27 @@
     her: //www.slideshare.net/jasonhoutw/openstack-introduction
     tag: OpenStack
     dpl: s
+-
+    url: 
+    ttl: Openstack 101
+    src: https://www.slideshare.net/slideshow/embed_code/key/Ckzsg7FtJh192W
+    her: //www.slideshare.net/slideshow/embed_code/key/Ckzsg7FtJh192W
+    tag: OpenStack
+    dpl: s
+-
+    url: 
+    ttl: OpenStack Architecture
+    src: https://www.slideshare.net/slideshow/embed_code/key/2pwrzaxuqIINBQ
+    her: //www.slideshare.net/slideshow/embed_code/key/2pwrzaxuqIINBQ
+    tag: OpenStack
+    dpl: s
+-
+    url: 
+    ttl: Deep Dive OpenStack Summit (Red Hat Summit 2014)
+    src: https://www.slideshare.net/slideshow/embed_code/key/mzNin8KQfsdSXk
+    her: //www.slideshare.net/slideshow/embed_code/key/mzNin8KQfsdSXk
+    tag: OpenStack
+    dpl: s              
 -
     url: 
     ttl: 2 Day Bootcamp for OpenStack--Cloud Training by Mirantis (Preview)
@@ -94,7 +122,98 @@
     src: https://www.slideshare.net/slideshow/embed_code/key/9p24xDlrTF024V
     her: //www.slideshare.net/Stratoscale1/fits-like-lego-5-ways-to-deploy-guest-networking-over-openstack-neutron?ref=https://www.stratoscale.com/blog/networking/openstack-networking-building-networks-with-neutron-brick-by-brick/
     tag: OpenStack
+    dpl: s    
+-
+    url: 
+    ttl: State of the Stack v4 - OpenStack in All It's Glory
+    src: https://www.slideshare.net/slideshow/embed_code/key/ktP6fjvZybEDOs
+    her: //www.slideshare.net/slideshow/embed_code/key/ktP6fjvZybEDOs
+    tag: OpenStack
     dpl: s
+-
+    url: 
+    ttl: OpenStack DVR_What is DVR?
+    src: https://www.slideshare.net/slideshow/embed_code/key/uVFUniGjBQEECc
+    her: //www.slideshare.net/slideshow/embed_code/key/uVFUniGjBQEECc
+    tag: OpenStack
+    dpl: s
+-
+    url: 
+    ttl: Osdc2014 openstack networking yves_fauser
+    src: https://www.slideshare.net/slideshow/embed_code/key/tLUXKS2Roejw0c
+    her: //www.slideshare.net/slideshow/embed_code/key/tLUXKS2Roejw0c
+    tag: OpenStack
+    dpl: s
+-
+    url: 
+    ttl: OpenStack Architecture and Use Cases
+    src: https://www.slideshare.net/slideshow/embed_code/key/C1rHACCJnj70yX
+    her: //www.slideshare.net/slideshow/embed_code/key/C1rHACCJnj70yX
+    tag: OpenStack
+    dpl: s
+-
+    url: 
+    ttl: An Introduction to Red Hat Enterprise Linux OpenStack Platform
+    src: https://www.slideshare.net/slideshow/embed_code/key/EKAhvJTw2bSto0
+    her: //www.slideshare.net/slideshow/embed_code/key/EKAhvJTw2bSto0
+    tag: OpenStack
+    dpl: s
+-
+    url: 
+    ttl: Openstack Keystone
+    src: https://www.slideshare.net/slideshow/embed_code/key/4n3dUP1AyONkD5
+    her: //www.slideshare.net/slideshow/embed_code/key/4n3dUP1AyONkD5
+    tag: OpenStack
+    dpl: s
+-
+    url: 
+    ttl: OpenStack Overview and History
+    src: https://www.slideshare.net/slideshow/embed_code/key/ohIqpoH45ZyoqT
+    her: //www.slideshare.net/slideshow/embed_code/key/ohIqpoH45ZyoqT
+    tag: OpenStack
+    dpl: s
+-
+    url: 
+    ttl: OpenStack Neutron Tutorial
+    src: https://www.slideshare.net/slideshow/embed_code/key/5pa6bNdLCdUoRR
+    her: //www.slideshare.net/slideshow/embed_code/key/5pa6bNdLCdUoRR
+    tag: OpenStack
+    dpl: s
+-
+    url: 
+    ttl: Lessons learned from global telecom operators' cloud journeys - Zeev Likwornik, Tal Barenboim - OpenStack Israel 2017
+    src: https://www.slideshare.net/slideshow/embed_code/key/2rpsLq5IZvKvBl
+    her: //www.slideshare.net/slideshow/embed_code/key/2rpsLq5IZvKvBl
+    tag: OpenStack
+    dpl: s
+-
+    url: 
+    ttl: OpenStack Resources and Capacity Management - Shimon Benattar, Mark Rasin - OpenStack Day Israel 2017 OpenStack Upgrade - It can be done! Koby Holzer, Liran Cohen - OpenStack Day Israel 2017
+    src: https://www.slideshare.net/slideshow/embed_code/key/1cNmdPj20hHpvI
+    her: //www.slideshare.net/slideshow/embed_code/key/1cNmdPj20hHpvI
+    tag: OpenStack
+    dpl: s
+-
+    url: 
+    ttl: OpenStack Upgrade - It can be done! Koby Holzer, Liran Cohen - OpenStack Day Israel 2017
+    src: https://www.slideshare.net/slideshow/embed_code/key/1cNmdPj20hHpvI
+    her: //www.slideshare.net/slideshow/embed_code/key/1cNmdPj20hHpvI
+    tag: OpenStack
+    dpl: s
+-
+    url: 
+    ttl: OpenStack and OVS From Love-Hate to Match Made in Heaven
+    src: https://www.slideshare.net/slideshow/embed_code/key/c7qFBORQFJMjau
+    her: //www.slideshare.net/slideshow/embed_code/key/c7qFBORQFJMjau
+    tag: OpenStack
+    dpl: s
+-
+    url: 
+    ttl: Open daylight and Openstack
+    src: https://www.slideshare.net/slideshow/embed_code/key/5XgEAX9BVU0SNu
+    her: //www.slideshare.net/slideshow/embed_code/key/5XgEAX9BVU0SNu
+    tag: OpenDaylight;Openstack
+    dpl: s                        
 -
     url: http://blog.flux7.com/blogs/openstack/tutorial-what-is-cinder-and-how-to-install-and-use-it
     ttl: Cinder Storage | Installation & Usage - Flux7 Blog
@@ -157,7 +276,63 @@
     src: 
     her: 
     tag: OpenStack
-    dpl: b               
+    dpl: b
+-
+    url: https://www.flux7.com/works/openstack/tutorial-install-single-node-openstack/
+    ttl: (Tutorial) How to install a single node OpenStack
+    src: 
+    her: 
+    tag: OpenStack
+    dpl: b
+-
+    url: https://www.flux7.com/works/openstack/openstack-tutorials-part-1-openstack-introduction/
+    ttl: (Tutorial) An Introduction to Openstack Project | Part 1
+    src: 
+    her: 
+    tag: OpenStack
+    dpl: b
+-
+    url: http://cloudify.co/2014/07/10/what-is-openstack-tutorial.html
+    ttl: What is Openstack? A Quick OpenStack Tutorial
+    src: 
+    her: 
+    tag: OpenStack
+    dpl: b
+-
+    url: 
+    ttl: Cutting Edge OpenStack – Adding Container Support to IaaS
+    src: https://blog.imaginea.com/cutting-edge-openstack-adding-container-support-to-iaas/
+    her: 
+    tag: OpenStack
+    dpl: b
+-
+    url: 
+    ttl: OpenStack Cloud Metering in Archimate – Part 10
+    src: https://www.agileea.com/index.php/menu-blog/284-openstack-cloud-metering-in-archimate-part-10
+    her: 
+    tag: OpenStack
+    dpl: b
+-
+    url: http://ken.pepple.info/openstack/2011/04/22/openstack-nova-architecture/
+    ttl: OpenStack Nova Architecture
+    src: 
+    her: 
+    tag: OpenStack
+    dpl: b
+-
+    url: https://godleon.github.io/blog/2015/09/12/Use-Heat-To-Verify-OpenStack
+    ttl: OpenStack 使用 Heat 快速驗證 OpenStack 環境
+    src: 
+    her: 
+    tag: OpenStack
+    dpl: b
+-
+    url: https://kairen.gitbooks.io/openstack-liberty/content/conceptions/index.html
+    ttl: OpenStack 介紹技術
+    src: 
+    her: 
+    tag: OpenStack
+    dpl: b                                               
 -
     url: https://www.youtube.com/watch?v=eJ8ie8O7yDU
     ttl: "Openstack - Architecture"
