@@ -13,3 +13,45 @@
     ttl: "SiteWhere / Raspberry Pi Tutorial"
     tag: 
     dpl: v
+-
+    url: 
+    ttl: IoT ( M2M) - Big Data - Analytics Emulation and Demonstration 
+    src: https://www.slideshare.net/slideshow/embed_code/key/5SvUAcm4hGxI8v
+    her: //www.slideshare.net/slideshow/embed_code/key/5SvUAcm4hGxI8v
+    tag: Sitewhere
+    dpl: s
+-
+    url: https://www.machnation.com/2017/05/16/sitewhere-announces-availability-sitewhere-enterprise-edition-ee-beta/
+    ttl: SiteWhere announces availability of SiteWhere Enterprise Edition (EE) beta
+    src: 
+    her: 
+    tag: Sitewhere
+    dpl: b
+-
+    url: http://opensourceforu.com/2017/07/sitewhere-open-platform-connected-devices/
+    ttl: SiteWhere An open platform for connected devices
+    src: 
+    her: 
+    tag: Sitewhere
+    dpl: b
+-
+    url: http://documentation.sitewhere.io/tutorials/rpi/node-red-dht11-logic.html
+    ttl: Raspberry Pi DHT11 Server Logic
+    src: 
+    her: 
+    tag: Sitewhere
+    dpl: b
+-
+    url: http://documentation.sitewhere.io/overview.html
+    ttl: System Overview
+    src: 
+    her: 
+    tag: Sitewhere
+    dpl: b
+-
+    url: http://www.voidcn.com/article/p-pbibesqy-o.html
+    ttl: 在Windows下部署物联网平台SiteWhere
+    src: 
+    her: 
+    tag: Sitewhere
+    dpl: b                        
