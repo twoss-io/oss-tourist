@@ -3,3 +3,52 @@
     ttl: "Getting started with the OpenThread Sandbox Development Kit"
     tag: 
     dpl: v
+-
+    url: 
+    ttl: OpenThread 
+    src: https://www.slideshare.net/slideshow/embed_code/key/JsHnYWpFGNFWao
+    her: //www.slideshare.net/slideshow/embed_code/key/JsHnYWpFGNFWao
+    tag: Openthread
+    dpl: s
+-
+    url: http://blog.wigwag.com/openthread-why-were-excited-why-were-skeptical/
+    ttl: OpenThread Why We're Excited & Why We're Skeptical
+    src: 
+    her: 
+    tag: Openthread
+    dpl: b        
+-
+    url: https://github.com/openthread/wpantund/wiki/OpenThread-Simulator-Tutorial
+    ttl: OpenThread Simulator Tutorial
+    src: 
+    her: 
+    tag: Openthread
+    dpl: b
+-
+    url: https://codelabs.developers.google.com/codelabs/openthread-simulation/index.html?index=..%2F..%2Fio2017#0
+    ttl: Simulating a Thread network using OpenThread
+    src: 
+    her: 
+    tag: Openthread
+    dpl: b
+-
+    url: https://github.com/openthread/openthread/blob/master/examples/apps/cli/README.md
+    ttl: OpenThread CLI Example
+    src: 
+    her: 
+    tag: Openthread
+    dpl: b
+-
+    url: https://openthread.io/guides/porting/set_up_the_build_environment
+    ttl: Set Up the Build Environment
+    src: 
+    her: 
+    tag: Openthread
+    dpl: b
+-
+    url: https://github.com/Zolertia/Resources/wiki/OpenThread
+    ttl: OpenThread
+    src: 
+    her: 
+    tag: Openthread
+    dpl: b                
