@@ -33,3 +33,113 @@
     ttl: "Developing OpenDaylight Apps with MD-SAL | OpenDaylight Summit 2014"
     tag: 
     dpl: v
+-        
+    url: https://www.youtube.com/watch?v=e3JJF4snHSQ&t=457s
+    ttl: "OpenDaylight and OpenStack"
+    tag: 
+    dpl: v
+-
+    url: 
+    ttl: OpenDaylight app development tutorial
+    src: https://www.slideshare.net/slideshow/embed_code/key/elWbuAzg3IbcH5
+    her: //www.slideshare.net/slideshow/embed_code/key/elWbuAzg3IbcH5
+    tag: OpenDaylight
+    dpl: s
+-
+    url: 
+    ttl: Opendaylight SDN Controller
+    src: https://www.slideshare.net/slideshow/embed_code/key/iAm4HSH0q1R1K9
+    her: //www.slideshare.net/slideshow/embed_code/key/iAm4HSH0q1R1K9
+    tag: OpenDaylight
+    dpl: s
+-
+    url: 
+    ttl: Yang in OpenDaylight
+    src: https://www.slideshare.net/slideshow/embed_code/key/nxf3MMibMTwMem
+    her: //www.slideshare.net/slideshow/embed_code/key/nxf3MMibMTwMem
+    tag: OpenDaylight
+    dpl: s
+-
+    url: 
+    ttl: OpenDaylight Integration with OpenStack Neutron A Tutorial
+    src: https://www.slideshare.net/slideshow/embed_code/key/m2WWoBNvB2OAE0
+    her: //www.slideshare.net/slideshow/embed_code/key/m2WWoBNvB2OAE0
+    tag: OpenDaylight
+    dpl: s
+-
+    url: 
+    ttl: Open daylight and Openstack
+    src: https://www.slideshare.net/slideshow/embed_code/key/5XgEAX9BVU0SNu
+    her: //www.slideshare.net/slideshow/embed_code/key/5XgEAX9BVU0SNu
+    tag: OpenDaylight
+    dpl: s
+-
+    url: 
+    ttl: OpenDaylight MD-SAL Clustering Explained
+    src: https://www.slideshare.net/slideshow/embed_code/key/1DzScnntPxjjMm
+    her: //www.slideshare.net/slideshow/embed_code/key/1DzScnntPxjjMm
+    tag: OpenDaylight
+    dpl: s
+-
+    url: 
+    ttl: Network Intent Composition in OpenDaylight
+    src: https://www.slideshare.net/slideshow/embed_code/key/2XI0HVnp37GdHy
+    her: //www.slideshare.net/slideshow/embed_code/key/2XI0HVnp37GdHy
+    tag: OpenDaylight
+    dpl: s        
+-
+    url: 
+    ttl: Clash of Titans in SDN OpenDaylight vs ONOS - Elisa Rojas
+    src: https://www.slideshare.net/slideshow/embed_code/key/6oeClS23hAdw8J
+    her: //www.slideshare.net/slideshow/embed_code/key/6oeClS23hAdw8J
+    tag: OpenDaylight
+    dpl: s
+-
+    url: http://sdnhub.org/tutorials/opendaylight/
+    ttl: OpenDaylight Application Developer’s tutorial
+    src: 
+    her: 
+    tag: OpenDaylight
+    dpl: b
+-
+    url: http://www.muzixing.com/pages/2014/08/02/opendaylightru-men-jiao-cheng.html
+    ttl: OpenDaylight入门教程
+    src: 
+    her: 
+    tag: OpenDaylight
+    dpl: b
+-
+    url: http://networkstatic.net/opendaylight-openflow-tutorial/
+    ttl: OpenDaylight OpenFlow Tutorial
+    src: 
+    her: 
+    tag: OpenDaylight
+    dpl: b
+-
+    url: http://www.brianlinkletter.com/using-the-opendaylight-sdn-controller-with-the-mininet-network-emulator/
+    ttl: Using the OpenDaylight SDN Controller with the Mininet Network Emulator
+    src: 
+    her: 
+    tag: OpenDaylight
+    dpl: b
+-
+    url: http://superuser.openstack.org/articles/open-daylight-integration-with-openstack-a-tutorial/
+    ttl: Open Daylight integration with OpenStack a tutorial
+    src: 
+    her: 
+    tag: OpenDaylight
+    dpl: b
+-
+    url: http://www.frank-durr.de/?p=84
+    ttl: Developing OSGi Components for OpenDaylight
+    src: 
+    her: 
+    tag: OpenDaylight
+    dpl: b
+-
+    url: https://www.mirantis.com/blog/whats-opendaylight/
+    ttl: What’s in OpenDaylight?
+    src: 
+    her: 
+    tag: OpenDaylight
+    dpl: b                            
