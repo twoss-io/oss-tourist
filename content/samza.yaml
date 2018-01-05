@@ -38,3 +38,136 @@
     ttl: "RocksDB usage at LinkedIn - RocksDB Meetup, December 2014"
     tag: 
     dpl: v
+-
+    url: 
+    ttl: Samza Real-time Stream Processing at LinkedIn
+    src: https://www.slideshare.net/slideshow/embed_code/key/3Ww8xV04ldqU1W
+    her: //www.slideshare.net/slideshow/embed_code/key/3Ww8xV04ldqU1W
+    tag: Samza
+    dpl: s
+-
+    url: 
+    ttl: Apache Samza Reliable Stream Processing Atop Apache Kafka and Hadoop YARN
+    src: https://www.slideshare.net/slideshow/embed_code/key/MADmFvlUaqb0qX
+    her: //www.slideshare.net/slideshow/embed_code/key/MADmFvlUaqb0qX
+    tag: Samza
+    dpl: s
+-
+    url: 
+    ttl: Building Real-time Data Products at LinkedIn with Apache Samza
+    src: https://www.slideshare.net/slideshow/embed_code/key/r31G8sQMC8VkeX
+    her: //www.slideshare.net/slideshow/embed_code/key/r31G8sQMC8VkeX
+    tag: Samza
+    dpl: s
+-
+    url: 
+    ttl: Apache Samza - New features in the upcoming Samza release 0.10.0
+    src: https://www.slideshare.net/slideshow/embed_code/key/dYGXGxmnULsks
+    her: //www.slideshare.net/slideshow/embed_code/key/dYGXGxmnULsks
+    tag: Samza
+    dpl: s
+-
+    url: 
+    ttl: Event Stream Processing with Kafka and Samza
+    src: https://www.slideshare.net/slideshow/embed_code/key/wleli9legktYTr
+    her: //www.slideshare.net/slideshow/embed_code/key/wleli9legktYTr
+    tag: Samza
+    dpl: s
+-
+    url: 
+    ttl: Apache Incubator Samza Stream Processing at LinkedIn
+    src: https://www.slideshare.net/slideshow/embed_code/key/8zKlL0FIU13OoK
+    her: //www.slideshare.net/slideshow/embed_code/key/8zKlL0FIU13OoK
+    tag: Samza
+    dpl: s
+-
+    url: 
+    ttl: Low Latency Web Scale Fraud prevention with Apache Samza, Kafka and Friends
+    src: https://www.slideshare.net/slideshow/embed_code/key/NQobcNLVQUWvh6
+    her: //www.slideshare.net/slideshow/embed_code/key/NQobcNLVQUWvh6
+    tag: Samza
+    dpl: s
+-
+    url: 
+    ttl: Samza at LinkedIn Taking Stream Processing to the Next Level
+    src: https://www.slideshare.net/slideshow/embed_code/key/EvsHrqURorI2yW
+    her: //www.slideshare.net/slideshow/embed_code/key/EvsHrqURorI2yW
+    tag: Samza
+    dpl: s
+-
+    url: 
+    ttl: Apache samza past, present and future
+    src: https://www.slideshare.net/slideshow/embed_code/key/2p8VjrClqSvPsH
+    her: //www.slideshare.net/slideshow/embed_code/key/2p8VjrClqSvPsH
+    tag: Samza
+    dpl: s
+-
+    url: 
+    ttl: Samza la hug
+    src: https://www.slideshare.net/slideshow/embed_code/key/raKp2ZqVLgZLVt
+    her: //www.slideshare.net/slideshow/embed_code/key/raKp2ZqVLgZLVt
+    tag: Samza
+    dpl: s
+-
+    url: 
+    ttl: Benchmarking Apache Samza 1.2 million messages per sec per node
+    src: https://www.slideshare.net/slideshow/embed_code/key/JuhL1aA4WmRCfo
+    her: //www.slideshare.net/slideshow/embed_code/key/JuhL1aA4WmRCfo
+    tag: Samza
+    dpl: s
+-
+    url: https://snowplowanalytics.com/blog/2015/09/30/samza-scala-example-project-0.1.0-released/
+    ttl: Samza Scala example project released
+    src: 
+    her: 
+    tag: Samza
+    dpl: b
+-
+    url: https://thenewstack.io/apache-samza-linkedins-framework-for-stream-processing/
+    ttl: Apache Samza, LinkedIn’s Framework for Stream Processing
+    src: 
+    her: 
+    tag: Samza
+    dpl: b
+-
+    url: https://engineering.linkedin.com/blog/2017/01/asynchronous-processing-and-multithreading-in-apache-samza--part0
+    ttl: Asynchronous Processing and Multithreading in Apache Samza, Part II Experiments and Evaluation
+    src: 
+    her: 
+    tag: Samza
+    dpl: b
+-
+    url: https://www.infoq.com/articles/linkedin-samza
+    ttl: How LinkedIn Uses Apache Samza
+    src: 
+    her: 
+    tag: Samza
+    dpl: b
+-
+    url: https://samza.apache.org/learn/tutorials/latest/hello-samza-high-level-code.html
+    ttl: Hello Samza High Level API - Code Walkthrough
+    src: 
+    her: 
+    tag: Samza
+    dpl: b
+-
+    url: https://engineering.linkedin.com/blog/2016/01/whats-new-samza
+    ttl: Stream processing with Apache Samza - Current and Future
+    src: 
+    her: 
+    tag: Samza
+    dpl: b
+-
+    url: http://www.cakesolutions.net/teamblogs/comparison-of-apache-stream-processing-frameworks-part-2
+    ttl: Comparison of Apache Stream Processing Frameworks Part 2
+    src: 
+    her: 
+    tag: Samza
+    dpl: b
+-
+    url: http://www.blogchong.com/post/80.html
+    ttl: 开源流式处理新系统Samza
+    src: 
+    her: 
+    tag: Samza
+    dpl: b                                                                            
