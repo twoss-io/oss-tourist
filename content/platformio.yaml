@@ -28,3 +28,73 @@
     ttl: "PlatformIO: a cross-platform IoT solution to build them all!"
     tag: 
     dpl: v
+-
+    url: 
+    ttl: Explore the new development instruments for Arduino with PlatformIO ecosystem
+    src: https://www.slideshare.net/slideshow/embed_code/key/fSg4ti7V9zuW25
+    her: //www.slideshare.net/slideshow/embed_code/key/fSg4ti7V9zuW25
+    tag: PlatformIO
+    dpl: s
+-
+    url: 
+    ttl: Platform io for beginner
+    src: https://www.slideshare.net/slideshow/embed_code/key/3J64pMUmunYfnd
+    her: //www.slideshare.net/slideshow/embed_code/key/3J64pMUmunYfnd
+    tag: PlatformIO
+    dpl: s
+-
+    url: https://www.losant.com/blog/getting-started-with-platformio-esp8266-nodemcu
+    ttl: GETTING STARTED WITH PLATFORMIO AND ESP8266 NODEMCU
+    src: 
+    her: 
+    tag: PlatformIO
+    dpl: b
+-
+    url: https://www.survivingwithandroid.com/2016/07/arduino-alternative-ide.html
+    ttl: Arduino Alternative IDE PlatformIO IoT integrated platform
+    src: 
+    her: 
+    tag: PlatformIO
+    dpl: b
+-
+    url: http://blog.cudmore.io/post/2016/02/13/Programming-an-arduino-with-platformio/
+    ttl: Programming an arduino with platformio
+    src: 
+    her: 
+    tag: PlatformIO
+    dpl: b
+-
+    url: https://marketplace.visualstudio.com/items?itemName=formulahendry.platformio
+    ttl: PlatformIO
+    src: 
+    her: 
+    tag: PlatformIO
+    dpl: b
+-
+    url: https://blog.openenergymonitor.org/2016/06/platformio/
+    ttl: Part 1/3 PlatformIO open-source embedded development ecosystem
+    src: 
+    her: 
+    tag: PlatformIO
+    dpl: b
+-
+    url: https://marketplace.visualstudio.com/items?itemName=formulahendry.platformio
+    ttl: Multi-Arduino projects with PlatformIO
+    src: 
+    her: 
+    tag: PlatformIO
+    dpl: b
+-
+    url: http://richarthurs.com/2016/03/12/platformio-review-and-first-thoughts/
+    ttl: PlatformIO Review and First Thoughts
+    src: 
+    her: 
+    tag: PlatformIO
+    dpl: b
+-
+    url: http://tiestvangool.ghost.io/2017/01/12/ota-platformio-and-esp8266/
+    ttl: OTA PlatformIO and ESP8266
+    src: 
+    her: 
+    tag: PlatformIO
+    dpl: b                                            
