@@ -23,3 +23,45 @@
     ttl: "Interacting with the Physical Web (Polymer Summit 2016)"
     tag: 
     dpl: v
+-
+    url: 
+    ttl: Imagining the physical web
+    src: https://www.slideshare.net/slideshow/embed_code/key/CSLjfepn88RZO9
+    her: //www.slideshare.net/slideshow/embed_code/key/CSLjfepn88RZO9
+    tag: physical-web
+    dpl: s
+-
+    url: 
+    ttl: Exploring the physical web
+    src: https://www.slideshare.net/slideshow/embed_code/key/aGC4rHB63SLEvc
+    her: //www.slideshare.net/slideshow/embed_code/key/aGC4rHB63SLEvc
+    tag: physical-web
+    dpl: s
+-
+    url: 
+    ttl: Beacons and the physical web
+    src: https://www.slideshare.net/slideshow/embed_code/key/EQnKfcLr6rJTXk
+    her: 
+    tag: physical-web
+    dpl: s
+-
+    url: https://mobiforge.com/design-development/googles-beacon-platform-and-the-physical-web
+    ttl: Google’s Beacon Platform and the Physical Web
+    src: 
+    her: 
+    tag: physical-web
+    dpl: b
+-
+    url: https://medium.com/@urish/exploring-the-physical-web-without-buying-beacons-efae51e36c2e
+    ttl: Exploring the Physical Web (Without Buying Beacons)
+    src: 
+    her: 
+    tag: physical-web
+    dpl: b
+-
+    url: https://www.theodo.fr/blog/2016/11/getting-started-with-the-physical-web-part-1/
+    ttl: Getting started with the Physical Web
+    src: 
+    her: 
+    tag: physical-web
+    dpl: b                        
