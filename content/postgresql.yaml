@@ -173,3 +173,255 @@
     ttl: "Christophe Pettus: PostgreSQL Proficiency for Python People - PyCon 2014"
     tag: 
     dpl: v
+-
+    url: 
+    ttl: Ten Reasons Why You Should Prefer PostgreSQL to MySQL
+    src: https:www.slideshare.net/slideshow/embed_code/key/k7vlTljrmY5lxe
+    her: www.slideshare.net/slideshow/embed_code/key/k7vlTljrmY5lxe
+    tag: PostgreSQL
+    dpl: s
+-
+    url: 
+    ttl: PostgreSQL and MySQL
+    src: https://www.slideshare.net/slideshow/embed_code/key/rZobqZjur3DG1A
+    her: //www.slideshare.net/slideshow/embed_code/key/rZobqZjur3DG1A
+    tag: PostgreSQL
+    dpl: s
+-
+    url: 
+    ttl: Introduction to PostgreSQL
+    src: https://www.slideshare.net/slideshow/embed_code/key/rZobqZjur3DG1A
+    her: //www.slideshare.net/slideshow/embed_code/key/rZobqZjur3DG1A
+    tag: PostgreSQL
+    dpl: s
+-
+    url: 
+    ttl: A brief introduction to PostgreSQL
+    src: https://www.slideshare.net/slideshow/embed_code/key/n5SUCkeUMepJk1
+    her: //www.slideshare.net/slideshow/embed_code/key/n5SUCkeUMepJk1
+    tag: PostgreSQL
+    dpl: s
+-
+    url: 
+    ttl: 5 Steps to PostgreSQL Performance
+    src: https://www.slideshare.net/slideshow/embed_code/key/5Dm8YGuZ05N3DQ
+    her: //www.slideshare.net/slideshow/embed_code/key/5Dm8YGuZ05N3DQ
+    tag: PostgreSQL
+    dpl: s
+-
+    url: 
+    ttl: PostgreSQL performance improvements in 9.5 and 9.6
+    src: https://www.slideshare.net/slideshow/embed_code/key/b5KQ740KRNYBtu
+    her: //www.slideshare.net/slideshow/embed_code/key/b5KQ740KRNYBtu
+    tag: PostgreSQL
+    dpl: s
+-
+    url: 
+    ttl: Modern SQL in Open Source and Commercial Databases
+    src: https://www.slideshare.net/slideshow/embed_code/key/L4OrzaabhiwYoW
+    her: //www.slideshare.net/slideshow/embed_code/key/L4OrzaabhiwYoW
+    tag: PostgreSQL
+    dpl: s
+-
+    url: 
+    ttl: 淺入淺出 MySQL & PostgreSQL
+    src: https://www.slideshare.net/slideshow/embed_code/key/4ghU0tGHYTTYWj
+    her: //www.slideshare.net/slideshow/embed_code/key/4ghU0tGHYTTYWj
+    tag: PostgreSQL
+    dpl: s
+-
+    url: 
+    ttl: The NoSQL Way in Postgres
+    src: https://www.slideshare.net/slideshow/embed_code/key/BpWH2GtuhtVXxd
+    her: //www.slideshare.net/slideshow/embed_code/key/BpWH2GtuhtVXxd
+    tag: PostgreSQL
+    dpl: s
+-
+    url: 
+    ttl: NEW LAUNCH! Introducing PostgreSQL compatibility for Amazon Aurora
+    src: https://www.slideshare.net/slideshow/embed_code/key/BpWH2GtuhtVXxd
+    her: //www.slideshare.net/slideshow/embed_code/key/BpWH2GtuhtVXxd
+    tag: PostgreSQL
+    dpl: s
+-
+    url: 
+    ttl: Full Text Search In PostgreSQL
+    src: https://www.slideshare.net/slideshow/embed_code/key/NdmDnFMkghm0qp
+    her: //www.slideshare.net/slideshow/embed_code/key/NdmDnFMkghm0qp
+    tag: PostgreSQL
+    dpl: s
+-
+    url: 
+    ttl: MySQL技术分享：一步到位实现mysql优化
+    src: https://www.slideshare.net/slideshow/embed_code/key/taNryigDfnOhLC
+    her: //www.slideshare.net/slideshow/embed_code/key/taNryigDfnOhLC
+    tag: PostgreSQL
+    dpl: s
+-
+    url: http://blog.xuite.net/towns/hc/323035660-PostgreSQL+%E5%AE%89%E8%A3%9D%E3%80%81%E8%A8%AD%E5%AE%9A%E8%88%87%E7%AE%A1%E7%90%86
+    ttl: PostgreSQL 安裝、管理與教學
+    src: 
+    her: 
+    tag: PostgreSQL
+    dpl: b                            
+-
+    url: https://ephrain.net/postgresql-%E4%BD%BF%E7%94%A8-pgadmin-%E5%BF%AB%E9%80%9F%E6%96%B0%E5%A2%9E%E5%A4%A7%E9%87%8F%E8%B3%87%E6%96%99/
+    ttl: PostgreSQL 使用 pgAdmin 快速新增大量資料
+    src: 
+    her: 
+    tag: PostgreSQL
+    dpl: b
+-
+    url: http://lolikitty.pixnet.net/blog/post/28171909-postgresql%E5%9F%BA%E7%A4%8E%E5%91%BD%E4%BB%A4%E5%8F%8Alinux%E4%B8%8Bpostgresql%E5%91%BD%E4%BB%A4
+    ttl: postgreSql基礎命令及linux下postgreSql命令
+    src: 
+    her: 
+    tag: PostgreSQL
+    dpl: b
+-
+    url: http://james670818.pixnet.net/blog/post/35879620-%5Bpostgresql%5D-%E5%82%99%E4%BB%BD%E8%88%87%E9%82%84%E5%8E%9F
+    ttl: PostgreSQL 備份與還原
+    src: 
+    her: 
+    tag: PostgreSQL
+    dpl: b
+-
+    url: http://luckyboy7527.pixnet.net/blog/post/97784293-postgresql-9.0-java-%E7%B0%A1%E6%98%93%E9%80%A3%E7%B7%9A%E6%95%99%E5%AD%B8-%28%E5%85%A7%E5%90%ABcreate-table-%26
+    ttl: PostgreSQL 9.0 Java 簡易連線教學 (內含create table & insert data語法)
+    src: 
+    her: 
+    tag: PostgreSQL
+    dpl: b                            
+-
+    url: http://blog.bryanbigdata.com/2014/12/python-scrapyweb-crawler-to.html
+    ttl: Python教學 Scrapy(Web Crawler) to PostgreSQL（二）postgreSQL資料庫連接設定
+    src: 
+    her: 
+    tag: PostgreSQL
+    dpl: b
+-
+    url: http://abcg5.pixnet.net/blog/post/116914130-centos-postgresql-%E5%AE%89%E8%A3%9D%2C%E5%82%99%E4%BB%BD%2C%E9%82%84%E5%8E%9F
+    ttl: Centos Postgresql 安裝,備份,還原
+    src: 
+    her: 
+    tag: PostgreSQL
+    dpl: b
+-
+    url: http://www.bigdatafinance.tw/index.php/tech/coding/94-python-scrapy-web-crawler-to-postgresql
+    ttl: Python 教學 Scrapy(Web Crawler) to PostgreSQL（一）簡介 ＆ 網路爬蟲基本設定
+    src: 
+    her: 
+    tag: PostgreSQL
+    dpl: b
+-
+    url: https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-16-04
+    ttl: How To Install and Use PostgreSQL on Ubuntu 16.04
+    src: 
+    her: 
+    tag: PostgreSQL
+    dpl: b                            
+-
+    url: http://mherman.org/blog/2015/02/12/postgresql-and-nodejs/#.WbiYXrIjGM8
+    ttl: PostgreSQL and NodeJS
+    src: 
+    her: 
+    tag: PostgreSQL
+    dpl: b
+-
+    url: https://scotch.io/tutorials/getting-started-with-node-express-and-postgres-using-sequelize
+    ttl: Getting Started with Node, Express and Postgres Using Sequelize
+    src: 
+    her: 
+    tag: PostgreSQL
+    dpl: b
+-
+    url: https://suhas.org/sqlalchemy-tutorial/
+    ttl: SQLAlchemy quick start with PostgreSQL
+    src: 
+    her: 
+    tag: PostgreSQL
+    dpl: b
+-
+    url: http://desktop.arcgis.com/en/arcmap/latest/manage-data/gdbs-in-postgresql/get-started-gdb-in-postgresql.htm
+    ttl: Tutorial Get started with geodatabases in PostgreSQL
+    src: 
+    her: 
+    tag: PostgreSQL
+    dpl: b                            
+-
+    url: https://www.toptal.com/database/hdfs-tutorial-data-migration-from-postgresql
+    ttl: An HDFS Tutorial for Data Analysts Stuck With Relational Databases
+    src: 
+    her: 
+    tag: PostgreSQL
+    dpl: b
+-
+    url: http://zetcode.com/db/postgresqlpythontutorial/
+    ttl: PostgreSQL Python tutorial
+    src: 
+    her: 
+    tag: PostgreSQL
+    dpl: b
+-
+    url: https://rails.ruby.tw/active_record_postgresql.html
+    ttl: Active Record PostgreSQL
+    src: 
+    her: 
+    tag: PostgreSQL
+    dpl: b
+-
+    url: http://www.sites-help.com/aliyun/aliyunqi/1547457018_zh.html
+    ttl: 一天學會PostgreSQL應用開發與管理 - 1 如何搭建一套學習、開發PostgreSQL的環境
+    src: 
+    her: 
+    tag: PostgreSQL
+    dpl: b                            
+-
+    url: http://pg-techinfo.blogspot.tw/2014/06/blog-post.html
+    ttl: 系統架構與資料庫存取
+    src: 
+    her: 
+    tag: PostgreSQL
+    dpl: b
+-
+    url: https://noob.tw/postgis
+    ttl: PostGIS 使用 PostgreSQL 的地理資訊系統
+    src: 
+    her: 
+    tag: PostgreSQL
+    dpl: b
+-
+    url: http://docs.pgbarman.org/release/1.6.1/
+    ttl: Backup and Recovery Manager for PostgreSQL Tutorial
+    src: 
+    her: 
+    tag: PostgreSQL
+    dpl: b
+-
+    url: https://semaphoreci.com/community/tutorials/building-and-testing-a-rest-api-in-go-with-gorilla-mux-and-postgresql
+    ttl: Building and Testing a REST API in Go with Gorilla Mux and PostgreSQL
+    src: 
+    her: 
+    tag: PostgreSQL
+    dpl: b                            
+-
+    url: http://programminglife.io/nodejs-sequelize-postgresql-tutorial/
+    ttl: Node.js, Sequelize, PostgreSQL tutorial
+    src: 
+    her: 
+    tag: PostgreSQL
+    dpl: b
+-
+    url: https://chartio.com/resources/tutorials/how-to-list-databases-and-tables-in-postgresql-using-psql/
+    ttl: How to List Databases and Tables in PostgreSQL Using psql
+    src: 
+    her: 
+    tag: PostgreSQL
+    dpl: b
+-
+    url: https://www.howtoforge.com/tutorial/ubuntu-postgresql-installation/
+    ttl: How to Install PostgreSQL and phpPgAdmin on Ubuntu 16.04
+    src: 
+    her: 
+    tag: PostgreSQL
+    dpl: b                            
