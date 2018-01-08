@@ -253,4 +253,116 @@
     src: https://www.slideshare.net/slideshow/embed_code/key/mgJMJXRGN54On
     her: //www.slideshare.net/slideshow/embed_code/key/mgJMJXRGN54On
     tag: Mesos;Spark
-    dpl: s                                                                                             
+    dpl: s
+-
+    url: https://www.edureka.co/blog/spark-tutorial/
+    ttl: Spark Tutorial Real Time Cluster Computing Framework
+    src: 
+    her: 
+    tag: Spark
+    dpl: b
+-
+    url: https://www.datacamp.com/community/tutorials/apache-spark-tutorial-machine-learning#gs.a6rg6K0
+    ttl: Apache Spark Tutorial Machine Learning with PySpark
+    src: 
+    her: 
+    tag: Spark
+    dpl: b
+-
+    url: https://mapr.com/blog/apache-spark-machine-learning-tutorial/
+    ttl: Apache Spark Machine Learning Tutorial
+    src: 
+    her: 
+    tag: Spark
+    dpl: b
+-
+    url: https://www.infoq.com/articles/apache-spark-introduction
+    ttl: Big Data Processing with Apache Spark – Part 1 Introduction
+    src: 
+    her: 
+    tag: Spark
+    dpl: b
+-
+    url: https://blog.matthewrathbone.com/2015/12/14/spark-scala-tutorial.html
+    ttl: Apache Spark Scala Tutorial with Examples
+    src: 
+    her: 
+    tag: Spark
+    dpl: b
+-
+    url: https://www.dezyre.com/article/apache-spark-architecture-explained-in-detail/338
+    ttl: Apache Spark Architecture Explained in Detail
+    src: 
+    her: 
+    tag: Spark
+    dpl: b
+-
+    url: http://datastrophic.io/core-concepts-architecture-and-internals-of-apache-spark/
+    ttl: Apache Spark core concepts, architecture and internals
+    src: 
+    her: 
+    tag: Spark
+    dpl: b
+-
+    url: https://www.toptal.com/spark/introduction-to-apache-spark
+    ttl: Introduction to Apache Spark with Examples and Use Cases
+    src: 
+    her: 
+    tag: Spark
+    dpl: b
+-
+    url: https://www.analyticsvidhya.com/blog/2017/01/scala/
+    ttl: 21 Steps to Get Started with Apache Spark using Scala
+    src: 
+    her: 
+    tag: Spark
+    dpl: b
+-
+    url: https://www.edureka.co/blog/spark-sql-tutorial/
+    ttl: Spark SQL Tutorial – Understanding Spark SQL With Examples
+    src: 
+    her: 
+    tag: Spark
+    dpl: b
+-
+    url: https://blog.codecentric.de/en/2017/04/event-time-processing-apache-spark-apache-flink/
+    ttl: Event time processing in Apache Spark and Apache Flink
+    src: 
+    her: 
+    tag: Flink;Spark
+    dpl: b
+-
+    url: http://backtobazics.com/big-data/spark/apache-spark-reducebykey-example/
+    ttl: Apache Spark reduceByKey Example
+    src: 
+    her: 
+    tag: Spark
+    dpl: b
+-
+    url: https://my.vertica.com/get-started-vertica/integrating-apache-spark/
+    ttl: Integrating with Apache Spark
+    src: 
+    her: 
+    tag: Spark
+    dpl: b
+-
+    url: https://www.codementor.io/jadianes/building-a-recommender-with-apache-spark-python-example-app-part1-du1083qbw
+    ttl: Building a Movie Recommendation Service with Apache Spark & Flask - Part 1
+    src: 
+    her: 
+    tag: Spark
+    dpl: b
+-
+    url: https://www.datacamp.com/community/tutorials/apache-spark-python#gs.0XgITL0
+    ttl: Apache Spark in Python Beginner's Guide
+    src: 
+    her: 
+    tag: Spark
+    dpl: b
+-
+    url: http://www.agildata.com/apache-spark-2-0-api-improvements-rdd-dataframe-dataset-sql/
+    ttl: APACHE SPARK 2.0 API IMPROVEMENTS RDD, DATAFRAME, DATASET AND SQL
+    src: 
+    her: 
+    tag: Spark
+    dpl: b                                                                                                                                                             
