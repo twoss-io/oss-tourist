@@ -93,3 +93,164 @@
     ttl: "Intro to Apache Spark Training - Part 1"
     tag: 
     dpl: v
+-
+    url: 
+    ttl: TensorFrames Google Tensorflow on Apache Spark
+    src: https://www.slideshare.net/slideshow/embed_code/key/MZLyxtExdXcamp
+    her: //www.slideshare.net/slideshow/embed_code/key/MZLyxtExdXcamp
+    tag: TensorFlow;Spark
+    dpl: s
+-
+    url: 
+    ttl: Apache storm vs. Spark Streaming
+    src: https://www.slideshare.net/slideshow/embed_code/key/hZmAFT4CZ19WEM
+    her: //www.slideshare.net/slideshow/embed_code/key/hZmAFT4CZ19WEM
+    tag: Storm;Spark
+    dpl: s
+-
+    url: 
+    ttl: Simplifying Big Data Analytics with Apache Spark
+    src: https://www.slideshare.net/slideshow/embed_code/key/mckSN2mjbJCLS8
+    her: //www.slideshare.net/slideshow/embed_code/key/mckSN2mjbJCLS8
+    tag: Spark
+    dpl: s
+-
+    url: 
+    ttl: Apache Spark Architecture
+    src: https://www.slideshare.net/slideshow/embed_code/key/igfluRtWHYElyT
+    her: //www.slideshare.net/slideshow/embed_code/key/igfluRtWHYElyT
+    tag: Spark
+    dpl: s
+-
+    url: 
+    ttl: Apache Spark 2.0 Faster, Easier, and Smarter
+    src: https://www.slideshare.net/slideshow/embed_code/key/5K6eZ5jtQO1B88
+    her: //www.slideshare.net/slideshow/embed_code/key/5K6eZ5jtQO1B88
+    tag: Spark
+    dpl: s
+-
+    url: 
+    ttl: Introduction to Apache Spark
+    src: https://www.slideshare.net/slideshow/embed_code/key/ao21oBFXS1rImB
+    her: //www.slideshare.net/slideshow/embed_code/key/ao21oBFXS1rImB
+    tag: Spark
+    dpl: s
+-
+    url: 
+    ttl: Apache Spark & Hadoop
+    src: https://www.slideshare.net/slideshow/embed_code/key/15IGGNmZSDQhFb
+    her: //www.slideshare.net/slideshow/embed_code/key/15IGGNmZSDQhFb
+    tag: Spark
+    dpl: s
+-
+    url: 
+    ttl: Lightening Fast Big Data Analytics using Apache Spark
+    src: https://www.slideshare.net/slideshow/embed_code/key/5DSaZBthmetR7a
+    her: 
+    tag: Spark
+    dpl: s
+-
+    url: 
+    ttl: Introduction to Apache Spark Developer Training
+    src: https://www.slideshare.net/slideshow/embed_code/key/i59HoTwQNx9eAe
+    her: //www.slideshare.net/slideshow/embed_code/key/i59HoTwQNx9eAe
+    tag: Spark
+    dpl: s
+-
+    url: 
+    ttl: Top 5 Mistakes to Avoid When Writing Apache Spark Applications
+    src: https://www.slideshare.net/slideshow/embed_code/key/jwiwqfaY4CKI1N
+    her: //www.slideshare.net/slideshow/embed_code/key/jwiwqfaY4CKI1N
+    tag: Spark
+    dpl: s
+-
+    url: 
+    ttl: Apache Spark 2.0 Tuning Guide
+    src: https://www.slideshare.net/slideshow/embed_code/key/8Hpy9Zk8YC1A5J
+    her: //www.slideshare.net/slideshow/embed_code/key/8Hpy9Zk8YC1A5J
+    tag: Spark
+    dpl: s
+-
+    url: 
+    ttl: Lambda Architecture with Apache Spark
+    src: https://www.slideshare.net/slideshow/embed_code/key/L7EipcVVMj51qh
+    her: //www.slideshare.net/slideshow/embed_code/key/L7EipcVVMj51qh
+    tag: Spark
+    dpl: s
+-
+    url: 
+    ttl: Spark Summit East 2015 Advanced Devops Student Slides
+    src: https://www.slideshare.net/slideshow/embed_code/key/uzOXPujB1vYOZ5
+    her: //www.slideshare.net/slideshow/embed_code/key/uzOXPujB1vYOZ5
+    tag: Spark
+    dpl: s
+-
+    url: 
+    ttl: Big Data visualization with Apache Spark and Zeppelin
+    src: https://www.slideshare.net/slideshow/embed_code/key/7HMulxvaVwqnkn
+    her: //www.slideshare.net/slideshow/embed_code/key/7HMulxvaVwqnkn
+    tag: Spark
+    dpl: s
+-
+    url: 
+    ttl: Flink vs. Spark
+    src: https://www.slideshare.net/slideshow/embed_code/key/rC90ioYiOxCvzD
+    her: //www.slideshare.net/slideshow/embed_code/key/rC90ioYiOxCvzD
+    tag: Flink;Spark
+    dpl: s
+-
+    url: 
+    ttl: Real time Analytics with Apache Kafka and Apache Spark
+    src: https://www.slideshare.net/slideshow/embed_code/key/yaBbGl0rHu2bBy
+    her: //www.slideshare.net/slideshow/embed_code/key/yaBbGl0rHu2bBy
+    tag: Spark
+    dpl: s
+-
+    url: 
+    ttl: Combining Machine Learning Frameworks with Apache Spark
+    src: https://www.slideshare.net/slideshow/embed_code/key/bdHDNa8pkL6oMd
+    her: //www.slideshare.net/slideshow/embed_code/key/bdHDNa8pkL6oMd
+    tag: Spark
+    dpl: s
+-
+    url: 
+    ttl: Apache Spark Model Deployment
+    src: https://www.slideshare.net/slideshow/embed_code/key/bdHDNa8pkL6oMd
+    her: //www.slideshare.net/slideshow/embed_code/key/bdHDNa8pkL6oMd
+    tag: Spark
+    dpl: s
+-
+    url: 
+    ttl: Apache Spark Model Deployment
+    src: https://www.slideshare.net/slideshow/embed_code/key/3gNIQ3gsvwCAD3
+    her: //www.slideshare.net/slideshow/embed_code/key/3gNIQ3gsvwCAD3
+    tag: Spark
+    dpl: s
+-
+    url: 
+    ttl: Apache Spark MLlib 2.0 Preview Data Science and Production
+    src: https://www.slideshare.net/slideshow/embed_code/key/hi8ZvWPjEZ9YPX
+    her: //www.slideshare.net/slideshow/embed_code/key/hi8ZvWPjEZ9YPX
+    tag: Spark
+    dpl: s
+-
+    url: 
+    ttl: Apache Spark 101 [in 50 min]
+    src: https://www.slideshare.net/slideshow/embed_code/key/1DYDz3P56Lebjm
+    her: //www.slideshare.net/slideshow/embed_code/key/1DYDz3P56Lebjm
+    tag: Mesos
+    dpl: s
+-
+    url: 
+    ttl: Getting Started Running Apache Spark on Apache Mesos
+    src: https://www.slideshare.net/slideshow/embed_code/key/C6r2h10rRK25Ro
+    her: //www.slideshare.net/slideshow/embed_code/key/C6r2h10rRK25Ro
+    tag: Mesos;Spark
+    dpl: s
+-
+    url: 
+    ttl: How to deploy Apache Spark  to Mesos/DCOS
+    src: https://www.slideshare.net/slideshow/embed_code/key/mgJMJXRGN54On
+    her: //www.slideshare.net/slideshow/embed_code/key/mgJMJXRGN54On
+    tag: Mesos;Spark
+    dpl: s                                                                                             
