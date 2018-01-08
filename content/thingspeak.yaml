@@ -23,3 +23,59 @@
     ttl: "IOT Example Using Arduino UNO Ethernet Shield and ThingSpeak"
     tag: 
     dpl: v
+-
+    url: 
+    ttl: Performance trends and alerts with ThingSpeak IoT
+    src: https://www.slideshare.net/slideshow/embed_code/key/2FMUT7MnuAzyWx
+    her: //www.slideshare.net/slideshow/embed_code/key/2FMUT7MnuAzyWx
+    tag: Thingspeak
+    dpl: s
+-
+    url: https://www.hackster.io/adamgarbo/raspberry-pi-2-iot-thingspeak-dht22-sensor-b208f4
+    ttl: Raspberry Pi 2 IoT Thingspeak & DHT22 Sensor
+    src: 
+    her: 
+    tag: Thingspeak
+    dpl: b
+-
+    url: https://mcuoneclipse.com/2014/12/14/tutorial-iot-datalogger-with-esp8266-wifi-module-and-frdm-kl25z/
+    ttl: Tutorial IoT Datalogger with ESP8266 WiFi Module and FRDM-KL25Z
+    src: 
+    her: 
+    tag: Thingspeak
+    dpl: b
+-
+    url: http://tutorial.cytron.com.my/2016/09/15/let-espresso-thingspeak-for-you/
+    ttl: Let ESPresso thingSpeak for You
+    src: 
+    her: 
+    tag: Thingspeak
+    dpl: b
+-
+    url: https://bbvaopen4u.com/en/actualidad/apis-internet-things-thingspeak-pachube-and-fitbit
+    ttl: APIs for the Internet of Things ThingSpeak, Pachube and Fitbit
+    src: 
+    her: 
+    tag: Thingspeak
+    dpl: b
+-
+    url: http://embeddedcomputing.weebly.com/advanced-iot-data-processing-with-thinkspeak.html
+    ttl: Advanced IoT Data Processing with ThinkSpeak
+    src: 
+    her: 
+    tag: Thingspeak
+    dpl: b
+-
+    url: https://makerpro.cc/2016/02/upload-sensor-data-from-ameba-to-thingspeak/
+    ttl: 將Ameba感測值遠端傳上ThingSpeak
+    src: 
+    her: 
+    tag: Thingspeak
+    dpl: b
+-
+    url: http://web.unumobile.com/unu/?p=233
+    ttl: Arduino with WF8266R 透過 Serial 上傳資料到 ThingSpeak.com
+    src: 
+    her: 
+    tag: Thingspeak
+    dpl: b                                 
