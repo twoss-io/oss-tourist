@@ -282,190 +282,190 @@
     tag: TensorFlow
     dpl: s
 -
-    url: 
-    ttl: 
+    url: https://blog.gtwang.org/statistics/tensorflow-google-machine-learning-software-library-tutorial/
+    ttl: TensorFlow 機器學習軟體工具入門教學與範例實作
     src: 
     her: 
     tag: TensorFlow
     dpl: b
 -
-    url: 
-    ttl: 
+    url: http://darren1231.pixnet.net/blog/post/332022975-tensorflow%E6%95%99%E5%AD%B8----%E5%BB%BA%E7%BD%AE%E4%B8%80%E5%80%8B%E5%9F%BA%E7%A4%8E%E7%A5%9E%E7%B6%93%E7%B6%B2%E8%B7%AF
+    ttl: tensorflow教學(1) -- 建置一個基礎神經網路
     src: 
     her: 
     tag: TensorFlow
     dpl: b
 -
-    url: 
-    ttl: 
+    url: https://www.hksilicon.com/articles/1106629
+    ttl: 真正從零開始，TensorFlow安裝入門教程！（圖文版）
     src: 
     her: 
     tag: TensorFlow
     dpl: b
 -
-    url: 
-    ttl: 
+    url: https://pythonprogramming.net/tensorflow-introduction-machine-learning-tutorial/
+    ttl: Introduction to Deep Learning with TensorFlow
     src: 
     her: 
     tag: TensorFlow
     dpl: b
 -
-    url: 
-    ttl: 
+    url: https://www.datacamp.com/community/tutorials/tensorflow-tutorial#gs.tDFiUHQ
+    ttl: TensorFlow Tutorial For Beginners
     src: 
     her: 
     tag: TensorFlow
     dpl: b
 -
-    url: 
-    ttl: 
+    url: https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0
+    ttl: Simple Reinforcement Learning with Tensorflow Part 0 Q-Learning with Tables and Neural Networks
     src: 
     her: 
     tag: TensorFlow
     dpl: b
 -
-    url: 
-    ttl: 
+    url: https://www.oreilly.com/learning/hello-tensorflow
+    ttl: Hello, TensorFlow! Building and training your first TensorFlow graph from the ground up
     src: 
     her: 
     tag: TensorFlow
     dpl: b                                 
 -
-    url: 
-    ttl: 
+    url: http://adventuresinmachinelearning.com/python-tensorflow-tutorial/
+    ttl: Python TensorFlow Tutorial – Build a Neural Network
     src: 
     her: 
     tag: TensorFlow
     dpl: b
 -
-    url: 
-    ttl: 
+    url: https://blog.keras.io/keras-as-a-simplified-interface-to-tensorflow-tutorial.html
+    ttl: Keras as a simplified interface to TensorFlow tutorial
     src: 
     her: 
     tag: TensorFlow
     dpl: b
 -
-    url: 
-    ttl: 
+    url: https://www.analyticsvidhya.com/blog/2016/10/an-introduction-to-implementing-neural-networks-using-tensorflow/
+    ttl: An Introduction to Implementing Neural Networks using TensorFlow
     src: 
     her: 
     tag: TensorFlow
     dpl: b
 -
-    url: 
-    ttl: 
+    url: https://reinforce.io/blog/introduction-to-tensorforce/
+    ttl: TensorForce A TensorFlow library for applied reinforcement learning
     src: 
     her: 
     tag: TensorFlow
     dpl: b
 -
-    url: 
-    ttl: 
+    url: http://mropengate.blogspot.tw/2016/10/ai-ch165-tensorflow.html
+    ttl: AI - Ch16.5 類神經網路實作 - TensorFlow 介紹與入門教學
     src: 
     her: 
     tag: TensorFlow
     dpl: b
 -
-    url: 
-    ttl: 
+    url: http://terrence.logdown.com/posts/1240896-play-tensorflow-mnist-handwriting-recognition
+    ttl: 玩玩tensorflow-mnist手寫辨識
     src: 
     her: 
     tag: TensorFlow
     dpl: b
 -
-    url: 
-    ttl: 
+    url: https://my.oschina.net/yilian/blog/659618
+    ttl: TensorFlow 人工智能引擎 入门教程之一 基本概念以及理解
     src: 
     her: 
     tag: TensorFlow
     dpl: b
 -
-    url: 
-    ttl: 
+    url: https://fgc.stpi.narl.org.tw/activity/videoDetail/4b1141305d9cd231015d9d07dbe1002a
+    ttl: TensorFlow 基礎篇〈上〉
     src: 
     her: 
     tag: TensorFlow
     dpl: b
 -
-    url: 
-    ttl: 
+    url: https://fgc.stpi.narl.org.tw/activity/videoDetail/4b1141305d9cd231015d9d0852c5002b
+    ttl: TensorFlow 基礎篇〈中〉
     src: 
     her: 
     tag: TensorFlow
     dpl: b                                 
 -
-    url: 
-    ttl: 
+    url: https://fgc.stpi.narl.org.tw/activity/videoDetail/4b1141305d9cd231015d9d08fb62002d
+    ttl: TensorFlow 基礎篇〈下〉
     src: 
     her: 
     tag: TensorFlow
     dpl: b
 -
-    url: 
-    ttl: 
+    url: https://hackmd.io/s/HJxsUvOpg
+    ttl: TensorFlow 筆記
     src: 
     her: 
     tag: TensorFlow
     dpl: b
 -
-    url: 
-    ttl: 
+    url: http://www.infoq.com/cn/articles/tensorflow-architecture-and-programming
+    ttl: 深度学习利器： TensorFlow系统架构及高性能程序设计
     src: 
     her: 
     tag: TensorFlow
     dpl: b
 -
-    url: 
-    ttl: 
+    url: https://kknews.cc/zh-tw/tech/q2j6l8o.html
+    ttl: TensorFlow架構與設計：變量初始化
     src: 
     her: 
     tag: TensorFlow
     dpl: b
 -
-    url: 
-    ttl: 
+    url: http://tensorflowkeras.blogspot.tw/2017/06/tensorflow-gpucpu_30.html
+    ttl: TensorFlow深度學習運用 GPU與CPU執行效能比較
     src: 
     her: 
     tag: TensorFlow
     dpl: b
 -
-    url: 
-    ttl: 
+    url: https://ifun01.com/8B2NGFL.html
+    ttl: TensorFlow架構與設計︰會話生命周期
     src: 
     her: 
     tag: TensorFlow
     dpl: b
 -
-    url: 
-    ttl: 
+    url: http://www.itdadao.com/articles/c15a1436073p0.html
+    ttl: TensorFlow架构 - 片刻 - ApacheCN
     src: 
     her: 
     tag: TensorFlow
     dpl: b
 -
-    url: 
-    ttl: 
+    url: http://www.itread01.com/articles/1474882414.html
+    ttl: TensorFlow深度學習，一篇文章就夠了
     src: 
     her: 
     tag: TensorFlow
     dpl: b
 -
-    url: 
-    ttl: 
+    url: https://svds.com/tensorflow-rnn-tutorial/
+    ttl: TensorFlow RNN Tutorial
     src: 
     her: 
     tag: TensorFlow
     dpl: b                                 
 -
-    url: 
-    ttl: 
+    url: https://hazyresearch.github.io/snorkel/blog/dp_with_tf_blog_post.html
+    ttl: Data Programming in TensorFlow
     src: 
     her: 
     tag: TensorFlow
     dpl: b
 -
-    url: 
-    ttl: 
+    url: https://machinelearningmastery.com/introduction-python-deep-learning-library-tensorflow/
+    ttl: Introduction to the Python Deep Learning Library TensorFlow
     src: 
     her: 
     tag: TensorFlow
