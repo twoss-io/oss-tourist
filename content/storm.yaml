@@ -63,3 +63,178 @@
     ttl: "What Is Real Time? - Real-Time Analytics with Apache Storm"
     tag: 
     dpl: v
+-
+    url: 
+    ttl: Apache Storm 0.9 basic training - Verisign
+    src: https://www.slideshare.net/slideshow/embed_code/key/GUD3Y58U1f973x
+    her: //www.slideshare.net/slideshow/embed_code/key/GUD3Y58U1f973x
+    tag: Storm
+    dpl: s
+-
+    url: 
+    ttl: The Future of Apache Storm
+    src: https://www.slideshare.net/slideshow/embed_code/key/jJGxlkI85Ze4Wl
+    her: //www.slideshare.net/slideshow/embed_code/key/jJGxlkI85Ze4Wl
+    tag: Storm
+    dpl: s
+-
+    url: 
+    ttl: Scaling Apache Storm - Strata + Hadoop World 2014
+    src: https://www.slideshare.net/slideshow/embed_code/key/NRMYq1985xMCWv
+    her: //www.slideshare.net/slideshow/embed_code/key/NRMYq1985xMCWv
+    tag: Storm
+    dpl: s
+-
+    url: 
+    ttl: Apache storm vs. Spark Streaming
+    src: https://www.slideshare.net/slideshow/embed_code/key/hZmAFT4CZ19WEM
+    her: //www.slideshare.net/slideshow/embed_code/key/hZmAFT4CZ19WEM
+    tag: Storm
+    dpl: s
+-
+    url: 
+    ttl: Hadoop Summit Europe 2014 Apache Storm Architecture
+    src: https://www.slideshare.net/slideshow/embed_code/key/m9vKPotXvQ8hb7
+    her: //www.slideshare.net/slideshow/embed_code/key/m9vKPotXvQ8hb7
+    tag: Storm
+    dpl: s
+-
+    url: 
+    ttl: Apache Storm
+    src: https://www.slideshare.net/slideshow/embed_code/key/DmcslsgoqyXsgg
+    her: //www.slideshare.net/slideshow/embed_code/key/DmcslsgoqyXsgg
+    tag: Storm
+    dpl: s                       
+-
+    url: 
+    ttl: Storm Anatomy
+    src: https://www.slideshare.net/slideshow/embed_code/key/5Z2kDPvDiGQ1B7
+    her: //www.slideshare.net/slideshow/embed_code/key/5Z2kDPvDiGQ1B7
+    tag: Storm
+    dpl: s
+-
+    url: 
+    ttl: How Spotify scales Apache Storm Pipelines
+    src: https://www.slideshare.net/slideshow/embed_code/key/8rD9Pv1OOlmXHY
+    her: //www.slideshare.net/slideshow/embed_code/key/8rD9Pv1OOlmXHY
+    tag: Storm
+    dpl: s
+-
+    url: 
+    ttl: Resource Aware Scheduling in Apache Storm
+    src: https://www.slideshare.net/slideshow/embed_code/key/GDqAajROY4Q3ot
+    her: //www.slideshare.net/slideshow/embed_code/key/GDqAajROY4Q3ot
+    tag: Storm
+    dpl: s
+-
+    url: 
+    ttl: Apache Storm vs. Spark Streaming - two stream processing platforms compared
+    src: https://www.slideshare.net/slideshow/embed_code/key/aqZJUWLTg9ljUT
+    her: //www.slideshare.net/slideshow/embed_code/key/aqZJUWLTg9ljUT
+    tag: Storm
+    dpl: s
+-
+    url: https://jerrynest.io/storm-concept-install-example/
+    ttl: Storm 快速上手：概念、佈署與範例
+    src: 
+    her: 
+    tag: Storm
+    dpl: b
+-
+    url: https://docs.microsoft.com/zh-tw/azure/hdinsight/hdinsight-apache-storm-tutorial-get-started-linux
+    ttl: 使用 storm-starter 範例在 HDInsight 上開始使用 Apache Storm
+    src: 
+    her: 
+    tag: Storm
+    dpl: b
+-
+    url: https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-storm-develop-java-topology
+    ttl: Create an Apache Storm topology in Java
+    src: 
+    her: 
+    tag: Storm
+    dpl: b
+-
+    url: https://mindmajix.com/apache-storm-tutorial
+    ttl: Apache Storm Tutorial
+    src: 
+    her: 
+    tag: Storm
+    dpl: b
+-
+    url: https://medium.baqend.com/tutorial-deploying-apache-storm-on-docker-swarm-b58c92d89f8f
+    ttl: Tutorial Deploying Apache Storm on Docker Swarm
+    src: 
+    her: 
+    tag: Storm
+    dpl: b
+-
+    url: https://github.com/sensorstorm/SensorStorm/wiki/Architecture
+    ttl: Architecture
+    src: 
+    her: 
+    tag: Storm
+    dpl: b
+-
+    url: https://intellipaat.com/blog/what-is-apache-storm/
+    ttl: What is Apache Storm?
+    src: 
+    her: 
+    tag: Storm
+    dpl: b
+-
+    url: http://wpcertification.blogspot.tw/2014/02/helloworld-apache-storm-word-counter.html
+    ttl: HelloWorld - Apache Storm Word Counter program
+    src: 
+    her: 
+    tag: Storm
+    dpl: b
+-
+    url: http://ptgoetz.github.io/blog/2013/12/18/running-apache-storm-on-windows/
+    ttl: Running Apache Storm on Windows
+    src: 
+    her: 
+    tag: Storm
+    dpl: b
+-
+    url: https://www.linode.com/docs/applications/big-data/big-data-in-the-linode-cloud-streaming-data-processing-with-apache-storm
+    ttl: Big Data in the Linode Cloud Streaming Data Processing with Apache Storm
+    src: 
+    her: 
+    tag: Storm
+    dpl: b
+-
+    url: https://zdatainc.com/2014/07/real-time-streaming-apache-storm-apache-kafka/
+    ttl: Real Time Streaming with Apache Storm and Apache Kafka
+    src: 
+    her: 
+    tag: Storm
+    dpl: b
+-
+    url: http://knowm.org/how-to-install-a-distributed-apache-storm-cluster/
+    ttl: How to Install a Distributed Apache Storm Cluster
+    src: 
+    her: 
+    tag: Storm
+    dpl: b
+-
+    url: https://dzone.com/articles/streaming-big-data-storm-spark
+    ttl: Streaming Big Data Storm, Spark and Samza
+    src: 
+    her: 
+    tag: Storm
+    dpl: b
+-
+    url: http://blog.librato.com/posts/superchief
+    ttl: SuperChief From Apache Storm to In-House Distributed Stream Processing
+    src: 
+    her: 
+    tag: Storm
+    dpl: b
+-
+    url: https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-apache-storm-tutorial-get-started-linux
+    ttl: Get started with Apache Storm on HDInsight using the storm-starter examples
+    src: 
+    her: 
+    tag: Storm
+    dpl: b                                                            
