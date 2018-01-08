@@ -59,13 +59,31 @@ function getYaml() {
     })
 }
 
+
+function getElmCnt( obj )
+{
+     var result = null;
+     var scriptUrl = './content/' + obj + '.yaml';
+     $.ajax({
+        url: scriptUrl,
+        type: 'get',
+        dataType: 'html',
+        async: false,
+        success: function(data) {
+            result = data;
+        } 
+     });
+     return (result.match(/dpl:/g) || []).length;
+     //(result.match(/dpl: v/g) || []).length+(result.match(/dpl: s/g) || []).length+(result.match(/dpl: b/g) || []).length;//result.length;
+}
+
 function genElm(obj) {
     html = '' ;
     
     for (var i = 0; i < obj.length; i++) {
         var el = obj[i];
         console.log('el='+el);
-        html += '<li class="sidebar-label pt15"><a class = "sidebar_clTitle" href="' + '#' + '" onclick="getCategory(' + '\'' + el + '\'' + ');">' + el + '</a></li>'
+        html += '<li class="sidebar-label pt15"><a class = "sidebar_clTitle" href="' + '#' + '" onclick="getCategory(' + '\'' + el + '\'' + ');">' + el +'('+getElmCnt(obj[i])+')'+ '</a></li>'
         //html+= '<li class="sidebar-label pt15"><a href="'+'?Category='+el+'" onclick="getCategory('+'\''+el+'\''+');">'+el+'</a></li>'
         //html+= '<li>'+el+'</li>'
     }
