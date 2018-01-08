@@ -13,3 +13,45 @@
     ttl: "Introduction Plataform IoT Thinger.io - Introduccion Plataforma IoT Thinnger.io : PDA_Control"
     tag: 
     dpl: v
+-
+    url: https://thinger.io/install-the-thinger-io-iot-platform-in-your-own-host/
+    ttl: Install the Thinger.io IoT platform in your own host!
+    src: 
+    her: 
+    tag: thinger.io
+    dpl: b
+-
+    url: https://www.hackster.io/esploradores/hello-world-thinger-io-blink-5251b0
+    ttl: Hello World Thinger.io –BLINK
+    src: 
+    her: 
+    tag: thinger.io
+    dpl: b
+-
+    url: http://www.whitelist1.com/2017/08/thingerio-iot-platform-i-connecting.html
+    ttl: Thinger.io IoT platform (1) connecting a Raspberry Pi device to the cloud
+    src: 
+    her: 
+    tag: thinger.io
+    dpl: b
+-
+    url: https://community.servicenow.com/community/develop/developer-relations/blog/2017/09/07/deep-dive-into-the-creatorcon-iot-lab-behind-the-scenes-create-your-own?utm_content=buffer06196&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
+    ttl: Deep Dive into the CreatorCon IoT Lab. How it Works, Behind the Scenes, Build Your Own.
+    src: 
+    her: 
+    tag: thinger.io
+    dpl: b
+-
+    url: https://hackaday.io/project/6329-open-source-iot-platform-thingerio/details
+    ttl: Project Details
+    src: 
+    her: 
+    tag: thinger.io
+    dpl: b
+-
+    url: https://community.thinger.io/t/create-real-time-iot-dashboards/50
+    ttl: Create Real-time IoT Dashboards!
+    src: 
+    her: 
+    tag: thinger.io
+    dpl: b            
