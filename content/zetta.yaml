@@ -8,3 +8,52 @@
     ttl: "Zetta Cloud Storage and Backup Review"
     tag: 
     dpl: v
+-
+    url: 
+    ttl: Zetta An API First Platform
+    src: https://www.slideshare.net/slideshow/embed_code/key/TeuZMWBCfC8aQ
+    her: //www.slideshare.net/slideshow/embed_code/key/TeuZMWBCfC8aQ
+    tag: Zetta
+    dpl: s
+-
+    url: 
+    ttl: Survey Results The State of Backup
+    src: https://www.slideshare.net/slideshow/embed_code/key/mzcM7l1cQwhsqk
+    her: //www.slideshare.net/slideshow/embed_code/key/mzcM7l1cQwhsqk
+    tag: Zetta
+    dpl: s
+-
+    url: 
+    ttl: Zetta js Hands on IoT
+    src: https://www.slideshare.net/slideshow/embed_code/key/G0Sk02ox5ykMEz
+    her: //www.slideshare.net/slideshow/embed_code/key/G0Sk02ox5ykMEz
+    tag: Zetta
+    dpl: s
+-
+    url: https://github.com/zettajs/zetta-tutorials/tree/master/1-hello-world
+    ttl: Zetta Tutorial 1 Hello World
+    src: 
+    her: 
+    tag: Zetta
+    dpl: b
+-
+    url: https://github.com/zettajs/zetta/wiki/Overview
+    ttl: Introduction to Zetta
+    src: 
+    her: 
+    tag: Zetta
+    dpl: b
+-
+    url: https://github.com/zettajs/zetta/wiki/Project-From-Scratch
+    ttl: Build a zetta project from scratch
+    src: 
+    her: 
+    tag: Zetta
+    dpl: b
+-
+    url: http://opensourceforu.com/2017/07/zetta-api-first-iot-platform/
+    ttl: Zetta An API-First IoT Platform
+    src: 
+    her: 
+    tag: Zetta
+    dpl: b                        
