@@ -98,7 +98,8 @@ function getCategory(category) {
     // $('#escalation').remove();
     // $('#escalation2').remove();
     // $('#escalation3').remove();
-    //$.blockUI({ message: '<div>'+category+'功能介紹 '+'</div>'});  
+    //$.blockUI({ message: '<div>'+category+'功能介紹 '+'</div>'});
+    $("#hint_1st").hide();  
     $("#ctl").remove;
     document.getElementById("videocheck").checked = false;
     document.getElementById("slidecheck").checked = false;
@@ -228,7 +229,7 @@ function genBlogElm(obj, nowPage, perNum, category) {
     var begin = ( nowPage - 1 ) * perNum ; // 根據頁數之起始數 e.g 第一頁0 第二頁6個   
     var end = nowPage * perNum ; // 根據頁數之結束數 e.g 第一頁6 第二頁12個   
     var nowPassNum = 0; // 已經找到之其類別的個數
-    html += '<h3>Blog</h3>' ;
+    html += '<h2 class="text-center">Blog</h2><hr class="hr_w">' ;
     //console.log('genBlogElm obj:'+obj);
     //console.log('genBlogElm obj:'+obj);
     for (var i in obj) {
@@ -315,7 +316,7 @@ function genSlideElm(obj, nowPage, perNum, category) {
     var begin = ( nowPage - 1 ) * perNum ; // 根據頁數之起始數 e.g 第一頁0 第二頁6個   
     var end = nowPage * perNum ; // 根據頁數之結束數 e.g 第一頁6 第二頁12個   
     var nowPassNum = 0; // 已經找到之其類別的個數
-    html += '<h3>Slide</h3>' ;
+    html += '<h2 class="text-center">Slide</h2><hr class="hr_w">' ;
     //console.log('genBlogElm obj:'+obj);
     for (var i in obj) {
         var desvalue = '';
@@ -413,7 +414,7 @@ function genVideoElm(obj, nowPage, perNum, category) {
     var begin = ( nowPage - 1 ) * perNum ; // 根據頁數之起始數 e.g 第一頁0 第二頁6個   
     var end = nowPage * perNum ; // 根據頁數之結束數 e.g 第一頁6 第二頁12個   
     var nowPassNum = 0; // 已經找到之其類別的個數
-    html += '<h3>Video</h3>' ;
+    html += '<h2 class="text-center">Video</h2><hr class="hr_w">' ;
     //console.log('genBlogElm obj:'+obj);
     for ( var i in obj) {
         var desvalue = '';

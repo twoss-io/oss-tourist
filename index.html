@@ -163,7 +163,7 @@
     
     
     #sideLiBox > .sidebar-label > a {
-      color: #404040 ;
+      color: #fff ;
     }
     
     #sideLiBox > .sidebar-label > a:hover{
@@ -205,7 +205,7 @@
     }
 
     body {
-      width: 95%;
+      width: 100%;
       height: 100%;
       min-height: 900px;
       margin: 0;
@@ -240,6 +240,15 @@
     #main:before{
       background-image:url('./assets/img/squairy_light.png') ;
       background-size:300px;
+    }
+    .hr_w {
+            border-top: 1px dashed #aaa;
+            margin: 15px;
+        }
+    
+    #blogbody .panel .panel-body{
+      height: 250px;
+      overflow-y: auto;
     }
     
   </style>
@@ -421,12 +430,15 @@
     <!-- Start: Header -->
     <header class="navbar-inverse navbar-fixed-top navbar-shadow" style="height: 80px;">
       <div class="navbar-branding" style="height: 80px;">
-        <a class="navbar-brand" style="height: 80px;">
+        <a class="navbar-brand" style="height: 80px;" href="http://www.twoss.io">
           <!-- <h1 class = "text-white">開源圖書館</h1> -->
           <img alt="" src="/assets/img/logos/icon.d4b01f63.png" style="display: block; width: auto; height: 90px; padding: 10px; cursor: pointer;">
         </a>
 
         <span id="toggle_sidemenu_l" class="ad ad-lines"></span>
+      </div>
+      <div class="text-right pr20">
+        <h1 style="color:#fff"><i class="fa fa-book"></i> 開源圖書館</h1>
       </div>
       <!-- <ul class="nav navbar-nav navbar-left">
         <li class="dropdown menu-merge hidden-xs">
@@ -479,7 +491,7 @@
     ------------------------------------------------------------------->
 
     <!-- Start: Sidebar -->
-    <aside id="sidebar_left" class="nano nano-light bg-white affix  ">
+    <aside id="sidebar_left" class="nano nano-light bg-dark affix  ">
 
       <!-- Start: Sidebar Left Content -->
       <div class="sidebar-left-content nano-content">
@@ -556,7 +568,7 @@
 
           <ul class="nav sidebar-menu">
             <li id='lix' class="sidebar-label pt20">Menu
-            <div style = "display:inline-block ;" class="sidebar-toggle-mini">
+            <div style = "display:none ;" class="sidebar-toggle-mini">
               <a href="#">
                 <span class="fa fa-sign-out"></span>
               </a>
@@ -708,7 +720,9 @@
           <div>
 
             <div>
-
+              <div id="hint_1st" class="row text-center">
+                <h2><i class="fa fa-info-circle"></i> 請選擇左側主題</h2>
+              </div>
               <div class="row">
                 <div id="videobody"></div>
               </div>
@@ -716,7 +730,7 @@
               <div class="row">
                 <div id="slidebody"></div>
               </div>
-
+              
               <div class="row">
                 <div id="blogbody"></div>
               </div>
@@ -819,14 +833,13 @@
       <!-- Begin: Page Footer -->
       <footer id="content-footer" class="affix">
         <div class="row">
-          <div class="col-md-6">
-            <span class="footer-legal"></span>
-          </div>
-          <div class="col-md-6 text-right">
-
+          <div class="col-md-12 text-center">
+            Copyright © Digital Transformation Institute(DTI), Institute for Information Industry(III)
+            <span class="pull-right">
             <a href="#content" class="footer-return-top">
               <span class="fa fa-arrow-up"></span>
             </a>
+            </span>
           </div>
         </div>
       </footer>

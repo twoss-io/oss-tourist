@@ -11869,7 +11869,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #cccccc;
 }
 .navbar-inverse {
-  background-color: #222222;
+  background-color: #404040;
   border-color: #080808;
 }
 .navbar-inverse .navbar-brand {
@@ -20538,7 +20538,7 @@ body.sb-r-o #toggle_sidemenu_r span.glyphicons {
   right: 0;
   height: 44px;
   padding: 12px 15px;
-  background-color: #f8f8f8;
+  background-color: #404040;
   border-top: 1px solid #DDD;
   -webkit-transition: margin 0.2s ease;
   transition: margin 0.2s ease;
