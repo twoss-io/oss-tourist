@@ -1,3 +1,8 @@
+-        
+    url: 
+    ttl: Docker是一個開放原始碼軟體專案，讓應用程式布署在軟體容器下的工作可以自動化進行，藉此在Linux作業系統上，提供一個額外的軟體抽象層，以及作業系統層虛擬化的自動管理機制。Docker利用Linux核心中的資源分離機制，例如cgroups，以及Linux核心命名空間，來建立獨立的軟體容器。
+    tag: 
+    dpl: d
 -
     url: https://www.youtube.com/watch?v=hZNGST2vIds
     ttl: Docker Clustering on Mesos with Marathon

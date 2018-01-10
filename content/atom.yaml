@@ -1,4 +1,9 @@
 -        
+    url: 
+    ttl: Atom是由GitHub開發的自由及開放原始碼的文字與程式碼編輯器，支援OS X、Windows和Linux作業系統，支援Node.js所寫的外掛程式，並內建由Github提供的Git版本控制系統。
+    tag: 
+    dpl: d
+-        
     url: https://www.youtube.com/watch?v=hPC6keUUiTA
     ttl: "My Code Editor: Atom, Setup & Packages"
     tag: 

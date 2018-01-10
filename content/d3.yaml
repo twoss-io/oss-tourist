@@ -1,3 +1,8 @@
+-        
+    url: 
+    ttl: D3.js 是一個用動態圖形顯示資料的JavaScript庫，一個資料視覺化的工具。相容W3C標準，並且利用廣泛實現的SVG，JavaScript，和CSS標準。它是早期的Protovis框架的繼承者。與其他的類別庫相比，D3對視圖結果有很大的可控性。
+    tag: 
+    dpl: d
 -
     url: https://www.youtube.com/watch?v=8jvoTV54nXw
     ttl: "Introduction to D3"

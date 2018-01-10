@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    $("#desc").fadeOut();
     document.getElementById("videocheck").checked = false;
     document.getElementById("slidecheck").checked = false;
     document.getElementById("blogcheck").checked = false;
@@ -99,13 +100,16 @@ function getCategory(category) {
     // $('#escalation2').remove();
     // $('#escalation3').remove();
     //$.blockUI({ message: '<div>'+category+'功能介紹 '+'</div>'});
-    $("#hint_1st").hide();  
+    $("#hint_1st").hide();
+     
     $("#ctl").remove;
     document.getElementById("videocheck").checked = false;
     document.getElementById("slidecheck").checked = false;
     document.getElementById("blogcheck").checked = false;
     document.getElementById("myInput").value = '';
     $("#ctl").text(category);
+    getDescriptionByCategory(category);
+    $("#desc").fadeIn();
     getVideoByCategory(category);
     getSlideByCategory(category);
     getBlogByCategory(category);
@@ -117,6 +121,23 @@ function getCategory(category) {
       else $("#slidebody").fadeOut();
       if($('#cB_Blog').is(":checked")) $("#blogbody").fadeIn();
       else $("#blogbody").fadeOut();
+}
+
+function getDescriptionByCategory(category){
+    console.log('start in getDescriptionByCategory');
+    $("#desc").empty();
+    $.get('./content/' + category + '.yaml', function (res) {
+        var obj = jsyaml.load(res);
+        //console.log(obj);
+        console.log('obj in getDescriptionByCategory='+obj);
+        getDescriptionElm(obj);
+    }).done(function () {
+        console.log("Video done")
+    }).fail(function () {
+        //alert(category +'video is not completed,please add or update '+category+'_Video.yaml');
+        console.log("Video fail");
+        $("#videobody").append("");
+    })
 }
 
 function getVideoByCategory(category) {
@@ -405,6 +426,19 @@ function genSlideElm(obj, nowPage, perNum, category) {
     html += ''//'</tr>'
     if ( exist == true ) $("#slidebody").append(html)
 
+}
+
+function getDescriptionElm(obj){
+    var html = '';
+    for ( var i in obj) {
+        var desvalue = '';
+        if (String(obj[i].dpl) == 'd') {
+            desvalue = String(obj[i].ttl);
+            html='<h2>'+desvalue+'</h2>'
+        }
+    }
+    console.log(obj+' in getDescriptionElm='+html);
+    $("#desc").append(html);
 }
 
 function genVideoElm(obj, nowPage, perNum, category) {

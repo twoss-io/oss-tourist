@@ -1,4 +1,9 @@
 -        
+    url: 
+    ttl: Ansible是近年來知名度不斷上升的DevOps自動化軟體，雖然自2013年創立至今不到3年，但由於其採用無代理程式的架構，部署靈活，程式碼易讀，因而迅速成為受矚目的DevOps工具。
+    tag: 
+    dpl: d
+-        
     url: https://www.youtube.com/watch?v=xMHVvHZ-Zn4
     ttl: "What is Ansible? A short DevOps Introduction"
     tag: 
