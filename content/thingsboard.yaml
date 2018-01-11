@@ -1,4 +1,9 @@
 -        
+    url: 
+    ttl: ThingsBoard is an open-source IoT platform for device management, data collection, processing and visualization for your IoT projects.
+    tag: 
+    dpl: d
+-        
     url: https://www.youtube.com/watch?v=dIKXFxpfB_Q
     ttl: "Getting started with Thingsboard"
     tag: 

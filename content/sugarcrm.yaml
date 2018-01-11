@@ -1,4 +1,9 @@
 -        
+    url: 
+    ttl: SugarCRM是一套開源的客戶關聯管理軟體。 SugarCRM用PHP語言開發，主要應用在LAMP環境，但也支援其他的作業系統 和其他的資料庫管理系統。 SugarCRM以GNU通用公共許可證發布。
+    tag: 
+    dpl: d
+-        
     url: https://www.youtube.com/watch?v=HESPT0SedEc
     ttl: "SugarCRM Demo"
     tag: 

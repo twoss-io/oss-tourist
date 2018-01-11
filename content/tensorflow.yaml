@@ -1,3 +1,8 @@
+-        
+    url: 
+    ttl: TensorFlow是一個開源軟體庫，用於各種感知和語言理解任務的機器學習。目前被50個團隊用於研究和生產許多Google商業產品，如語音識別、Gmail、Google 相冊和搜索，其中許多產品曾使用過其前任軟體DistBelief。
+    tag: 
+    dpl: d
 -
     url: https://www.youtube.com/watch?v=lAaCeiqE6CE
     ttl: "科普: 人工神经网络 VS 生物神经网络"

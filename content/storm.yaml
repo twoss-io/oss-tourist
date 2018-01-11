@@ -1,4 +1,9 @@
 -        
+    url: 
+    ttl: Storm是一個分布式計算框架，主要由Clojure程式語言編寫。最初是由Nathan Marz及其團隊創建於BackType，該項目在被Twitter取得後開源。它使用用戶創建的「管（spouts）」和「螺栓（bolts）」來定義信息源和操作來允許批量、分布式處理流式數據。
+    tag: 
+    dpl: d
+-        
     url: https://www.youtube.com/watch?v=UbpVDaYfcVs
     ttl: "Web analysis using apache storm ,kafka and cassandra. with a real time project"
     tag: 

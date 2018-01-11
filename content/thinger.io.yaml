@@ -1,4 +1,9 @@
 -        
+    url: 
+    ttl: We offer a ready to go scalable cloud infrastructure for connecting millions of devices. You can control them with our easy to use admin console, or integrate them in your business logic with our REST API. Open Source. Install the server in your own cloud and use the Open Source libraries for connecting your devices.
+    tag: 
+    dpl: d
+-        
     url: https://www.youtube.com/watch?v=rvAM3BCiHJs
     ttl: "Thinger.io Dashboard Preview"
     tag: 

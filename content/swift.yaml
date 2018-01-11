@@ -1,4 +1,9 @@
 -        
+    url: 
+    ttl: Swift是一種支援多編程範式和編譯式的編程語言，是用來撰寫macOS/OS X、iOS、watchOS和tvOS的語言之一。 2014年，其在蘋果開發者年會發布。設計Swift時，蘋果公司有意讓Swift與Objective-C共存在蘋果公司的作業系統上。
+    tag: 
+    dpl: d
+-        
     url: https://www.youtube.com/watch?v=RA2lgBps868
     ttl: "What’s the big idea with Swift being Open Source now?"
     tag: 

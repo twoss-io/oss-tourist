@@ -1,4 +1,9 @@
 -        
+    url: 
+    ttl: Vagrant是一款用於構建及配置虛擬開發環境的軟體，基於Ruby, 主要以命令行的方式運行。 主要使用Oracle的開源VirtualBox虛擬化系統，與Chef，Salt，Puppet等環境配置管理軟體搭配使用， 可以實行快速虛擬開發環境的構建。
+    tag: 
+    dpl: d
+-        
     url: https://www.youtube.com/watch?v=yjvLaKvJoy4
     ttl: "【Modern Web 2015】用 Vagrant 與 Docker 拯救世界 - 林嘉軒(GSLin)"
     tag: 
