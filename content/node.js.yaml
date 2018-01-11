@@ -1,4 +1,9 @@
 -        
+    url: 
+    ttl: Node.js是一個能夠在伺服器端運行JavaScript的開放原始碼、跨平台JavaScript執行環境。Node.js由Node.js基金會持有和維護，並與Linux基金會有合作關係。
+    tag: 
+    dpl: d
+-        
     url: https://www.youtube.com/watch?v=SYQU0TSMjYw
     ttl: "Node.js 快速入門：下載、安裝 Node.js，啟動並測試伺服器 By 彭彭"
     tag: 

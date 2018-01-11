@@ -1,4 +1,9 @@
 -        
+    url: 
+    ttl: Node-RED 是由IBM Emerging Technology所製作， 一款基於Node.js並門用在物連網的視覺化套件， 裡面整合了許多的服務，甚至能擴充IBM Bluemix的雲端服務API。
+    tag: 
+    dpl: d
+-        
     url: https://www.youtube.com/watch?v=nHQl-Pb1Zvw
     ttl: "Wiring the Internet of Things with Node-RED"
     tag: 

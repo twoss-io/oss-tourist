@@ -1,4 +1,9 @@
 -        
+    url: 
+    ttl: OpenDaylight專案是一個開放原始碼軟體專案，由Linux基金會支持。 Linux基金會在2013年4月8日公布了這項專案，其目標在於開發支援軟體定義網路的各種軟體工具，建立網路功能虛擬化的基礎。主要開發語言為Java。
+    tag: 
+    dpl: d
+-        
     url: https://www.youtube.com/watch?v=hXWhgWMoNHM
     ttl: "OpenDaylight OpenFlow Controller Tutorial"
     tag: 

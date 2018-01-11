@@ -1,4 +1,9 @@
 -        
+    url: 
+    ttl: OpenAPS是一個開源人工胰腺系統的醫療項目，旨在改善1型糖尿病患者的生活質量。項目中包含「一套高安全性參考設計、一套工具集以及一款開源參考實現方案」，用於幫助設備製造商或者個人構建自己的人工胰腺設備，從而輕鬆調整體內胰島素含量。
+    tag: 
+    dpl: d
+-        
     url: https://www.youtube.com/watch?v=8VbnI1zFMOA
     ttl: "what is opentaps"
     tag: 

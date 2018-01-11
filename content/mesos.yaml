@@ -1,4 +1,9 @@
 -        
+    url: 
+    ttl: Apache Mesos，一個開放原始碼軟體專案，是一種叢集電腦管理工具，由加州大學柏克萊分校開發。能夠將資料中心電腦系統中的CPU、記憶體、儲存裝置以及其他運算資源，全部加以虛擬化，並進行管理。在2013年，Apache Mesos成為Apache計劃中的首要開發目標。
+    tag: 
+    dpl: d
+-        
     url: https://www.youtube.com/watch?v=hZNGST2vIds
     ttl: "Docker Clustering on Mesos with Marathon"
     tag: marathon
