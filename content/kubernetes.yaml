@@ -1,3 +1,8 @@
+-        
+    url: 
+    ttl: Kubernetes 是用於自動部署、擴展和管理容器化應用程式的開源系統。Google設計並捐贈給Cloud Native Computing Foundation來使用的。它旨在提供「跨主機集群的自動部署、擴展以及運行應用程式容器的平台」。 它支持一系列容器工具, 包括Docker等。
+    tag: 
+    dpl: d
 -
     url: https://www.youtube.com/watch?v=_vHTaIJm9uY
     ttl: "Getting Started with Kubernetes"

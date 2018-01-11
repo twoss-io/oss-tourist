@@ -1,4 +1,9 @@
 -        
+    url: 
+    ttl: HBase是一個開源的非關係型分散式資料庫（NoSQL），它參考了Google的BigTable建模，實現的程式語言為 Java。它是Apache軟體基金會的Hadoop專案的一部分，執行於HDFS檔案系統之上，為 Hadoop 提供類似於BigTable 規模的服務。因此，它可以容錯地儲存海量稀疏的資料。
+    tag: 
+    dpl: d
+-        
     url: https://www.youtube.com/watch?v=KZps2dzr_u4
     ttl: "Apache HBase 101: How HBase Can Help You Build Scalable, Distributed Java Applications"
     tag: 

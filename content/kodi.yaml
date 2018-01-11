@@ -1,4 +1,9 @@
 -        
+    url: 
+    ttl: KODI 是由XBMC 基金會開發的開源媒體播放器，原名XBMC，原本是使用類似XBOX 的操作介面的媒體撥放器，供使用者安裝到各種作業系統和硬體平台，因為開源力量，後來逐漸改版，開始納入多類型檔案撥放(像是直播來源)、附加元件(可擴展的延伸程式功能)，逐漸成為DIY HTPC 中最佳的媒體撥放軟體中心
+    tag: 
+    dpl: d
+-        
     url: https://www.youtube.com/watch?v=zLv__rhQkpg
     ttl: "How to Install the Best Open Source Live TV Add-on for Kodi 16+ (ALL DEVICES)"
     tag: 

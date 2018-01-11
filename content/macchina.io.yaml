@@ -1,4 +1,9 @@
 -        
+    url: 
+    ttl: macchina.io is an open source software toolkit for quickly building device applications for the Internet of Things running on Linux-based devices like the Raspberry Pi, Beaglebone or MangOH.
+    tag: 
+    dpl: d
+-        
     url: https://www.youtube.com/watch?v=aUkeAW91k4E
     ttl: "Programming IoT Gateways in JavaScript with macchina.io"
     tag: 

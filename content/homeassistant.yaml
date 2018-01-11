@@ -1,4 +1,9 @@
 -        
+    url: 
+    ttl: Open-source home automation platform running on Python 3
+    tag: 
+    dpl: d
+-        
     url: https://www.youtube.com/watch?v=bvl3-iBUOto
     ttl: "Home Assistant on a Synology NAS with Docker"
     tag: 
