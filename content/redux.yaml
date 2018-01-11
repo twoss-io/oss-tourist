@@ -1,4 +1,9 @@
 -        
+    url: 
+    ttl: Redux一個用於應用程式狀態管理的開源JavaScript庫。Redux經常與React搭配運用，但其也可以獨立使用。
+    tag: 
+    dpl: d
+-        
     url: https://www.youtube.com/watch?v=1w-oQ-i1XB8
     ttl: "Redux Tutorial #1 - React js tutorial - How Redux Works"
     tag: 

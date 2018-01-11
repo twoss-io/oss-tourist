@@ -1,4 +1,9 @@
 -        
+    url: 
+    ttl: The Physical Web is an open approach to enable quick and seamless interactions with physical objects and locations.
+    tag: 
+    dpl: d
+-        
     url: https://www.youtube.com/watch?v=1yaLPRgtlR0
     ttl: "Introduction to the Physical Web (100 days of Google Dev)"
     tag: 

@@ -1,4 +1,9 @@
 -        
+    url: 
+    ttl: PostgreSQL是自由的物件-關係型資料庫伺服器，在靈活的BSD風格授權條款下發行。它在其他開放原始碼資料庫系統，和專有系統之外，為用戶又提供了一種選擇。 PostgreSQL不尋常的名字導致一些讀者停下來嘗試拼讀它，特別是那些把SQL拼讀為"sequel"的人。
+    tag: 
+    dpl: d
+-        
     url: https://www.youtube.com/watch?v=8mKpfutwD0U
     ttl: "PostgreSQL at 10 TB and beyond"
     tag: 

@@ -1,4 +1,9 @@
 -        
+    url: 
+    ttl: ownCloud是一個自由且開源的個人雲端儲存解決方案，包括兩個部分：伺服器和客戶端。ownCloud 最早由KDE開發者Frank Karlitschek於2010年一月建立，目標是成為商業雲服務提供商的替代。
+    tag: 
+    dpl: d
+-        
     url: https://www.youtube.com/watch?v=l0oa_YtVLOc
     ttl: "ownCloud Demonstration"
     tag: 

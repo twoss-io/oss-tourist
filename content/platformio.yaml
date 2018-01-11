@@ -1,4 +1,9 @@
 -        
+    url: 
+    ttl: PlatformIO 是一個開源的 IoT 開發的生態系統，它支援超過 350 個的嵌入式設備，超過 20 個的開發平台，超過 10 個的框架，可以說簡直是 Arduino 生態圈的超集，而且與許多 IDE 或是編輯器有很好的整合
+    tag: 
+    dpl: d
+-        
     url: https://www.youtube.com/watch?v=EIkGTwLOD7o
     ttl: "A Better Arduino IDE - Getting Started with PlatformIO"
     tag: 
