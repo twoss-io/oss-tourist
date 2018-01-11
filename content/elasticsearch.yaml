@@ -1,3 +1,8 @@
+-        
+    url: 
+    ttl:  Elasticsearch是由荷蘭開發者Shay Banon所創造之開源分散式搜尋分析系統，由於其容易學習與架設，且同時具有很高的可擴充性(scalability)與可用性(availability)，以及極強的資料處理效能，因此近年來在資訊界非常熱門。
+    tag: 
+    dpl: d
 -
     url: https://www.youtube.com/watch?v=ksTTlXNLick
     ttl: "Elasticsearch Tutorial & Getting Started (course preview)"

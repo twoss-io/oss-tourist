@@ -1,4 +1,9 @@
 -        
+    url: 
+    ttl: Apache Hadoop是一款支援資料密集型分布式應用程式並以Apache 2.0許可協議發布的開源軟體框架。它支援在商品硬體構建的大型集群上運行的應用程式。Hadoop是根據Google公司發表的MapReduce和Google檔案系統的論文自行實作而成。
+    tag: 
+    dpl: d
+-        
     url: https://www.youtube.com/watch?v=z-0KghOjV_E
     ttl: "101 hadoop职位需求状况"
     tag: 

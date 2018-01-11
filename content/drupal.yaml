@@ -1,3 +1,8 @@
+-        
+    url: 
+    ttl: Drupal 是一個由Dries Buytaert創立的自由開源的內容管理系統，用PHP語言寫成。在業界Drupal常被視為內容管理框架，而非一般意義上的內容管理系統。 整套平台把所有內容視為一個「節點」，背後由大量「模組」 控制其顯示、修改、排列、分類等方式。
+    tag: 
+    dpl: d
 -
     url: https://www.youtube.com/watch?v=uLcS7uIlqPo
     ttl: "What is Drupal?"

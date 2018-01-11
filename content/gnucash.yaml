@@ -1,4 +1,9 @@
 -        
+    url: 
+    ttl: GnuCash是一套提供複式簿記系統的會計軟體。GnuCash起初是針對開發與Intuit, Inc.的應用程式Quicken相似的功能，但也有給中小型企業會計的特色。近期的開發專注在讓現今的桌上型電腦支援資料庫的需求。
+    tag: 
+    dpl: d
+-        
     url: https://www.youtube.com/watch?v=aqAaScYVeRQ
     ttl: "GnuCash absolute basics"
     tag: 

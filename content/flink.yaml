@@ -1,3 +1,8 @@
+-        
+    url: 
+    ttl: apache flink：下一代大資料分析框架， apache flink是一個用於大數據處理的apache專案雖然它看起來像apache spark，但二者在架構和想法上有很大差異apache flink的目標是實時處理流資料
+    tag: 
+    dpl: d
 -
     url: https://www.youtube.com/watch?v=G77m6Ou_kFA
     ttl: "Apache Flink: What, How, Why, Who, Where?"

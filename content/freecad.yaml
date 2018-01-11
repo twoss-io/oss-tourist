@@ -1,4 +1,9 @@
 -        
+    url: 
+    ttl: FreeCAD為一個參數式3D設計軟體，主要用於設計任意尺寸的現實生活物件。參數式建模允許您很容易的透過建模歷史來修改您的設計及參數。FreeCAD為開放原始碼以及高度可客製化、可使用腳本語言和可擴充功能。
+    tag: 
+    dpl: d
+-        
     url: https://www.youtube.com/watch?v=_HEvhclR4-o
     ttl: "FreeCAD Lesson 01 - Turners Cube"
     tag: 
