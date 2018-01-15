@@ -15,46 +15,116 @@
     dpl: v
 -
     url: 
-    ttl: Introduction to OpenStack
-    src: https://www.slideshare.net/slideshow/embed_code/key/zEBAQVcYLgeBOe
-    her: //www.slideshare.net/bpiatt/openstack-tutorial
-    tag: OpenStack
+    ttl: Introduction to Docker - 2017
+    src: https://www.slideshare.net/slideshow/embed_code/key/8i7eGI85fkrJDD
+    her: //www.slideshare.net/slideshow/embed_code/key/8i7eGI85fkrJDD
+    tag: Docker
     dpl: s
 -
     url: 
-    ttl: OpenStack Introduction
-    src: https://www.slideshare.net/slideshow/embed_code/key/fkgrT5uHVHjmce
-    her: //www.slideshare.net/openstackindia/openstack-introduction-14761434
-    tag: OpenStack
+    ttl: Docker introduction
+    src: https://www.slideshare.net/slideshow/embed_code/key/pHVHPF1RcDbtL4
+    her: //www.slideshare.net/slideshow/embed_code/key/pHVHPF1RcDbtL4
+    tag: Docker
     dpl: s
 -
     url: 
-    ttl: OpenStack Framework Introduction
-    src: https://www.slideshare.net/slideshow/embed_code/key/l4mTUQFwBM7su
-    her: //www.slideshare.net/jasonhoutw/openstack-introduction
-    tag: OpenStack
+    ttl: Docker 101 Introduction to Docker
+    src: https://www.slideshare.net/slideshow/embed_code/key/2eKw9OrZtCJd6H
+    her: //www.slideshare.net/slideshow/embed_code/key/2eKw9OrZtCJd6H
+    tag: Docker
     dpl: s
 -
     url: 
-    ttl: 2 Day Bootcamp for OpenStack--Cloud Training by Mirantis (Preview)
-    src: https://www.slideshare.net/slideshow/embed_code/key/cKIrxTH2hpt7h8
-    her: //www.slideshare.net/mirantis/2-day-bootcamp-for-openstackcloud-training-by-mirantis-preview
-    tag: OpenStack
+    ttl: A Gentle Introduction To Docker And All Things Containers
+    src: https://www.slideshare.net/slideshow/embed_code/key/nyEyv5quVAbdwS
+    her: //www.slideshare.net/slideshow/embed_code/key/nyEyv5quVAbdwS
+    tag: Docker
     dpl: s
 -
     url: 
-    ttl: OpenStack Explained Learn OpenStack architecture and the secret of a successful cloud project
-    src: https://www.slideshare.net/slideshow/embed_code/key/nBouwUeNnZMPfh
-    her: //www.slideshare.net/gpaterno1/openstack-explained
-    tag: OpenStack
+    ttl: Docker by Example - Basics
+    src: https://www.slideshare.net/slideshow/embed_code/key/lv1HgAm9EO4yf9
+    her: //www.slideshare.net/slideshow/embed_code/key/lv1HgAm9EO4yf9
+    tag: Docker
     dpl: s
 -
     url: 
-    ttl: Mastering OpenStack - Episode 01 - Simple Architectures
-    src: https://www.slideshare.net/slideshow/embed_code/key/lS7r6mZoAbvrsF
-    her: //www.slideshare.net/RoozbehShafiee/01-open-stack-simple-architecture
-    tag: OpenStack
+    ttl: Performance of Docker vs VMs
+    src: https://www.slideshare.net/slideshow/embed_code/key/Ed8lb2IupDXBzY
+    her: //www.slideshare.net/slideshow/embed_code/key/Ed8lb2IupDXBzY
+    tag: Docker
     dpl: s
+-
+    url: 
+    ttl: Why Docker
+    src: https://www.slideshare.net/slideshow/embed_code/key/Dyjb9EDidLUzfG
+    her: //www.slideshare.net/slideshow/embed_code/key/Dyjb9EDidLUzfG
+    tag: Docker
+    dpl: s
+-
+    url: 
+    ttl: Continuous Testing using Shippable and Docker
+    src: https://www.slideshare.net/slideshow/embed_code/key/9F1yhV5Id6URjZ
+    her: //www.slideshare.net/slideshow/embed_code/key/9F1yhV5Id6URjZ
+    tag: Docker
+    dpl: s
+-
+    url: 
+    ttl: 開發人員不可不知的 Windows Container 容器技術預覽
+    src: https://www.slideshare.net/slideshow/embed_code/key/Gn0ysx5HLdst4p
+    her: //www.slideshare.net/slideshow/embed_code/key/Gn0ysx5HLdst4p
+    tag: Docker
+    dpl: s
+-
+    url: 
+    ttl: Docker應用
+    src: https://www.slideshare.net/slideshow/embed_code/key/j8UoMaykjv80Xw
+    her: //www.slideshare.net/slideshow/embed_code/key/j8UoMaykjv80Xw
+    tag: Docker
+    dpl: s
+-
+    url: 
+    ttl: Docker 初探，實驗室中的運貨鯨
+    src: https://www.slideshare.net/slideshow/embed_code/key/Mz5tgQAHDEzMBY
+    her: //www.slideshare.net/slideshow/embed_code/key/Mz5tgQAHDEzMBY
+    tag: Docker
+    dpl: s
+-
+    url: 
+    ttl: Docker 基礎介紹與實戰
+    src: https://www.slideshare.net/slideshow/embed_code/key/C45zkB5VzB4AGG
+    her: //www.slideshare.net/slideshow/embed_code/key/C45zkB5VzB4AGG
+    tag: Docker
+    dpl: s
+-
+    url: 
+    ttl: Comprehensive Monitoring for Docker
+    src: https://www.slideshare.net/slideshow/embed_code/key/tZiMtKhOtaXQya
+    her: //www.slideshare.net/slideshow/embed_code/key/tZiMtKhOtaXQya
+    tag: Docker
+    dpl: s
+-
+    url: 
+    ttl: Infrastructure Deployment with Docker & Ansible
+    src: https://www.slideshare.net/slideshow/embed_code/key/Dk9c8VYYykVABw
+    her: //www.slideshare.net/slideshow/embed_code/key/Dk9c8VYYykVABw
+    tag: Docker
+    dpl: s
+-
+    url: 
+    ttl: Running High Performance and Fault Tolerant Elasticsearch Clusters on Docker
+    src: https://www.slideshare.net/slideshow/embed_code/key/MBkpsrtRagSGKu
+    her: //www.slideshare.net/slideshow/embed_code/key/MBkpsrtRagSGKu
+    tag: Docker
+    dpl: s
+-
+    url: 
+    ttl: Building Web Scale Apps with Docker and Mesos by Alex Rukletsov (Mesosphere)
+    src: https://www.slideshare.net/slideshow/embed_code/key/NFklAYPNupSCrI
+    her: //www.slideshare.net/slideshow/embed_code/key/NFklAYPNupSCrI
+    tag: Docker
+    dpl: s                                                                    
 -    
     url: https://medium.com/@nagarwal/understanding-the-docker-internals-7ccb052ce9fe
     ttl: Understanding the Docker Internals
