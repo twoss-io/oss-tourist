@@ -74,8 +74,7 @@ function getElmCnt( obj )
             result = data;
         } 
      });
-     return (result.match(/dpl:/g) || []).length;
-     //(result.match(/dpl: v/g) || []).length+(result.match(/dpl: s/g) || []).length+(result.match(/dpl: b/g) || []).length;//result.length;
+     return (result.match(/dpl:/g) || []).length-1;
 }
 
 function genElm(obj) {
